@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Here We Go Again]]></title>
+            <link>https://finance.biggo.jp/podcast/6d3bf6712ebe47bf</link>
+            <guid>https://finance.biggo.jp/podcast/6d3bf6712ebe47bf</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[もう「Google Zero」を無視できない | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/0c663983f44318b4</link>
             <guid>https://finance.biggo.jp/podcast/0c663983f44318b4</guid>
@@ -22,7 +28,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute]]></title>
+            <title><![CDATA[すべてはロールアウト — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute]]></title>
             <link>https://finance.biggo.jp/podcast/f6bd3f772b9a0575</link>
             <guid>https://finance.biggo.jp/podcast/f6bd3f772b9a0575</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -52,7 +58,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Open Source AI Harness for the World]]></title>
+            <title><![CDATA[世界のオープンソースAIハーネス]]></title>
             <link>https://finance.biggo.jp/podcast/7fc5cff0028428b7</link>
             <guid>https://finance.biggo.jp/podcast/7fc5cff0028428b7</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -64,7 +70,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ブラックロックのトニー・キムが考えるAI革命への投資とは]]></title>
+            <title><![CDATA[BlackRockのTony Kim: $10兆ドルのAIインフラブームが始まった]]></title>
             <link>https://finance.biggo.jp/podcast/f935cb5b44053397</link>
             <guid>https://finance.biggo.jp/podcast/f935cb5b44053397</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[E245｜大規模言語モデルの背後に潜むジャーナリスト：GPTたちの回答はこうして書かれている]]></title>
             <link>https://finance.biggo.jp/podcast/825c1b4e6e0d175c</link>
             <guid>https://finance.biggo.jp/podcast/825c1b4e6e0d175c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[もう読書は必要ないのか？ | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/8290a5e91de23c1c</link>
-            <guid>https://finance.biggo.jp/podcast/8290a5e91de23c1c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
