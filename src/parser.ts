@@ -472,14 +472,37 @@ function parseGithubReleasesArticles(json: string, config: FeedConfig): Article[
  * Parse an upstream RSS/Atom feed (mirror mode) into Article[].
  * The XML has already been fetched from `config.rssExtraction.feedUrl`.
  */
-async function parseRssMirrorArticles(xml: string): Promise<Article[]> {
+function repairRssLink(rawLink: string, item: any, config: FeedConfig): string {
+  let link = rawLink.trim();
+  const ext = config.rssExtraction;
+
+  if (ext?.categoryLinkPrefix && /\/404\/?$/.test(link)) {
+    const categories = item.categories ?? item.category ?? [];
+    const categoryList = Array.isArray(categories) ? categories : [categories];
+    const slug = categoryList.find(
+      (category: unknown) => typeof category === "string" && /^[a-z]+-\d+$/i.test(category)
+    );
+    if (slug) {
+      link = `${ext.categoryLinkPrefix.replace(/\/$/, "")}/${slug}`;
+    }
+  }
+
+  if (ext?.linkRewrite && link.startsWith(ext.linkRewrite.from)) {
+    link = ext.linkRewrite.to.replace(/\/$/, "") + link.slice(ext.linkRewrite.from.length);
+  }
+
+  return link;
+}
+
+async function parseRssMirrorArticles(xml: string, config: FeedConfig): Promise<Article[]> {
   const feed = await rssParser.parseString(xml);
   const articles: Article[] = [];
 
   for (const item of feed.items) {
     const title = item.title?.trim();
-    const link = item.link?.trim();
-    if (!title || !link) continue;
+    const rawLink = item.link?.trim();
+    if (!title || !rawLink) continue;
+    const link = repairRssLink(rawLink, item, config);
 
     let date: Date | undefined;
     const isoDate = item.isoDate || item.pubDate;
@@ -553,6 +576,9 @@ export function validateSelectorSyntax(config: FeedConfig): string[] {
     if (config.selectors.description) {
       check("selectors.description", config.selectors.description, "relative");
     }
+    if (config.selectors.link.selector) {
+      check("selectors.link.selector", config.selectors.link.selector, "relative");
+    }
   }
 
   if (mode === "json" && config.jsonExtraction) {
@@ -569,7 +595,7 @@ export async function parseArticles(html: string, config: FeedConfig): Promise<A
     return parseGithubReleasesArticles(html, config);
   }
   if (config.parserMode === "rss" && config.rssExtraction) {
-    return parseRssMirrorArticles(html);
+    return parseRssMirrorArticles(html, config);
   }
   if (config.parserMode === "changelog") {
     const markdown = extractMarkdownFromHtml(html);
@@ -619,13 +645,14 @@ export async function parseArticles(html: string, config: FeedConfig): Promise<A
 
       // Extract link — try from title selector first, then from item itself
       let linkRaw = "";
+      const linkSelector = selectors.link.selector || selectors.title;
       if (selectors.link.source.startsWith("attr:")) {
-        const titleEl = $el.find(selectors.title);
-        const anchor = titleEl.find("a").first();
+        const linkEl = $el.find(linkSelector);
+        const anchor = linkEl.find("a").first();
         linkRaw = anchor.attr(selectors.link.source.slice(5)) || "";
 
         if (!linkRaw) {
-          linkRaw = titleEl.first().attr(selectors.link.source.slice(5)) || "";
+          linkRaw = linkEl.first().attr(selectors.link.source.slice(5)) || "";
         }
 
         if (!linkRaw) {
@@ -637,7 +664,7 @@ export async function parseArticles(html: string, config: FeedConfig): Promise<A
           }
         }
       } else {
-        linkRaw = extractLink($el, selectors.title, selectors.link.source);
+        linkRaw = extractLink($el, linkSelector, selectors.link.source);
       }
 
       const link = resolveUrl(linkRaw, selectors.link.prefix, config.url);

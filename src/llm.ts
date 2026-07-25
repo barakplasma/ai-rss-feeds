@@ -30,7 +30,8 @@ interface FeedConfig {
     date?: string;           // CSS selector for date RELATIVE to articleList
     description?: string;    // CSS selector for description RELATIVE to articleList
     link: {
-      source: string;        // "attr:href" to get href from the title's <a> tag
+      selector?: string;     // optional CSS selector for link RELATIVE to articleList
+      source: string;        // "attr:href" to get href from the selected <a> tag
       prefix?: string;       // base URL to prepend to relative links, e.g. "https://ollama.com"
     };
   };
@@ -47,7 +48,7 @@ interface FeedConfig {
 Rules:
 1. The \`articleList\` selector should match EACH individual article/post entry.
 2. \`title\` selector is RELATIVE to the articleList element.
-3. For \`link.source\`, use "attr:href" — the parser will find the nearest <a> tag.
+3. For \`link.source\`, use "attr:href". If the link is not inside the title selector, set \`link.selector\` to the <a> tag selector relative to articleList.
 4. If URLs are relative (e.g. "/blog/post-1"), set \`link.prefix\` to the site origin.
 5. Only output valid JSON. No markdown, no explanation, no code fences.
 6. Set \`createdAt\` to today's date in ISO format.

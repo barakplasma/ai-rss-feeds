@@ -1,0 +1,22 @@
+{
+  "name": "huggingface-co",
+  "url": "https://huggingface.co/blog",
+  "feed": {
+    "title": "Hugging Face - Blog",
+    "description": "The Hugging Face blog",
+    "language": "en-US",
+    "author": "huggingface.co"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "external",
+  "rssExtraction": {
+    "feedUrl": "https://huggingface.co/blog/feed.xml"
+  },
+  "createdAt": "2026-07-25T16:35:27.653Z"
+}

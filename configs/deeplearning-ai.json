@@ -1,0 +1,27 @@
+{
+  "name": "deeplearning-ai",
+  "url": "https://www.deeplearning.ai/the-batch",
+  "feed": {
+    "title": "The Batch | DeepLearning.AI",
+    "description": "Weekly AI news and insights from DeepLearning.AI.",
+    "language": "en",
+    "author": "DeepLearning.AI"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "rss",
+  "rssExtraction": {
+    "feedUrl": "https://charonhub.deeplearning.ai/tag/the-batch/rss/",
+    "linkRewrite": {
+      "from": "https://charonhub.deeplearning.ai",
+      "to": "https://www.deeplearning.ai/the-batch"
+    },
+    "categoryLinkPrefix": "https://www.deeplearning.ai/the-batch"
+  },
+  "createdAt": "2026-07-11T00:00:00.000Z"
+}

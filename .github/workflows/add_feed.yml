@@ -43,15 +43,23 @@ jobs:
           bun run src/add-smart.ts "$FEED_SOURCE_URL" 2>&1 | tee /tmp/add-smart.log
           OUTPUT=$(cat /tmp/add-smart.log)
           NATIVE_URL=$(echo "$OUTPUT" | grep '^native_feed_url=' | sed 's/^native_feed_url=//' || true)
+          EXISTING_URL=$(echo "$OUTPUT" | grep '^existing_feed_url=' | sed 's/^existing_feed_url=//' || true)
+          EXISTING_CONFIG=$(echo "$OUTPUT" | grep '^existing_config_name=' | sed 's/^existing_config_name=//' || true)
+          EXISTING_KIND=$(echo "$OUTPUT" | grep '^existing_feed_kind=' | sed 's/^existing_feed_kind=//' || true)
           if [ -n "$NATIVE_URL" ]; then
             echo "native_url=$NATIVE_URL" >> $GITHUB_OUTPUT
+          fi
+          if [ -n "$EXISTING_URL" ]; then
+            echo "existing_url=$EXISTING_URL" >> $GITHUB_OUTPUT
+            echo "existing_config=$EXISTING_CONFIG" >> $GITHUB_OUTPUT
+            echo "existing_kind=$EXISTING_KIND" >> $GITHUB_OUTPUT
           fi
           # Identify the config created by this run, only if it's actually new
           NEW=$(ls -t configs/*.json 2>/dev/null | head -1 || echo "")
           if [ -n "$NEW" ] && [ "$NEW" != "$PREV" ]; then
             echo "config_name=$(basename "$NEW" .json)" >> $GITHUB_OUTPUT
             echo "Config created: $NEW"
-          elif [ -z "$NATIVE_URL" ]; then
+          elif [ -z "$NATIVE_URL" ] && [ -z "$EXISTING_URL" ]; then
             echo "❌ add-smart.ts did not create a new config and no native feed was detected"
             exit 1
           fi
@@ -65,20 +73,22 @@ jobs:
         env:
           CONFIG_NAME: ${{ steps.add-feed.outputs.config_name }}
           NATIVE_URL: ${{ steps.add-feed.outputs.native_url }}
+          EXISTING_URL: ${{ steps.add-feed.outputs.existing_url }}
         run: |
           VERIFIED=false
           FEED_URL=""
-          if [ -n "$NATIVE_URL" ]; then
-            # Native feed: confirm the URL actually serves RSS/Atom XML
-            BODY_HEAD=$(curl -sL --max-time 20 "$NATIVE_URL" | head -c 2000 || true)
+          CHECK_URL="${EXISTING_URL:-$NATIVE_URL}"
+          if [ -n "$CHECK_URL" ]; then
+            # Native/existing feed: confirm the URL actually serves RSS/Atom XML
+            BODY_HEAD=$(curl -sL --max-time 20 "$CHECK_URL" | head -c 2000 || true)
             if [ -z "$BODY_HEAD" ]; then
               # Some sites serve incomplete TLS chains (same fallback as tolerantFetch
               # in src/fetcher.ts) — read-only content check, so verification-off is OK.
-              BODY_HEAD=$(curl -skL --max-time 20 "$NATIVE_URL" | head -c 2000 || true)
+              BODY_HEAD=$(curl -skL --max-time 20 "$CHECK_URL" | head -c 2000 || true)
             fi
             if echo "$BODY_HEAD" | grep -qE '<\?xml|<rss|<feed'; then
               VERIFIED=true
-              FEED_URL="$NATIVE_URL"
+              FEED_URL="$CHECK_URL"
             fi
           elif [ -n "$CONFIG_NAME" ] && [ -f "feeds/${CONFIG_NAME}.xml" ] && grep -q "<item>" "feeds/${CONFIG_NAME}.xml"; then
             # Generated feed: confirm the XML exists and contains articles
@@ -112,14 +122,20 @@ jobs:
           VERIFIED: ${{ steps.verify.outputs.verified }}
           FEED_URL: ${{ steps.verify.outputs.feed_url }}
           NATIVE_URL: ${{ steps.add-feed.outputs.native_url }}
+          EXISTING_URL: ${{ steps.add-feed.outputs.existing_url }}
+          EXISTING_CONFIG: ${{ steps.add-feed.outputs.existing_config }}
         with:
           script: |
             const verified = process.env.VERIFIED === 'true';
             const feedUrl = process.env.FEED_URL || '';
             const nativeUrl = process.env.NATIVE_URL || '';
+            const existingUrl = process.env.EXISTING_URL || '';
+            const existingConfig = process.env.EXISTING_CONFIG || '';
 
             let body = '';
-            if (verified && nativeUrl) {
+            if (verified && existingUrl) {
+              body = `✅ Feed already configured${existingConfig ? ` as \`${existingConfig}\`` : ''}.\n\n📖 Subscribe: \`${feedUrl}\``;
+            } else if (verified && nativeUrl) {
               body = `✅ Native RSS feed found — no copy needed.\n\n📖 Subscribe: \`${feedUrl}\``;
             } else if (verified) {
               body = `✅ Feed added successfully!\n\n📖 Subscribe: \`${feedUrl}\``;

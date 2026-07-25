@@ -13,6 +13,7 @@ export interface FeedConfig {
     date?: string;
     description?: string;
     link: {
+      selector?: string; // optional selector RELATIVE to articleList for the link element
       source: string; // "attr:href" | "text"
       prefix?: string;
     };
@@ -37,6 +38,11 @@ export interface FeedConfig {
   };
   rssExtraction?: {
     feedUrl: string; // upstream RSS/Atom feed URL to mirror
+    linkRewrite?: {
+      from: string;
+      to: string;
+    };
+    categoryLinkPrefix?: string; // use category slugs when upstream item links are unusable
   };
   changelogExtraction?: {
     versionPattern?: string; // regex for version headings, default: "^## \\[?(.+?)\\]?"
