@@ -304,8 +304,8 @@
             <link>https://www.aihero.dev/ai-coding-dictionary/output-tokens</link>
             <guid>https://www.aihero.dev/ai-coding-dictionary/output-tokens</guid>
             <pubDate>Wed, 01 Jul 2026 08:46:18 GMT</pubDate>
-            <description><![CDATA[Tokens the model generates back. Billed at a higher rate than input tokens — commonly around five times the rate — since they cost more compute to produce.]]></description>
-            <content:encoded><![CDATA[Tokens the model generates back. Billed at a higher rate than input tokens — commonly around five times the rate — since they cost more compute to produce.]]></content:encoded>
+            <description><![CDATA[Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.]]></description>
+            <content:encoded><![CDATA[Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Prefix cache | AI Coding Dictionary]]></title>
@@ -336,8 +336,8 @@
             <link>https://www.aihero.dev/ai-coding-dictionary/context</link>
             <guid>https://www.aihero.dev/ai-coding-dictionary/context</guid>
             <pubDate>Wed, 01 Jul 2026 08:46:18 GMT</pubDate>
-            <description><![CDATA[The relevant information the agent has access to right now. The abstract noun — not the raw input the model sees (that's the context window), not the running history (that's the...]]></description>
-            <content:encoded><![CDATA[The relevant information the agent has access to right now. The abstract noun — not the raw input the model sees (that's the context window), not the running history (that's the...]]></content:encoded>
+            <description><![CDATA[The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.]]></description>
+            <content:encoded><![CDATA[The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Context window | AI Coding Dictionary]]></title>
