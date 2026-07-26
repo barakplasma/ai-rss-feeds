@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[ジェンセン・フアン：NVIDIAを築いたマインドセット]]></title>
+            <link>https://finance.biggo.jp/podcast/c3bc0c0e27a145e1</link>
+            <guid>https://finance.biggo.jp/podcast/c3bc0c0e27a145e1</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[143 ✪ 🚗「蔚小理」の高級化への探求]]></title>
+            <link>https://finance.biggo.jp/podcast/c5c97e5f141499fb</link>
+            <guid>https://finance.biggo.jp/podcast/c5c97e5f141499fb</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[DeepSWE：耐汚染型コーディングベンチマーク — James Shi（Datacurve）]]></title>
             <link>https://finance.biggo.jp/podcast/49f6f036fb186e21</link>
             <guid>https://finance.biggo.jp/podcast/49f6f036fb186e21</guid>
@@ -115,18 +127,6 @@
             <title><![CDATA[スタートアップを持続可能にする本当の要素]]></title>
             <link>https://finance.biggo.jp/podcast/538ae0e88ff44bac</link>
             <guid>https://finance.biggo.jp/podcast/538ae0e88ff44bac</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Opus 5が私の新しいお気に入りモデルに]]></title>
-            <link>https://finance.biggo.jp/podcast/107e8c7a3bc7007c</link>
-            <guid>https://finance.biggo.jp/podcast/107e8c7a3bc7007c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ビッグテックが見逃したもの、そしてスタートアップがまだ勝つ方法]]></title>
-            <link>https://finance.biggo.jp/podcast/432bb892fdad93ad</link>
-            <guid>https://finance.biggo.jp/podcast/432bb892fdad93ad</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
