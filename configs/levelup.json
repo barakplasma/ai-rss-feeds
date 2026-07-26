@@ -1,0 +1,21 @@
+{
+  "name": "levelup",
+  "url": "https://levelup.com",
+  "feed": {
+    "title": "LevelUp",
+    "description": "Noticias de videojuegos, reseñas, artículos y contenido de gaming en español. Mantente al día en la comunidad más grande de gaming de México y Latinoamérica, Level Up.",
+    "language": "es",
+    "author": "LevelUp"
+  },
+  "selectors": {
+    "articleList": "article.highlighted-note",
+    "title": "h2.highlighted-note__headline",
+    "description": "p.highlighted-note__description",
+    "link": {
+      "selector": "a.link",
+      "source": "attr:href",
+      "prefix": "https://levelup.com"
+    }
+  },
+  "createdAt": "2026-07-26T09:22:15.368Z"
+}
