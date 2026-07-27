@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[AIファーストのスマホはどんな姿になるのか | The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/0e1615816990360e</link>
+            <guid>https://finance.biggo.jp/podcast/0e1615816990360e</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[トレーダーに新たなツール、米国大型株に賭ける]]></title>
             <link>https://finance.biggo.jp/podcast/a07da59427f302bd</link>
             <guid>https://finance.biggo.jp/podcast/a07da59427f302bd</guid>
@@ -70,7 +76,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Killer marketing tricks Amex, Apple and Domino's use on you - Rory Sutherland]]></title>
+            <title><![CDATA[アメックス、アップル、ドミノが使っている殺し屋マーケティングのトリック - ロリー・サザーランド]]></title>
             <link>https://finance.biggo.jp/podcast/140ea38b14fb6b69</link>
             <guid>https://finance.biggo.jp/podcast/140ea38b14fb6b69</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[AnthropicとOpenAIがKimiに震え上がっている]]></title>
             <link>https://finance.biggo.jp/podcast/a48d6aa0dd460833</link>
             <guid>https://finance.biggo.jp/podcast/a48d6aa0dd460833</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ジェンセン・フアン：NVIDIAを築いたマインドセット]]></title>
-            <link>https://finance.biggo.jp/podcast/c3bc0c0e27a145e1</link>
-            <guid>https://finance.biggo.jp/podcast/c3bc0c0e27a145e1</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
