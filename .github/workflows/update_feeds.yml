@@ -52,6 +52,7 @@ jobs:
             
             const files = fs.readdirSync(cacheDir);
             const failingFeeds = [];
+            const unhealableError = /Cloudflare bot detection|cf-mitigated|This site cannot be scraped with static HTTP requests/i;
             
             for (const file of files) {
               if (!file.endsWith('.json')) continue;
@@ -59,7 +60,9 @@ jobs:
               const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
               const feedName = file.replace('.json', '');
               
-              if (snapshot.consecutiveErrors >= 3) {
+              if (snapshot.consecutiveErrors >= 3 && unhealableError.test(snapshot.lastError || '')) {
+                console.log(`⏭️ Feed ${feedName} has ${snapshot.consecutiveErrors} consecutive errors, but the last error is a static-fetch access block; skipping auto-heal.`);
+              } else if (snapshot.consecutiveErrors >= 3) {
                 console.log(`⚠️ Feed ${feedName} has ${snapshot.consecutiveErrors} consecutive errors`);
                 failingFeeds.push(feedName);
               }
