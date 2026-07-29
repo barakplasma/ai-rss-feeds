@@ -10,13 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[The simple investing strategy I used to turn $20K to $80M]]></title>
+            <link>https://finance.biggo.jp/podcast/d7d0aa5d1619e25f</link>
+            <guid>https://finance.biggo.jp/podcast/d7d0aa5d1619e25f</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Stock That Went Up 1000% | Lumentum CEO]]></title>
+            <link>https://finance.biggo.jp/podcast/759bd32999f00905</link>
+            <guid>https://finance.biggo.jp/podcast/759bd32999f00905</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1時間1ドルのロボットがやってくる：業界リーダー4人が次を語る]]></title>
+            <link>https://finance.biggo.jp/podcast/87f55b755a904fab</link>
+            <guid>https://finance.biggo.jp/podcast/87f55b755a904fab</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[自動化AGI研究所の構築：Core AutomationのJerry TworekとRohan Anil]]></title>
             <link>https://finance.biggo.jp/podcast/869ad8b3abca5f36</link>
             <guid>https://finance.biggo.jp/podcast/869ad8b3abca5f36</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The DeFi Feature Institutions Refuse to Accept]]></title>
+            <title><![CDATA[たった一行のコードの背後に数十億が待ち構えている]]></title>
             <link>https://finance.biggo.jp/podcast/b542424c0a333f7d</link>
             <guid>https://finance.biggo.jp/podcast/b542424c0a333f7d</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[折りたたみケータイが大復活 | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/20dd94059f0d247a</link>
             <guid>https://finance.biggo.jp/podcast/20dd94059f0d247a</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[フォワードデプロイドエンジニアリングの隠された真実 — Natalie Meurer, Sierra]]></title>
-            <link>https://finance.biggo.jp/podcast/ebcbba11dbdf53f8</link>
-            <guid>https://finance.biggo.jp/podcast/ebcbba11dbdf53f8</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Decagonにおけるフォワードデプロイドエンジニアリングの実践方法 — Sunny Rekhi]]></title>
-            <link>https://finance.biggo.jp/podcast/25bf3c9c39d661d1</link>
-            <guid>https://finance.biggo.jp/podcast/25bf3c9c39d661d1</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[百度の香港ロボタクシー拡大が示すもの]]></title>
-            <link>https://finance.biggo.jp/podcast/e99f0c68b1a42fb4</link>
-            <guid>https://finance.biggo.jp/podcast/e99f0c68b1a42fb4</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
