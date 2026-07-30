@@ -10,6 +10,13 @@
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[天文台料本港未來一兩小時部分地區雨勢較大]]></title>
+            <link>https://www.wenweipo.com/a/202607/31/AP6a6bd424e4b0c1e50022f10e.html</link>
+            <guid>https://www.wenweipo.com/a/202607/31/AP6a6bd424e4b0c1e50022f10e.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[天文台表示，與廣闊低壓槽相關的強雷雨帶正從南面逐漸靠近，預料本港未來一兩小時部分地區雨勢較大。]]></description>
+        </item>
+        <item>
             <title><![CDATA[全港聯會員企業齊展創新實力 匯聚政商力量共謀發展]]></title>
             <link>https://www.wenweipo.com/a/202607/31/AP6a6b878ee4b0c1e50022edc6.html</link>
             <guid>https://www.wenweipo.com/a/202607/31/AP6a6b878ee4b0c1e50022edc6.html</guid>
@@ -106,13 +113,6 @@
             <guid>https://www.wenweipo.com/a/202607/30/AP6a6b5044e4b0c1e50022ea15.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[創維汽車旗下國產純電動SUV的士首度登錄香港]]></description>
-        </item>
-        <item>
-            <title><![CDATA[中學生走入順豐大本營 體驗物流運作實況了解「十五五」規劃]]></title>
-            <link>https://www.wenweipo.com/a/202607/30/AP6a6b5038e4b0c1e50022ea14.html</link>
-            <guid>https://www.wenweipo.com/a/202607/30/AP6a6b5038e4b0c1e50022ea14.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[由警隊「傳承計劃（Project Legacy）」推動的Legacy x STEAM順豐實習體驗活動，今日（30日）圓滿結束。一連三日來自11間中學的同學走入物流業龍頭順豐的大本營，由轉運中心、倉庫，到前線順豐站，親身體驗物流運作實況，更了解到「十五五」規劃，以及低空經濟的新發展。同學們發現，物流業絕不是「送貨」這麼簡單，背後牽涉精密工程、智能系統、大數據和供應鏈管理等專業領域。]]></description>
         </item>
     </channel>
 </rss>
