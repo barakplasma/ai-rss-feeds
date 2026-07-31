@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[スケールするエージェント：MiniMaxのモデルとその背後にあるインフラストラクチャの内部 — Olive Song]]></title>
+            <link>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</link>
+            <guid>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[スロップでスロップと戦う — Vaibhav Gupta, Boundary]]></title>
+            <link>https://finance.biggo.jp/podcast/882ad026d58ca37f</link>
+            <guid>https://finance.biggo.jp/podcast/882ad026d58ca37f</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[149. 中美ネオラボ資本狂騒を経験して、清華の劉子鳴と語る：AI for AI、メカニズム解釈可能性、Max Tegmark]]></title>
             <link>https://finance.biggo.jp/podcast/2225ccfa40cdde54</link>
             <guid>https://finance.biggo.jp/podcast/2225ccfa40cdde54</guid>
@@ -115,18 +127,6 @@
             <title><![CDATA[暗号資産が1兆ドル市場を再構築している]]></title>
             <link>https://finance.biggo.jp/podcast/5cba702ac352a724</link>
             <guid>https://finance.biggo.jp/podcast/5cba702ac352a724</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[【7月マクロ経済展望】消費と内需の「924」の瞬間を待つ！]]></title>
-            <link>https://finance.biggo.jp/podcast/f70d06557d171d6e</link>
-            <guid>https://finance.biggo.jp/podcast/f70d06557d171d6e</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ray Dalio: 2008年の暴落を予測した、次に何が来るか分かっている！]]></title>
-            <link>https://finance.biggo.jp/podcast/7d76500b8cb9cf98</link>
-            <guid>https://finance.biggo.jp/podcast/7d76500b8cb9cf98</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
