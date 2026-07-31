@@ -10,13 +10,37 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[AssemblyAI CEOディラン・フォックス氏、週1億2000万件の音声会話について語る]]></title>
+            <title><![CDATA[AI安全性についてパニックになる時が来た | The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/27848f8b683ebc65</link>
+            <guid>https://finance.biggo.jp/podcast/27848f8b683ebc65</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[サイケデリック、ペプチド、そしてGLP-1]]></title>
+            <link>https://finance.biggo.jp/podcast/b73f62f787c02fc4</link>
+            <guid>https://finance.biggo.jp/podcast/b73f62f787c02fc4</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“榨”出矽的極限：怎麼讓GPU不“閒著”？｜與SGLang、RadixArk深聊AI Infra技術與千億美元市場]]></title>
+            <link>https://finance.biggo.jp/podcast/3682e4ece0bc23d0</link>
+            <guid>https://finance.biggo.jp/podcast/3682e4ece0bc23d0</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[80 Employees, 1 Million Developers, 100 Million API Calls a Day]]></title>
             <link>https://finance.biggo.jp/podcast/3b18123f04fc0a93</link>
             <guid>https://finance.biggo.jp/podcast/3b18123f04fc0a93</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[AIトレードがマージンコール！暗号資産は動じず]]></title>
+            <title><![CDATA[イタリアで最も裕福な家族を築いた意外な製品]]></title>
+            <link>https://finance.biggo.jp/podcast/0d950054f0ffb711</link>
+            <guid>https://finance.biggo.jp/podcast/0d950054f0ffb711</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Korea’s $2 Trillion Crash May Have Flipped the Market]]></title>
             <link>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</link>
             <guid>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -103,30 +127,6 @@
             <title><![CDATA[SaaSのMRRを4ヶ月で$17Kから$143Kに成長させた方法]]></title>
             <link>https://finance.biggo.jp/podcast/d5f21f4d038fdb45</link>
             <guid>https://finance.biggo.jp/podcast/d5f21f4d038fdb45</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2533 - ダイアナ・パスルカ]]></title>
-            <link>https://finance.biggo.jp/podcast/ce01063fe50e580b</link>
-            <guid>https://finance.biggo.jp/podcast/ce01063fe50e580b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[自動化されたAI研究への第一歩 — Recursive AI CEO リチャード・ソーチャー]]></title>
-            <link>https://finance.biggo.jp/podcast/e54d435ccfb08ea7</link>
-            <guid>https://finance.biggo.jp/podcast/e54d435ccfb08ea7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ほとんどの経済学者は不況を誤解している feat. タイラー・グッドスピード | アイデアラボ | 第51回]]></title>
-            <link>https://finance.biggo.jp/podcast/651a82a22fa7bc03</link>
-            <guid>https://finance.biggo.jp/podcast/651a82a22fa7bc03</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ChatGPTを使ったライブ執筆プロセスをご覧ください]]></title>
-            <link>https://finance.biggo.jp/podcast/67a9fc2c13e71049</link>
-            <guid>https://finance.biggo.jp/podcast/67a9fc2c13e71049</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
