@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[長い地平線へのスケーリング — Ross Taylor & Chengxi Taylor, General Reasoning]]></title>
+            <link>https://finance.biggo.jp/podcast/302ad0e322927143</link>
+            <guid>https://finance.biggo.jp/podcast/302ad0e322927143</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Emulated：完全自律型ソフトウェアエンジニアと企業のためのデータ — Joseph Wang]]></title>
             <link>https://finance.biggo.jp/podcast/680d97046d0baaba</link>
             <guid>https://finance.biggo.jp/podcast/680d97046d0baaba</guid>
@@ -34,9 +40,15 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]></title>
+            <title><![CDATA[Patrick Collison: AIはリーン・スタートアップの手法を壊すのか？]]></title>
             <link>https://finance.biggo.jp/podcast/8d73fdbde39bebd4</link>
             <guid>https://finance.biggo.jp/podcast/8d73fdbde39bebd4</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2534 - アニー・ジェイコブセン]]></title>
+            <link>https://finance.biggo.jp/podcast/4c24b4879c5b6278</link>
+            <guid>https://finance.biggo.jp/podcast/4c24b4879c5b6278</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -88,7 +100,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[誤って隣に座ってしまったときに起こったこと...]]></title>
+            <title><![CDATA[ある見知らぬ人に度肝を抜かれた。それから、彼が誰なのか気づいた！]]></title>
             <link>https://finance.biggo.jp/podcast/0d950054f0ffb711</link>
             <guid>https://finance.biggo.jp/podcast/0d950054f0ffb711</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[Gain Therapeutics：パーキンソン病に対するファースト・イン・クラスの疾患修飾療法]]></title>
             <link>https://finance.biggo.jp/podcast/ea31b4f35cd15bf7</link>
             <guid>https://finance.biggo.jp/podcast/ea31b4f35cd15bf7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[零跑汽車 朱江明×羅永浩！零跑汽車十年：ストーリーを語るのが苦手な人、どうやって販売台数トップになったのか｜羅永浩の十字路]]></title>
-            <link>https://finance.biggo.jp/podcast/506c81da7926e36d</link>
-            <guid>https://finance.biggo.jp/podcast/506c81da7926e36d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[スケールするエージェント：MiniMaxのモデルとその背後にあるインフラストラクチャの内部 — Olive Song]]></title>
-            <link>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</link>
-            <guid>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
