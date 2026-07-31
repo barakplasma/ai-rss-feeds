@@ -10,6 +10,24 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[ベンチマーク：良い点、悪い点、醜い点 — Ali Khial, G2i]]></title>
+            <link>https://finance.biggo.jp/podcast/ac3da742284a266b</link>
+            <guid>https://finance.biggo.jp/podcast/ac3da742284a266b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[検証可能な報酬なしの強化学習 — ウィル・ブラウン、Prime Intellect]]></title>
+            <link>https://finance.biggo.jp/podcast/aa918c25bd3cadd7</link>
+            <guid>https://finance.biggo.jp/podcast/aa918c25bd3cadd7</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Decagon's Founders Don't Believe the Labs Are the Last Startups]]></title>
+            <link>https://finance.biggo.jp/podcast/662ee80041cdfca6</link>
+            <guid>https://finance.biggo.jp/podcast/662ee80041cdfca6</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[AI安全性についてパニックになる時が来た | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/27848f8b683ebc65</link>
             <guid>https://finance.biggo.jp/podcast/27848f8b683ebc65</guid>
@@ -22,25 +40,25 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[“榨”出矽的極限：怎麼讓GPU不“閒著”？｜與SGLang、RadixArk深聊AI Infra技術與千億美元市場]]></title>
+            <title><![CDATA[シリコンの限界を引き出す：GPUをアイドル状態にしない方法とは？｜SGLang、RadixArkとAIインフラ技術、1000億ドル市場を深掘りする]]></title>
             <link>https://finance.biggo.jp/podcast/3682e4ece0bc23d0</link>
             <guid>https://finance.biggo.jp/podcast/3682e4ece0bc23d0</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[80 Employees, 1 Million Developers, 100 Million API Calls a Day]]></title>
+            <title><![CDATA[AssemblyAI、YouTubeの4倍の日次ボリュームを処理]]></title>
             <link>https://finance.biggo.jp/podcast/3b18123f04fc0a93</link>
             <guid>https://finance.biggo.jp/podcast/3b18123f04fc0a93</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[イタリアで最も裕福な家族を築いた意外な製品]]></title>
+            <title><![CDATA[How this one minor change turned Nutella into a generational brand]]></title>
             <link>https://finance.biggo.jp/podcast/0d950054f0ffb711</link>
             <guid>https://finance.biggo.jp/podcast/0d950054f0ffb711</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Korea’s $2 Trillion Crash May Have Flipped the Market]]></title>
+            <title><![CDATA[韓国の2兆ドル暴落、市場を反転させたか]]></title>
             <link>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</link>
             <guid>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[あなたの401(k)？20代で上限まで入れるな | 対談]]></title>
             <link>https://finance.biggo.jp/podcast/2cfb0c3795c798d5</link>
             <guid>https://finance.biggo.jp/podcast/2cfb0c3795c798d5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[411：カプリコールのデータ衝突と逃亡中の経営幹部]]></title>
-            <link>https://finance.biggo.jp/podcast/ed4059ed1376a946</link>
-            <guid>https://finance.biggo.jp/podcast/ed4059ed1376a946</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Metaの監視委員会がChatGPTとClaudeに迫る | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/c44c093a753e7b95</link>
-            <guid>https://finance.biggo.jp/podcast/c44c093a753e7b95</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SaaSのMRRを4ヶ月で$17Kから$143Kに成長させた方法]]></title>
-            <link>https://finance.biggo.jp/podcast/d5f21f4d038fdb45</link>
-            <guid>https://finance.biggo.jp/podcast/d5f21f4d038fdb45</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
