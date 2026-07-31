@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Emulated：完全自律型ソフトウェアエンジニアと企業のためのデータ — Joseph Wang]]></title>
+            <link>https://finance.biggo.jp/podcast/680d97046d0baaba</link>
+            <guid>https://finance.biggo.jp/podcast/680d97046d0baaba</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ベースモデルは死んだ — Varun Singh（Arcee AI）]]></title>
+            <link>https://finance.biggo.jp/podcast/42783ef853a3757e</link>
+            <guid>https://finance.biggo.jp/podcast/42783ef853a3757e</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[生物学におけるAIの検証可能な環境 — Kenny Workman, LatchBio]]></title>
             <link>https://finance.biggo.jp/podcast/6149bfa4f565dda1</link>
             <guid>https://finance.biggo.jp/podcast/6149bfa4f565dda1</guid>
@@ -22,7 +34,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Patrick Collison：「現状維持のリスクは極めて高い」]]></title>
+            <title><![CDATA[Patrick Collison: Is AI Breaking the Lean Startup Playbook?]]></title>
             <link>https://finance.biggo.jp/podcast/8d73fdbde39bebd4</link>
             <guid>https://finance.biggo.jp/podcast/8d73fdbde39bebd4</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[スケールするエージェント：MiniMaxのモデルとその背後にあるインフラストラクチャの内部 — Olive Song]]></title>
             <link>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</link>
             <guid>https://finance.biggo.jp/podcast/d3476a9a9ddffd6b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[スロップでスロップと戦う — Vaibhav Gupta, Boundary]]></title>
-            <link>https://finance.biggo.jp/podcast/882ad026d58ca37f</link>
-            <guid>https://finance.biggo.jp/podcast/882ad026d58ca37f</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[149. 中美ネオラボ資本狂騒を経験して、清華の劉子鳴と語る：AI for AI、メカニズム解釈可能性、Max Tegmark]]></title>
-            <link>https://finance.biggo.jp/podcast/2225ccfa40cdde54</link>
-            <guid>https://finance.biggo.jp/podcast/2225ccfa40cdde54</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
