@@ -10,6 +10,30 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[データ品質は計算量の乗数である — Ari Morcos, DatologyAI]]></title>
+            <link>https://finance.biggo.jp/podcast/9b129c9b945849e5</link>
+            <guid>https://finance.biggo.jp/podcast/9b129c9b945849e5</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[半導体株暴落、200億ドルファンドのマージンコール、フロンティアラボ：AIを減速させろ、マムダニのスーパーマーケット]]></title>
+            <link>https://finance.biggo.jp/podcast/f390cda306b2f1d8</link>
+            <guid>https://finance.biggo.jp/podcast/f390cda306b2f1d8</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[仕事で学ぶ：ポストトレーニングの未来 — レイモンド・フェン、Applied Compute]]></title>
+            <link>https://finance.biggo.jp/podcast/aaabcfabe69ea502</link>
+            <guid>https://finance.biggo.jp/podcast/aaabcfabe69ea502</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ポストトレーニングLLMのためのデータと環境キュレーション — Mahesh Sathiamoorthy, Bespoke Labs]]></title>
+            <link>https://finance.biggo.jp/podcast/ddf548f8d87ca7c3</link>
+            <guid>https://finance.biggo.jp/podcast/ddf548f8d87ca7c3</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[長い地平線へのスケーリング — Ross Taylor & Chengxi Taylor, General Reasoning]]></title>
             <link>https://finance.biggo.jp/podcast/302ad0e322927143</link>
             <guid>https://finance.biggo.jp/podcast/302ad0e322927143</guid>
@@ -103,30 +127,6 @@
             <title><![CDATA[ある見知らぬ人に度肝を抜かれた。それから、彼が誰なのか気づいた！]]></title>
             <link>https://finance.biggo.jp/podcast/0d950054f0ffb711</link>
             <guid>https://finance.biggo.jp/podcast/0d950054f0ffb711</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[韓国の2兆ドル暴落、市場を反転させたか]]></title>
-            <link>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</link>
-            <guid>https://finance.biggo.jp/podcast/d5c424dd58a51cdf</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Netic創業者メリサ・トクマクと語る、実世界サービス向け自律型エンタープライズの構築]]></title>
-            <link>https://finance.biggo.jp/podcast/f55ac8091c2ab6e0</link>
-            <guid>https://finance.biggo.jp/podcast/f55ac8091c2ab6e0</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[保険が遺伝子検査を拒否する理由と、適用範囲を乗り切る方法]]></title>
-            <link>https://finance.biggo.jp/podcast/ae40a849e2d1d94c</link>
-            <guid>https://finance.biggo.jp/podcast/ae40a849e2d1d94c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gain Therapeutics：パーキンソン病に対するファースト・イン・クラスの疾患修飾療法]]></title>
-            <link>https://finance.biggo.jp/podcast/ea31b4f35cd15bf7</link>
-            <guid>https://finance.biggo.jp/podcast/ea31b4f35cd15bf7</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
