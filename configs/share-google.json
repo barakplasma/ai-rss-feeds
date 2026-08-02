@@ -1,0 +1,22 @@
+{
+  "name": "share-google",
+  "url": "https://share.google/DVO0e53D9NBLGntfT",
+  "feed": {
+    "title": "Monzo – It's time for a new kind of bank",
+    "description": "Monzo is a bank that makes life easier, not harder.",
+    "language": "en",
+    "author": "share.google"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "external",
+  "rssExtraction": {
+    "feedUrl": "https://monzo.com/feed.xml"
+  },
+  "createdAt": "2026-08-02T11:32:57.699Z"
+}
