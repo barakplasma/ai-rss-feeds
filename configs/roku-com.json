@@ -1,0 +1,22 @@
+{
+  "name": "roku-com",
+  "url": "https://engineering.roku.com/",
+  "feed": {
+    "title": "Engineering Blog",
+    "description": "Just another blog-admin.roku.com Sites site",
+    "language": "en-US",
+    "author": "engineering.roku.com"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "external",
+  "rssExtraction": {
+    "feedUrl": "https://engineering.roku.com/feed"
+  },
+  "createdAt": "2026-08-02T11:29:32.277Z"
+}
