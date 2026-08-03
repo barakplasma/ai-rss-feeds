@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[今すぐ株を売るべきか？ | オフィスアワー]]></title>
+            <link>https://finance.biggo.jp/podcast/ff8c6cc695079fd1</link>
+            <guid>https://finance.biggo.jp/podcast/ff8c6cc695079fd1</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Arena CEO：米国製オープンソースモデルは1000億ドル市場に、データは1兆ドル市場へ]]></title>
             <link>https://finance.biggo.jp/podcast/5f006a12dc461e22</link>
             <guid>https://finance.biggo.jp/podcast/5f006a12dc461e22</guid>
@@ -22,7 +28,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Base Power、10億ドルのシリーズDで評価額130億ドルに到達]]></title>
+            <title><![CDATA[Base Powerのバッテリー生産ラインと25億ドルの資金調達の内幕]]></title>
             <link>https://finance.biggo.jp/podcast/52228954a52d047c</link>
             <guid>https://finance.biggo.jp/podcast/52228954a52d047c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -34,7 +40,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Next Bull Market Is Hiding in Plain Sight]]></title>
+            <title><![CDATA[ノーブルの患者支援へのコネクテッド・アプローチの内幕（スポンサー提供）]]></title>
+            <link>https://finance.biggo.jp/podcast/0ece7068786e077d</link>
+            <guid>https://finance.biggo.jp/podcast/0ece7068786e077d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[次の強気市場は、実は目の前にある]]></title>
             <link>https://finance.biggo.jp/podcast/55c968adfc6ba690</link>
             <guid>https://finance.biggo.jp/podcast/55c968adfc6ba690</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[TWiV 1345: ロッキーマウンテンウイルス学ハイライト]]></title>
             <link>https://finance.biggo.jp/podcast/0d09dd66cea33a87</link>
             <guid>https://finance.biggo.jp/podcast/0d09dd66cea33a87</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ReHacQプロデューサー高橋弘樹さん後編〜高橋さんが考えるテレビ局の未来、そしてまさかのinterfm リハック計画！？]]></title>
-            <link>https://finance.biggo.jp/podcast/7255d85bbf7ea9ec</link>
-            <guid>https://finance.biggo.jp/podcast/7255d85bbf7ea9ec</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[レイモンド・プランクはいかにして大手石油の残り物で財を成したか]]></title>
-            <link>https://finance.biggo.jp/podcast/623d91ceda61f658</link>
-            <guid>https://finance.biggo.jp/podcast/623d91ceda61f658</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
