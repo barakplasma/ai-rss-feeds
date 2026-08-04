@@ -10,7 +10,13 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[マイケル・クラツィオスが語る、アメリカ科学の新たな黄金時代 | EP #276]]></title>
+            <title><![CDATA[Fableが私のアプリを壊したのに直せなかった]]></title>
+            <link>https://finance.biggo.jp/podcast/15eb7e586bdd9d8a</link>
+            <guid>https://finance.biggo.jp/podcast/15eb7e586bdd9d8a</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ホワイトハウスは科学の生産性をどう10倍にするのか | Michael Kratsios | EP #276]]></title>
             <link>https://finance.biggo.jp/podcast/17eee74618765e9e</link>
             <guid>https://finance.biggo.jp/podcast/17eee74618765e9e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -34,13 +40,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[When the US Dropped Two Nuclear Bombs on Itself]]></title>
+            <title><![CDATA[アメリカが自国に核爆弾を2発投下した時]]></title>
             <link>https://finance.biggo.jp/podcast/4b06b512b8578678</link>
             <guid>https://finance.biggo.jp/podcast/4b06b512b8578678</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Most AI Startups Are Scaling Into Bankruptcy | Lin Qiao, CEO of Fireworks]]></title>
+            <title><![CDATA[AIスタートアップの大半は破産一直線 | Lin Qiao（Fireworks 最高経営責任者）]]></title>
             <link>https://finance.biggo.jp/podcast/6d70138da8dabb88</link>
             <guid>https://finance.biggo.jp/podcast/6d70138da8dabb88</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -52,13 +58,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[金融の達人よりもセールスをうまく説明する7つのルール]]></title>
+            <title><![CDATA[If you aren't selling these 4 things, your business Will Fail]]></title>
             <link>https://finance.biggo.jp/podcast/15b7a6e0d78e83a4</link>
             <guid>https://finance.biggo.jp/podcast/15b7a6e0d78e83a4</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[AI売りはデータと乖離している | トップAI投資家が解説]]></title>
+            <title><![CDATA[The Truth About The AI Stock Market Crash | Gavin Baker Interview]]></title>
             <link>https://finance.biggo.jp/podcast/313ad11fa89bcaaa</link>
             <guid>https://finance.biggo.jp/podcast/313ad11fa89bcaaa</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[NYC家賃凍結が住宅ローン債券に打撃を与える可能性]]></title>
             <link>https://finance.biggo.jp/podcast/0edf194f9b1e9094</link>
             <guid>https://finance.biggo.jp/podcast/0edf194f9b1e9094</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[推論は新たなトレーニング — Philip Kiely, Ali Taha, Basten]]></title>
-            <link>https://finance.biggo.jp/podcast/6c3653c0597cd170</link>
-            <guid>https://finance.biggo.jp/podcast/6c3653c0597cd170</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
