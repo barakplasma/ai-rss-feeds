@@ -10,13 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[セールスマシーンになるための7つのシンプルなルール]]></title>
+            <link>https://finance.biggo.jp/podcast/15b7a6e0d78e83a4</link>
+            <guid>https://finance.biggo.jp/podcast/15b7a6e0d78e83a4</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI売りはデータと乖離している | トップAI投資家が解説]]></title>
+            <link>https://finance.biggo.jp/podcast/313ad11fa89bcaaa</link>
+            <guid>https://finance.biggo.jp/podcast/313ad11fa89bcaaa</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chai Discoveryの苦い教訓：創薬もまたスケーリング問題である]]></title>
+            <link>https://finance.biggo.jp/podcast/56716399bad1e96f</link>
+            <guid>https://finance.biggo.jp/podcast/56716399bad1e96f</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[AIに対してどうヘッジするか？ S3E14]]></title>
             <link>https://finance.biggo.jp/podcast/5b299d66e6ba2975</link>
             <guid>https://finance.biggo.jp/podcast/5b299d66e6ba2975</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[帝国の建設者：10億ドル企業を築くための私のプレイブック]]></title>
+            <title><![CDATA[ウォール街が最も好むCEO：10億ドル企業を築くマインドセット]]></title>
             <link>https://finance.biggo.jp/podcast/23e83f3c9e706693</link>
             <guid>https://finance.biggo.jp/podcast/23e83f3c9e706693</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -55,6 +73,12 @@
             <title><![CDATA[Dmitri Dolgov：Waymoは100万分の1の出来事に対してどうトレーニングするのか？]]></title>
             <link>https://finance.biggo.jp/podcast/f3be2cd44297a8da</link>
             <guid>https://finance.biggo.jp/podcast/f3be2cd44297a8da</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NYC家賃凍結が住宅ローン債券に打撃を与える可能性]]></title>
+            <link>https://finance.biggo.jp/podcast/0edf194f9b1e9094</link>
+            <guid>https://finance.biggo.jp/podcast/0edf194f9b1e9094</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -103,30 +127,6 @@
             <title><![CDATA[Base Powerの10億ドルシリーズDを支える工場の内部]]></title>
             <link>https://finance.biggo.jp/podcast/52228954a52d047c</link>
             <guid>https://finance.biggo.jp/podcast/52228954a52d047c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Braidwellパートナー兼AI責任者ニック・マイヤーバーグ氏が語る、AI創薬の新時代]]></title>
-            <link>https://finance.biggo.jp/podcast/6bc0380a2db51b28</link>
-            <guid>https://finance.biggo.jp/podcast/6bc0380a2db51b28</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ノーブルの患者支援へのコネクテッド・アプローチの内幕（スポンサー提供）]]></title>
-            <link>https://finance.biggo.jp/podcast/0ece7068786e077d</link>
-            <guid>https://finance.biggo.jp/podcast/0ece7068786e077d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[次の強気市場は、実は目の前にある]]></title>
-            <link>https://finance.biggo.jp/podcast/55c968adfc6ba690</link>
-            <guid>https://finance.biggo.jp/podcast/55c968adfc6ba690</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[薬局を通じた成長の実現：サイモン・クチャーのクリスチャン・ダネルンド氏とクリス・レブホルツ氏とともに]]></title>
-            <link>https://finance.biggo.jp/podcast/151c86e644632df0</link>
-            <guid>https://finance.biggo.jp/podcast/151c86e644632df0</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
