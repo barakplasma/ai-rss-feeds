@@ -10,6 +10,13 @@
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[中央公布10項金融惠港措施　支持企業互相上市]]></title>
+            <link>https://www.wenweipo.com/a/202608/04/AP6a7127aae4b0c1e500237185.html</link>
+            <guid>https://www.wenweipo.com/a/202608/04/AP6a7127aae4b0c1e500237185.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[中國證監會主席吳清昨在上市儀式公布了十項進一步深化香港與內地市場務實合作、密切協同發展的新舉措，具體措施包括支持內企赴港上市及支持港企到內地上市。]]></description>
+        </item>
+        <item>
             <title><![CDATA[(有片)舊樓天台巨型水缸長期滲水 石屎剝落業主求救無門]]></title>
             <link>https://www.wenweipo.com/a/202608/04/AP6a709507e4b0c1e500236809.html</link>
             <guid>https://www.wenweipo.com/a/202608/04/AP6a709507e4b0c1e500236809.html</guid>
@@ -108,15 +115,6 @@
             <guid>https://www.wenweipo.com/a/202608/03/AP6a708717e4b0c1e50023669b.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[今晚（3日）6時35分，警方接獲一名男子報案，指在土瓜灣新柳街8號一大廈梯間，遭6至7人圍毆斬傷。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[7歲男童感染甲型流感併發休克及腦病變 情況危殆]]></title>
-            <link>https://www.wenweipo.com/a/202608/03/AP6a70866ce4b0c1e500236696.html</link>
-            <guid>https://www.wenweipo.com/a/202608/03/AP6a70866ce4b0c1e500236696.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[​衞生署衞生防護中心（中心）今日（3日）公布指，一名7歲男童感染甲型流感併發休克及腦病變，正在瑪嘉烈醫院留醫，情況危殆。
-
-中心指男童過往健康良好，他於上周一（7月27日）起出現咳嗽及流鼻水，前日（8月1日）起出現發燒，今日（3日）病情惡化，反應遲緩，送到瑪嘉烈醫院急症室求診，獲安排在該院兒童深切治療部留醫。他的呼吸道樣本經化驗後，證實對甲型流感病毒（H3）呈陽性反應，臨床診斷為甲型流感併發休克及腦病變。]]></description>
         </item>
     </channel>
 </rss>
