@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[2人のアメリカ人パイロットを救助した自律型ボート]]></title>
+            <link>https://finance.biggo.jp/podcast/3d2550b67197663d</link>
+            <guid>https://finance.biggo.jp/podcast/3d2550b67197663d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ガジェット：実際に安全なパーソナルアプリのバイブコーディング — Kenton Varda（Cloudflare）]]></title>
             <link>https://finance.biggo.jp/podcast/013bd31558e1c6fa</link>
             <guid>https://finance.biggo.jp/podcast/013bd31558e1c6fa</guid>
@@ -40,7 +46,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Appleは自分たちが偉大だった理由を忘れてしまった。]]></title>
+            <title><![CDATA[Appleは道を見失った。]]></title>
             <link>https://finance.biggo.jp/podcast/4e5417d9b17ee321</link>
             <guid>https://finance.biggo.jp/podcast/4e5417d9b17ee321</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[Susan Cain: 内向型が優れたリーダーになる理由 | ポッドキャスト | In Good Company]]></title>
             <link>https://finance.biggo.jp/podcast/a8a223205bb327b7</link>
             <guid>https://finance.biggo.jp/podcast/a8a223205bb327b7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[モデル戦争：オープン対クローズドの議論で本当に重要なこと]]></title>
-            <link>https://finance.biggo.jp/podcast/5a1fdc9ce111ab6a</link>
-            <guid>https://finance.biggo.jp/podcast/5a1fdc9ce111ab6a</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
