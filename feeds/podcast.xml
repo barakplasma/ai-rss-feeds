@@ -10,7 +10,19 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[The Real Reason Trump's Iran Strategy Makes No Sense]]></title>
+            <title><![CDATA[サイレント・シリコで考える：Goodfire CTOダン・バルサムが語る概念多様体と月額1000ドルのML研究エージェント]]></title>
+            <link>https://finance.biggo.jp/podcast/88204df844db8871</link>
+            <guid>https://finance.biggo.jp/podcast/88204df844db8871</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Google’s Consciousness Paper, Emad Wins Oxford AI Personhood Debate, and SpaceX’s $1T by 2030]]></title>
+            <link>https://finance.biggo.jp/podcast/e5c0827cb5040e5f</link>
+            <guid>https://finance.biggo.jp/podcast/e5c0827cb5040e5f</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA["He's Trying to Create Applause, Not Solve the Problem"]]></title>
             <link>https://finance.biggo.jp/podcast/3b6c8587b29242c1</link>
             <guid>https://finance.biggo.jp/podcast/3b6c8587b29242c1</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[今週：崩壊した450億ドルのAIファンド]]></title>
             <link>https://finance.biggo.jp/podcast/965b7a68d3a960f9</link>
             <guid>https://finance.biggo.jp/podcast/965b7a68d3a960f9</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AI完全カオスの入り口 | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/5f41e64a30be8ee5</link>
-            <guid>https://finance.biggo.jp/podcast/5f41e64a30be8ee5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[医薬品の修正：規制ナショナリズムと米国FDAのIND改革]]></title>
-            <link>https://finance.biggo.jp/podcast/8a5aaffa7a5fa343</link>
-            <guid>https://finance.biggo.jp/podcast/8a5aaffa7a5fa343</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
