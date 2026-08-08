@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[アン・アップルバウム：「トランプはなぜ戦うのかを決して明確にしなかった」]]></title>
+            <link>https://finance.biggo.jp/podcast/3b6c8587b29242c1</link>
+            <guid>https://finance.biggo.jp/podcast/3b6c8587b29242c1</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[コーディングエージェントの新旧コードベースにおけるベンチマーク — Denys Linkov, Wisedocs]]></title>
+            <link>https://finance.biggo.jp/podcast/53615e09e11fd9f9</link>
+            <guid>https://finance.biggo.jp/podcast/53615e09e11fd9f9</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[カナダのコンドミニアム難題]]></title>
             <link>https://finance.biggo.jp/podcast/952951f78f1c9fd7</link>
             <guid>https://finance.biggo.jp/podcast/952951f78f1c9fd7</guid>
@@ -115,18 +127,6 @@
             <title><![CDATA[医薬品の修正：規制ナショナリズムと米国FDAのIND改革]]></title>
             <link>https://finance.biggo.jp/podcast/8a5aaffa7a5fa343</link>
             <guid>https://finance.biggo.jp/podcast/8a5aaffa7a5fa343</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[NVIDIAのロボタクシーへの野望が具体化]]></title>
-            <link>https://finance.biggo.jp/podcast/ace2a9aee45fdd6d</link>
-            <guid>https://finance.biggo.jp/podcast/ace2a9aee45fdd6d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIがハッカーのように考え始めたら、何が起こるか]]></title>
-            <link>https://finance.biggo.jp/podcast/8ac1cdf7aa31ab97</link>
-            <guid>https://finance.biggo.jp/podcast/8ac1cdf7aa31ab97</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
