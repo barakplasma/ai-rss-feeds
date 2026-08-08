@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[カナダのコンドミニアム難題]]></title>
+            <link>https://finance.biggo.jp/podcast/952951f78f1c9fd7</link>
+            <guid>https://finance.biggo.jp/podcast/952951f78f1c9fd7</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[AnthropicのCCA試験をエージェント工学のフィールドガイドとして活用 — フランク・コイル（UCバークレー）]]></title>
             <link>https://finance.biggo.jp/podcast/ff7dcb70089f515d</link>
             <guid>https://finance.biggo.jp/podcast/ff7dcb70089f515d</guid>
@@ -22,7 +28,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ロボット基盤モデル、テレオペデータ、シミュレーションから実機への強化学習 | YC Paper Club]]></title>
+            <title><![CDATA[2026年はついにロボットの年になるのか？ | YC Paper Club]]></title>
             <link>https://finance.biggo.jp/podcast/8ddfcfc81eea2dbf</link>
             <guid>https://finance.biggo.jp/podcast/8ddfcfc81eea2dbf</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[AIがハッカーのように考え始めたら、何が起こるか]]></title>
             <link>https://finance.biggo.jp/podcast/8ac1cdf7aa31ab97</link>
             <guid>https://finance.biggo.jp/podcast/8ac1cdf7aa31ab97</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[優れたデザインで群衆から目立つ方法]]></title>
-            <link>https://finance.biggo.jp/podcast/02e3364420ca66dc</link>
-            <guid>https://finance.biggo.jp/podcast/02e3364420ca66dc</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
