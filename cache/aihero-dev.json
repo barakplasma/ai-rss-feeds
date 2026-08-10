@@ -189,5 +189,6 @@
     "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
     "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs"
   ],
-  "consecutiveErrors": 0
+  "consecutiveErrors": 1,
+  "lastError": "Failed to fetch https://www.aihero.dev/rss.xml: HTTP 500 Internal Server Error"
 }
