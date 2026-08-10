@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[私たちのバイブコーディングウェブサイトを共有 | The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/5bd0f09f6deb42d7</link>
+            <guid>https://finance.biggo.jp/podcast/5bd0f09f6deb42d7</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lindy Teammate：フロー・クリベロが語るマルチプレイヤーエージェント、メモリ、そしてなぜ自ら使う中国製モデルを禁止するのか]]></title>
+            <link>https://finance.biggo.jp/podcast/b1b8f1b33a29c2e1</link>
+            <guid>https://finance.biggo.jp/podcast/b1b8f1b33a29c2e1</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[強化学習をデータセンター横断で実現する — Nan Jiang, Modal]]></title>
             <link>https://finance.biggo.jp/podcast/2d996d598e1e1e6b</link>
             <guid>https://finance.biggo.jp/podcast/2d996d598e1e1e6b</guid>
@@ -115,18 +127,6 @@
             <title><![CDATA[常時稼働エージェントがオンコール負担なしで本番運用を支える — Justin Smith（Resolve AI）]]></title>
             <link>https://finance.biggo.jp/podcast/e4d2261d290738b3</link>
             <guid>https://finance.biggo.jp/podcast/e4d2261d290738b3</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ep. 024 - SpaceXの10GW計画が2027年までに3000億ドルの年間収益を牽引（データセンター、エネルギー）]]></title>
-            <link>https://finance.biggo.jp/podcast/30e9b121494f24c9</link>
-            <guid>https://finance.biggo.jp/podcast/30e9b121494f24c9</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIクラッシュは終わった。次に来るもの]]></title>
-            <link>https://finance.biggo.jp/podcast/9c7cd121d9434b84</link>
-            <guid>https://finance.biggo.jp/podcast/9c7cd121d9434b84</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>

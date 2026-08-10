@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-10T17:42:23.551Z",
+  "lastSuccess": "2026-08-10T19:46:47.244Z",
   "articleCount": 186,
   "knownLinks": [
     "https://www.aihero.dev/newsletter",
@@ -189,6 +189,5 @@
     "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
     "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "Failed to fetch https://www.aihero.dev/rss.xml: HTTP 500 Internal Server Error"
+  "consecutiveErrors": 0
 }
