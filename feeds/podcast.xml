@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[JRE MMAショー #184 アルジャメイン・スターリング出演]]></title>
+            <link>https://finance.biggo.jp/podcast/9fbf7f132adf43f0</link>
+            <guid>https://finance.biggo.jp/podcast/9fbf7f132adf43f0</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ネロスがシリーズCで2億5000万ドル調達、評価額25億ドル——年間100万機のドローン製造を目指す]]></title>
+            <link>https://finance.biggo.jp/podcast/0822c14a57fcbb37</link>
+            <guid>https://finance.biggo.jp/podcast/0822c14a57fcbb37</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[エージェント型インターフェースの進化 — Gagan Bhat & Isabella Kai He（Anthropic）]]></title>
             <link>https://finance.biggo.jp/podcast/9149a49293cafcf7</link>
             <guid>https://finance.biggo.jp/podcast/9149a49293cafcf7</guid>
@@ -19,6 +31,12 @@
             <title><![CDATA[ボストンから生中継：製薬業界の中国に対する見方]]></title>
             <link>https://finance.biggo.jp/podcast/02706d101f78666b</link>
             <guid>https://finance.biggo.jp/podcast/02706d101f78666b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ボストンから生中継：投資家の算盤と産業の優先順位？]]></title>
+            <link>https://finance.biggo.jp/podcast/84dfee448c8f4dfa</link>
+            <guid>https://finance.biggo.jp/podcast/84dfee448c8f4dfa</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -34,7 +52,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Harveyのプレイブック：フロンティアAIラボに挑む | Gabe Pereyra]]></title>
+            <title><![CDATA[アプリケーション層でフロンティアAIを構築する：Harveyのプレイブック | Gabe Pereyra]]></title>
             <link>https://finance.biggo.jp/podcast/416347ac44cc4a5e</link>
             <guid>https://finance.biggo.jp/podcast/416347ac44cc4a5e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -58,7 +76,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ryan Greenblatt – Human level AIs might build runaway superintelligences by 2032]]></title>
+            <title><![CDATA[Ryan Greenblatt – AIがAI研究を自動化できるようになったら何が起こるか？]]></title>
             <link>https://finance.biggo.jp/podcast/d9aede51cd6c5cdc</link>
             <guid>https://finance.biggo.jp/podcast/d9aede51cd6c5cdc</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -70,7 +88,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why I Rewrote My AGENTS.md (Don't Copy It)]]></title>
+            <title><![CDATA[コードに一切触れずにClaudeを修正した]]></title>
             <link>https://finance.biggo.jp/podcast/63e17fcb23548c16</link>
             <guid>https://finance.biggo.jp/podcast/63e17fcb23548c16</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[Peter Steinberger：OpenClawの物語]]></title>
             <link>https://finance.biggo.jp/podcast/041c532266006d72</link>
             <guid>https://finance.biggo.jp/podcast/041c532266006d72</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[私たちのバイブコーディングウェブサイトを共有 | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/5bd0f09f6deb42d7</link>
-            <guid>https://finance.biggo.jp/podcast/5bd0f09f6deb42d7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Lindy Teammate：フロー・クリベロが語るマルチプレイヤーエージェント、メモリ、そしてなぜ自ら使う中国製モデルを禁止するのか]]></title>
-            <link>https://finance.biggo.jp/podcast/b1b8f1b33a29c2e1</link>
-            <guid>https://finance.biggo.jp/podcast/b1b8f1b33a29c2e1</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[強化学習をデータセンター横断で実現する — Nan Jiang, Modal]]></title>
-            <link>https://finance.biggo.jp/podcast/2d996d598e1e1e6b</link>
-            <guid>https://finance.biggo.jp/podcast/2d996d598e1e1e6b</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
