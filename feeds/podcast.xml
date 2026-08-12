@@ -10,12 +10,6 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[米国・日本による為替介入が円、金利、ドルに与える影響]]></title>
-            <link>https://finance.biggo.jp/podcast/cf0b1edd03a4b4ed</link>
-            <guid>https://finance.biggo.jp/podcast/cf0b1edd03a4b4ed</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Y Combinator CEOが語る、AI時代の創業者の心理]]></title>
             <link>https://finance.biggo.jp/podcast/20cd523c71a6f740</link>
             <guid>https://finance.biggo.jp/podcast/20cd523c71a6f740</guid>
@@ -34,7 +28,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Pixel 11 and Pixel Watch 5: Our first impressions | The Vergecast Livestream]]></title>
+            <title><![CDATA[Pixel 11 と Pixel Watch 5：私たちの第一印象 | The Vergecast ライブ配信]]></title>
             <link>https://finance.biggo.jp/podcast/031a81d0243eb9d2</link>
             <guid>https://finance.biggo.jp/podcast/031a81d0243eb9d2</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -106,7 +100,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Chelsea Finn: The 700-Day Problem With Robot RL]]></title>
+            <title><![CDATA[Chelsea Finn：ロボットRLにおける700日問題]]></title>
             <link>https://finance.biggo.jp/podcast/ca22a9d47495d90e</link>
             <guid>https://finance.biggo.jp/podcast/ca22a9d47495d90e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -127,6 +121,12 @@
             <title><![CDATA[長時間稼働リサーチエージェントのためのメモリーハーネス — Stefania Druga（Sakana.ai）]]></title>
             <link>https://finance.biggo.jp/podcast/40991457ac44d9d2</link>
             <guid>https://finance.biggo.jp/podcast/40991457ac44d9d2</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[継続学習のスケールアップ — Ronak Malde（Trajectory）]]></title>
+            <link>https://finance.biggo.jp/podcast/dbf6d45da8ffc912</link>
+            <guid>https://finance.biggo.jp/podcast/dbf6d45da8ffc912</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
