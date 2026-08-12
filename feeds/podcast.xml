@@ -10,6 +10,30 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[見過ごされがちな3つの優良ビジネス]]></title>
+            <link>https://finance.biggo.jp/podcast/cb7cf3fcb7e11fd5</link>
+            <guid>https://finance.biggo.jp/podcast/cb7cf3fcb7e11fd5</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What's Actually Inside an RL Environment | Mercor's Brendan Foody]]></title>
+            <link>https://finance.biggo.jp/podcast/4135dc09c35e841c</link>
+            <guid>https://finance.biggo.jp/podcast/4135dc09c35e841c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Khabib Nurmagomedov: Dagestan, Fighting, Wrestling, UFC, Football & God | Lex Fridman Podcast #500]]></title>
+            <link>https://finance.biggo.jp/podcast/189a2a9744af3509</link>
+            <guid>https://finance.biggo.jp/podcast/189a2a9744af3509</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When (and How) to Post-Train Your Own AI Models | Lin Qiao, Fireworks]]></title>
+            <link>https://finance.biggo.jp/podcast/0d87dcd94a593979</link>
+            <guid>https://finance.biggo.jp/podcast/0d87dcd94a593979</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ギリアドがどのようにして耐久性のある腫瘍学および免疫学フランチャイズを構築しているか]]></title>
             <link>https://finance.biggo.jp/podcast/900b36606def81ff</link>
             <guid>https://finance.biggo.jp/podcast/900b36606def81ff</guid>
@@ -94,7 +118,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[What the Cloud Wars Tell Us About AI | Eric Vishria]]></title>
+            <title><![CDATA[クラウド戦争がAIについて教えてくれること | Eric Vishria]]></title>
             <link>https://finance.biggo.jp/podcast/57c8ed51beac757d</link>
             <guid>https://finance.biggo.jp/podcast/57c8ed51beac757d</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -103,30 +127,6 @@
             <title><![CDATA[あなたの重みでもなく、あなたの製品でもない：AIを所有する理由 | Sonya Huang, Sequoia Capital]]></title>
             <link>https://finance.biggo.jp/podcast/35b3d86b2c94de52</link>
             <guid>https://finance.biggo.jp/podcast/35b3d86b2c94de52</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[NEARはどうやってステーキングをAIサブスクリプションに変えたのか]]></title>
-            <link>https://finance.biggo.jp/podcast/49f087d9a09b68f0</link>
-            <guid>https://finance.biggo.jp/podcast/49f087d9a09b68f0</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ryan Greenblatt – 再帰的自己改善を制御し続けることはできるか？]]></title>
-            <link>https://finance.biggo.jp/podcast/d9aede51cd6c5cdc</link>
-            <guid>https://finance.biggo.jp/podcast/d9aede51cd6c5cdc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[戦略的意図：ファーストインクラス、二つの市場——AnnexonのGBSおよびGA戦略]]></title>
-            <link>https://finance.biggo.jp/podcast/9c04f7200dec7dbc</link>
-            <guid>https://finance.biggo.jp/podcast/9c04f7200dec7dbc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[コードに一切触れずにClaudeを修正した]]></title>
-            <link>https://finance.biggo.jp/podcast/63e17fcb23548c16</link>
-            <guid>https://finance.biggo.jp/podcast/63e17fcb23548c16</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
