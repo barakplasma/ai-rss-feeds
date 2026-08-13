@@ -10,9 +10,27 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[営業戦略の選択：Lighthouse vs. Landgrab]]></title>
+            <link>https://finance.biggo.jp/podcast/245498cc65da1367</link>
+            <guid>https://finance.biggo.jp/podcast/245498cc65da1367</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Canvaの成長鈍化 | Googleの才能流出 | Revolutの500億ドルCEO報酬 | マスク氏の550億ドルTerraFab]]></title>
+            <link>https://finance.biggo.jp/podcast/dbec4397e561461a</link>
+            <guid>https://finance.biggo.jp/podcast/dbec4397e561461a</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[What Is Fed Chair Kevin Warsh Trying to Say? | Trumponomics]]></title>
             <link>https://finance.biggo.jp/podcast/1493e86510549080</link>
             <guid>https://finance.biggo.jp/podcast/1493e86510549080</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Closing the Experience Gap: Why Smart AI Agents Still Feel New on the Job | Trajectory]]></title>
+            <link>https://finance.biggo.jp/podcast/f2762f8b52cab985</link>
+            <guid>https://finance.biggo.jp/podcast/f2762f8b52cab985</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -109,24 +127,6 @@
             <title><![CDATA[エージェントの設計（フロアこそが最前線）— Ben Hylak, Raindrop]]></title>
             <link>https://finance.biggo.jp/podcast/12c612072f4caad8</link>
             <guid>https://finance.biggo.jp/podcast/12c612072f4caad8</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[継続学習を企業にもたらす — Samuel Denton（Applied Compute）]]></title>
-            <link>https://finance.biggo.jp/podcast/64e996d7aec81bc5</link>
-            <guid>https://finance.biggo.jp/podcast/64e996d7aec81bc5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ウェリントンのジーン・ハインズ氏が語る投資の技術と新市場の発見]]></title>
-            <link>https://finance.biggo.jp/podcast/6eb1a8a945430576</link>
-            <guid>https://finance.biggo.jp/podcast/6eb1a8a945430576</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ずぼらな方法で月1万ドル稼ぐアプリを作った]]></title>
-            <link>https://finance.biggo.jp/podcast/c7c7b6251aaa7e24</link>
-            <guid>https://finance.biggo.jp/podcast/c7c7b6251aaa7e24</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
