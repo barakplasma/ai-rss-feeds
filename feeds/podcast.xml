@@ -10,7 +10,19 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[独自エージェントハーネスを構築すべき時 | Harrison Chase, LangChain]]></title>
+            <title><![CDATA[What Is Fed Chair Kevin Warsh Trying to Say? | Trumponomics]]></title>
+            <link>https://finance.biggo.jp/podcast/1493e86510549080</link>
+            <guid>https://finance.biggo.jp/podcast/1493e86510549080</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Innovaccerの自律型医療を支えるデータ層への賭け]]></title>
+            <link>https://finance.biggo.jp/podcast/fd391fb51c74776b</link>
+            <guid>https://finance.biggo.jp/podcast/fd391fb51c74776b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[知性を自分のものにするのはハーネスから始まる | Harrison Chase, LangChain]]></title>
             <link>https://finance.biggo.jp/podcast/9d27ef1087dda572</link>
             <guid>https://finance.biggo.jp/podcast/9d27ef1087dda572</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -22,7 +34,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Bitcoin’s Civil War Ended in 2 Blocks]]></title>
+            <title><![CDATA[ビットコインの内戦は2ブロックで終わった]]></title>
             <link>https://finance.biggo.jp/podcast/cee5b048e6655a0e</link>
             <guid>https://finance.biggo.jp/podcast/cee5b048e6655a0e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -34,7 +46,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[減量科学者: 体重を減らすのは簡単、でもあなたができない理由はこれだ！ | Dr Andy Galpin]]></title>
+            <title><![CDATA[Sleep Expert: The REAL Reason You're Always Exhausted! (And How To Fix It!) | Dr Andy Galpin]]></title>
             <link>https://finance.biggo.jp/podcast/8fc2168d8adc46ac</link>
             <guid>https://finance.biggo.jp/podcast/8fc2168d8adc46ac</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[ずぼらな方法で月1万ドル稼ぐアプリを作った]]></title>
             <link>https://finance.biggo.jp/podcast/c7c7b6251aaa7e24</link>
             <guid>https://finance.biggo.jp/podcast/c7c7b6251aaa7e24</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LLMナレッジベース：実践ガイド — Ben Holmes（Warp）]]></title>
-            <link>https://finance.biggo.jp/podcast/e8b981bf874027ef</link>
-            <guid>https://finance.biggo.jp/podcast/e8b981bf874027ef</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2538 - ジョー・デローザ]]></title>
-            <link>https://finance.biggo.jp/podcast/2f794550103e0021</link>
-            <guid>https://finance.biggo.jp/podcast/2f794550103e0021</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
