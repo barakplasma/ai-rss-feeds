@@ -10,31 +10,43 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Why Stripe Thinks Al Will Create More Software, Not Less]]></title>
+            <title><![CDATA[“SpaceX Is a $10 Stock” | Office Hours]]></title>
+            <link>https://finance.biggo.jp/podcast/44827dfb1505a087</link>
+            <guid>https://finance.biggo.jp/podcast/44827dfb1505a087</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[第25話 - ディランが登場、ライブ！ | ディラン・パテル＆ジョーダン・ナノス]]></title>
+            <link>https://finance.biggo.jp/podcast/3a1a5d4d62839ae0</link>
+            <guid>https://finance.biggo.jp/podcast/3a1a5d4d62839ae0</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building the next Stripe inside Stripe]]></title>
             <link>https://finance.biggo.jp/podcast/d76652fb9750e909</link>
             <guid>https://finance.biggo.jp/podcast/d76652fb9750e909</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Solving relatable business problems (Part 1)]]></title>
+            <title><![CDATA[3 founders show how they built $8M, $10M, & $40M businesses]]></title>
             <link>https://finance.biggo.jp/podcast/127d9948f9fd6702</link>
             <guid>https://finance.biggo.jp/podcast/127d9948f9fd6702</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Uber President on The Untold Uber Stories: Travis, China & Self-Driving | How to Beat DoorDash to #1]]></title>
+            <title><![CDATA[Uber社長が語る知られざるUberの物語：トラビス、中国、自動運転｜DoorDashを抑えて1位になる方法]]></title>
             <link>https://finance.biggo.jp/podcast/d19c9b1fb45f66c5</link>
             <guid>https://finance.biggo.jp/podcast/d19c9b1fb45f66c5</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Nikesh Arora: $300B, 40 Acquisitions, Still Paranoid]]></title>
+            <title><![CDATA[ニケシュ・アローラ：3000億ドル、40件の買収、それでもパラノイア]]></title>
             <link>https://finance.biggo.jp/podcast/8a2774b73c0b3a74</link>
             <guid>https://finance.biggo.jp/podcast/8a2774b73c0b3a74</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[債券市場がFRBに警告を発している]]></title>
+            <title><![CDATA[Kevin Warsh’s Fed Could Bring Long-Term Yields Down]]></title>
             <link>https://finance.biggo.jp/podcast/47efd9f2a53c36dd</link>
             <guid>https://finance.biggo.jp/podcast/47efd9f2a53c36dd</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -46,7 +58,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Professor Brian Greene: Are We Living In A Simulation? (The Truth About Reality)]]></title>
+            <title><![CDATA[ブライアン・グリーン教授：私たちはシミュレーションの中に生きているのか？（現実の真実）]]></title>
             <link>https://finance.biggo.jp/podcast/335e667884a9824f</link>
             <guid>https://finance.biggo.jp/podcast/335e667884a9824f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -58,7 +70,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[iOSミリオネアと過ごした24時間]]></title>
+            <title><![CDATA[I Spent 24 Hours With Mobile App Millionaires]]></title>
             <link>https://finance.biggo.jp/podcast/fcd271f2cf563146</link>
             <guid>https://finance.biggo.jp/podcast/fcd271f2cf563146</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[Exo: ハーネスは自身のコードとログを見るべき — Alex Krentsel, UC Berkeley / Google Research]]></title>
             <link>https://finance.biggo.jp/podcast/cdad0fa444207a06</link>
             <guid>https://finance.biggo.jp/podcast/cdad0fa444207a06</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[エネルギーの未来：ガスタービン完売、HelionとMicrosoftの核融合契約、GPUは20倍も割高]]></title>
-            <link>https://finance.biggo.jp/podcast/160375d64f4d94d0</link>
-            <guid>https://finance.biggo.jp/podcast/160375d64f4d94d0</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Wispr Flow と Superhuman から学ぶ教訓｜Matt Swulinski]]></title>
-            <link>https://finance.biggo.jp/podcast/5b45d03fc082dfec</link>
-            <guid>https://finance.biggo.jp/podcast/5b45d03fc082dfec</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>

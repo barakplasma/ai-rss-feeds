@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-17T12:21:00.764Z",
+  "lastSuccess": "2026-08-17T17:17:06.504Z",
   "articleCount": 50,
   "knownLinks": [
     "https://github.com/openclaw/openclaw/releases/tag/pr-124528-profiles",
@@ -53,6 +53,5 @@
     "https://github.com/openclaw/openclaw/releases/tag/v2026.5.28",
     "https://github.com/openclaw/openclaw/releases/tag/v2026.5.28-beta.4"
   ],
-  "consecutiveErrors": 4,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }

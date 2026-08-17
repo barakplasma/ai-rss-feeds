@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-17T12:21:40.168Z",
+  "lastSuccess": "2026-08-17T17:17:50.979Z",
   "articleCount": 50,
   "knownLinks": [
     "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
@@ -53,6 +53,5 @@
     "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
     "https://github.com/anthropics/claude-code/releases/tag/v2.1.175"
   ],
-  "consecutiveErrors": 4,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }
