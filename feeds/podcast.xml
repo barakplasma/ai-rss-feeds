@@ -10,7 +10,37 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[“SpaceX Is a $10 Stock” | Office Hours]]></title>
+            <title><![CDATA[貿易データはトランプ政権の政策変更にまだ追いついていない、とピーター・ハレル氏]]></title>
+            <link>https://finance.biggo.jp/podcast/bc2febdffd8bdb95</link>
+            <guid>https://finance.biggo.jp/podcast/bc2febdffd8bdb95</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[デジタルドクターが今すぐ診察します｜The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/5aa4cf66074d0610</link>
+            <guid>https://finance.biggo.jp/podcast/5aa4cf66074d0610</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[エージェント向けセキュリティファイアウォール — Ryan Dahl、Deno]]></title>
+            <link>https://finance.biggo.jp/podcast/0a9e13c264db2cb9</link>
+            <guid>https://finance.biggo.jp/podcast/0a9e13c264db2cb9</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[トレンドフォローはクライシスアルファを超えた何かになりつつある｜Systematic Investor｜第413回]]></title>
+            <link>https://finance.biggo.jp/podcast/292158227cc35b09</link>
+            <guid>https://finance.biggo.jp/podcast/292158227cc35b09</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2026年のコンテキストエンジニアリング — Louis-François Bouchard、Omar Solano、Samridhi Vaid（Towards AI）]]></title>
+            <link>https://finance.biggo.jp/podcast/11dd17792451db76</link>
+            <guid>https://finance.biggo.jp/podcast/11dd17792451db76</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「SpaceXは10ドルの株だ」| オフィスアワー]]></title>
             <link>https://finance.biggo.jp/podcast/44827dfb1505a087</link>
             <guid>https://finance.biggo.jp/podcast/44827dfb1505a087</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -22,31 +52,31 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Building the next Stripe inside Stripe]]></title>
+            <title><![CDATA[「チェックアウトページは存在すべきではない」- Stripeが語るエージェント型コマース]]></title>
             <link>https://finance.biggo.jp/podcast/d76652fb9750e909</link>
             <guid>https://finance.biggo.jp/podcast/d76652fb9750e909</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[3 founders show how they built $8M, $10M, & $40M businesses]]></title>
+            <title><![CDATA[45分で3つの実際のビジネス課題を解決する]]></title>
             <link>https://finance.biggo.jp/podcast/127d9948f9fd6702</link>
             <guid>https://finance.biggo.jp/podcast/127d9948f9fd6702</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Uber社長が語る知られざるUberの物語：トラビス、中国、自動運転｜DoorDashを抑えて1位になる方法]]></title>
+            <title><![CDATA[Uber President on The Untold Stories: Travis, China & Self-Driving | Andrew Macdonald]]></title>
             <link>https://finance.biggo.jp/podcast/d19c9b1fb45f66c5</link>
             <guid>https://finance.biggo.jp/podcast/d19c9b1fb45f66c5</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ニケシュ・アローラ：3000億ドル、40件の買収、それでもパラノイア]]></title>
+            <title><![CDATA[ニケシュ・アローラ：不正AIエージェントに備える3000億ドルのサイバーセキュリティ大手]]></title>
             <link>https://finance.biggo.jp/podcast/8a2774b73c0b3a74</link>
             <guid>https://finance.biggo.jp/podcast/8a2774b73c0b3a74</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Kevin Warsh’s Fed Could Bring Long-Term Yields Down]]></title>
+            <title><![CDATA[ケビン・ウォーシュのFRB議長就任で長期金利は低下する可能性]]></title>
             <link>https://finance.biggo.jp/podcast/47efd9f2a53c36dd</link>
             <guid>https://finance.biggo.jp/podcast/47efd9f2a53c36dd</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -70,7 +100,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[I Spent 24 Hours With Mobile App Millionaires]]></title>
+            <title><![CDATA[モバイルアプリの億万長者と24時間過ごしてみた]]></title>
             <link>https://finance.biggo.jp/podcast/fcd271f2cf563146</link>
             <guid>https://finance.biggo.jp/podcast/fcd271f2cf563146</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -97,36 +127,6 @@
             <title><![CDATA[TIVP090（ビデオ）：Adobe、Lululemon、PayPal – 最大の敗北銘柄は今買いか？ Daniel Mahncke & Shawn O'Malley と共に]]></title>
             <link>https://finance.biggo.jp/podcast/b0270d0f0616cde9</link>
             <guid>https://finance.biggo.jp/podcast/b0270d0f0616cde9</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[光あれ、殺菌光よ：この500ドルの器具が次のパンデミックを止めるかもしれない、複雑系から]]></title>
-            <link>https://finance.biggo.jp/podcast/2eb856a5b69152c1</link>
-            <guid>https://finance.biggo.jp/podcast/2eb856a5b69152c1</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TWiV 1349: 天然痘とミイラ]]></title>
-            <link>https://finance.biggo.jp/podcast/b535c12424139ed7</link>
-            <guid>https://finance.biggo.jp/podcast/b535c12424139ed7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[売り上げ10億から10年で500億へ〜松島陽介さんのJMDC復活物語]]></title>
-            <link>https://finance.biggo.jp/podcast/85a28762de4a327b</link>
-            <guid>https://finance.biggo.jp/podcast/85a28762de4a327b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[私たちはジャングルの掟に戻っているのか？]]></title>
-            <link>https://finance.biggo.jp/podcast/beb78ab6634f2f3c</link>
-            <guid>https://finance.biggo.jp/podcast/beb78ab6634f2f3c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Exo: ハーネスは自身のコードとログを見るべき — Alex Krentsel, UC Berkeley / Google Research]]></title>
-            <link>https://finance.biggo.jp/podcast/cdad0fa444207a06</link>
-            <guid>https://finance.biggo.jp/podcast/cdad0fa444207a06</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
