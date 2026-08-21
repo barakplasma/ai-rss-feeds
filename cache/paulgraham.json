@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-21T21:14:08.495Z",
+  "lastSuccess": "2026-08-21T23:14:10.376Z",
   "articleCount": 20,
   "knownLinks": [
     "https://www.paulgraham.com/greatwork.html",
@@ -23,6 +23,5 @@
     "https://www.paulgraham.com/want.html",
     "https://www.paulgraham.com/alien.html"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "3/3 links unreachable"
+  "consecutiveErrors": 0
 }
