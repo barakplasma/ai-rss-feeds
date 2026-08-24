@@ -10,19 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[ガジェット記憶クイズで大苦戦 | The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/a11241101585199e</link>
+            <guid>https://finance.biggo.jp/podcast/a11241101585199e</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[クラウドAI @Arm と中国からの視点]]></title>
+            <link>https://finance.biggo.jp/podcast/f1433996ac14f611</link>
+            <guid>https://finance.biggo.jp/podcast/f1433996ac14f611</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[資本市場向けAIシステムの構築]]></title>
             <link>https://finance.biggo.jp/podcast/6bb4ef6063747146</link>
             <guid>https://finance.biggo.jp/podcast/6bb4ef6063747146</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ジュリアン・ベックが語る、ドン・バレンタイン、ダグ・レオーネ、アルフレッド・リンからの教訓｜セコイアが創業者に見るもの]]></title>
+            <title><![CDATA[Inside Sequoia's Investment Committee | How the SpaceX & Citadel Deals Went Down | Julien Bek]]></title>
             <link>https://finance.biggo.jp/podcast/dfa9a6d52b428a40</link>
             <guid>https://finance.biggo.jp/podcast/dfa9a6d52b428a40</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[I was 9 months pregnant & broke. Then I made $2 billion. (ft. Poppi's Allison Ellsworth)]]></title>
+            <title><![CDATA[妊娠9ヶ月で無一文。そこから20億ドルを稼いだ話。（ft. Poppiのアリソン・エルズワース）]]></title>
             <link>https://finance.biggo.jp/podcast/a2c00545014434d5</link>
             <guid>https://finance.biggo.jp/podcast/a2c00545014434d5</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -46,7 +58,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Boris Is Right Again (I Hate It)]]></title>
+            <title><![CDATA[ボリスがまた正しかった（悔しいけど）]]></title>
             <link>https://finance.biggo.jp/podcast/3c4173f0fe65eff9</link>
             <guid>https://finance.biggo.jp/podcast/3c4173f0fe65eff9</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[薬剤改革：FDA長官候補ハイジ・オーバートンが機関に与える影響]]></title>
             <link>https://finance.biggo.jp/podcast/95a5ef08fd1c4a0b</link>
             <guid>https://finance.biggo.jp/podcast/95a5ef08fd1c4a0b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[カーテンの背後で働くエージェント：WarpのOzクラウドエージェントプラットフォーム構築 — Safia Abdalla, Warp]]></title>
-            <link>https://finance.biggo.jp/podcast/7acb561277e9016e</link>
-            <guid>https://finance.biggo.jp/podcast/7acb561277e9016e</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[847 Production臨床AIノートの内部 — Sebastian Fox, Composo]]></title>
-            <link>https://finance.biggo.jp/podcast/d02a360fef5c75f7</link>
-            <guid>https://finance.biggo.jp/podcast/d02a360fef5c75f7</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
