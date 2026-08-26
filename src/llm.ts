@@ -1,14 +1,13 @@
 /**
- * LLM integration: HTML → FeedConfig via GitHub Models API.
+ * LLM integration: HTML → FeedConfig via OpenRouter.
  */
 
 import type { FeedConfig } from "./types.js";
 
-const GITHUB_MODELS_URL =
-  "https://models.github.ai/inference/chat/completions";
-const MODEL = "openai/gpt-4o-mini";
+const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
+const MODEL = "openrouter/free";
 const MAX_RETRIES = 3;
-const MAX_HTML_CHARS = 12_000; // Truncate HTML to fit GitHub Models 8K token limit
+const MAX_HTML_CHARS = 12_000;
 
 const SYSTEM_PROMPT = `You are an expert at analyzing HTML structure to extract blog article listings.
 
@@ -16,32 +15,32 @@ Given an HTML page of a blog index, output a JSON object matching this exact Typ
 
 \`\`\`typescript
 interface FeedConfig {
-  name: string;              // lowercase slug, e.g. "ollama"
-  url: string;               // the blog URL provided
+  name: string;
+  url: string;
   feed: {
-    title: string;           // e.g. "Ollama Blog"
-    description: string;     // brief description
-    language: string;        // ISO 639-1, e.g. "en"
-    author?: string;         // optional
+    title: string;
+    description: string;
+    language: string;
+    author?: string;
   };
   selectors: {
-    articleList: string;     // CSS selector matching EACH article entry
-    title: string;           // CSS selector for title RELATIVE to articleList
-    date?: string;           // CSS selector for date RELATIVE to articleList
-    description?: string;    // CSS selector for description RELATIVE to articleList
+    articleList: string;
+    title: string;
+    date?: string;
+    description?: string;
     link: {
-      selector?: string;     // optional CSS selector for link RELATIVE to articleList
-      source: string;        // "attr:href" to get href from the selected <a> tag
-      prefix?: string;       // base URL to prepend to relative links, e.g. "https://ollama.com"
+      selector?: string;
+      source: string;
+      prefix?: string;
     };
   };
-  parserMode?: "css" | "json" | "changelog"; // default: "css"
+  parserMode?: "css" | "json" | "changelog";
   changelogExtraction?: {
-    linkTemplate?: string;     // e.g., "https://github.com/org/repo/releases/tag/v{version}"
-    sections?: string[];       // which ### sections to include, default: all
+    linkTemplate?: string;
+    sections?: string[];
   };
-  dateFormat?: string;        // date-fns format string if dates are in unusual format
-  createdAt: string;          // ISO date string
+  dateFormat?: string;
+  createdAt: string;
 }
 \`\`\`
 
@@ -56,27 +55,18 @@ Rules:
 8. Selectors must be valid Cheerio/css-select syntax. If a class name contains ":" (for example Tailwind "hover:underline"), escape the colon as "\\\\:" in JSON, or prefer a stable structural selector such as article, a[href], h1-h3, time, or data-* attributes.
 9. Avoid Tailwind utility classes and generated/hash-like classes when stable tags or attributes are available.`;
 
-/**
- * Generate a FeedConfig from a blog URL's HTML using LLM.
- *
- * @param feedback Optional message describing why the previous config failed
- *                 at the parse step (e.g. selectors matched 0 articles). When
- *                 provided, it's surfaced to the LLM so it can correct itself
- *                 instead of producing the same bad selectors again.
- */
 export async function generateConfig(
   url: string,
   html: string,
   feedback?: string
 ): Promise<FeedConfig> {
-  const token = process.env.GITHUB_TOKEN;
+  const token = process.env.OPENROUTER_API_KEY;
   if (!token) {
     throw new Error(
-      "GITHUB_TOKEN not set. Required for GitHub Models API access."
+      "OPENROUTER_API_KEY not set. Required for OpenRouter config generation."
     );
   }
 
-  // Strip scripts, styles, comments, and other noise to reduce token count
   let cleaned = html
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/<style[\s\S]*?<\/style>/gi, "")
@@ -87,7 +77,6 @@ export async function generateConfig(
     .replace(/\s{2,}/g, " ")
     .trim();
 
-  // Truncate to fit in context
   const truncated =
     cleaned.length > MAX_HTML_CHARS
       ? cleaned.slice(0, MAX_HTML_CHARS) + "\n<!-- truncated -->"
@@ -105,11 +94,13 @@ export async function generateConfig(
     const userPrompt = `${preamble}\n\nURL: ${url}\n\nHTML:\n${truncated}`;
 
     try {
-      const res = await fetch(GITHUB_MODELS_URL, {
+      const res = await fetch(OPENROUTER_URL, {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
+          "HTTP-Referer": "https://github.com/leontloveless/ai-rss-feeds",
+          "X-Title": "ai-rss-feeds",
         },
         body: JSON.stringify({
           model: MODEL,
@@ -136,7 +127,6 @@ export async function generateConfig(
 
       const config = JSON.parse(content) as FeedConfig;
 
-      // Basic validation
       if (!config.name || !config.url || !config.selectors?.articleList) {
         throw new Error(
           "Invalid config: missing required fields (name, url, selectors.articleList)"
