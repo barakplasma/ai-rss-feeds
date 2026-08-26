@@ -2,6 +2,9 @@ name: Add Feed
 
 on:
   issues:
+    # Use `labeled` (not `opened`) because issue-form templates can apply labels
+    # after the opened event fires, causing the label guard to skip silently.
+    # Listening to `labeled` avoids that race.
     types: [labeled]
 
 permissions:
@@ -12,7 +15,15 @@ jobs:
   add-feed:
     if: github.event.label.name == 'new-feed' || github.event.label.name == 'retry-feed'
     runs-on: ubuntu-latest
-    environment: openrouter
+    # Switch providers by changing the repository variable AI_ENVIRONMENT.
+    # Each GitHub Environment owns its own AI_API_KEY secret plus
+    # AI_BASE_URL / AI_MODEL variables, so provider credentials/config live
+    # in one place and the workflow/code remain provider-agnostic.
+    environment: ${{ vars.AI_ENVIRONMENT || 'openrouter' }}
+    env:
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
     steps:
       - uses: actions/checkout@v6
 
@@ -22,6 +33,7 @@ jobs:
       - name: Extract URL from issue
         id: url
         env:
+          # Pass via env, not shell interpolation — issue bodies are untrusted input.
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
           URL=$(echo "$ISSUE_BODY" | grep -oP 'https?://\S+' | head -1)
@@ -33,6 +45,7 @@ jobs:
         shell: bash
         run: |
           set -eo pipefail
+          # Snapshot the newest config BEFORE running (to detect whether a new one is created)
           PREV=$(ls -t configs/*.json 2>/dev/null | head -1 || echo "")
           echo "prev_config=$PREV" >> $GITHUB_OUTPUT
           bun run src/add-smart.ts "$FEED_SOURCE_URL" 2>&1 | tee /tmp/add-smart.log
@@ -49,6 +62,7 @@ jobs:
             echo "existing_config=$EXISTING_CONFIG" >> $GITHUB_OUTPUT
             echo "existing_kind=$EXISTING_KIND" >> $GITHUB_OUTPUT
           fi
+          # Identify the config created by this run, only if it's actually new
           NEW=$(ls -t configs/*.json 2>/dev/null | head -1 || echo "")
           if [ -n "$NEW" ] && [ "$NEW" != "$PREV" ]; then
             echo "config_name=$(basename "$NEW" .json)" >> $GITHUB_OUTPUT
@@ -59,7 +73,6 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FEED_SOURCE_URL: ${{ steps.url.outputs.url }}
 
       - name: Verify feed URL
@@ -74,8 +87,11 @@ jobs:
           FEED_URL=""
           CHECK_URL="${EXISTING_URL:-$NATIVE_URL}"
           if [ -n "$CHECK_URL" ]; then
+            # Native/existing feed: confirm the URL actually serves RSS/Atom XML
             BODY_HEAD=$(curl -sL --max-time 20 "$CHECK_URL" | head -c 2000 || true)
             if [ -z "$BODY_HEAD" ]; then
+              # Some sites serve incomplete TLS chains (same fallback as tolerantFetch
+              # in src/fetcher.ts) — read-only content check, so verification-off is OK.
               BODY_HEAD=$(curl -skL --max-time 20 "$CHECK_URL" | head -c 2000 || true)
             fi
             if echo "$BODY_HEAD" | grep -qE '<\?xml|<rss|<feed'; then
@@ -83,6 +99,7 @@ jobs:
               FEED_URL="$CHECK_URL"
             fi
           elif [ -n "$CONFIG_NAME" ] && [ -f "feeds/${CONFIG_NAME}.xml" ] && grep -q "<item>" "feeds/${CONFIG_NAME}.xml"; then
+            # Generated feed: confirm the XML exists and contains articles
             VERIFIED=true
             FEED_URL="https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/${CONFIG_NAME}.xml"
           fi
@@ -142,6 +159,7 @@ jobs:
             });
 
             if (verified) {
+              // Only close the issue once a working feed URL has been confirmed.
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -202,8 +220,8 @@ jobs:
                 errorHint = '\n\n⚠️ The site structure could not be parsed. It may be a JavaScript-rendered SPA.';
               } else if (logContent.includes('No releases found')) {
                 errorHint = '\n\n⚠️ No GitHub releases found for this repository.';
-              } else if (logContent.includes('OPENROUTER_API_KEY not set')) {
-                errorHint = '\n\n⚠️ The `OPENROUTER_API_KEY` Actions secret is not configured.';
+              } else if (logContent.includes('Missing AI provider configuration')) {
+                errorHint = '\n\n⚠️ The selected GitHub Environment is missing `AI_API_KEY`, `AI_BASE_URL`, or `AI_MODEL`.';
               }
             } catch (e) {}
 
@@ -214,6 +232,7 @@ jobs:
               body: `❌ Failed to add feed.${errorHint}\n\nLeaving this issue open for retry or manual handling.`
             });
 
+            // Keep the issue open — it is only closed after a verified feed URL exists.
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
