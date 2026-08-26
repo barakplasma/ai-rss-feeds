@@ -1,13 +1,11 @@
 /**
- * LLM integration: HTML → FeedConfig via OpenRouter.
+ * LLM integration: HTML → FeedConfig via any OpenAI-compatible API.
  */
 
 import type { FeedConfig } from "./types.js";
 
-const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const MODEL = "openrouter/free";
 const MAX_RETRIES = 3;
-const MAX_HTML_CHARS = 12_000;
+const MAX_HTML_CHARS = 12_000; // Keep prompts small enough for inexpensive/free models
 
 const SYSTEM_PROMPT = `You are an expert at analyzing HTML structure to extract blog article listings.
 
@@ -15,32 +13,32 @@ Given an HTML page of a blog index, output a JSON object matching this exact Typ
 
 \`\`\`typescript
 interface FeedConfig {
-  name: string;
-  url: string;
+  name: string;              // lowercase slug, e.g. "ollama"
+  url: string;               // the blog URL provided
   feed: {
-    title: string;
-    description: string;
-    language: string;
-    author?: string;
+    title: string;           // e.g. "Ollama Blog"
+    description: string;     // brief description
+    language: string;        // ISO 639-1, e.g. "en"
+    author?: string;         // optional
   };
   selectors: {
-    articleList: string;
-    title: string;
-    date?: string;
-    description?: string;
+    articleList: string;     // CSS selector matching EACH article entry
+    title: string;           // CSS selector for title RELATIVE to articleList
+    date?: string;           // CSS selector for date RELATIVE to articleList
+    description?: string;    // CSS selector for description RELATIVE to articleList
     link: {
-      selector?: string;
-      source: string;
-      prefix?: string;
+      selector?: string;     // optional CSS selector for link RELATIVE to articleList
+      source: string;        // "attr:href" to get href from the selected <a> tag
+      prefix?: string;       // base URL to prepend to relative links, e.g. "https://ollama.com"
     };
   };
-  parserMode?: "css" | "json" | "changelog";
+  parserMode?: "css" | "json" | "changelog"; // default: "css"
   changelogExtraction?: {
-    linkTemplate?: string;
-    sections?: string[];
+    linkTemplate?: string;     // e.g., "https://github.com/org/repo/releases/tag/v{version}"
+    sections?: string[];       // which ### sections to include, default: all
   };
-  dateFormat?: string;
-  createdAt: string;
+  dateFormat?: string;        // date-fns format string if dates are in unusual format
+  createdAt: string;          // ISO date string
 }
 \`\`\`
 
@@ -55,18 +53,61 @@ Rules:
 8. Selectors must be valid Cheerio/css-select syntax. If a class name contains ":" (for example Tailwind "hover:underline"), escape the colon as "\\\\:" in JSON, or prefer a stable structural selector such as article, a[href], h1-h3, time, or data-* attributes.
 9. Avoid Tailwind utility classes and generated/hash-like classes when stable tags or attributes are available.`;
 
+/**
+ * Build the OpenAI-compatible chat-completions endpoint from AI_BASE_URL.
+ *
+ * Environment examples:
+ *   OpenRouter: AI_BASE_URL=https://openrouter.ai/api/v1
+ *   OpenAI:     AI_BASE_URL=https://api.openai.com/v1
+ *   xAI:        AI_BASE_URL=https://api.x.ai/v1
+ *
+ * A full .../chat/completions URL is also accepted.
+ */
+function getAiConfig(): { endpoint: string; apiKey: string; model: string } {
+  const apiKey = process.env.AI_API_KEY?.trim();
+  const baseUrl = process.env.AI_BASE_URL?.trim();
+  const model = process.env.AI_MODEL?.trim();
+
+  const missing = [
+    !apiKey && "AI_API_KEY",
+    !baseUrl && "AI_BASE_URL",
+    !model && "AI_MODEL",
+  ].filter(Boolean);
+
+  if (missing.length > 0) {
+    throw new Error(
+      `Missing AI provider configuration: ${missing.join(", ")}. ` +
+        "Set them on the selected GitHub Environment."
+    );
+  }
+
+  const normalized = baseUrl!.replace(/\/+$/, "");
+  const endpoint = normalized.endsWith("/chat/completions")
+    ? normalized
+    : `${normalized}/chat/completions`;
+
+  return { endpoint, apiKey: apiKey!, model: model! };
+}
+
+/**
+ * Generate a FeedConfig from a blog URL's HTML using the configured provider.
+ *
+ * The provider is intentionally generic: any service implementing the OpenAI
+ * chat-completions API can be selected by changing the GitHub Environment.
+ *
+ * @param feedback Optional message describing why the previous config failed
+ *                 at the parse step (e.g. selectors matched 0 articles). When
+ *                 provided, it's surfaced to the LLM so it can correct itself
+ *                 instead of producing the same bad selectors again.
+ */
 export async function generateConfig(
   url: string,
   html: string,
   feedback?: string
 ): Promise<FeedConfig> {
-  const token = process.env.OPENROUTER_API_KEY;
-  if (!token) {
-    throw new Error(
-      "OPENROUTER_API_KEY not set. Required for OpenRouter config generation."
-    );
-  }
+  const { endpoint, apiKey, model } = getAiConfig();
 
+  // Strip scripts, styles, comments, and other noise to reduce token count
   let cleaned = html
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/<style[\s\S]*?<\/style>/gi, "")
@@ -77,6 +118,7 @@ export async function generateConfig(
     .replace(/\s{2,}/g, " ")
     .trim();
 
+  // Truncate to keep prompt size predictable across providers/models
   const truncated =
     cleaned.length > MAX_HTML_CHARS
       ? cleaned.slice(0, MAX_HTML_CHARS) + "\n<!-- truncated -->"
@@ -94,16 +136,14 @@ export async function generateConfig(
     const userPrompt = `${preamble}\n\nURL: ${url}\n\nHTML:\n${truncated}`;
 
     try {
-      const res = await fetch(OPENROUTER_URL, {
+      const res = await fetch(endpoint, {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${token}`,
+          Authorization: `Bearer ${apiKey}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": "https://github.com/leontloveless/ai-rss-feeds",
-          "X-Title": "ai-rss-feeds",
         },
         body: JSON.stringify({
-          model: MODEL,
+          model,
           messages: [
             { role: "system", content: SYSTEM_PROMPT },
             { role: "user", content: userPrompt },
@@ -127,6 +167,7 @@ export async function generateConfig(
 
       const config = JSON.parse(content) as FeedConfig;
 
+      // Basic validation
       if (!config.name || !config.url || !config.selectors?.articleList) {
         throw new Error(
           "Invalid config: missing required fields (name, url, selectors.articleList)"
