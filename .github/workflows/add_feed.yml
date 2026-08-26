@@ -10,12 +10,20 @@ on:
 permissions:
   contents: write
   issues: write
-  models: read
 
 jobs:
   add-feed:
     if: github.event.label.name == 'new-feed' || github.event.label.name == 'retry-feed'
     runs-on: ubuntu-latest
+    # Switch providers by changing the repository variable AI_ENVIRONMENT.
+    # Each GitHub Environment owns its own AI_API_KEY secret plus
+    # AI_BASE_URL / AI_MODEL variables, so provider credentials/config live
+    # in one place and the workflow/code remain provider-agnostic.
+    environment: ${{ vars.AI_ENVIRONMENT || 'openrouter' }}
+    env:
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
     steps:
       - uses: actions/checkout@v6
 
@@ -212,6 +220,8 @@ jobs:
                 errorHint = '\n\n⚠️ The site structure could not be parsed. It may be a JavaScript-rendered SPA.';
               } else if (logContent.includes('No releases found')) {
                 errorHint = '\n\n⚠️ No GitHub releases found for this repository.';
+              } else if (logContent.includes('Missing AI provider configuration')) {
+                errorHint = '\n\n⚠️ The selected GitHub Environment is missing `AI_API_KEY`, `AI_BASE_URL`, or `AI_MODEL`.';
               }
             } catch (e) {}
 
