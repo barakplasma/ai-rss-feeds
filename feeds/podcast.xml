@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[ユヴァル・ノア・ハラリ氏への完全版インタビュー | The Economist]]></title>
+            <link>https://finance.biggo.jp/podcast/d44d84c3e3d051bb</link>
+            <guid>https://finance.biggo.jp/podcast/d44d84c3e3d051bb</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[152. Kimi K3技術報告を読み解く：アーキテクチャ革新から始まる、注意力の美学、マルチ教師蒸留、そしてオープンソースMoE]]></title>
+            <link>https://finance.biggo.jp/podcast/97efa12e708c99e2</link>
+            <guid>https://finance.biggo.jp/podcast/97efa12e708c99e2</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[二重標的とスマートな送達によるADCの革新]]></title>
             <link>https://finance.biggo.jp/podcast/93d3ef5845c3a88f</link>
             <guid>https://finance.biggo.jp/podcast/93d3ef5845c3a88f</guid>
@@ -115,18 +127,6 @@
             <title><![CDATA[ParallelのParag Agrawal：AIエージェントのための新しいWebを構築する]]></title>
             <link>https://finance.biggo.jp/podcast/325e13cd8ddcbcd5</link>
             <guid>https://finance.biggo.jp/podcast/325e13cd8ddcbcd5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIを1000倍安くする男]]></title>
-            <link>https://finance.biggo.jp/podcast/29d3f76c7eeac4a2</link>
-            <guid>https://finance.biggo.jp/podcast/29d3f76c7eeac4a2</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coinbase、Baseでトークン化株式を開始]]></title>
-            <link>https://finance.biggo.jp/podcast/77a624d1ee15b152</link>
-            <guid>https://finance.biggo.jp/podcast/77a624d1ee15b152</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
