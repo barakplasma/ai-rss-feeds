@@ -1,9 +1,9 @@
 {
-  "lastSuccess": "2026-08-26T03:45:31.738Z",
-  "articleCount": 1,
+  "lastSuccess": "2026-08-26T06:29:26.112Z",
+  "articleCount": 2,
   "knownLinks": [
-    "https://mekongasean.vn/tuyen-bo-chung-viet-nam-singapore-ve-chien-luoc-ket-noi-cong-nghe-58927.html"
+    "https://mekongasean.vn/viet-nam-singapore-huong-den-tuong-lai-chung-tu-cuong-58920.html",
+    "https://mekongasean.vn/viet-nam-danh-uu-tien-cao-nhat-cho-viec-cung-co-phat-trien-quan-he-voi-lao-58930.html"
   ],
-  "consecutiveErrors": 2,
-  "lastError": "Failed to fetch https://mekongasean.vn/: The operation was aborted."
+  "consecutiveErrors": 0
 }
