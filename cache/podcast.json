@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-26T08:30:11.725Z",
+  "lastSuccess": "2026-08-26T10:24:14.043Z",
   "articleCount": 20,
   "knownLinks": [
     "https://finance.biggo.jp/podcast/93d3ef5845c3a88f",
@@ -23,6 +23,5 @@
     "https://finance.biggo.jp/podcast/29d3f76c7eeac4a2",
     "https://finance.biggo.jp/podcast/77a624d1ee15b152"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "Failed to fetch https://finance.biggo.jp/podcast: HTTP 429 Too Many Requests"
+  "consecutiveErrors": 0
 }
