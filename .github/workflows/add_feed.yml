@@ -12,6 +12,7 @@ jobs:
   add-feed:
     if: github.event.label.name == 'new-feed' || github.event.label.name == 'retry-feed'
     runs-on: ubuntu-latest
+    environment: openrouter
     steps:
       - uses: actions/checkout@v6
 
