@@ -14,7 +14,15 @@ permissions:
 jobs:
   heal:
     runs-on: ubuntu-latest
-    environment: openrouter
+    # Switch providers by changing the repository variable AI_ENVIRONMENT.
+    # Each GitHub Environment owns its own AI_API_KEY secret plus
+    # AI_BASE_URL / AI_MODEL variables, so provider credentials/config live
+    # in one place and the workflow/code remain provider-agnostic.
+    environment: ${{ vars.AI_ENVIRONMENT || 'openrouter' }}
+    env:
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
     steps:
       - uses: actions/checkout@v6
       - uses: oven-sh/setup-bun@v2
@@ -24,7 +32,6 @@ jobs:
         run: bun run src/heal-feed.ts "$FEED_NAME"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FEED_NAME: ${{ inputs.feed_name }}
       - id: commit
         if: steps.heal.outcome == 'success'
@@ -47,6 +54,7 @@ jobs:
             const changed = process.env.CHANGES_DETECTED === 'true';
 
             if (healed && !changed) {
+              // Feed turned out to be healthy (heal-feed exited early) — nothing to report.
               console.log('Feed healthy, no heal applied — skipping issue comment.');
               return;
             }
@@ -59,6 +67,7 @@ jobs:
               console.log(`Could not read configs/${feedName}.json: ${e.message}`);
             }
 
+            // Find the original new-feed issue (match source URL in body, then feed name in title)
             const repoQ = `repo:${context.repo.owner}/${context.repo.repo} is:issue label:new-feed`;
             let issue = null;
             for (const q of [
