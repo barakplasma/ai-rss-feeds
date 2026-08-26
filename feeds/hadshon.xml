@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hadshon</title>
+        <link>https://hadshon.education.gov.il/articles/</link>
+        <description>Hebrew news and articles from Hadshon, Israel Ministry of Education.</description>
+        <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
+        <language>he</language>
+        <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[מָדָ"א קוֹרֵא לצִיבּוּר להַגִיעַ בּדְחִיפוּת לִתרוֹם דָם]]></title>
+            <link>https://hadshon.education.gov.il/articles/urgently-donate-blood/</link>
+            <guid>https://hadshon.education.gov.il/articles/urgently-donate-blood/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[בּעִקבוֹת המַחסוֹר בּמוֹרִים: ישׂראל תְעוֹדֵד עלִייה של מוֹרים מארה"ב ומקַנָדה]]></title>
+            <link>https://hadshon.education.gov.il/articles/teachers-from-the-us-and-canada/</link>
+            <guid>https://hadshon.education.gov.il/articles/teachers-from-the-us-and-canada/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[בֵּית הדִין לעֲבוֹדָה דָחָה את הצַו נֶגֶד השְבִיתָה: היוֹם יוּשבְּתוּ בּירוּשלים קַוֵוי אוֹטוֹבּוּס בֵּין 15:00-14:00]]></title>
+            <link>https://hadshon.education.gov.il/articles/today-bus-lines-will-be-built-in-jerusalem/</link>
+            <guid>https://hadshon.education.gov.il/articles/today-bus-lines-will-be-built-in-jerusalem/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[וַעֲדַת הבְּחִירוֹת המֶרכָּזִית: אָסוּר לנְצִיגֵי מִפלָגוֹת בּקַלפִּי להַעֲבִיר מֵידָע על מַצבִּיעִים]]></title>
+            <link>https://hadshon.education.gov.il/articles/central-election-commission/</link>
+            <guid>https://hadshon.education.gov.il/articles/central-election-commission/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[המְדִינה לבָגָ"ץ: רֹאש המֶמשלה מִתכַּוֵון למַנוֹת שַׂר פְּנִים בּתְקוּפַת הבְּחִירוֹת]]></title>
+            <link>https://hadshon.education.gov.il/articles/prime-ministe-intends-to-appoint/</link>
+            <guid>https://hadshon.education.gov.il/articles/prime-ministe-intends-to-appoint/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[מַנכַּ"ל "מוֹעֶצֶת השָלוֹם" בִּיקֵש מרֹאש המֶמשָלה נתניהו לַעֲצוֹר את התְקִיפוֹת בּרצוּעַת עַזה]]></title>
+            <link>https://hadshon.education.gov.il/articles/peace-counselor-stop-attacking-gaza/</link>
+            <guid>https://hadshon.education.gov.il/articles/peace-counselor-stop-attacking-gaza/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[סְפָרַד: צְלַב קֶרֶס רוּסַס על פֶּסֶל הרַמבַּ"ם בּקוֹרדוֹבָה]]></title>
+            <link>https://hadshon.education.gov.il/articles/spain-swastika/</link>
+            <guid>https://hadshon.education.gov.il/articles/spain-swastika/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[אתמול פָּרצָה שׂרֵפָה גדוֹלה בּיַעַר שֶליַד מוֹשָב כִּסָלוֹן בּאֵזוֹר בֵּית שֶמֶש]]></title>
+            <link>https://hadshon.education.gov.il/articles/fire-moshav-kisalon/</link>
+            <guid>https://hadshon.education.gov.il/articles/fire-moshav-kisalon/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[מִשׂרַד הבְּריאוּת בּאַזהָרָה: אוּכלוּסִיוֹת בּסִיכּוּן – הִימָנעוּ מחֲשִׂיפָה לשֶמֶש]]></title>
+            <link>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</link>
+            <guid>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[בּעִקבוֹת עֲתִירַת עָרוּץ 14 נֶגֶד מִפלֶגֶת הדֶמוֹקרָטִים, יו"ר וַעֲדַת הבְּחִירוֹת השוֹפֵט סוֹלבֶּרג קוֹרֵא לכָל המִפלָגוֹת לאַפשֵר סִיקוּר שִוויוֹנִי]]></title>
+            <link>https://hadshon.education.gov.il/articles/chanel-14-solberg/</link>
+            <guid>https://hadshon.education.gov.il/articles/chanel-14-solberg/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
