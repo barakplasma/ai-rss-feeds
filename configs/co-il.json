@@ -1,0 +1,22 @@
+{
+  "name": "co-il",
+  "url": "https://www.geektime.co.il/",
+  "feed": {
+    "title": "גיקטיים",
+    "description": "גיקטיים - אתר הטכנולוגיה וההייטק של ישראל",
+    "language": "he-IL",
+    "author": "www.geektime.co.il"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "external",
+  "rssExtraction": {
+    "feedUrl": "https://www.geektime.co.il/feed/"
+  },
+  "createdAt": "2026-08-26T14:32:08.629Z"
+}

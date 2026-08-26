@@ -34,7 +34,7 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 | [Google DeepMind Blog](https://deepmind.google/discover/blog/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepmind-blog.xml) | ✅ 25 articles |
 | [blog.cloudflare.com](https://blog.cloudflare.com/tag/ai/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cloudflare-com.xml) | ✅ 20 articles |
 
-### External RSS (4)
+### External RSS (5)
 
 | Blog | Feed | Status |
 |------|------|--------|
@@ -42,6 +42,7 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 | [booking.ai](https://booking.ai/) | [Subscribe](https://booking.ai/feed) | ✅ native RSS |
 | [Engineering Blog](https://engineering.roku.com/) | [Subscribe](https://engineering.roku.com/feed) | ✅ native RSS |
 | [Hugging Face - Blog](https://huggingface.co/blog) | [Subscribe](https://huggingface.co/blog/feed.xml) | ✅ native RSS |
+| [גיקטיים](https://www.geektime.co.il/) | [Subscribe](https://www.geektime.co.il/feed/) | ✅ native RSS |
 
 ### GitHub Releases (3)
 
