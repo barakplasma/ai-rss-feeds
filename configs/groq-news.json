@@ -2,20 +2,21 @@
   "name": "groq-news",
   "url": "https://groq.com/news/",
   "feed": {
-    "title": "Groq News",
-    "description": "Latest news from Groq, the AI inference company",
-    "language": "en",
-    "author": "Groq"
+    "title": "Groq Blog",
+    "description": "Groq is the premier neocloud for fast inference. One fully integrated platform for infrastructure, inference, and control. Millions of developers run trillions of tokens on Groq every week.",
+    "language": "en"
   },
   "selectors": {
-    "articleList": "article.card",
-    "title": "h2, h3, .card-title, a",
-    "date": "time, .date, span[class*='date']",
-    "description": "p, .card-excerpt, .excerpt",
+    "articleList": "li.PostCard_card__hE_ya",
+    "title": "h2.PostCard_title__HS0Qf",
+    "date": "time.PostCard_date__o_4c0",
     "link": {
+      "selector": "a.PostCard_cardLink__0HpE3",
       "source": "attr:href",
       "prefix": "https://groq.com"
     }
   },
-  "createdAt": "2026-03-15T00:00:00Z"
+  "dateFormat": "MMMM d, yyyy",
+  "createdAt": "2026-03-15T00:00:00Z",
+  "lastHealed": "2026-08-26T16:12:50.319Z"
 }
