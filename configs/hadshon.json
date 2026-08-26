@@ -1,0 +1,21 @@
+{
+  "name": "hadshon",
+  "url": "https://hadshon.education.gov.il/articles/",
+  "feed": {
+    "title": "Hadshon",
+    "description": "Hebrew news and articles from Hadshon, Israel Ministry of Education.",
+    "language": "he",
+    "author": "Israel Ministry of Education"
+  },
+  "selectors": {
+    "articleList": ".catalogItemContainer",
+    "title": "h2.insideTitle a",
+    "link": {
+      "selector": "h2.insideTitle a",
+      "source": "attr:href",
+      "prefix": "https://hadshon.education.gov.il"
+    }
+  },
+  "parserMode": "css",
+  "createdAt": "2026-08-26T00:00:00.000Z"
+}
