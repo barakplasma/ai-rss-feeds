@@ -10,7 +10,25 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[The China Climate Paradox, Explained by a Data Scientist]]></title>
+            <title><![CDATA[艾博生物CEO英博との対話：「一人一薬」、Moderna、AI創薬、がんワクチンの限界と未来【101影片播客】]]></title>
+            <link>https://finance.biggo.jp/podcast/09952625d6d609ec</link>
+            <guid>https://finance.biggo.jp/podcast/09952625d6d609ec</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BIOSPAIN 2026：パートナーリング、政策、そしてスペインのバイオテクノロジーの台頭]]></title>
+            <link>https://finance.biggo.jp/podcast/72dd4bbceaac7109</link>
+            <guid>https://finance.biggo.jp/podcast/72dd4bbceaac7109</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[エピソード384 - 新学期特集：世界のFIH試験競争]]></title>
+            <link>https://finance.biggo.jp/podcast/919fef47d31fa1bb</link>
+            <guid>https://finance.biggo.jp/podcast/919fef47d31fa1bb</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA["1.5°Cは崖ではない" — 気候について誰もが誤解していること]]></title>
             <link>https://finance.biggo.jp/podcast/31d9c3d2ab0e15ff</link>
             <guid>https://finance.biggo.jp/podcast/31d9c3d2ab0e15ff</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -94,7 +112,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30T Assumption]]></title>
+            <title><![CDATA[NVIDIAの好況：Poolside買収、MercorとPerplexityへの投資 | Anthropicの30兆ドルの前提]]></title>
             <link>https://finance.biggo.jp/podcast/3c0e3e36e28b1377</link>
             <guid>https://finance.biggo.jp/podcast/3c0e3e36e28b1377</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[ストライカーの市場をリードする成長の秘訣は、その文化と学びにあり]]></title>
             <link>https://finance.biggo.jp/podcast/90084ce641186a73</link>
             <guid>https://finance.biggo.jp/podcast/90084ce641186a73</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[イーサリアムがウォール街をオンチェーンに引き込むためにまだ必要なもの]]></title>
-            <link>https://finance.biggo.jp/podcast/80008890c586cb95</link>
-            <guid>https://finance.biggo.jp/podcast/80008890c586cb95</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Eon共同創業者オフィル・エーリックとゴネン・スタインと考える、レガシーデータ基盤の再考]]></title>
-            <link>https://finance.biggo.jp/podcast/40a996d2311d35b9</link>
-            <guid>https://finance.biggo.jp/podcast/40a996d2311d35b9</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIに異を唱える男：彼らはAIについて嘘をついている、これは世界最大の詐欺だ！| エド・ジトロン]]></title>
-            <link>https://finance.biggo.jp/podcast/b2a476528168c72f</link>
-            <guid>https://finance.biggo.jp/podcast/b2a476528168c72f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
