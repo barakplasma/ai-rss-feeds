@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-08-28T20:33:20.853Z",
+  "lastSuccess": "2026-08-29T09:49:35.913Z",
   "articleCount": 10,
   "knownLinks": [
     "https://hadshon.education.gov.il/articles/urgently-donate-blood/",
@@ -13,6 +13,5 @@
     "https://hadshon.education.gov.il/articles/avoid-sun-exposure/",
     "https://hadshon.education.gov.il/articles/chanel-14-solberg/"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }
