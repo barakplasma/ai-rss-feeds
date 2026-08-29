@@ -10,13 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[実際にエンタープライズ契約を獲得するAIスタートアップは？— ブライアン・ルイス（ミレニアム）]]></title>
+            <link>https://finance.biggo.jp/podcast/028a672ce801e7e2</link>
+            <guid>https://finance.biggo.jp/podcast/028a672ce801e7e2</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TWiV 1352: ダニエル・グリフィン博士による臨床アップデート]]></title>
+            <link>https://finance.biggo.jp/podcast/df48702141d92374</link>
+            <guid>https://finance.biggo.jp/podcast/df48702141d92374</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIAがリードを失った]]></title>
+            <link>https://finance.biggo.jp/podcast/dd63b71ea6471a50</link>
+            <guid>https://finance.biggo.jp/podcast/dd63b71ea6471a50</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[エヌビディアの歴史的な四半期、SaaSの復活、ベッセント対ドラッケンミラー、アメリカの債務危機、がんワクチン]]></title>
             <link>https://finance.biggo.jp/podcast/d51138fda167cfd2</link>
             <guid>https://finance.biggo.jp/podcast/d51138fda167cfd2</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[米加貿易戦争 - 交渉決裂の理由]]></title>
+            <title><![CDATA[カナダ・米国貿易協定が崩壊 - これからどうなる？]]></title>
             <link>https://finance.biggo.jp/podcast/198c8100f89efd80</link>
             <guid>https://finance.biggo.jp/podcast/198c8100f89efd80</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[飛行中にエンジンを組み立てる：Figma MCPサーバーの立ち上げ — Jesse Lumarie（Figma）]]></title>
             <link>https://finance.biggo.jp/podcast/00ae027a6c56d189</link>
             <guid>https://finance.biggo.jp/podcast/00ae027a6c56d189</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIがチップから電力までコンピューティングをどう再発明しているか]]></title>
-            <link>https://finance.biggo.jp/podcast/15ca334f4172a84d</link>
-            <guid>https://finance.biggo.jp/podcast/15ca334f4172a84d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ロケットラボエンジン開発センター見学、ピーター・ベック卿とともに（パートIII、ツアー02）]]></title>
-            <link>https://finance.biggo.jp/podcast/57bd1d048d8eb930</link>
-            <guid>https://finance.biggo.jp/podcast/57bd1d048d8eb930</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[円、40年ぶり安値、米国が突然動く、一体何が？]]></title>
-            <link>https://finance.biggo.jp/podcast/c2ca25705e9df720</link>
-            <guid>https://finance.biggo.jp/podcast/c2ca25705e9df720</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
