@@ -13,5 +13,6 @@
     "https://hadshon.education.gov.il/articles/avoid-sun-exposure/",
     "https://hadshon.education.gov.il/articles/chanel-14-solberg/"
   ],
-  "consecutiveErrors": 0
+  "consecutiveErrors": 1,
+  "lastError": "No articles parsed"
 }
