@@ -1,0 +1,20 @@
+{
+  "name": "meta-ai",
+  "url": "https://ai.meta.com/blog/",
+  "feed": {
+    "title": "AI at Meta Blog",
+    "description": "The latest AI news, research, and open-source updates from Meta.",
+    "language": "en",
+    "author": "Meta AI"
+  },
+  "selectors": {
+    "articleList": "div:has(> a[aria-label^='Read ']):has(> div)",
+    "title": "a[href^='https://ai.meta.com/blog/']:not(:has(img))",
+    "date": "div:has(> a[href^='https://ai.meta.com/blog/']:not(:has(img))) ~ div:last-child",
+    "link": {
+      "selector": "a[href^='https://ai.meta.com/blog/']:not(:has(img))",
+      "source": "attr:href"
+    }
+  },
+  "createdAt": "2026-08-30T00:00:00Z"
+}
