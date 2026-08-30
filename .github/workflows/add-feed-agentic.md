@@ -46,6 +46,8 @@ tools:
     - "tail:*"
 
 steps:
+  - name: Expose Bun to agent sandbox
+    run: sudo install -m 0755 "$(command -v bun)" /usr/local/bin/bun
   - name: Install dependencies
     run: bun install --frozen-lockfile
 
