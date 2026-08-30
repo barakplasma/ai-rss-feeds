@@ -23,6 +23,6 @@
     "https://www.huffingtonpost.es/opinion/problemas-valores-prioridad-nacional-f202604.html",
     "https://www.huffingtonpost.es/opinion/el-dia-que-libro-f202604.html"
   ],
-  "consecutiveErrors": 1,
+  "consecutiveErrors": 2,
   "lastError": "Failed to fetch https://www.huffingtonpost.es/author/jose-errasti: HTTP 403 Forbidden"
 }
