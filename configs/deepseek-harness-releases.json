@@ -1,0 +1,25 @@
+{
+  "name": "deepseek-harness-releases",
+  "url": "https://github.com/deepseek-ai/deepseek-harness/releases",
+  "feed": {
+    "title": "deepseek-harness Releases",
+    "description": "GitHub releases for deepseek-ai/deepseek-harness",
+    "language": "en",
+    "author": "deepseek-ai"
+  },
+  "selectors": {
+    "articleList": "",
+    "title": "",
+    "link": {
+      "source": ""
+    }
+  },
+  "parserMode": "github-releases",
+  "githubReleasesExtraction": {
+    "owner": "deepseek-ai",
+    "repo": "deepseek-harness",
+    "includePrerelease": true,
+    "limit": 50
+  },
+  "createdAt": "2026-08-30T13:36:56.237Z"
+}

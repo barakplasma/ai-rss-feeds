@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>deepseek-harness Releases</title>
+        <link>https://github.com/deepseek-ai/deepseek-harness/releases</link>
+        <description>GitHub releases for deepseek-ai/deepseek-harness</description>
+        <lastBuildDate>Thu, 27 Aug 2026 17:06:37 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
+        <language>en</language>
+        <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.1.2-alpha.1]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1</guid>
+            <pubDate>Thu, 27 Aug 2026 17:06:37 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.2-alpha.1">中文</a> | <a href="#en-v0.1.2-alpha.1">English</a></p>
+<h3 id="cn-v0.1.2-alpha.1">新增功能</h3>
+
+<ul>
+<li>会话流默认在每个已完成回答前折叠过程内容，并默认折叠的「System prompt」 @07akioni, @lsdsjy</li>
+<li>会话流正文宽度可自适应或拖拽调整 @yixiangihsiang</li>
+<li>会话流每个已完成回答后可展开查看精确 token 用量 @hypatiamay, @ZiyaZhang</li>
+<li>会话视图提供紧凑的回合导航 @LegGasai</li>
+<li>统一界面次级文字层级，会话流支持字号调节，Markdown 表格随正文字号缩放 @yixiangihsiang</li>
+<li>插件支持在模型设置页添加提供方登录配置 @LegGasai</li>
+<li>支持注册第三方语言，并补全多语言文本 @tianyicui, @LegGasai, @imccyu</li>
+<li>开启子代理模型选择后，Agent 可在授权范围内选择提供方、模型和推理力度 @Dudu-0223</li>
+<li>启动子代理时可指定提供方、模型、推理力度和最大输出长度 @pku-xht</li>
+<li>Claude Code、Codex 子代理支持配置模型 @pku-xht</li>
+<li>Python SDK runtime 新增 Windows x64 发行包 @tianyicui</li>
+<li>ACP 补齐标准会话控制、模型设置、MCP、权限和取消能力 @tianyicui, @pku-xht</li>
+<li>DeepSeek 官方适配器默认随请求提供已启用插件的包名和版本，可在配置中关闭 @tianyicui</li>
+<li>DeepSeek 官方适配器新增可选的 Session 日志增量上传，默认关闭 @tianyicui</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>改善页面启动流程，减少代码加载次数和数据量开销 @lsdsjy</li>
+<li>改善会话初始化流程，减少数据传输解析开销，统一会话自有状态加载 @imccyu, @Kingwl, @kermanx</li>
+<li>改善会话记录占用的磁盘空间 @Magolor</li>
+<li>优化输入交互中的 <code>/</code> 与 <code>@</code> 菜单图标、目录加载、文件搜索 @Yifffan, @LegGasai</li>
+<li>会话运行中存在草稿时主按钮切换为「发送」，消息排队发送 @lsdsjy</li>
+<li>输入框中的文件和会话引用在相邻文字编辑后仍保持有效 @LegGasai</li>
+<li>切换会话后仍保留未提交的提问卡片草稿 @LegGasai</li>
+<li>会话流中的流式回复代码块在生成期间持续显示语法高亮 @07akioni</li>
+<li>会话流中的提问历史显示为可读的问答卡片，并标明取消或中断后的未提交状态 @LegGasai</li>
+<li>图片发送后立即显示，压缩和上传在后台继续 @CreatixChu</li>
+<li>上下文压缩会计入图片占用 @CreatixChu</li>
+<li>轨迹视图支持展示用户、助手和工具结果中的图片 @CreatixChu</li>
+<li>在本地文件系统模式下，模型可直接找到已上传图片的可读取位置 @CreatixChu</li>
+<li>调整图片压缩策略，压缩更快、上传体积更小，并改善超长截图的清晰度 @CreatixChu</li>
+<li>会话日志截断尾部自动修复时输出警告并注明受影响会话 @turtle1999</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>修复 macOS 和 Linux 上持久 PowerShell 启动过早、输出不完整的问题 @tianyicui</li>
+<li>修复 Linux 持久 Bash 在管道内部读取时提前返回空输出的问题 @LegGasai</li>
+<li>修复 Bash 命令派生大量子进程时 macOS 宿主卡顿的问题 @LegGasai</li>
+<li>修复 Windows 目录选择器截断含「开」等特定编码字符路径的问题 @tianyicui</li>
+<li>修复会话视图中持久 Bash 与 PowerShell 结果无法展开的问题 @LegGasai</li>
+<li>修复 Profile 配置的 Agent Preset 目录在启动时丢失的问题 @LegGasai</li>
+<li>无法加载的 Agent Preset 会提前标记，并在切换失败时说明原因 @LegGasai</li>
+<li>Minimal preset 不再显示不适用的 <code>/goal</code> 命令 @Magolor</li>
+<li>文件编辑工具接受当前操作未使用字段的 <code>null</code> 占位值 @lsdsjy</li>
+<li>PTC Mode 的 SDK 功能只能通过 <code>run_code</code> 调用，不再被模型当作普通工具直接调用 @CreatixChu</li>
+<li>网关定期发送 WebSocket 心跳，避免空闲连接中断 @lsdsjy</li>
+<li>修复新建空会话挤掉 Workspace 折叠列表已有会话的问题 @lsdsjy</li>
+<li>修复系统提示词 workflow 分区顺序 @LegGasai</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>更新 <a href="SAFETY.zh.md">安全说明</a>：DeepSeek Harness 尚未接受安全审计，沙箱、审批与权限控制不能保证隔离 @turtle1999</li>
+<li>调整模型提示词顺序，使 Shell 使用指南稳定出现在其他工具指南之前 @LegGasai</li>
+<li>旧版调用接口 APIProxy 已迁移并移除，请统一使用 <code>@Remote</code> 网关 @imccyu</li>
+<li>会话视图工程大幅拆分，请面向诉求分层导入合适模块 @imccyu</li>
+<li>网络访问 Web 界面时启用链接中的一次性 token 认证鉴权 @tianyicui</li>
+<li>应用统一通过 <code>dsh</code> Profile 启动，包括 Python SDK、ACP 模式等 @tianyicui</li>
+<li>pi-ai 模型支持更新，并增加 vLLM 思考预算等配置 @tianyicui</li>
+<li>Headless 运行期间向 stderr 流式输出进度，stdout 只输出最终结果 @lsdsjy</li>
+<li>Code Mode 统一更名为 PTC mode，现有会话记录仍可读取 @tianyicui</li>
+<li>默认启用公网 WebFetch（内置 SSRF 防护，公网请求不再逐次审批） @Dudu-0223</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.1">New Features</h3>
+
+<ul>
+<li>By default, fold process details and the System prompt before each completed answer in the conversation stream by @07akioni and @lsdsjy</li>
+<li>Make conversation-stream content width adaptive and drag-resizable by @yixiangihsiang</li>
+<li>Show expandable exact token usage after each completed answer in the conversation stream by @hypatiamay and @ZiyaZhang</li>
+<li>Add compact turn navigation to the conversation view by @LegGasai</li>
+<li>Align secondary text styling, add conversation font sizing, and scale Markdown tables with body text by @yixiangihsiang</li>
+<li>Let plugins add provider sign-in controls to Models settings by @LegGasai</li>
+<li>Support third-party UI languages and complete more localized interface text by @tianyicui, @LegGasai, and @imccyu</li>
+<li>Let agents choose provider, model, and reasoning effort for subagents within configured authorization by @Dudu-0223</li>
+<li>Let callers select provider, model, reasoning effort, and maximum output length when starting subagents by @pku-xht</li>
+<li>Support configured models for Claude Code and Codex subagents by @pku-xht</li>
+<li>Publish the Python SDK runtime for Windows x64 by @tianyicui</li>
+<li>Complete ACP support for standard session controls, model settings, MCP, permissions, and cancellation by @tianyicui and @pku-xht</li>
+<li>Include enabled plugin package names and versions in official DeepSeek requests; deployments can turn this off by @tianyicui</li>
+<li>Add opt-in incremental Session-log uploads to official DeepSeek requests by @tianyicui</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Improve page startup by reducing code-load requests and transferred data by @lsdsjy</li>
+<li>Load conversation state in one pass while reducing transfer and parsing work by @imccyu, @Kingwl, and @kermanx</li>
+<li>Reduce the disk space used by conversation records by @Magolor</li>
+<li>Improve <code>/</code> and <code>@</code> interactions with clearer menu icons, directory loading, and file search by @Yifffan and @LegGasai</li>
+<li>Switch the primary action to Send and queue the message when a draft is entered during a running turn by @lsdsjy</li>
+<li>Keep file and conversation references valid when adjacent composer text is edited by @LegGasai</li>
+<li>Preserve unfinished question-card drafts when switching conversations by @LegGasai</li>
+<li>Keep code blocks syntax-highlighted while responses stream in the conversation view by @07akioni</li>
+<li>Render question history as readable question-and-answer cards with clear cancelled and interrupted states by @LegGasai</li>
+<li>Show images immediately while compression and upload continue in the background by @CreatixChu</li>
+<li>Count image usage during context compaction by @CreatixChu</li>
+<li>Show images from users, assistants, and tool results in Trajectory by @CreatixChu</li>
+<li>Let the model locate uploaded images directly when using the local filesystem by @CreatixChu</li>
+<li>Improve image compression speed, reduce upload size, and preserve more detail in very tall or wide images by @CreatixChu</li>
+<li>Warn when automatically repairing a truncated conversation-log tail and identify the affected conversation by @turtle1999</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Fix persistent PowerShell starting too early and returning incomplete output on macOS and Linux by @tianyicui</li>
+<li>Fix persistent Bash returning empty output early during pipeline reads on Linux by @LegGasai</li>
+<li>Fix host stalls on macOS when Bash commands spawn many subprocesses by @LegGasai</li>
+<li>Fix the Windows directory picker truncating paths that contain characters such as 「开」 by @tianyicui</li>
+<li>Fix persistent Bash and PowerShell results not expanding in the conversation view by @LegGasai</li>
+<li>Fix Profile-configured Agent Preset directories being lost at startup by @LegGasai</li>
+<li>Flag Agent Presets that cannot load and explain why switching failed by @LegGasai</li>
+<li>Remove the unsupported <code>/goal</code> command from the Minimal preset by @Magolor</li>
+<li>Accept <code>null</code> placeholders for file-edit fields unused by the selected operation by @lsdsjy</li>
+<li>Keep PTC Mode SDK features inside <code>run_code</code> instead of exposing them as directly callable tools by @CreatixChu</li>
+<li>Send periodic WebSocket heartbeats to keep idle connections alive by @lsdsjy</li>
+<li>Keep a new blank conversation from displacing existing conversations in the collapsed Workspace list by @lsdsjy</li>
+<li>Fix the workflow section order in the system prompt by @LegGasai</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Update the <a href="SAFETY.md">Safety Notice</a>: DeepSeek Harness has not been security-audited, and sandboxing, approvals, and permissions do not guarantee isolation by @turtle1999</li>
+<li>Keep Shell guidance ahead of other tool instructions in the model prompt by @LegGasai</li>
+<li>Complete the migration from the legacy ApiProxy interface to the <code>@Remote</code> gateway and remove ApiProxy by @imccyu</li>
+<li>Split the conversation UI into focused modules so developers can import the layer that owns each capability by @imccyu</li>
+<li>Require the one-time token in the launch URL when accessing the Web interface over a network by @tianyicui</li>
+<li>Launch applications through <code>dsh</code> Profiles, including Python SDK and ACP modes by @tianyicui</li>
+<li>Update pi-ai model support and add controls such as the vLLM thinking budget by @tianyicui</li>
+<li>Stream progress to stderr during headless runs while keeping stdout limited to the final result by @lsdsjy</li>
+<li>Rename Code Mode to PTC mode while keeping existing conversation records readable by @tianyicui</li>
+<li>Enable public WebFetch by default with SSRF protection and no per-request approval for public network access by @Dudu-0223</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.2...dsh-v0.1.2-alpha.1">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.2...dsh-v0.1.2-alpha.1</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.2-alpha.1">中文</a> | <a href="#en-v0.1.2-alpha.1">English</a></p>
+<h3 id="cn-v0.1.2-alpha.1">新增功能</h3>
+
+<ul>
+<li>会话流默认在每个已完成回答前折叠过程内容，并默认折叠的「System prompt」 @07akioni, @lsdsjy</li>
+<li>会话流正文宽度可自适应或拖拽调整 @yixiangihsiang</li>
+<li>会话流每个已完成回答后可展开查看精确 token 用量 @hypatiamay, @ZiyaZhang</li>
+<li>会话视图提供紧凑的回合导航 @LegGasai</li>
+<li>统一界面次级文字层级，会话流支持字号调节，Markdown 表格随正文字号缩放 @yixiangihsiang</li>
+<li>插件支持在模型设置页添加提供方登录配置 @LegGasai</li>
+<li>支持注册第三方语言，并补全多语言文本 @tianyicui, @LegGasai, @imccyu</li>
+<li>开启子代理模型选择后，Agent 可在授权范围内选择提供方、模型和推理力度 @Dudu-0223</li>
+<li>启动子代理时可指定提供方、模型、推理力度和最大输出长度 @pku-xht</li>
+<li>Claude Code、Codex 子代理支持配置模型 @pku-xht</li>
+<li>Python SDK runtime 新增 Windows x64 发行包 @tianyicui</li>
+<li>ACP 补齐标准会话控制、模型设置、MCP、权限和取消能力 @tianyicui, @pku-xht</li>
+<li>DeepSeek 官方适配器默认随请求提供已启用插件的包名和版本，可在配置中关闭 @tianyicui</li>
+<li>DeepSeek 官方适配器新增可选的 Session 日志增量上传，默认关闭 @tianyicui</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>改善页面启动流程，减少代码加载次数和数据量开销 @lsdsjy</li>
+<li>改善会话初始化流程，减少数据传输解析开销，统一会话自有状态加载 @imccyu, @Kingwl, @kermanx</li>
+<li>改善会话记录占用的磁盘空间 @Magolor</li>
+<li>优化输入交互中的 <code>/</code> 与 <code>@</code> 菜单图标、目录加载、文件搜索 @Yifffan, @LegGasai</li>
+<li>会话运行中存在草稿时主按钮切换为「发送」，消息排队发送 @lsdsjy</li>
+<li>输入框中的文件和会话引用在相邻文字编辑后仍保持有效 @LegGasai</li>
+<li>切换会话后仍保留未提交的提问卡片草稿 @LegGasai</li>
+<li>会话流中的流式回复代码块在生成期间持续显示语法高亮 @07akioni</li>
+<li>会话流中的提问历史显示为可读的问答卡片，并标明取消或中断后的未提交状态 @LegGasai</li>
+<li>图片发送后立即显示，压缩和上传在后台继续 @CreatixChu</li>
+<li>上下文压缩会计入图片占用 @CreatixChu</li>
+<li>轨迹视图支持展示用户、助手和工具结果中的图片 @CreatixChu</li>
+<li>在本地文件系统模式下，模型可直接找到已上传图片的可读取位置 @CreatixChu</li>
+<li>调整图片压缩策略，压缩更快、上传体积更小，并改善超长截图的清晰度 @CreatixChu</li>
+<li>会话日志截断尾部自动修复时输出警告并注明受影响会话 @turtle1999</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>修复 macOS 和 Linux 上持久 PowerShell 启动过早、输出不完整的问题 @tianyicui</li>
+<li>修复 Linux 持久 Bash 在管道内部读取时提前返回空输出的问题 @LegGasai</li>
+<li>修复 Bash 命令派生大量子进程时 macOS 宿主卡顿的问题 @LegGasai</li>
+<li>修复 Windows 目录选择器截断含「开」等特定编码字符路径的问题 @tianyicui</li>
+<li>修复会话视图中持久 Bash 与 PowerShell 结果无法展开的问题 @LegGasai</li>
+<li>修复 Profile 配置的 Agent Preset 目录在启动时丢失的问题 @LegGasai</li>
+<li>无法加载的 Agent Preset 会提前标记，并在切换失败时说明原因 @LegGasai</li>
+<li>Minimal preset 不再显示不适用的 <code>/goal</code> 命令 @Magolor</li>
+<li>文件编辑工具接受当前操作未使用字段的 <code>null</code> 占位值 @lsdsjy</li>
+<li>PTC Mode 的 SDK 功能只能通过 <code>run_code</code> 调用，不再被模型当作普通工具直接调用 @CreatixChu</li>
+<li>网关定期发送 WebSocket 心跳，避免空闲连接中断 @lsdsjy</li>
+<li>修复新建空会话挤掉 Workspace 折叠列表已有会话的问题 @lsdsjy</li>
+<li>修复系统提示词 workflow 分区顺序 @LegGasai</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>更新 <a href="SAFETY.zh.md">安全说明</a>：DeepSeek Harness 尚未接受安全审计，沙箱、审批与权限控制不能保证隔离 @turtle1999</li>
+<li>调整模型提示词顺序，使 Shell 使用指南稳定出现在其他工具指南之前 @LegGasai</li>
+<li>旧版调用接口 APIProxy 已迁移并移除，请统一使用 <code>@Remote</code> 网关 @imccyu</li>
+<li>会话视图工程大幅拆分，请面向诉求分层导入合适模块 @imccyu</li>
+<li>网络访问 Web 界面时启用链接中的一次性 token 认证鉴权 @tianyicui</li>
+<li>应用统一通过 <code>dsh</code> Profile 启动，包括 Python SDK、ACP 模式等 @tianyicui</li>
+<li>pi-ai 模型支持更新，并增加 vLLM 思考预算等配置 @tianyicui</li>
+<li>Headless 运行期间向 stderr 流式输出进度，stdout 只输出最终结果 @lsdsjy</li>
+<li>Code Mode 统一更名为 PTC mode，现有会话记录仍可读取 @tianyicui</li>
+<li>默认启用公网 WebFetch（内置 SSRF 防护，公网请求不再逐次审批） @Dudu-0223</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.1">New Features</h3>
+
+<ul>
+<li>By default, fold process details and the System prompt before each completed answer in the conversation stream by @07akioni and @lsdsjy</li>
+<li>Make conversation-stream content width adaptive and drag-resizable by @yixiangihsiang</li>
+<li>Show expandable exact token usage after each completed answer in the conversation stream by @hypatiamay and @ZiyaZhang</li>
+<li>Add compact turn navigation to the conversation view by @LegGasai</li>
+<li>Align secondary text styling, add conversation font sizing, and scale Markdown tables with body text by @yixiangihsiang</li>
+<li>Let plugins add provider sign-in controls to Models settings by @LegGasai</li>
+<li>Support third-party UI languages and complete more localized interface text by @tianyicui, @LegGasai, and @imccyu</li>
+<li>Let agents choose provider, model, and reasoning effort for subagents within configured authorization by @Dudu-0223</li>
+<li>Let callers select provider, model, reasoning effort, and maximum output length when starting subagents by @pku-xht</li>
+<li>Support configured models for Claude Code and Codex subagents by @pku-xht</li>
+<li>Publish the Python SDK runtime for Windows x64 by @tianyicui</li>
+<li>Complete ACP support for standard session controls, model settings, MCP, permissions, and cancellation by @tianyicui and @pku-xht</li>
+<li>Include enabled plugin package names and versions in official DeepSeek requests; deployments can turn this off by @tianyicui</li>
+<li>Add opt-in incremental Session-log uploads to official DeepSeek requests by @tianyicui</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Improve page startup by reducing code-load requests and transferred data by @lsdsjy</li>
+<li>Load conversation state in one pass while reducing transfer and parsing work by @imccyu, @Kingwl, and @kermanx</li>
+<li>Reduce the disk space used by conversation records by @Magolor</li>
+<li>Improve <code>/</code> and <code>@</code> interactions with clearer menu icons, directory loading, and file search by @Yifffan and @LegGasai</li>
+<li>Switch the primary action to Send and queue the message when a draft is entered during a running turn by @lsdsjy</li>
+<li>Keep file and conversation references valid when adjacent composer text is edited by @LegGasai</li>
+<li>Preserve unfinished question-card drafts when switching conversations by @LegGasai</li>
+<li>Keep code blocks syntax-highlighted while responses stream in the conversation view by @07akioni</li>
+<li>Render question history as readable question-and-answer cards with clear cancelled and interrupted states by @LegGasai</li>
+<li>Show images immediately while compression and upload continue in the background by @CreatixChu</li>
+<li>Count image usage during context compaction by @CreatixChu</li>
+<li>Show images from users, assistants, and tool results in Trajectory by @CreatixChu</li>
+<li>Let the model locate uploaded images directly when using the local filesystem by @CreatixChu</li>
+<li>Improve image compression speed, reduce upload size, and preserve more detail in very tall or wide images by @CreatixChu</li>
+<li>Warn when automatically repairing a truncated conversation-log tail and identify the affected conversation by @turtle1999</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Fix persistent PowerShell starting too early and returning incomplete output on macOS and Linux by @tianyicui</li>
+<li>Fix persistent Bash returning empty output early during pipeline reads on Linux by @LegGasai</li>
+<li>Fix host stalls on macOS when Bash commands spawn many subprocesses by @LegGasai</li>
+<li>Fix the Windows directory picker truncating paths that contain characters such as 「开」 by @tianyicui</li>
+<li>Fix persistent Bash and PowerShell results not expanding in the conversation view by @LegGasai</li>
+<li>Fix Profile-configured Agent Preset directories being lost at startup by @LegGasai</li>
+<li>Flag Agent Presets that cannot load and explain why switching failed by @LegGasai</li>
+<li>Remove the unsupported <code>/goal</code> command from the Minimal preset by @Magolor</li>
+<li>Accept <code>null</code> placeholders for file-edit fields unused by the selected operation by @lsdsjy</li>
+<li>Keep PTC Mode SDK features inside <code>run_code</code> instead of exposing them as directly callable tools by @CreatixChu</li>
+<li>Send periodic WebSocket heartbeats to keep idle connections alive by @lsdsjy</li>
+<li>Keep a new blank conversation from displacing existing conversations in the collapsed Workspace list by @lsdsjy</li>
+<li>Fix the workflow section order in the system prompt by @LegGasai</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Update the <a href="SAFETY.md">Safety Notice</a>: DeepSeek Harness has not been security-audited, and sandboxing, approvals, and permissions do not guarantee isolation by @turtle1999</li>
+<li>Keep Shell guidance ahead of other tool instructions in the model prompt by @LegGasai</li>
+<li>Complete the migration from the legacy ApiProxy interface to the <code>@Remote</code> gateway and remove ApiProxy by @imccyu</li>
+<li>Split the conversation UI into focused modules so developers can import the layer that owns each capability by @imccyu</li>
+<li>Require the one-time token in the launch URL when accessing the Web interface over a network by @tianyicui</li>
+<li>Launch applications through <code>dsh</code> Profiles, including Python SDK and ACP modes by @tianyicui</li>
+<li>Update pi-ai model support and add controls such as the vLLM thinking budget by @tianyicui</li>
+<li>Stream progress to stderr during headless runs while keeping stdout limited to the final result by @lsdsjy</li>
+<li>Rename Code Mode to PTC mode while keeping existing conversation records readable by @tianyicui</li>
+<li>Enable public WebFetch by default with SSRF protection and no per-request approval for public network access by @Dudu-0223</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.2...dsh-v0.1.2-alpha.1">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.2...dsh-v0.1.2-alpha.1</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.1.1-rc.2]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.2</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.2</guid>
+            <pubDate>Fri, 21 Aug 2026 12:35:08 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.1-rc.2">中文</a> | <a href="#en-v0.1.1-rc.2">English</a></p>
+<h3 id="cn-v0.1.1-rc.2">体验优化</h3>
+
+<ul>
+<li>DeepSeek 适配器支持优先通过 Files API 上传图像，并可复用已上传文件</li>
+<li>优化图像预处理流程：根据模型要求自动缩放并转换为合适格式</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.1-rc.2">Improvements</h3>
+
+<ul>
+<li>The DeepSeek adapter prioritizes the Files API for image uploads and reuses uploaded files by @CreatixChu</li>
+<li>Improve image preprocessing with automatic resizing and format conversion based on model requirements by @CreatixChu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.1...dsh-v0.1.1-rc.2">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.1...dsh-v0.1.1-rc.2</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.1-rc.2">中文</a> | <a href="#en-v0.1.1-rc.2">English</a></p>
+<h3 id="cn-v0.1.1-rc.2">体验优化</h3>
+
+<ul>
+<li>DeepSeek 适配器支持优先通过 Files API 上传图像，并可复用已上传文件</li>
+<li>优化图像预处理流程：根据模型要求自动缩放并转换为合适格式</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.1-rc.2">Improvements</h3>
+
+<ul>
+<li>The DeepSeek adapter prioritizes the Files API for image uploads and reuses uploaded files by @CreatixChu</li>
+<li>Improve image preprocessing with automatic resizing and format conversion based on model requirements by @CreatixChu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.1...dsh-v0.1.1-rc.2">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.1-rc.1...dsh-v0.1.1-rc.2</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.1.1-rc.1]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.1</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.1</guid>
+            <pubDate>Fri, 21 Aug 2026 07:12:39 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.1-rc.1">中文</a> | <a href="#en-v0.1.1-rc.1">English</a></p>
+<h3 id="cn-v0.1.1-rc.1">新增功能</h3>
+
+<ul>
+<li>DeepSeek 适配器新增多模态视觉理解模型 <code>DeepSeek-V4-Flash-Vision-Exp</code></li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复在输入框的 <code>@</code> 引用前增删改文本时，潜在的布局问题</li>
+<li>修复 Bubblewrap 沙箱内的受限进程可经 <code>/proc/&lt;pid&gt;/root</code> 绕过限制的问题</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化会话 Markdown 表格自适应表现、缓存命中率在 99.x% 时的精度显示、子代理会话标题切换交互</li>
+<li><code>ask_user_question</code> 回答内容支持多行输入、自动换行、<code>Shift+Enter</code> 换行</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.1-rc.1">New Features</h3>
+
+<ul>
+<li>The DeepSeek adapter adds the multimodal visual understanding model <code>DeepSeek-V4-Flash-Vision-Exp</code> by @LegGasai</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix potential layout issues when editing text before an <code>@</code> reference in the composer by @LegGasai</li>
+<li>Prevent confined processes from escaping Bubblewrap restrictions through <code>/proc/&lt;pid&gt;/root</code> by @Kingwl</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Improve responsive Markdown tables in conversations, precision for 99.x% cache-hit ratios, and subagent conversation header navigation by @07akioni, @pku-xht, and @yixiangihsiang</li>
+<li>Support multiline <code>ask_user_question</code> answers with wrapping and <code>Shift+Enter</code> newlines by @LegGasai</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.8...dsh-v0.1.1-rc.1">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.8...dsh-v0.1.1-rc.1</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.1-rc.1">中文</a> | <a href="#en-v0.1.1-rc.1">English</a></p>
+<h3 id="cn-v0.1.1-rc.1">新增功能</h3>
+
+<ul>
+<li>DeepSeek 适配器新增多模态视觉理解模型 <code>DeepSeek-V4-Flash-Vision-Exp</code></li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复在输入框的 <code>@</code> 引用前增删改文本时，潜在的布局问题</li>
+<li>修复 Bubblewrap 沙箱内的受限进程可经 <code>/proc/&lt;pid&gt;/root</code> 绕过限制的问题</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化会话 Markdown 表格自适应表现、缓存命中率在 99.x% 时的精度显示、子代理会话标题切换交互</li>
+<li><code>ask_user_question</code> 回答内容支持多行输入、自动换行、<code>Shift+Enter</code> 换行</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.1-rc.1">New Features</h3>
+
+<ul>
+<li>The DeepSeek adapter adds the multimodal visual understanding model <code>DeepSeek-V4-Flash-Vision-Exp</code> by @LegGasai</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix potential layout issues when editing text before an <code>@</code> reference in the composer by @LegGasai</li>
+<li>Prevent confined processes from escaping Bubblewrap restrictions through <code>/proc/&lt;pid&gt;/root</code> by @Kingwl</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Improve responsive Markdown tables in conversations, precision for 99.x% cache-hit ratios, and subagent conversation header navigation by @07akioni, @pku-xht, and @yixiangihsiang</li>
+<li>Support multiline <code>ask_user_question</code> answers with wrapping and <code>Shift+Enter</code> newlines by @LegGasai</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.8...dsh-v0.1.1-rc.1">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.8...dsh-v0.1.1-rc.1</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.1.0-rc.8]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.8</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.8</guid>
+            <pubDate>Wed, 19 Aug 2026 15:37:57 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.0-rc.8">中文</a> | <a href="#en-v0.1.0-rc.8">English</a></p>
+<h3 id="cn-v0.1.0-rc.8">新增功能</h3>
+
+<ul>
+<li>增强多模态支持度，DeepSeek 模型适配器支持配置启用原生图片请求，<code>/goal</code>、<code>/plan</code> 等命令可接收图文输入，<code>@</code> 菜单支持引用文件和会话</li>
+<li>Claude Code 与 Codex 子代理均可作为 Profile Bundle 按需安装，同时支持非交互权限模式和多个命名实例</li>
+<li>Windows PTY 终端支持持久 PowerShell 会话， 并在极简模式预设中默认支持</li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复图片尺寸过大或历史图片累计载荷过高导致模型请求失败的问题</li>
+<li>修正取消流式生成后已展示的回复前缀未带入后续提问和分叉会话</li>
+<li>修复部分自定义 OpenAI 兼容网关因请求格式差异无法调用，以及推理内容回传可能缺失问题</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化布局和信息呈现，涉及HOME 目录以 <code>~</code> 缩写表示、输入框窄屏布局、反馈界面等</li>
+<li>优化界面操作，涉及侧栏搜索焦点响应、工作流面板操作、模型选择器选中操作、打开本地文件失败支持重试等</li>
+<li>优化工具调用，<code>web_search</code> 支持并发查询、子代理 <code>reportDelivery</code> 会及时反馈并唤醒父任务</li>
+<li>优化安装与启动，改善下载依赖体积、本地运行 <code>dsh web</code> 时会自动打开浏览器</li>
+<li>改善大历史会话执行分叉操作上的性能耗时</li>
+</ul>
+<h3>其他变更</h3>
+<ul>
+<li>改善 SQLite 后端的读写与分叉性能并降低存储体积，数据结构不兼容</li>
+<li>明确品牌使用规范：“DeepSeek Harness”是注册商标，详见 <a href="BRAND_GUIDELINES.zh.md">品牌使用规范</a></li>
+</ul>
+<h3>SDK</h3>
+<ul>
+<li>Python SDK 依赖配置覆盖 4 个内置 Agent 预设，并包含 <code>rg</code> / glob 搜索和 MCP stdio 工具所需依赖</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.0-rc.8">New Features</h3>
+
+<ul>
+<li>Expand multimodal support with configurable native image requests for DeepSeek adapters, image input for commands such as <code>/goal</code> and <code>/plan</code>, and file and session references in the <code>@</code> menu by @LegGasai and @CreatixChu</li>
+<li>Make Claude Code and Codex subagents installable on demand as Profile Bundles, with non-interactive permission modes and named instances by @pku-xht</li>
+<li>Add persistent PowerShell session support to Windows PTY terminals and enable it by default in the Minimal preset by @Elevator14B</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix model request failures caused by oversized images or excessive accumulated image payloads by @CreatixChu</li>
+<li>Preserve displayed response prefixes in follow-up prompts and forks after cancelling streamed generation by @CreatixChu</li>
+<li>Fix custom OpenAI-compatible gateway failures caused by request-format differences or missing reasoning content by @LegGasai</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Improve layout and information presentation, including <code>~</code> abbreviations for home directories, narrow composer layouts, and feedback UI by @07akioni and @Chinesezjc</li>
+<li>Improve UI interactions for sidebar search focus, workflow panels, model selection, and retrying failed local file opens by @yixiangihsiang, @pku-xht, @LegGasai, and @07akioni</li>
+<li>Improve tool calls with concurrent <code>web_search</code> queries and prompt subagent report delivery that wakes parent tasks by @Dudu-0223</li>
+<li>Improve installation and startup by reducing dependency download size and opening the browser automatically for local <code>dsh web</code> runs by @imccyu and @lsdsjy</li>
+<li>Improve fork performance for sessions with large histories by @Magolor</li>
+</ul>
+<h3>Chores</h3>
+<ul>
+<li>Improve SQLite read, write, and fork performance while reducing storage size; the storage format is incompatible by @Magolor</li>
+<li>Clarify brand usage: “DeepSeek Harness” is a registered trademark; see the <a href="BRAND_GUIDELINES.md">Brand Usage Guidelines</a> by @imccyu</li>
+</ul>
+<h3>SDK</h3>
+<ul>
+<li>Cover all four built-in Agent Presets and the dependencies required for <code>rg</code> / glob search and MCP stdio tools in the Python SDK runtime by @koalazf99</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.7...dsh-v0.1.0-rc.8">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.7...dsh-v0.1.0-rc.8</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.0-rc.8">中文</a> | <a href="#en-v0.1.0-rc.8">English</a></p>
+<h3 id="cn-v0.1.0-rc.8">新增功能</h3>
+
+<ul>
+<li>增强多模态支持度，DeepSeek 模型适配器支持配置启用原生图片请求，<code>/goal</code>、<code>/plan</code> 等命令可接收图文输入，<code>@</code> 菜单支持引用文件和会话</li>
+<li>Claude Code 与 Codex 子代理均可作为 Profile Bundle 按需安装，同时支持非交互权限模式和多个命名实例</li>
+<li>Windows PTY 终端支持持久 PowerShell 会话， 并在极简模式预设中默认支持</li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复图片尺寸过大或历史图片累计载荷过高导致模型请求失败的问题</li>
+<li>修正取消流式生成后已展示的回复前缀未带入后续提问和分叉会话</li>
+<li>修复部分自定义 OpenAI 兼容网关因请求格式差异无法调用，以及推理内容回传可能缺失问题</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化布局和信息呈现，涉及HOME 目录以 <code>~</code> 缩写表示、输入框窄屏布局、反馈界面等</li>
+<li>优化界面操作，涉及侧栏搜索焦点响应、工作流面板操作、模型选择器选中操作、打开本地文件失败支持重试等</li>
+<li>优化工具调用，<code>web_search</code> 支持并发查询、子代理 <code>reportDelivery</code> 会及时反馈并唤醒父任务</li>
+<li>优化安装与启动，改善下载依赖体积、本地运行 <code>dsh web</code> 时会自动打开浏览器</li>
+<li>改善大历史会话执行分叉操作上的性能耗时</li>
+</ul>
+<h3>其他变更</h3>
+<ul>
+<li>改善 SQLite 后端的读写与分叉性能并降低存储体积，数据结构不兼容</li>
+<li>明确品牌使用规范：“DeepSeek Harness”是注册商标，详见 <a href="BRAND_GUIDELINES.zh.md">品牌使用规范</a></li>
+</ul>
+<h3>SDK</h3>
+<ul>
+<li>Python SDK 依赖配置覆盖 4 个内置 Agent 预设，并包含 <code>rg</code> / glob 搜索和 MCP stdio 工具所需依赖</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.0-rc.8">New Features</h3>
+
+<ul>
+<li>Expand multimodal support with configurable native image requests for DeepSeek adapters, image input for commands such as <code>/goal</code> and <code>/plan</code>, and file and session references in the <code>@</code> menu by @LegGasai and @CreatixChu</li>
+<li>Make Claude Code and Codex subagents installable on demand as Profile Bundles, with non-interactive permission modes and named instances by @pku-xht</li>
+<li>Add persistent PowerShell session support to Windows PTY terminals and enable it by default in the Minimal preset by @Elevator14B</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix model request failures caused by oversized images or excessive accumulated image payloads by @CreatixChu</li>
+<li>Preserve displayed response prefixes in follow-up prompts and forks after cancelling streamed generation by @CreatixChu</li>
+<li>Fix custom OpenAI-compatible gateway failures caused by request-format differences or missing reasoning content by @LegGasai</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Improve layout and information presentation, including <code>~</code> abbreviations for home directories, narrow composer layouts, and feedback UI by @07akioni and @Chinesezjc</li>
+<li>Improve UI interactions for sidebar search focus, workflow panels, model selection, and retrying failed local file opens by @yixiangihsiang, @pku-xht, @LegGasai, and @07akioni</li>
+<li>Improve tool calls with concurrent <code>web_search</code> queries and prompt subagent report delivery that wakes parent tasks by @Dudu-0223</li>
+<li>Improve installation and startup by reducing dependency download size and opening the browser automatically for local <code>dsh web</code> runs by @imccyu and @lsdsjy</li>
+<li>Improve fork performance for sessions with large histories by @Magolor</li>
+</ul>
+<h3>Chores</h3>
+<ul>
+<li>Improve SQLite read, write, and fork performance while reducing storage size; the storage format is incompatible by @Magolor</li>
+<li>Clarify brand usage: “DeepSeek Harness” is a registered trademark; see the <a href="BRAND_GUIDELINES.md">Brand Usage Guidelines</a> by @imccyu</li>
+</ul>
+<h3>SDK</h3>
+<ul>
+<li>Cover all four built-in Agent Presets and the dependencies required for <code>rg</code> / glob search and MCP stdio tools in the Python SDK runtime by @koalazf99</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.7...dsh-v0.1.0-rc.8">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.0-rc.7...dsh-v0.1.0-rc.8</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.1.0-rc.7]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.7</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.7</guid>
+            <pubDate>Mon, 17 Aug 2026 12:01:58 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn">中文</a> | <a href="#en">English</a></p>
+<h3 id="cn">新增功能</h3>
+
+<ul>
+<li>各插件可自行注册设置卡片</li>
+<li>Codex 与 Claude Code 子代理任务接入 Job Panel</li>
+<li>MCP/ACP 支持持久化图片附件，PTC Mode 可转发嵌套图片</li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复极简模式下持久 Bash 调用卡顿</li>
+<li>修复大历史消息分页栈溢出</li>
+<li>修复 max-tokens 截断导致会话无法继续</li>
+<li>修复 Safari 输入框光标与文本错位</li>
+<li>升级 node-pty 1.2 beta，改善 PTY 平台兼容性</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化 Cordis 动态插件面板</li>
+<li>DeepSeek 模型新增 <code>low</code> 推理强度，默认仍为 <code>high</code></li>
+<li>英文内置预设 <code>Code mode</code> 更名为 <code>PTC mode</code></li>
+<li>提问卡片支持折叠并保留草稿</li>
+</ul>
+<hr>
+<h3 id="en">New Features</h3>
+
+<ul>
+<li>Enable plugins to register their own settings cards by @LegGasai</li>
+<li>Manage Codex and Claude Code subagent tasks through the Job Panel by @pku-xht</li>
+<li>Add durable image attachments to MCP and ACP, with nested image forwarding in PTC Mode by @tianyicui</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix persistent Bash latency in minimal mode by @LegGasai</li>
+<li>Fix stack overflows in large-history pagination by @Kingwl</li>
+<li>Preserve sessions after max-token truncation by @LegGasai</li>
+<li>Fix Safari composer cursor misalignment by @lsdsjy</li>
+<li>Upgrade to node-pty 1.2 beta for broader PTY compatibility by @kermanx</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Refine the Cordis dynamic plugin panel by @Yifffan</li>
+<li>Add <code>low</code> reasoning effort for DeepSeek models; <code>high</code> remains the default by @LegGasai</li>
+<li>Rename the English <code>Code mode</code> preset to <code>PTC mode</code> by @koalazf99</li>
+<li>Add collapsible question cards with draft preservation by @GeeeekExplorer</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/fb82698709c39f1860b0ab0ed147e1fa30c1d5d0...99f6f02fecdb7dff40c3fbc9470f5907c29f74ca">https://github.com/deepseek-ai/deepseek-harness/compare/fb82698709c39f1860b0ab0ed147e1fa30c1d5d0...99f6f02fecdb7dff40c3fbc9470f5907c29f74ca</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn">中文</a> | <a href="#en">English</a></p>
+<h3 id="cn">新增功能</h3>
+
+<ul>
+<li>各插件可自行注册设置卡片</li>
+<li>Codex 与 Claude Code 子代理任务接入 Job Panel</li>
+<li>MCP/ACP 支持持久化图片附件，PTC Mode 可转发嵌套图片</li>
+</ul>
+<h3>问题修复</h3>
+<ul>
+<li>修复极简模式下持久 Bash 调用卡顿</li>
+<li>修复大历史消息分页栈溢出</li>
+<li>修复 max-tokens 截断导致会话无法继续</li>
+<li>修复 Safari 输入框光标与文本错位</li>
+<li>升级 node-pty 1.2 beta，改善 PTY 平台兼容性</li>
+</ul>
+<h3>体验优化</h3>
+<ul>
+<li>优化 Cordis 动态插件面板</li>
+<li>DeepSeek 模型新增 <code>low</code> 推理强度，默认仍为 <code>high</code></li>
+<li>英文内置预设 <code>Code mode</code> 更名为 <code>PTC mode</code></li>
+<li>提问卡片支持折叠并保留草稿</li>
+</ul>
+<hr>
+<h3 id="en">New Features</h3>
+
+<ul>
+<li>Enable plugins to register their own settings cards by @LegGasai</li>
+<li>Manage Codex and Claude Code subagent tasks through the Job Panel by @pku-xht</li>
+<li>Add durable image attachments to MCP and ACP, with nested image forwarding in PTC Mode by @tianyicui</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fix persistent Bash latency in minimal mode by @LegGasai</li>
+<li>Fix stack overflows in large-history pagination by @Kingwl</li>
+<li>Preserve sessions after max-token truncation by @LegGasai</li>
+<li>Fix Safari composer cursor misalignment by @lsdsjy</li>
+<li>Upgrade to node-pty 1.2 beta for broader PTY compatibility by @kermanx</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Refine the Cordis dynamic plugin panel by @Yifffan</li>
+<li>Add <code>low</code> reasoning effort for DeepSeek models; <code>high</code> remains the default by @LegGasai</li>
+<li>Rename the English <code>Code mode</code> preset to <code>PTC mode</code> by @koalazf99</li>
+<li>Add collapsible question cards with draft preservation by @GeeeekExplorer</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/fb82698709c39f1860b0ab0ed147e1fa30c1d5d0...99f6f02fecdb7dff40c3fbc9470f5907c29f74ca">https://github.com/deepseek-ai/deepseek-harness/compare/fb82698709c39f1860b0ab0ed147e1fa30c1d5d0...99f6f02fecdb7dff40c3fbc9470f5907c29f74ca</a></p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
