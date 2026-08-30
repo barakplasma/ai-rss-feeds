@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[このSaaSがわずか2ヶ月で月6万9千ドルを達成した方法]]></title>
+            <link>https://finance.biggo.jp/podcast/422a5962ca9b9dcb</link>
+            <guid>https://finance.biggo.jp/podcast/422a5962ca9b9dcb</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[債務、インフレ、FRBの信認：市場を分断する三つの亀裂｜Systematic Investor｜第415回]]></title>
             <link>https://finance.biggo.jp/podcast/ab9b36e0e6a6d04e</link>
             <guid>https://finance.biggo.jp/podcast/ab9b36e0e6a6d04e</guid>
@@ -22,7 +28,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[SOTA生成メディアパネル — Dumitru Erhan、Shane Gu、Nicole Brichtova（Google DeepMind）]]></title>
+            <title><![CDATA[Nano Banana、Imagen、Veo、Omni/Thinkingのリード — Dumitru Erhan、Shane Gu、Nicole Brichtova、swyx]]></title>
             <link>https://finance.biggo.jp/podcast/5c15963e118b52bc</link>
             <guid>https://finance.biggo.jp/podcast/5c15963e118b52bc</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -34,7 +40,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[OpenAIの内部：秘密のAGIマスタープランは存在しない | タラ・セシャン（OpenAIプロダクトリード）]]></title>
+            <title><![CDATA[The rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)]]></title>
             <link>https://finance.biggo.jp/podcast/5c7571ecded36533</link>
             <guid>https://finance.biggo.jp/podcast/5c7571ecded36533</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[国家の守護者：消費者データのためのエアギャップAI要塞 — ラクナ・スリヴァスタヴァ、DFPI]]></title>
             <link>https://finance.biggo.jp/podcast/cb1e9f04b490e467</link>
             <guid>https://finance.biggo.jp/podcast/cb1e9f04b490e467</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[第027回 OpenAI Jalapeño：Nvidia Blackwellより優れたアクセラレータ]]></title>
-            <link>https://finance.biggo.jp/podcast/1fc4e4a0a50e4dcb</link>
-            <guid>https://finance.biggo.jp/podcast/1fc4e4a0a50e4dcb</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
