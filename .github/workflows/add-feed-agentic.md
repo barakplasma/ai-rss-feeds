@@ -18,7 +18,7 @@ permissions:
 engine: copilot
 model: gpt-4.1
 timeout-minutes: 25
-max-turns: 20
+max-turns: 30
 
 runtimes:
   bun:
@@ -36,7 +36,8 @@ tools:
   web-fetch:
   bash:
     - "bun:*"
-    - "git:*"
+    - "git status"
+    - "git diff:*"
     - "rg:*"
     - "sed:*"
     - "find:*"
@@ -86,20 +87,24 @@ files, change source code, install extra packages, or call `src/add-smart.ts`.
 
 ## Required process
 
-1. Read `README.md`, `src/types.ts`, the relevant parser/fetcher code, and a few
-   similar files under `configs/` before editing.
+1. Read `README.md`, `src/types.ts`, the relevant parser/fetcher code, and at
+   least two similar `.json` files under `configs/` before editing.
 2. Check for an existing config or feed before creating anything. If the source
    is already covered, make no changes and use `add_comment` to explain that on
    issue #${{ inputs.issue_number }}.
-3. Inspect the validated URL with `web-fetch`. Select the least fragile supported
-   mode:
+3. Inspect the validated URL with the `web-fetch` tool. Do not try to run a
+   nonexistent `bun run web-fetch` script. For GitHub repositories, prefer the
+   GitHub tool for release metadata. Select the least fragile supported mode:
    - Use `external` when the site already exposes a usable RSS or Atom feed.
    - Use `github-releases` for a GitHub repository with releases. Check whether
      the project publishes only prereleases and set `includePrerelease`
      accordingly.
    - Otherwise create a deterministic `css`, `json`, `changelog`, or `rss`
      configuration that matches the existing `FeedConfig` type.
-4. Use a short, stable, unique lowercase slug for `name`. Set `createdAt` to the
+4. Configuration files in this repository are plain JSON. Create exactly one
+   `configs/<slug>.json` containing the complete `FeedConfig` object. Never
+   create a `.ts` config or an indirection object such as `{ "config": "..." }`.
+   Use a short, stable, unique lowercase slug for `name`. Set `createdAt` to the
    current UTC timestamp.
 5. Generate and verify the result:
    - Run `bun run src/run-all.ts --name <slug>`.
@@ -110,6 +115,9 @@ files, change source code, install extra packages, or call `src/add-smart.ts`.
 6. Review the diff. It may contain only the matching config, generated feed and
    cache snapshot, plus the generated README update. Do not hand-edit generated
    feed or cache content.
+7. Do not create a branch or commit with Git. After all verification succeeds,
+   immediately call `create_pull_request`; the safe-output processor will create
+   the branch, commit, and draft pull request.
 
 If verification succeeds, request exactly one draft pull request with a concise
 summary, verification results, and a non-closing reference to issue
