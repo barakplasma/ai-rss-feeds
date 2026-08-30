@@ -1,23 +1,23 @@
 {
-  "lastSuccess": "2026-07-28T15:59:27.134Z",
-  "articleCount": 15,
+  "lastSuccess": "2026-08-30T14:38:21.145Z",
+  "articleCount": 16,
   "knownLinks": [
-    "https://www.deeplearning.ai/the-batch/issue-363/",
-    "https://www.deeplearning.ai/the-batch/issue-362/",
-    "https://www.deeplearning.ai/the-batch/issue-361/",
-    "https://www.deeplearning.ai/the-batch/issue-360/",
-    "https://www.deeplearning.ai/the-batch/issue-359/",
-    "https://www.deeplearning.ai/the-batch/issue-358/",
-    "https://www.deeplearning.ai/the-batch/issue-357/",
-    "https://www.deeplearning.ai/the-batch/issue-356/",
-    "https://www.deeplearning.ai/the-batch/issue-355/",
-    "https://www.deeplearning.ai/the-batch/issue-354/",
-    "https://www.deeplearning.ai/the-batch/issue-353/",
-    "https://www.deeplearning.ai/the-batch/issue-352/",
-    "https://www.deeplearning.ai/the-batch/issue-351/",
-    "https://www.deeplearning.ai/the-batch/issue-350/",
-    "https://www.deeplearning.ai/the-batch/issue-349/"
+    "https://www.deeplearning.ai/the-batch/issue-368",
+    "https://www.deeplearning.ai/the-batch/issue-367",
+    "https://www.deeplearning.ai/the-batch/issue-366",
+    "https://www.deeplearning.ai/the-batch/issue-365",
+    "https://www.deeplearning.ai/the-batch/issue-364",
+    "https://www.deeplearning.ai/the-batch/issue-363",
+    "https://www.deeplearning.ai/the-batch/issue-362",
+    "https://www.deeplearning.ai/the-batch/issue-361",
+    "https://www.deeplearning.ai/the-batch/issue-360",
+    "https://www.deeplearning.ai/the-batch/issue-359",
+    "https://www.deeplearning.ai/the-batch/issue-358",
+    "https://www.deeplearning.ai/the-batch/issue-357",
+    "https://www.deeplearning.ai/the-batch/issue-356",
+    "https://www.deeplearning.ai/the-batch/issue-355",
+    "https://www.deeplearning.ai/the-batch/issue-354",
+    "https://www.deeplearning.ai/the-batch/issue-353"
   ],
-  "consecutiveErrors": 548,
-  "lastError": "Failed to fetch https://charonhub.deeplearning.ai/tag/the-batch/rss/: HTTP 403 — site is protected by Cloudflare bot detection (cf-mitigated: challenge). This site cannot be scraped with static HTTP requests."
+  "consecutiveErrors": 0
 }

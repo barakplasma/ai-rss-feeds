@@ -8,20 +8,16 @@
     "author": "DeepLearning.AI"
   },
   "selectors": {
-    "articleList": "",
-    "title": "",
+    "articleList": "article.card.h-full",
+    "title": "h2.headline4, h3.subtitle1",
+    "date": "a.badge",
+    "description": "p.body2",
     "link": {
-      "source": ""
+      "selector": "a.absolute.inset-0",
+      "source": "attr:href",
+      "prefix": "https://www.deeplearning.ai"
     }
   },
-  "parserMode": "rss",
-  "rssExtraction": {
-    "feedUrl": "https://charonhub.deeplearning.ai/tag/the-batch/rss/",
-    "linkRewrite": {
-      "from": "https://charonhub.deeplearning.ai",
-      "to": "https://www.deeplearning.ai/the-batch"
-    },
-    "categoryLinkPrefix": "https://www.deeplearning.ai/the-batch"
-  },
+  "dateFormat": "MMM dd, yyyy",
   "createdAt": "2026-07-11T00:00:00.000Z"
 }
