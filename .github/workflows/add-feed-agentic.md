@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 engine: copilot
-model: copilot/gpt-5-mini
+model: gpt-4.1
 timeout-minutes: 25
 max-turns: 20
 
