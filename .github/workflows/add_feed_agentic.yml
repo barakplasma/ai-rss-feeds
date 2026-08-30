@@ -1,0 +1,114 @@
+name: Add Feed (Agentic Trial)
+
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Existing feed-request issue number
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  prepare:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.label.name == 'agentic-feed'
+    runs-on: ubuntu-latest
+    outputs:
+      issue_number: ${{ steps.request.outputs.issue_number }}
+      source_url: ${{ steps.request.outputs.source_url }}
+      network_allowed: ${{ steps.request.outputs.network_allowed }}
+    steps:
+      - name: Validate issue and source URL
+        id: request
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd
+        with:
+          script: |
+            const net = require('node:net');
+
+            const rawNumber = context.eventName === 'workflow_dispatch'
+              ? String(context.payload.inputs.issue_number)
+              : String(context.issue.number);
+
+            if (!/^[1-9]\d*$/.test(rawNumber)) {
+              core.setFailed(`Invalid issue number: ${rawNumber}`);
+              return;
+            }
+
+            let body = context.payload.issue?.body;
+            if (context.eventName === 'workflow_dispatch') {
+              const response = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: Number(rawNumber),
+              });
+              if (response.data.pull_request) {
+                core.setFailed(`#${rawNumber} is a pull request, not an issue`);
+                return;
+              }
+              body = response.data.body;
+            }
+
+            const match = String(body || '').match(/https?:\/\/[^\s<>()\]]+/i);
+            if (!match) {
+              core.setFailed(`Issue #${rawNumber} does not contain an HTTP(S) URL`);
+              return;
+            }
+
+            const candidate = match[0].replace(/[.,;:!?]+$/, '');
+            let source;
+            try {
+              source = new URL(candidate);
+            } catch {
+              core.setFailed(`Issue #${rawNumber} contains an invalid URL`);
+              return;
+            }
+
+            if (!['http:', 'https:'].includes(source.protocol)) {
+              core.setFailed('Only HTTP(S) source URLs are accepted');
+              return;
+            }
+            if (source.username || source.password) {
+              core.setFailed('Source URLs must not contain credentials');
+              return;
+            }
+
+            const hostname = source.hostname.toLowerCase().replace(/\.$/, '');
+            const blockedSuffixes = [
+              '.internal', '.invalid', '.local', '.localhost', '.onion',
+              '.test', '.home.arpa',
+            ];
+            if (
+              !hostname.includes('.') ||
+              hostname.includes(':') ||
+              net.isIP(hostname) !== 0 ||
+              hostname === 'localhost' ||
+              blockedSuffixes.some((suffix) => hostname.endsWith(suffix))
+            ) {
+              core.setFailed(`Source hostname is not a public DNS name: ${hostname}`);
+              return;
+            }
+
+            core.setOutput('issue_number', rawNumber);
+            core.setOutput('source_url', source.toString());
+            core.setOutput('network_allowed', hostname);
+
+  agent:
+    needs: prepare
+    permissions:
+      actions: read
+      contents: write
+      issues: write
+      pull-requests: write
+    uses: ./.github/workflows/add-feed-agentic.lock.yml
+    with:
+      issue_number: ${{ fromJSON(needs.prepare.outputs.issue_number) }}
+      source_url: ${{ needs.prepare.outputs.source_url }}
+      network_allowed: ${{ needs.prepare.outputs.network_allowed }}
+    secrets: inherit

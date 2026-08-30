@@ -147,6 +147,32 @@ GITHUB_TOKEN=xxx bun run heal cursor-blog
 bun run readme
 ```
 
+### Agentic feed trial
+
+The opt-in `Add Feed (Agentic Trial)` workflow uses GitHub Agentic Workflows
+with the Copilot engine. It validates the URL from an issue, keeps the agent
+behind a per-source network allowlist, and opens a draft pull request instead of
+pushing directly to `main`.
+
+Maintainer setup:
+
+1. Install the official compiler with `gh extension install github/gh-aw`.
+2. Create a fine-grained personal access token whose resource owner is your
+   user account and whose **Copilot Requests** account permission is **Read**.
+   Store it as the repository secret `COPILOT_GITHUB_TOKEN`. The token owner
+   must have an active GitHub Copilot plan.
+3. In **Settings → Actions → General → Workflow permissions**, enable GitHub
+   Actions to create pull requests so the safe output can open a draft PR.
+4. Recompile after editing the Markdown source with
+   `gh aw compile add-feed-agentic` and commit both the source and generated
+   `.lock.yml` file.
+5. Create the `agentic-feed` label, then apply it to an existing feed-request
+   issue. You can also run `Add Feed (Agentic Trial)` manually with an issue
+   number.
+
+This trial does not replace the existing `new-feed` workflow yet. Agentic runs
+consume GitHub Actions minutes and the token owner's Copilot request allowance.
+
 ### Adding a GitHub Releases Feed
 
 Create a config file in `configs/`:
