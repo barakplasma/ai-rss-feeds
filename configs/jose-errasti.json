@@ -1,0 +1,22 @@
+{
+  "name": "jose-errasti",
+  "url": "https://www.huffingtonpost.es/author/jose-errasti",
+  "feed": {
+    "title": "José Errasti — El HuffPost",
+    "description": "Latest opinion columns by José Errasti in El HuffPost.",
+    "language": "es",
+    "author": "José Errasti"
+  },
+  "selectors": {
+    "articleList": "article.c-article--lateral--author",
+    "title": "h2.c-article__title",
+    "date": "div.c-article__date",
+    "link": {
+      "selector": "h2.c-article__title a",
+      "source": "attr:href",
+      "prefix": "https://www.huffingtonpost.es"
+    }
+  },
+  "dateFormat": "dd/MM/yyyy",
+  "createdAt": "2026-08-30T00:00:00Z"
+}

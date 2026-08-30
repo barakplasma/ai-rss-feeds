@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AI at Meta Blog</title>
+        <link>https://ai.meta.com/blog/</link>
+        <description>The latest AI news, research, and open-source updates from Meta.</description>
+        <lastBuildDate>Sun, 26 Jul 2026 16:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
+        <language>en</language>
+        <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/meta-ai.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics]]></title>
+            <link>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</link>
+            <guid>https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/</guid>
+            <pubDate>Sun, 26 Jul 2026 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects]]></title>
+            <link>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/</link>
+            <guid>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/</guid>
+            <pubDate>Mon, 20 Jul 2026 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Muse Image and Muse Video]]></title>
+            <link>https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/</link>
+            <guid>https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/</guid>
+            <pubDate>Mon, 06 Jul 2026 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery]]></title>
+            <link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</link>
+            <guid>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</guid>
+            <pubDate>Sun, 28 Jun 2026 16:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
