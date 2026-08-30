@@ -44,7 +44,9 @@ function loadAllFeeds(): FeedInfo[] {
     feeds.push({ name: config.name, config, itemCount });
   }
 
-  return feeds;
+  // Filesystem iteration order differs between macOS and Linux runners. Keep
+  // generated tables stable so a feed PR contains only meaningful changes.
+  return feeds.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 function getSourceUrl(config: FeedConfig): string {

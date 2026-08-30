@@ -1,11 +1,12 @@
 #!/usr/bin/env bun
 /**
- * Smart feed adder: detects URL type and uses the right parser mode.
+ * Deterministic feed adder: detects URL type and uses the right parser mode.
  *
  * Supports:
  *   - GitHub repo URLs → github-releases mode
  *   - GitHub CHANGELOG.md URLs → github-releases mode (uses releases API)
- *   - Blog URLs → LLM-based CSS/JSON mode (delegates to add-feed.ts)
+ *   - Blog URLs with native RSS/Atom → external mode
+ *   - Other pages → explicit Agentic Workflow fallback marker
  *
  * Usage:
  *   bun run src/add-smart.ts https://github.com/owner/repo
@@ -36,7 +37,7 @@ const DISCOVERY_HEADERS = {
   "Accept-Language": "en-US,en;q=0.8",
 };
 
-interface GitHubInfo {
+export interface GitHubInfo {
   owner: string;
   repo: string;
 }
@@ -55,7 +56,7 @@ interface DiscoveredFeed {
   author?: string;
 }
 
-function normalizeUrl(raw: string): string {
+export function normalizeUrl(raw: string): string {
   try {
     const url = new URL(raw);
     url.hash = "";
@@ -81,14 +82,33 @@ function loadConfigs(): FeedConfig[] {
     .map((file) => JSON.parse(readFileSync(join(CONFIGS_DIR, file), "utf-8")) as FeedConfig);
 }
 
+function githubKey(info: GitHubInfo): string {
+  return `${info.owner}/${info.repo}`.toLowerCase();
+}
+
+function configGitHubInfo(config: FeedConfig): GitHubInfo | null {
+  if (config.parserMode === "github-releases" && config.githubReleasesExtraction) {
+    return {
+      owner: config.githubReleasesExtraction.owner,
+      repo: config.githubReleasesExtraction.repo,
+    };
+  }
+  return parseGitHubUrl(config.url);
+}
+
 function findExistingFeed(url: string): ExistingFeed | null {
   const requested = normalizeUrl(url);
+  const requestedGitHub = parseGitHubUrl(url);
   for (const config of loadConfigs()) {
     const source = normalizeUrl(config.url);
     const upstream = config.rssExtraction?.feedUrl
       ? normalizeUrl(config.rssExtraction.feedUrl)
       : "";
-    if (requested === source || requested === upstream) {
+    const configGitHub = configGitHubInfo(config);
+    const sameGitHubRepo = requestedGitHub && configGitHub
+      ? githubKey(requestedGitHub) === githubKey(configGitHub)
+      : false;
+    if (requested === source || requested === upstream || sameGitHubRepo) {
       return {
         config,
         feedUrl: configFeedUrl(config),
@@ -293,45 +313,74 @@ function collectHtmlFeedCandidates(pageUrl: string, html: string): string[] {
 /**
  * Try to extract GitHub owner/repo from a URL.
  */
-function parseGitHubUrl(url: string): GitHubInfo | null {
-  const match = url.match(
-    /github\.com\/([^/]+)\/([^/]+?)(?:\/|\.git|$)/
-  );
-  if (!match) return null;
-  return { owner: match[1], repo: match[2] };
+export function parseGitHubUrl(raw: string): GitHubInfo | null {
+  try {
+    const url = new URL(raw);
+    if (!["github.com", "www.github.com"].includes(url.hostname.toLowerCase())) {
+      return null;
+    }
+    const [owner, rawRepo] = url.pathname.split("/").filter(Boolean);
+    const repo = rawRepo?.replace(/\.git$/i, "");
+    if (!owner || !repo || !/^[A-Za-z0-9_.-]+$/.test(owner) || !/^[A-Za-z0-9_.-]+$/.test(repo)) {
+      return null;
+    }
+    return { owner, repo };
+  } catch {
+    return null;
+  }
 }
 
-/**
- * Check if a GitHub repo has releases.
- */
-async function hasGitHubReleases(owner: string, repo: string): Promise<boolean> {
-  try {
-    const json = await fetchGitHubAPI(owner, repo, 1);
-    const releases = JSON.parse(json);
-    return Array.isArray(releases) && releases.length > 0;
-  } catch {
-    return false;
+interface GitHubReleaseShape {
+  draft?: boolean;
+  prerelease?: boolean;
+}
+
+export function shouldIncludePrereleases(releases: GitHubReleaseShape[]): boolean {
+  const published = releases.filter((release) => !release.draft);
+  return published.length > 0 && !published.some((release) => !release.prerelease);
+}
+
+function uniqueConfigName(preferred: string, info?: GitHubInfo, sourceUrl?: string): string {
+  const configs = loadConfigs();
+  if (!configs.some((config) => config.name === preferred)) return preferred;
+
+  const alternatives: string[] = [];
+  if (info) alternatives.push(`${info.owner}-${info.repo}-releases`);
+  if (sourceUrl) {
+    const parsed = new URL(sourceUrl);
+    const path = parsed.pathname.split("/").filter(Boolean).join("-");
+    if (path) alternatives.push(`${preferred}-${path}`);
+  }
+
+  for (const candidate of alternatives) {
+    const sanitized = sanitizeName(candidate);
+    if (!configs.some((config) => config.name === sanitized)) return sanitized;
+  }
+
+  for (let suffix = 2; ; suffix++) {
+    const candidate = `${preferred}-${suffix}`;
+    if (!configs.some((config) => config.name === candidate)) return candidate;
   }
 }
 
 async function addGitHubReleasesFeed(info: GitHubInfo): Promise<void> {
   const { owner, repo } = info;
-  const name = `${repo}-releases`;
+  const name = uniqueConfigName(sanitizeName(`${repo}-releases`), info);
 
   console.log(`\n🔍 Detected GitHub repo: ${owner}/${repo}`);
-  console.log("📦 Checking for releases...");
+  console.log("📦 Fetching releases...");
 
-  const hasReleases = await hasGitHubReleases(owner, repo);
-  if (!hasReleases) {
-    console.error(`❌ No releases found for ${owner}/${repo}`);
-    process.exit(1);
-  }
-
-  console.log("✅ Releases found, creating github-releases feed...\n");
-
-  // Fetch releases
   const json = await fetchGitHubAPI(owner, repo, 50);
+  const releases = JSON.parse(json) as GitHubReleaseShape[];
+  const published = releases.filter((release) => !release.draft);
+  if (published.length === 0) {
+    throw new Error(`No published releases found for ${owner}/${repo}`);
+  }
+  const includePrerelease = shouldIncludePrereleases(releases);
   console.log(`✅ Fetched releases from API`);
+  if (includePrerelease) {
+    console.log("ℹ️  This repository only publishes prereleases; including them in the feed");
+  }
 
   // Build config
   const config: FeedConfig = {
@@ -348,7 +397,7 @@ async function addGitHubReleasesFeed(info: GitHubInfo): Promise<void> {
     githubReleasesExtraction: {
       owner,
       repo,
-      includePrerelease: false,
+      includePrerelease,
       limit: 50,
     },
     createdAt: new Date().toISOString(),
@@ -359,14 +408,12 @@ async function addGitHubReleasesFeed(info: GitHubInfo): Promise<void> {
   console.log(`📝 Parsed ${articles.length} releases`);
 
   if (articles.length === 0) {
-    console.error("❌ No releases parsed");
-    process.exit(1);
+    throw new Error("No releases parsed");
   }
 
   const validation = validateQuick(articles);
   if (!validation.valid) {
-    console.error("❌ Validation failed:", validation.errors);
-    process.exit(1);
+    throw new Error(`Validation failed: ${validation.errors.join("; ")}`);
   }
   if (validation.warnings.length > 0) {
     for (const w of validation.warnings) {
@@ -392,6 +439,9 @@ async function addGitHubReleasesFeed(info: GitHubInfo): Promise<void> {
   console.log(
     `\n📖 Subscribe: https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/${name}.xml`
   );
+  process.stdout.write("result=new_generated\n");
+  process.stdout.write(`config_name=${name}\n`);
+  process.stdout.write(`feed_url=https://raw.githubusercontent.com/${REPO}/main/feeds/${name}.xml\n`);
 }
 
 /**
@@ -413,7 +463,7 @@ async function discoverExistingRSS(url: string): Promise<DiscoveredFeed | null> 
       candidates.push(...collectHtmlFeedCandidates(res.url || url, html));
     }
   } catch {
-    // Discovery should not block the LLM fallback.
+    // Discovery failures become an explicit deterministic-fallback result.
   }
 
   for (const candidate of uniqueUrls(candidates)) {
@@ -426,9 +476,9 @@ async function discoverExistingRSS(url: string): Promise<DiscoveredFeed | null> 
 
 async function main() {
   const url = process.argv[2];
-  if (!url || !url.startsWith("http")) {
+  if (!url || !/^https?:\/\//.test(url)) {
     console.error("Usage: bun run src/add-smart.ts <url>");
-    console.error("  Supports: GitHub repos, CHANGELOG.md URLs, blog URLs");
+    console.error("  Supports: GitHub repositories and pages with native RSS/Atom feeds");
     process.exit(1);
   }
 
@@ -440,7 +490,8 @@ async function main() {
     process.stdout.write(`existing_feed_url=${existing.feedUrl}\n`);
     process.stdout.write(`existing_config_name=${existing.config.name}\n`);
     process.stdout.write(`existing_feed_kind=${existing.kind}\n`);
-    process.exit(0);
+    process.stdout.write("result=existing\n");
+    return;
   }
 
   // Check if it's a GitHub URL
@@ -456,7 +507,7 @@ async function main() {
   if (existingFeed) {
     console.log(`\n✅ Native RSS feed found: ${existingFeed.url}`);
     // Create minimal config for README tracking (parserMode=external, no generated feed file)
-    const name = deriveConfigName(url);
+    const name = uniqueConfigName(deriveConfigName(url), undefined, url);
     const hostname = new URL(url).hostname;
     const config: FeedConfig = {
       name,
@@ -477,93 +528,38 @@ async function main() {
     console.log(`   Config: configs/${name}.json (external)`);
     console.log(`📖 Subscribe: ${existingFeed.url}`);
     process.stdout.write(`native_feed_url=${existingFeed.url}\n`);
-    process.exit(0);
+    process.stdout.write(`config_name=${name}\n`);
+    process.stdout.write(`feed_url=${existingFeed.url}\n`);
+    process.stdout.write("result=new_native\n");
+    return;
   }
 
-  // Fall back to LLM-based add-feed
-  console.log("🌐 No existing RSS found, using LLM-based parser...\n");
-
-  // Dynamic import to avoid loading LLM deps when not needed
-  const { execSync } = await import("child_process");
-  execSync(`bun run src/add-feed.ts "${url}"`, { stdio: "inherit" });
+  console.log("ℹ️  No native RSS/Atom feed was found; deterministic handling is not available.");
+  console.log("   Apply the agentic-feed label or run Add Feed (Agentic Fallback) manually.");
+  process.stdout.write("result=agentic_fallback\n");
+  process.stdout.write("fallback_reason=no_native_feed\n");
 }
 
-async function addRssMirrorFeed(originalUrl: string, feedUrl: string): Promise<void> {
-  console.log(`\n🔍 Found native RSS feed: ${feedUrl}`);
-  console.log("📦 Fetching upstream feed...");
-
-  const response = await fetch(feedUrl, {
-    headers: { "User-Agent": "ai-rss-feeds/1.0" },
-  });
-  if (!response.ok) {
-    console.error(`❌ Failed to fetch feed: ${response.status}`);
-    process.exit(1);
-  }
-  const xml = await response.text();
-
-  const parsed = await rssParser.parseString(xml);
-  const feedTitle = (parsed.title || new URL(originalUrl).hostname)?.trim();
-  const feedDescription = (parsed.description || `RSS mirror of ${originalUrl}`)?.trim();
-
-  const name = deriveConfigName(originalUrl);
-
-  const config: FeedConfig = {
-    name,
-    url: originalUrl,
-    feed: {
-      title: feedTitle,
-      description: feedDescription,
-      language: parsed.language || "en",
-      author: parsed.creator || parsed.author || new URL(originalUrl).hostname,
-    },
-    selectors: { articleList: "", title: "", link: { source: "" } },
-    parserMode: "rss",
-    rssExtraction: { feedUrl },
-    createdAt: new Date().toISOString(),
-  };
-
-  const articles = await parseArticles(xml, config);
-  console.log(`📝 Parsed ${articles.length} articles`);
-
-  if (articles.length === 0) {
-    console.error("❌ No articles parsed from RSS");
-    process.exit(1);
-  }
-
-  const validation = validateQuick(articles);
-  if (!validation.valid) {
-    console.error("❌ Validation failed:", validation.errors);
-    process.exit(1);
-  }
-
-  const rssXml = generateRSS(articles, config);
-
-  mkdirSync(CONFIGS_DIR, { recursive: true });
-  mkdirSync(FEEDS_DIR, { recursive: true });
-
-  writeFileSync(join(CONFIGS_DIR, `${name}.json`), JSON.stringify(config, null, 2));
-  writeFileSync(join(FEEDS_DIR, `${name}.xml`), rssXml);
-  saveSnapshot(name, articles);
-
-  console.log(`\n✅ Feed added successfully!`);
-  console.log(`   Config: configs/${name}.json`);
-  console.log(`   Feed:   feeds/${name}.xml`);
-  console.log(`   Items:  ${articles.length}`);
-  console.log(
-    `\n📖 Subscribe: https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/${name}.xml`
-  );
+function sanitizeName(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
-function deriveConfigName(url: string): string {
+export function deriveConfigName(url: string): string {
   const parsed = new URL(url);
   const parts = parsed.hostname.split(".");
   const slug = parts.length > 2
     ? parts.slice(-2).join("-")
     : parts.join("-");
-  return slug.replace(/[^a-z0-9]/gi, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
+  return sanitizeName(slug);
 }
 
-main().catch((err) => {
-  console.error("Fatal:", err.message);
-  process.exit(1);
-});
+if (import.meta.main) {
+  main().catch((err) => {
+    console.error("Fatal:", err.message);
+    process.exit(1);
+  });
+}

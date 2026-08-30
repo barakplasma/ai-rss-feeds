@@ -1,8 +1,8 @@
 # 📡 AI RSS Feeds
 
-> AI-powered RSS feed generator for blogs that don't have one.
+> Deterministic RSS automation with an agentic fallback for complex pages.
 
-Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze blog HTML structure, generate CSS selector configs, and produce standard RSS 2.0 feeds — updated hourly via GitHub Actions.
+GitHub release feeds and native RSS/Atom feeds are added without a model call. Sites that need DOM analysis can use the opt-in GitHub Agentic Workflow fallback. Generated feeds are updated hourly via GitHub Actions.
 
 ## 📖 Available Feeds
 
@@ -12,43 +12,43 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 
 | Blog | Feed | Status |
 |------|------|--------|
-| [The Batch | DeepLearning.AI](https://www.deeplearning.ai/the-batch) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deeplearning-ai.xml) | ✅ 15 articles |
-| [Groq News](https://groq.com/news/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/groq-news.xml) | ✅ 24 articles |
-| [文匯香港](https://www.wenweipo.com/hongkong) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml) | ✅ 15 articles |
-| [HumanLayer Blog](https://www.humanlayer.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/humanlayer.xml) | ✅ 10 articles |
-| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 15 articles |
-| [LevelUp](https://levelup.com) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/levelup.xml) | ✅ 2 articles |
-| [文匯報](https://www.wenweipo.com/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo.xml) | ✅ 13 articles |
-| [Cursor Blog](https://cursor.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cursor-blog.xml) | ✅ 19 articles |
-| [Composio Blog](https://composio.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/composio.xml) | ✅ 6 articles |
-| [Windsurf Blog](https://windsurf.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/windsurf.xml) | ✅ 50 articles |
-| [Paul Graham Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/paul-graham.xml) | ✅ 20 articles |
-| [El Fintualist](https://fintualist.com/chile/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml) | ✅ 20 articles |
-| [Anthropic News](https://www.anthropic.com/news) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml) | ✅ 10 articles |
 | [www.aihero.dev](https://www.aihero.dev/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/aihero-dev.xml) | ✅ 50 articles |
-| [Stability AI News](https://stability.ai/news) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/stability-ai.xml) | ✅ 20 articles |
-| [Podcast AI要約｜投資・金融番組のポイント整理 — BigGo ファイナンス](https://finance.biggo.jp/podcast) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml) | ✅ 20 articles |
-| [Mekong ASEAN](https://mekongasean.vn/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml) | ✅ 2 articles |
-| [Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/paulgraham.xml) | ✅ 20 articles |
-| [Google DeepMind Blog](https://deepmind.google/discover/blog/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepmind-blog.xml) | ✅ 25 articles |
+| [Anthropic News](https://www.anthropic.com/news) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml) | ✅ 10 articles |
+| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 15 articles |
 | [blog.cloudflare.com](https://blog.cloudflare.com/tag/ai/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cloudflare-com.xml) | ✅ 20 articles |
+| [Composio Blog](https://composio.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/composio.xml) | ✅ 6 articles |
+| [Cursor Blog](https://cursor.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cursor-blog.xml) | ✅ 19 articles |
+| [The Batch | DeepLearning.AI](https://www.deeplearning.ai/the-batch) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deeplearning-ai.xml) | ✅ 15 articles |
+| [Google DeepMind Blog](https://deepmind.google/discover/blog/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepmind-blog.xml) | ✅ 25 articles |
+| [El Fintualist](https://fintualist.com/chile/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml) | ✅ 20 articles |
+| [Groq News](https://groq.com/news/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/groq-news.xml) | ✅ 24 articles |
+| [HumanLayer Blog](https://www.humanlayer.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/humanlayer.xml) | ✅ 10 articles |
+| [LevelUp](https://levelup.com) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/levelup.xml) | ✅ 2 articles |
+| [Mekong ASEAN](https://mekongasean.vn/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml) | ✅ 2 articles |
+| [Paul Graham Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/paul-graham.xml) | ✅ 20 articles |
+| [Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/paulgraham.xml) | ✅ 20 articles |
+| [Podcast AI要約｜投資・金融番組のポイント整理 — BigGo ファイナンス](https://finance.biggo.jp/podcast) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml) | ✅ 20 articles |
+| [Stability AI News](https://stability.ai/news) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/stability-ai.xml) | ✅ 20 articles |
+| [文匯報](https://www.wenweipo.com/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo.xml) | ✅ 13 articles |
+| [文匯香港](https://www.wenweipo.com/hongkong) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml) | ✅ 15 articles |
+| [Windsurf Blog](https://windsurf.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/windsurf.xml) | ✅ 50 articles |
 
 ### External RSS (4)
 
 | Blog | Feed | Status |
 |------|------|--------|
-| [Monzo – It's time for a new kind of bank](https://share.google/DVO0e53D9NBLGntfT) | [Subscribe](https://monzo.com/feed.xml) | ✅ native RSS |
 | [booking.ai](https://booking.ai/) | [Subscribe](https://booking.ai/feed) | ✅ native RSS |
-| [Engineering Blog](https://engineering.roku.com/) | [Subscribe](https://engineering.roku.com/feed) | ✅ native RSS |
 | [Hugging Face - Blog](https://huggingface.co/blog) | [Subscribe](https://huggingface.co/blog/feed.xml) | ✅ native RSS |
+| [Engineering Blog](https://engineering.roku.com/) | [Subscribe](https://engineering.roku.com/feed) | ✅ native RSS |
+| [Monzo – It's time for a new kind of bank](https://share.google/DVO0e53D9NBLGntfT) | [Subscribe](https://monzo.com/feed.xml) | ✅ native RSS |
 
 ### GitHub Releases (3)
 
 | Project | Feed | Status |
 |---------|------|--------|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/openclaw-releases.xml) | ✅ 50 releases |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hermes-agent-releases.xml) | ✅ 30 releases |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude-code-releases.xml) | ✅ 50 releases |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hermes-agent-releases.xml) | ✅ 30 releases |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/openclaw-releases.xml) | ✅ 50 releases |
 <!-- FEEDS_TABLE_END -->
 
 ## 🚀 Quick Start
@@ -63,8 +63,12 @@ https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/{name}.x
 
 1. [Open a new issue](https://github.com/leontloveless/ai-rss-feeds/issues/new?template=new_feed.yml)
 2. Paste the blog URL
-3. Wait ~2 minutes
-4. Done! The feed is generated automatically
+3. The deterministic workflow validates the source and opens a draft pull request
+4. Review and merge the pull request; the issue closes automatically
+
+GitHub repository URLs use the Releases API. Pages with native RSS/Atom use that
+upstream feed directly. If neither path applies, the issue stays open and the
+workflow explains how to invoke the Agentic fallback.
 
 ## 🔧 How It Works
 
@@ -76,6 +80,7 @@ https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/{name}.x
 | `json` | Next.js / SPA sites | JSON extraction from `<script>` tags |
 | `changelog` | Keep a Changelog files | Markdown `## version` headings |
 | `rss` | Mirror an upstream RSS feed | `rssExtraction.feedUrl` parsed via rss-parser |
+| `external` | Track a site's native RSS/Atom feed | Upstream feed URL directly |
 | `github-releases` | GitHub projects | GitHub Releases API (structured data) |
 
 ### Architecture
@@ -137,8 +142,11 @@ bun run update:one cursor-blog
 # Validate without writing
 bun run validate
 
-# Add a new feed (requires GITHUB_TOKEN for LLM-based blogs)
-GITHUB_TOKEN=xxx bun run add https://example.com/blog
+# Add a GitHub release feed or discover native RSS/Atom (no model call)
+bun run add https://github.com/owner/repo
+
+# Legacy LLM-based parser generation for complex pages
+GITHUB_TOKEN=xxx bun run add:legacy https://example.com/blog
 
 # Heal a broken feed (requires GITHUB_TOKEN for LLM)
 GITHUB_TOKEN=xxx bun run heal cursor-blog
@@ -147,7 +155,7 @@ GITHUB_TOKEN=xxx bun run heal cursor-blog
 bun run readme
 ```
 
-### Agentic feed trial
+### Agentic fallback
 
 The opt-in `Add Feed (Agentic Trial)` workflow uses GitHub Agentic Workflows
 with the Copilot engine. It validates the URL from an issue, keeps the agent
@@ -170,8 +178,10 @@ Maintainer setup:
    issue. You can also run `Add Feed (Agentic Trial)` manually with an issue
    number.
 
-This trial does not replace the existing `new-feed` workflow yet. Agentic runs
-consume GitHub Actions minutes and the token owner's Copilot request allowance.
+The `new-feed` workflow is the primary path. It does not request GitHub Models
+or Copilot. Use this Agentic workflow only when deterministic discovery reports
+that the page has no native RSS/Atom feed. Agentic runs consume GitHub Actions
+minutes and the token owner's Copilot request allowance.
 
 The `Copilot Token Rotation Reminder` workflow checks the
 `COPILOT_TOKEN_EXPIRES_AT` repository variable every Monday. It creates a
@@ -220,8 +230,8 @@ src/
 ├── llm.ts            → GitHub Models API integration
 ├── snapshot.ts       → Regression tracking
 ├── run-all.ts        → Batch update CLI
-├── add-smart.ts      → New feed CLI (auto-detects GitHub vs blog URL)
-├── add-feed.ts       → Legacy LLM-only add (used by add-smart for blogs)
+├── add-smart.ts      → Deterministic GitHub release/native RSS intake CLI
+├── add-feed.ts       → Legacy LLM-only add for complex pages
 ├── heal-feed.ts      → Self-healing CLI
 └── update-readme.ts  → Regenerates the feed table in README.md
 ```
