@@ -173,6 +173,11 @@ Maintainer setup:
 This trial does not replace the existing `new-feed` workflow yet. Agentic runs
 consume GitHub Actions minutes and the token owner's Copilot request allowance.
 
+The `Copilot Token Rotation Reminder` workflow checks the
+`COPILOT_TOKEN_EXPIRES_AT` repository variable every Monday. It creates a
+rotation issue 14 days before expiration and keeps the old token active until a
+manual Agentic Workflow verification succeeds with the replacement token.
+
 ### Adding a GitHub Releases Feed
 
 Create a config file in `configs/`:

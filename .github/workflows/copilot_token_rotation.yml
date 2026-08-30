@@ -1,0 +1,111 @@
+name: Copilot Token Rotation Reminder
+
+on:
+  schedule:
+    - cron: "17 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-expiration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Copilot token expiration
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd
+        env:
+          EXPIRES_AT: ${{ vars.COPILOT_TOKEN_EXPIRES_AT }}
+          WARNING_DAYS: "14"
+        with:
+          script: |
+            const marker = '<!-- copilot-token-rotation -->';
+            const expiresAt = String(process.env.EXPIRES_AT || '').trim();
+            const warningDays = Number(process.env.WARNING_DAYS);
+
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(expiresAt)) {
+              core.setFailed(
+                'Set the COPILOT_TOKEN_EXPIRES_AT repository variable to YYYY-MM-DD.'
+              );
+              return;
+            }
+
+            const expiration = new Date(`${expiresAt}T23:59:59Z`);
+            if (Number.isNaN(expiration.getTime())) {
+              core.setFailed(`Invalid COPILOT_TOKEN_EXPIRES_AT: ${expiresAt}`);
+              return;
+            }
+
+            const millisecondsPerDay = 24 * 60 * 60 * 1000;
+            const daysRemaining = Math.ceil(
+              (expiration.getTime() - Date.now()) / millisecondsPerDay
+            );
+            core.notice(
+              `COPILOT_GITHUB_TOKEN expires in ${daysRemaining} day(s) on ${expiresAt}.`
+            );
+
+            if (daysRemaining > warningDays) {
+              return;
+            }
+
+            const title = daysRemaining < 0
+              ? `COPILOT_GITHUB_TOKEN expired on ${expiresAt}`
+              : `Rotate COPILOT_GITHUB_TOKEN before ${expiresAt}`;
+            const body = `${marker}
+            The GitHub Agentic Workflows inference token has ${
+              daysRemaining < 0 ? 'expired' : `${daysRemaining} day(s) remaining`
+            }.
+
+            Expiry: \`${expiresAt}\`
+
+            Rotation order:
+
+            1. Create a new fine-grained PAT owned by the user account, with only
+               **Copilot Requests: Read-only**.
+            2. Replace the repository secret:
+               \`gh aw secrets set COPILOT_GITHUB_TOKEN\`
+            3. Run **Add Feed (Agentic Trial)** manually to verify inference.
+            4. Update the next expiration date:
+               \`gh variable set COPILOT_TOKEN_EXPIRES_AT --body YYYY-MM-DD\`
+            5. Revoke the old PAT only after the verification run succeeds.
+
+            Close this issue after all five steps are complete.`;
+
+            const issues = await github.paginate(
+              github.rest.issues.listForRepo,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'all',
+                per_page: 100,
+              }
+            );
+            const existing = issues.find((issue) =>
+              !issue.pull_request &&
+              String(issue.body || '').includes(marker) &&
+              String(issue.body || '').includes(`Expiry: \`${expiresAt}\``)
+            );
+
+            if (!existing) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+              return;
+            }
+
+            if (existing.state === 'closed') {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                state: 'open',
+                title,
+                body,
+              });
+            } else {
+              core.notice(`Rotation issue #${existing.number} is already open.`);
+            }
