@@ -20,6 +20,10 @@ model: gpt-4.1
 timeout-minutes: 25
 max-turns: 20
 
+runtimes:
+  bun:
+    version: 1.3.14
+
 network:
   allowed:
     - defaults
@@ -42,10 +46,6 @@ tools:
     - "tail:*"
 
 steps:
-  - name: Set up Bun
-    uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
-    with:
-      bun-version: 1.3.14
   - name: Install dependencies
     run: bun install --frozen-lockfile
 
