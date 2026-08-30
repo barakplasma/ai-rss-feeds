@@ -1,0 +1,12 @@
+{
+  "lastSuccess": "2026-08-30T13:36:56.254Z",
+  "articleCount": 5,
+  "knownLinks": [
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1",
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.2",
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.1",
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.8",
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.7"
+  ],
+  "consecutiveErrors": 0
+}
