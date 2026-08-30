@@ -4,11 +4,155 @@
         <title>deepseek-harness Releases</title>
         <link>https://github.com/deepseek-ai/deepseek-harness/releases</link>
         <description>GitHub releases for deepseek-ai/deepseek-harness</description>
-        <lastBuildDate>Thu, 27 Aug 2026 17:06:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 13:52:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.1.2-alpha.2]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.2</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.2</guid>
+            <pubDate>Sun, 30 Aug 2026 13:52:14 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.2-alpha.2">中文</a> | <a href="#en-v0.1.2-alpha.2">English</a></p>
+<h3 id="cn-v0.1.2-alpha.2">新增功能</h3>
+
+<ul>
+<li>界面新增显示连接异常状态，支持自动重试和立即重连 @imccyu</li>
+<li>会话标题区域支持查看活动的定时计划 @pku-xht</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>插件列表按会话插件和全局插件分组，可切换 Agent Preset 查看组合、搜索其他预设 @LegGasai</li>
+<li>改善会话与输入界面的菜单显示、滚动条、工具文件链接与 diff 统计 @Yifffan</li>
+<li>减少 macOS 和 Linux 加载会话时不必要的文件系统检查 @LegGasai</li>
+<li>提升长会话历史和密集实时消息的处理效率 @Dudu-0223</li>
+<li>回答末尾显示 token 用量和耗时，点击可查看详细统计 @Yifffan</li>
+<li><code>web_search</code> 失败时报告实际端点和错误明细 @CreatixChu</li>
+<li>权限分类使用本地化内容显示 @imccyu</li>
+<li>调整首页标志的动画效果 @Yifffan</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>修复使用鼠标在 <code>@</code> 菜单中下钻目录时面包屑丢失或路径消失的问题 @LegGasai</li>
+<li>优化 NPM 包中的 peer dependency 依赖以改善包管理解析成本 @imccyu</li>
+<li>修复 Node.js 24.0–24.11.1 上启动可能失败且 HMR 失效的问题 @imccyu</li>
+<li>关闭设置窗口后，键盘焦点会返回设置入口 @LegGasai</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>恢复 0.1.2-alpha.1 中移除的 <code>SessionEvent.ignorable</code> @tianyicui</li>
+<li>Remote 网关提供统一的 RemoteError 调用异常封装 @imccyu</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.2">New Features</h3>
+
+<ul>
+<li>Show connection failures in the interface, with automatic retries and an immediate reconnect action by @imccyu</li>
+<li>Show active schedules in the conversation header by @pku-xht</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Group plugins by conversation and global scope, with Agent Preset switching and cross-preset search by @LegGasai</li>
+<li>Improve menus, scrolling, tool file links, and diff statistics in the conversation and composer UI by @Yifffan</li>
+<li>Reduce unnecessary filesystem checks when loading conversations on macOS and Linux by @LegGasai</li>
+<li>Improve processing efficiency for long conversation histories and high-volume live messages by @Dudu-0223</li>
+<li>Show token usage and elapsed time at the end of each answer, with more details available on click by @Yifffan</li>
+<li>Report the effective endpoint and error details when <code>web_search</code> fails by @CreatixChu</li>
+<li>Show permission categories with localized text by @imccyu</li>
+<li>Refine the home-page logo animation by @Yifffan</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Fix breadcrumb loss when drilling into directories with the pointer in the <code>@</code> menu by @LegGasai</li>
+<li>Reduce npm package-resolution cost by trimming unnecessary peer dependencies by @imccyu</li>
+<li>Fix startup failures and broken HMR on Node.js 24.0–24.11.1 by @imccyu</li>
+<li>Return keyboard focus to the Settings trigger after the dialog closes by @LegGasai</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Restore <code>SessionEvent.ignorable</code>, which was removed in 0.1.2-alpha.1, by @tianyicui</li>
+<li>Provide unified <code>RemoteError</code> wrapping for Remote gateway call failures by @imccyu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.1...dsh-v0.1.2-alpha.2">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.1...dsh-v0.1.2-alpha.2</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.2-alpha.2">中文</a> | <a href="#en-v0.1.2-alpha.2">English</a></p>
+<h3 id="cn-v0.1.2-alpha.2">新增功能</h3>
+
+<ul>
+<li>界面新增显示连接异常状态，支持自动重试和立即重连 @imccyu</li>
+<li>会话标题区域支持查看活动的定时计划 @pku-xht</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>插件列表按会话插件和全局插件分组，可切换 Agent Preset 查看组合、搜索其他预设 @LegGasai</li>
+<li>改善会话与输入界面的菜单显示、滚动条、工具文件链接与 diff 统计 @Yifffan</li>
+<li>减少 macOS 和 Linux 加载会话时不必要的文件系统检查 @LegGasai</li>
+<li>提升长会话历史和密集实时消息的处理效率 @Dudu-0223</li>
+<li>回答末尾显示 token 用量和耗时，点击可查看详细统计 @Yifffan</li>
+<li><code>web_search</code> 失败时报告实际端点和错误明细 @CreatixChu</li>
+<li>权限分类使用本地化内容显示 @imccyu</li>
+<li>调整首页标志的动画效果 @Yifffan</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>修复使用鼠标在 <code>@</code> 菜单中下钻目录时面包屑丢失或路径消失的问题 @LegGasai</li>
+<li>优化 NPM 包中的 peer dependency 依赖以改善包管理解析成本 @imccyu</li>
+<li>修复 Node.js 24.0–24.11.1 上启动可能失败且 HMR 失效的问题 @imccyu</li>
+<li>关闭设置窗口后，键盘焦点会返回设置入口 @LegGasai</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>恢复 0.1.2-alpha.1 中移除的 <code>SessionEvent.ignorable</code> @tianyicui</li>
+<li>Remote 网关提供统一的 RemoteError 调用异常封装 @imccyu</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.2">New Features</h3>
+
+<ul>
+<li>Show connection failures in the interface, with automatic retries and an immediate reconnect action by @imccyu</li>
+<li>Show active schedules in the conversation header by @pku-xht</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Group plugins by conversation and global scope, with Agent Preset switching and cross-preset search by @LegGasai</li>
+<li>Improve menus, scrolling, tool file links, and diff statistics in the conversation and composer UI by @Yifffan</li>
+<li>Reduce unnecessary filesystem checks when loading conversations on macOS and Linux by @LegGasai</li>
+<li>Improve processing efficiency for long conversation histories and high-volume live messages by @Dudu-0223</li>
+<li>Show token usage and elapsed time at the end of each answer, with more details available on click by @Yifffan</li>
+<li>Report the effective endpoint and error details when <code>web_search</code> fails by @CreatixChu</li>
+<li>Show permission categories with localized text by @imccyu</li>
+<li>Refine the home-page logo animation by @Yifffan</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Fix breadcrumb loss when drilling into directories with the pointer in the <code>@</code> menu by @LegGasai</li>
+<li>Reduce npm package-resolution cost by trimming unnecessary peer dependencies by @imccyu</li>
+<li>Fix startup failures and broken HMR on Node.js 24.0–24.11.1 by @imccyu</li>
+<li>Return keyboard focus to the Settings trigger after the dialog closes by @LegGasai</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Restore <code>SessionEvent.ignorable</code>, which was removed in 0.1.2-alpha.1, by @tianyicui</li>
+<li>Provide unified <code>RemoteError</code> wrapping for Remote gateway call failures by @imccyu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.1...dsh-v0.1.2-alpha.2">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.1...dsh-v0.1.2-alpha.2</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.1.2-alpha.1]]></title>
             <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1</link>
