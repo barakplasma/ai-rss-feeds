@@ -52,7 +52,7 @@ jobs:
             
             const files = fs.readdirSync(cacheDir);
             const failingFeeds = [];
-            const unhealableError = /Cloudflare bot detection|cf-mitigated|This site cannot be scraped with static HTTP requests/i;
+            const unhealableError = /Cloudflare bot detection|cf-mitigated|DataDome bot detection|This site cannot be scraped with static HTTP requests/i;
             
             for (const file of files) {
               if (!file.endsWith('.json')) continue;

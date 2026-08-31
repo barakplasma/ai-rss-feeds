@@ -8,7 +8,7 @@ GitHub release feeds and native RSS/Atom feeds are added without a model call. S
 
 <!-- FEEDS_TABLE_START -->
 
-### Blogs (22)
+### Blogs (21)
 
 | Blog | Feed | Status |
 |------|------|--------|
@@ -23,7 +23,6 @@ GitHub release feeds and native RSS/Atom feeds are added without a model call. S
 | [El Fintualist](https://fintualist.com/chile/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml) | ✅ 20 articles |
 | [Groq News](https://groq.com/news/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/groq-news.xml) | ✅ 24 articles |
 | [HumanLayer Blog](https://www.humanlayer.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/humanlayer.xml) | ✅ 10 articles |
-| [José Errasti — El HuffPost](https://www.huffingtonpost.es/author/jose-errasti) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/jose-errasti.xml) | ✅ 20 articles |
 | [LevelUp](https://levelup.com) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/levelup.xml) | ✅ 2 articles |
 | [Mekong ASEAN](https://mekongasean.vn/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml) | ✅ 2 articles |
 | [AI at Meta Blog](https://ai.meta.com/blog/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/meta-ai.xml) | ✅ 4 articles |
