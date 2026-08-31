@@ -119,9 +119,20 @@ export async function fetchHTML(
 
       if (!res.ok) {
         const cfMitigated = res.headers.get("cf-mitigated");
+        const dataDomeProtected = res.headers.has("x-datadome");
         if (res.status === 403 && cfMitigated) {
           throw new Error(
             `HTTP 403 — site is protected by Cloudflare bot detection (cf-mitigated: ${cfMitigated}). This site cannot be scraped with static HTTP requests.`
+          );
+        }
+        if (res.status === 403 && dataDomeProtected) {
+          throw new Error(
+            "HTTP 403 — site is protected by DataDome bot detection. This site cannot be scraped with static HTTP requests."
+          );
+        }
+        if (res.status === 403) {
+          throw new Error(
+            "HTTP 403 Forbidden — access is blocked. This site cannot be scraped with static HTTP requests."
           );
         }
         throw new Error(`HTTP ${res.status} ${res.statusText}`);
