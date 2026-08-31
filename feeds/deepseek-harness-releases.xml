@@ -4,11 +4,111 @@
         <title>deepseek-harness Releases</title>
         <link>https://github.com/deepseek-ai/deepseek-harness/releases</link>
         <description>GitHub releases for deepseek-ai/deepseek-harness</description>
-        <lastBuildDate>Sun, 30 Aug 2026 13:52:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2026 16:03:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.1.2-alpha.3]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.3</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.3</guid>
+            <pubDate>Mon, 31 Aug 2026 16:03:39 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.2-alpha.3">中文</a> | <a href="#en-v0.1.2-alpha.3">English</a></p>
+<h3 id="cn-v0.1.2-alpha.3">体验优化</h3>
+
+<ul>
+<li>长会话右侧导航支持预览和跳转尚未载入的全部分页轮次 @LegGasai</li>
+<li>改善长会话渲染的内存开销和代码高亮流畅度 @imccyu, @07akioni</li>
+<li>优化权限标签多语言表达 @ZiyaZhang</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>会话运行中追加或排队发送的图片可正确回显并可靠投递；持续子代理的后续消息也支持图片 @CreatixChu</li>
+<li><code>read_image</code> 可根据文件内容识别并读取没有扩展名的图片附件路径 @CreatixChu</li>
+<li>命令菜单打开时，<code>Tab</code> 可补全当前高亮的斜杠命令 @mektpoy</li>
+<li>修复后端卡顿可能造成网络连接被误判为断开的问题 @imccyu</li>
+<li>修复会话标题中的定时计划列表在窄视口下偏移或越界的问题 @pku-xht</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>移除可选的 SQLite Session 持久化后端；已有内容不会删除，请使用旧版本导出 @tianyicui</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.3">Improvements</h3>
+
+<ul>
+<li>Preview and jump to all paginated turns, including unloaded ones, from the right-hand navigation in long conversations by @LegGasai</li>
+<li>Reduce memory use and improve syntax-highlighting responsiveness when rendering long conversations by @imccyu and @07akioni</li>
+<li>Improve multilingual wording for permission labels by @ZiyaZhang</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Correctly echo and reliably deliver images added or queued while a conversation is running; follow-up messages to continuable subagents also support images by @CreatixChu</li>
+<li>Let <code>read_image</code> detect and read image attachment paths without filename extensions by @CreatixChu</li>
+<li>Complete highlighted slash commands with <code>Tab</code> while the command menu is open by @mektpoy</li>
+<li>Fix backend stalls being mistaken for network disconnections by @imccyu</li>
+<li>Fix the Schedule catalog in the conversation header shifting or overflowing in narrow viewports by @pku-xht</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Remove the optional SQLite Session persistence backend; existing content is not deleted, so use an older version to export it by @tianyicui</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.2...dsh-v0.1.2-alpha.3">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.2...dsh-v0.1.2-alpha.3</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.2-alpha.3">中文</a> | <a href="#en-v0.1.2-alpha.3">English</a></p>
+<h3 id="cn-v0.1.2-alpha.3">体验优化</h3>
+
+<ul>
+<li>长会话右侧导航支持预览和跳转尚未载入的全部分页轮次 @LegGasai</li>
+<li>改善长会话渲染的内存开销和代码高亮流畅度 @imccyu, @07akioni</li>
+<li>优化权限标签多语言表达 @ZiyaZhang</li>
+</ul>
+<h3>问题修复</h3>
+
+<ul>
+<li>会话运行中追加或排队发送的图片可正确回显并可靠投递；持续子代理的后续消息也支持图片 @CreatixChu</li>
+<li><code>read_image</code> 可根据文件内容识别并读取没有扩展名的图片附件路径 @CreatixChu</li>
+<li>命令菜单打开时，<code>Tab</code> 可补全当前高亮的斜杠命令 @mektpoy</li>
+<li>修复后端卡顿可能造成网络连接被误判为断开的问题 @imccyu</li>
+<li>修复会话标题中的定时计划列表在窄视口下偏移或越界的问题 @pku-xht</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>移除可选的 SQLite Session 持久化后端；已有内容不会删除，请使用旧版本导出 @tianyicui</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.3">Improvements</h3>
+
+<ul>
+<li>Preview and jump to all paginated turns, including unloaded ones, from the right-hand navigation in long conversations by @LegGasai</li>
+<li>Reduce memory use and improve syntax-highlighting responsiveness when rendering long conversations by @imccyu and @07akioni</li>
+<li>Improve multilingual wording for permission labels by @ZiyaZhang</li>
+</ul>
+<h3>Bug Fixes</h3>
+
+<ul>
+<li>Correctly echo and reliably deliver images added or queued while a conversation is running; follow-up messages to continuable subagents also support images by @CreatixChu</li>
+<li>Let <code>read_image</code> detect and read image attachment paths without filename extensions by @CreatixChu</li>
+<li>Complete highlighted slash commands with <code>Tab</code> while the command menu is open by @mektpoy</li>
+<li>Fix backend stalls being mistaken for network disconnections by @imccyu</li>
+<li>Fix the Schedule catalog in the conversation header shifting or overflowing in narrow viewports by @pku-xht</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Remove the optional SQLite Session persistence backend; existing content is not deleted, so use an older version to export it by @tianyicui</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.2...dsh-v0.1.2-alpha.3">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.2...dsh-v0.1.2-alpha.3</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.1.2-alpha.2]]></title>
             <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.2</link>
