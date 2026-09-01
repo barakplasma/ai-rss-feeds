@@ -10,6 +10,12 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בּיוֹם פּתִיחַת שְנַת הלימוּדים, מִשפַּחתה של הַיימָנוֹט קָסָאוֹ שֶנֶעֶלמָה ממֶרכַּז הקְלִיטָה בּצְפַת, מבַקֶשת מהתַלמידים והמוֹרים להַגִיעַ עִם בַּלוֹן אדוֹם]]></title>
+            <link>https://hadshon.education.gov.il/articles/haymanot-kasao-red-baloon/</link>
+            <guid>https://hadshon.education.gov.il/articles/haymanot-kasao-red-baloon/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[מָדָ"א קוֹרֵא לצִיבּוּר להַגִיעַ בּדְחִיפוּת לִתרוֹם דָם]]></title>
             <link>https://hadshon.education.gov.il/articles/urgently-donate-blood/</link>
             <guid>https://hadshon.education.gov.il/articles/urgently-donate-blood/</guid>
@@ -61,12 +67,6 @@
             <title><![CDATA[מִשׂרַד הבְּריאוּת בּאַזהָרָה: אוּכלוּסִיוֹת בּסִיכּוּן – הִימָנעוּ מחֲשִׂיפָה לשֶמֶש]]></title>
             <link>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</link>
             <guid>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[בּעִקבוֹת עֲתִירַת עָרוּץ 14 נֶגֶד מִפלֶגֶת הדֶמוֹקרָטִים, יו"ר וַעֲדַת הבְּחִירוֹת השוֹפֵט סוֹלבֶּרג קוֹרֵא לכָל המִפלָגוֹת לאַפשֵר סִיקוּר שִוויוֹנִי]]></title>
-            <link>https://hadshon.education.gov.il/articles/chanel-14-solberg/</link>
-            <guid>https://hadshon.education.gov.il/articles/chanel-14-solberg/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
