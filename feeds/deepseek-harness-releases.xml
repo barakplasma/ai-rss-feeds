@@ -4,11 +4,107 @@
         <title>deepseek-harness Releases</title>
         <link>https://github.com/deepseek-ai/deepseek-harness/releases</link>
         <description>GitHub releases for deepseek-ai/deepseek-harness</description>
-        <lastBuildDate>Mon, 31 Aug 2026 16:03:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 15:45:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.1.2-alpha.4]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4</guid>
+            <pubDate>Tue, 01 Sep 2026 15:45:07 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.2-alpha.4">中文</a> | <a href="#en-v0.1.2-alpha.4">English</a></p>
+<h3 id="cn-v0.1.2-alpha.4">新增功能</h3>
+
+<ul>
+<li>父 Agent 与可持续子 Agent 可通过 <code>send_message</code> 双向传递后续消息，取代单向 <code>report</code> 工具 @Dudu-0223</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>自定义模型发现复用 Profile 请求头；模型目录支持搜索和筛选 @LegGasai</li>
+<li>界面优化圆角、描边、轮次导航、投影效果 @yixiangihsiang, @LegGasai</li>
+<li>改善超长会话在流式回复、界面布局、导航预览场景的渲染开销 @imccyu</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>Python SDK、Headless、ACP 与自定义 Profile 默认提供 <code>web_fetch</code> @koalazf99</li>
+<li>Web PTC Mode 默认不再向模型提供通用 <code>workflow</code> 工具 @koalazf99</li>
+<li><code>Session.events</code> 被按需读取 API <code>seq</code>、<code>eventAt()</code> 和 <code>snapshotEvents()</code> 取代 @kermanx</li>
+<li><code>SessionSeq</code> / <code>SessionLogOffset</code> 强类型区分，请开发者关注兼容性 @tianyicui</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.4">New Features</h3>
+
+<ul>
+<li>Let parent Agents and continuable child Agents exchange follow-up messages through <code>send_message</code>, replacing the one-way <code>report</code> tool by @Dudu-0223</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Reuse Profile request headers for custom model discovery; add search and filtering to the model catalog by @LegGasai</li>
+<li>Refine interface corners, borders, turn navigation, and shadows by @yixiangihsiang and @LegGasai</li>
+<li>Reduce rendering overhead in very long conversations during response streaming, interface layout, and navigation previews by @imccyu</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Enable <code>web_fetch</code> by default for the Python SDK, Headless, ACP, and custom Profiles by @koalazf99</li>
+<li>Stop exposing the general-purpose <code>workflow</code> tool by default in Web PTC Mode by @koalazf99</li>
+<li>Replace <code>Session.events</code> with on-demand read APIs: <code>seq</code>, <code>eventAt()</code>, and <code>snapshotEvents()</code> by @kermanx</li>
+<li>Distinguish <code>SessionSeq</code> and <code>SessionLogOffset</code> with strong types; developers should should pay attention to compatibility by @tianyicui</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.3...dsh-v0.1.2-alpha.4">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.3...dsh-v0.1.2-alpha.4</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.2-alpha.4">中文</a> | <a href="#en-v0.1.2-alpha.4">English</a></p>
+<h3 id="cn-v0.1.2-alpha.4">新增功能</h3>
+
+<ul>
+<li>父 Agent 与可持续子 Agent 可通过 <code>send_message</code> 双向传递后续消息，取代单向 <code>report</code> 工具 @Dudu-0223</li>
+</ul>
+<h3>体验优化</h3>
+
+<ul>
+<li>自定义模型发现复用 Profile 请求头；模型目录支持搜索和筛选 @LegGasai</li>
+<li>界面优化圆角、描边、轮次导航、投影效果 @yixiangihsiang, @LegGasai</li>
+<li>改善超长会话在流式回复、界面布局、导航预览场景的渲染开销 @imccyu</li>
+</ul>
+<h3>其他变更</h3>
+
+<ul>
+<li>Python SDK、Headless、ACP 与自定义 Profile 默认提供 <code>web_fetch</code> @koalazf99</li>
+<li>Web PTC Mode 默认不再向模型提供通用 <code>workflow</code> 工具 @koalazf99</li>
+<li><code>Session.events</code> 被按需读取 API <code>seq</code>、<code>eventAt()</code> 和 <code>snapshotEvents()</code> 取代 @kermanx</li>
+<li><code>SessionSeq</code> / <code>SessionLogOffset</code> 强类型区分，请开发者关注兼容性 @tianyicui</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.4">New Features</h3>
+
+<ul>
+<li>Let parent Agents and continuable child Agents exchange follow-up messages through <code>send_message</code>, replacing the one-way <code>report</code> tool by @Dudu-0223</li>
+</ul>
+<h3>Improvements</h3>
+
+<ul>
+<li>Reuse Profile request headers for custom model discovery; add search and filtering to the model catalog by @LegGasai</li>
+<li>Refine interface corners, borders, turn navigation, and shadows by @yixiangihsiang and @LegGasai</li>
+<li>Reduce rendering overhead in very long conversations during response streaming, interface layout, and navigation previews by @imccyu</li>
+</ul>
+<h3>Chores</h3>
+
+<ul>
+<li>Enable <code>web_fetch</code> by default for the Python SDK, Headless, ACP, and custom Profiles by @koalazf99</li>
+<li>Stop exposing the general-purpose <code>workflow</code> tool by default in Web PTC Mode by @koalazf99</li>
+<li>Replace <code>Session.events</code> with on-demand read APIs: <code>seq</code>, <code>eventAt()</code>, and <code>snapshotEvents()</code> by @kermanx</li>
+<li>Distinguish <code>SessionSeq</code> and <code>SessionLogOffset</code> with strong types; developers should should pay attention to compatibility by @tianyicui</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.3...dsh-v0.1.2-alpha.4">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.3...dsh-v0.1.2-alpha.4</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.1.2-alpha.3]]></title>
             <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.3</link>

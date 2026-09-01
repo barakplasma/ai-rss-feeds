@@ -10,7 +10,49 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[AIは数学的直感を学べるのか？]]></title>
+            <title><![CDATA[AIエージェントにウォレットが必要な理由：USDCとナノペイメント — Harshal Bhangale（Circle）]]></title>
+            <link>https://finance.biggo.jp/podcast/6919f4f3f5a0544e</link>
+            <guid>https://finance.biggo.jp/podcast/6919f4f3f5a0544e</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2548 - ブライアン・シンプソン]]></title>
+            <link>https://finance.biggo.jp/podcast/725aef337127b3e2</link>
+            <guid>https://finance.biggo.jp/podcast/725aef337127b3e2</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[次世代コマースのためのマルチモーダル協調エージェント — Nidhi Kaushik Vyas（Google DeepMind）]]></title>
+            <link>https://finance.biggo.jp/podcast/c4b51bffe11d1c6b</link>
+            <guid>https://finance.biggo.jp/podcast/c4b51bffe11d1c6b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[エージェントに支払いを教える — StripeのAnna Spysz]]></title>
+            <link>https://finance.biggo.jp/podcast/e28ee52d0f007bec</link>
+            <guid>https://finance.biggo.jp/podcast/e28ee52d0f007bec</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[スウェーデンのBioArctic、アルツハイマー治療薬レケンビの基礎科学を創出 - 2026年はパーキンソン病プログラムと脳トランスポーター技術の数々の提携で多忙な一年に]]></title>
+            <link>https://finance.biggo.jp/podcast/dd47c275cb283a29</link>
+            <guid>https://finance.biggo.jp/podcast/dd47c275cb283a29</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Heart Aerospace Built the World’s Largest Electric Aircraft]]></title>
+            <link>https://finance.biggo.jp/podcast/6458c1bb4dfd3893</link>
+            <guid>https://finance.biggo.jp/podcast/6458c1bb4dfd3893</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[戦略的意図：ブレークスルーを超えて - 承認から普及へ]]></title>
+            <link>https://finance.biggo.jp/podcast/ba9ca6437c576f3c</link>
+            <guid>https://finance.biggo.jp/podcast/ba9ca6437c576f3c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What Today’s Best Models Still Can’t Do in Math]]></title>
             <link>https://finance.biggo.jp/podcast/51a10d27934d506f</link>
             <guid>https://finance.biggo.jp/podcast/51a10d27934d506f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -28,7 +70,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why One Company Won't Own AI]]></title>
+            <title><![CDATA[なぜ一社がAIを独占しないのか]]></title>
             <link>https://finance.biggo.jp/podcast/bc505149dbdcb73f</link>
             <guid>https://finance.biggo.jp/podcast/bc505149dbdcb73f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -40,7 +82,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why Kalshi Chose Regulators Over Crypto’s Offshore Playbook]]></title>
+            <title><![CDATA[Kalshiが暗号資産のオフショア戦略ではなく規制当局を選んだ理由]]></title>
             <link>https://finance.biggo.jp/podcast/edffed9137ecf14e</link>
             <guid>https://finance.biggo.jp/podcast/edffed9137ecf14e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -52,7 +94,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Steve Jobs' Biographer: The Lost Decade]]></title>
+            <title><![CDATA[スティーブ・ジョブズの伝記作家：失われた10年]]></title>
             <link>https://finance.biggo.jp/podcast/0590e24cd0569aee</link>
             <guid>https://finance.biggo.jp/podcast/0590e24cd0569aee</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -70,7 +112,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Anthropic Made An Evil Claude]]></title>
+            <title><![CDATA[Anthropicが邪悪なClaudeを作った]]></title>
             <link>https://finance.biggo.jp/podcast/3c56f0252b873dfb</link>
             <guid>https://finance.biggo.jp/podcast/3c56f0252b873dfb</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -85,48 +127,6 @@
             <title><![CDATA[中国は世界のAI信頼戦争に勝っているのか？ | 中国デコード]]></title>
             <link>https://finance.biggo.jp/podcast/1cca268e9046d0cc</link>
             <guid>https://finance.biggo.jp/podcast/1cca268e9046d0cc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[手工耿×羅永浩！「村の金物屋に、ダダイズムのアーティストが現れた」｜羅永浩の岐路]]></title>
-            <link>https://finance.biggo.jp/podcast/108d920dd9ca2b54</link>
-            <guid>https://finance.biggo.jp/podcast/108d920dd9ca2b54</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[エピソード385 - MFN取引、リリーの買収、FDA長官候補オーバートン]]></title>
-            <link>https://finance.biggo.jp/podcast/a5e728fa5bc40d6a</link>
-            <guid>https://finance.biggo.jp/podcast/a5e728fa5bc40d6a</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GLP-1受容体作動薬の歴史と科学]]></title>
-            <link>https://finance.biggo.jp/podcast/0249826ad82b1fad</link>
-            <guid>https://finance.biggo.jp/podcast/0249826ad82b1fad</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ヘンリー・シングルトンの仕事術]]></title>
-            <link>https://finance.biggo.jp/podcast/40d4dd94f7a76bdc</link>
-            <guid>https://finance.biggo.jp/podcast/40d4dd94f7a76bdc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[メタの法的問題は思っているより深刻だ]]></title>
-            <link>https://finance.biggo.jp/podcast/829bcdbd964c34dd</link>
-            <guid>https://finance.biggo.jp/podcast/829bcdbd964c34dd</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[第九巡回区判決は「明確化よりも混乱をもたらした」とKalshi取締役が指摘]]></title>
-            <link>https://finance.biggo.jp/podcast/3698b629ec6380a2</link>
-            <guid>https://finance.biggo.jp/podcast/3698b629ec6380a2</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[フェアフォンは米国市場で生き残れるか？| The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/99dad792ef59c41a</link>
-            <guid>https://finance.biggo.jp/podcast/99dad792ef59c41a</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
