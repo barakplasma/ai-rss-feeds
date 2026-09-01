@@ -10,6 +10,12 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בּעִקבוֹת הַצלָחַת הנִיסוּי, יוּרחַב אִיסוּר השִימוּש בּטֵלפוֹנים נַיָידים לכָל בָּתֵי הסֵפֶר התִיכוֹנִיִים בּתֵל אָביב]]></title>
+            <link>https://hadshon.education.gov.il/articles/mobile-phones-high-schools/</link>
+            <guid>https://hadshon.education.gov.il/articles/mobile-phones-high-schools/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[בּיוֹם פּתִיחַת שְנַת הלימוּדים, מִשפַּחתה של הַיימָנוֹט קָסָאוֹ שֶנֶעֶלמָה ממֶרכַּז הקְלִיטָה בּצְפַת, מבַקֶשת מהתַלמידים והמוֹרים להַגִיעַ עִם בַּלוֹן אדוֹם]]></title>
             <link>https://hadshon.education.gov.il/articles/haymanot-kasao-red-baloon/</link>
             <guid>https://hadshon.education.gov.il/articles/haymanot-kasao-red-baloon/</guid>
@@ -61,12 +67,6 @@
             <title><![CDATA[אתמול פָּרצָה שׂרֵפָה גדוֹלה בּיַעַר שֶליַד מוֹשָב כִּסָלוֹן בּאֵזוֹר בֵּית שֶמֶש]]></title>
             <link>https://hadshon.education.gov.il/articles/fire-moshav-kisalon/</link>
             <guid>https://hadshon.education.gov.il/articles/fire-moshav-kisalon/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מִשׂרַד הבְּריאוּת בּאַזהָרָה: אוּכלוּסִיוֹת בּסִיכּוּן – הִימָנעוּ מחֲשִׂיפָה לשֶמֶש]]></title>
-            <link>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</link>
-            <guid>https://hadshon.education.gov.il/articles/avoid-sun-exposure/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
