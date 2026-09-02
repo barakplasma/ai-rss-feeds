@@ -4,11 +4,47 @@
         <title>deepseek-harness Releases</title>
         <link>https://github.com/deepseek-ai/deepseek-harness/releases</link>
         <description>GitHub releases for deepseek-ai/deepseek-harness</description>
-        <lastBuildDate>Tue, 01 Sep 2026 15:45:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 10:02:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.1.2-alpha.5]]></title>
+            <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.5</link>
+            <guid>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.5</guid>
+            <pubDate>Wed, 02 Sep 2026 10:02:56 GMT</pubDate>
+            <description><![CDATA[<p><a href="#cn-v0.1.2-alpha.5">中文</a> | <a href="#en-v0.1.2-alpha.5">English</a></p>
+<h3 id="cn-v0.1.2-alpha.5">问题修复</h3>
+
+<ul>
+<li>修复从 <code>0.1.1-rc.2</code> 或 <code>0.1.2-alpha.3</code> 升级时，应用可能启动失败或者会话列表标题丢失的问题 @imccyu</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.5">Bug Fixes</h3>
+
+<ul>
+<li>Fix an issue where upgrading from <code>0.1.1-rc.2</code> or <code>0.1.2-alpha.3</code> could prevent the app from starting or make session titles disappear from the list by @imccyu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.4...dsh-v0.1.2-alpha.5">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.4...dsh-v0.1.2-alpha.5</a></p>
+]]></description>
+            <content:encoded><![CDATA[<p><a href="#cn-v0.1.2-alpha.5">中文</a> | <a href="#en-v0.1.2-alpha.5">English</a></p>
+<h3 id="cn-v0.1.2-alpha.5">问题修复</h3>
+
+<ul>
+<li>修复从 <code>0.1.1-rc.2</code> 或 <code>0.1.2-alpha.3</code> 升级时，应用可能启动失败或者会话列表标题丢失的问题 @imccyu</li>
+</ul>
+<hr>
+<h3 id="en-v0.1.2-alpha.5">Bug Fixes</h3>
+
+<ul>
+<li>Fix an issue where upgrading from <code>0.1.1-rc.2</code> or <code>0.1.2-alpha.3</code> could prevent the app from starting or make session titles disappear from the list by @imccyu</li>
+</ul>
+<hr>
+<p>Full Changelog: <a href="https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.4...dsh-v0.1.2-alpha.5">https://github.com/deepseek-ai/deepseek-harness/compare/dsh-v0.1.2-alpha.4...dsh-v0.1.2-alpha.5</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.1.2-alpha.4]]></title>
             <link>https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4</link>
