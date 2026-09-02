@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[John Deere CEO: Autonomous Tractors and Farming's AI Era | Podcast | In Good Company]]></title>
+            <link>https://finance.biggo.jp/podcast/fb2ad56e2c026c72</link>
+            <guid>https://finance.biggo.jp/podcast/fb2ad56e2c026c72</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIAとMarvellの決算、Hot Chipsの注目ポイント]]></title>
+            <link>https://finance.biggo.jp/podcast/9d02ae90eda89e52</link>
+            <guid>https://finance.biggo.jp/podcast/9d02ae90eda89e52</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[致死的三要素を超えて：オープンインターネット上のエージェンティックコマース — デビッド・レヴィン、キドゥナクラブ]]></title>
             <link>https://finance.biggo.jp/podcast/e79688327ae40886</link>
             <guid>https://finance.biggo.jp/podcast/e79688327ae40886</guid>
@@ -28,7 +40,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Mark Zuckerberg doesn't understand how to live | The Vergecast]]></title>
+            <title><![CDATA[AIの支配者たちが「生きていること」について誤解していること | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/b8cf598040e6d3fd</link>
             <guid>https://finance.biggo.jp/podcast/b8cf598040e6d3fd</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -106,7 +118,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ajeya Cotra – "This might be the clearest warning shot we ever get"]]></title>
+            <title><![CDATA[アジェヤ・コトラ – OpenAI/Hugging Faceの物語、調査者の一人が語る]]></title>
             <link>https://finance.biggo.jp/podcast/8999db5373eb765c</link>
             <guid>https://finance.biggo.jp/podcast/8999db5373eb765c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[ハート・エアロスペースが世界最大の電気航空機を開発]]></title>
             <link>https://finance.biggo.jp/podcast/6458c1bb4dfd3893</link>
             <guid>https://finance.biggo.jp/podcast/6458c1bb4dfd3893</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[戦略的意図：ブレークスルーを超えて - 承認から普及へ]]></title>
-            <link>https://finance.biggo.jp/podcast/ba9ca6437c576f3c</link>
-            <guid>https://finance.biggo.jp/podcast/ba9ca6437c576f3c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[今日の最高のモデルでもまだ解けない数学の問題]]></title>
-            <link>https://finance.biggo.jp/podcast/51a10d27934d506f</link>
-            <guid>https://finance.biggo.jp/podcast/51a10d27934d506f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
