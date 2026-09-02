@@ -16,6 +16,12 @@
             <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Self-hosted machines]]></title>
+            <link>https://cursor.com/changelog/self-hosted-machines</link>
+            <guid>https://cursor.com/changelog/self-hosted-machines</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Start from scratch, without a repo]]></title>
             <link>https://cursor.com/changelog/start-from-scratch</link>
             <guid>https://cursor.com/changelog/start-from-scratch</guid>
@@ -51,12 +57,6 @@
             <guid>https://cursor.com/blog/joining-spacex</guid>
             <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Cursor has officially been acquired by SpaceX.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Cloud Agents Start 3x Faster with Builds]]></title>
-            <link>https://cursor.com/changelog/08-13-26</link>
-            <guid>https://cursor.com/changelog/08-13-26</guid>
-            <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Grok 4.6]]></title>
