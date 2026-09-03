@@ -48,7 +48,7 @@ GitHub release feeds and native RSS/Atom feeds are added without a model call. S
 | Project | Feed | Status |
 |---------|------|--------|
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude-code-releases.xml) | ✅ 50 releases |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml) | ✅ 9 releases |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepseek-harness-releases.xml) | ✅ 10 releases |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hermes-agent-releases.xml) | ✅ 31 releases |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/openclaw-releases.xml) | ✅ 50 releases |
 <!-- FEEDS_TABLE_END -->
