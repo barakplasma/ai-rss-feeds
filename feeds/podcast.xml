@@ -10,7 +10,13 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[AGIはあなた次第 | The Vergecast]]></title>
+            <title><![CDATA[金が史上最高値に上昇すると予想される理由]]></title>
+            <link>https://finance.biggo.jp/podcast/a0c5b290c7bf5416</link>
+            <guid>https://finance.biggo.jp/podcast/a0c5b290c7bf5416</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenAIが「AGI時代」到来を宣言 | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/52ec08d35e8d7f70</link>
             <guid>https://finance.biggo.jp/podcast/52ec08d35e8d7f70</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -22,13 +28,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[溶けない高速チップ設計 — アニマ・アナンドクマー＆ベネディクト・イェニク、Accelerated Understanding]]></title>
+            <title><![CDATA[Transformers Can't Think In Physics — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding]]></title>
             <link>https://finance.biggo.jp/podcast/111670bc22657d84</link>
             <guid>https://finance.biggo.jp/podcast/111670bc22657d84</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Week: The 700 Agents That Got Out]]></title>
+            <title><![CDATA[今週の話題：逃げ出した700のエージェント]]></title>
             <link>https://finance.biggo.jp/podcast/a253999f7d9d3176</link>
             <guid>https://finance.biggo.jp/podcast/a253999f7d9d3176</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -40,7 +46,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[World Labsが空間を理解するAIをどう構築しているか]]></title>
+            <title><![CDATA[フェイフェイ・リーが空間知能に賭ける理由]]></title>
             <link>https://finance.biggo.jp/podcast/0c575fe44126fe03</link>
             <guid>https://finance.biggo.jp/podcast/0c575fe44126fe03</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[バイブチェック：GPT-6 ASTRA]]></title>
             <link>https://finance.biggo.jp/podcast/96c752854d6e9792</link>
             <guid>https://finance.biggo.jp/podcast/96c752854d6e9792</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2549 - ジャレド・ダイアモンド]]></title>
-            <link>https://finance.biggo.jp/podcast/1426c6a4edd1dfe0</link>
-            <guid>https://finance.biggo.jp/podcast/1426c6a4edd1dfe0</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
