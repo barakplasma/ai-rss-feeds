@@ -10,7 +10,19 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[ついに登場。]]></title>
+            <title><![CDATA[好きなことを自然に収益化する方法]]></title>
+            <link>https://finance.biggo.jp/podcast/479de67a531db6dc</link>
+            <guid>https://finance.biggo.jp/podcast/479de67a531db6dc</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ロビンフッドの暗号ミーム経済が爆発中]]></title>
+            <link>https://finance.biggo.jp/podcast/50e43c5b970885e3</link>
+            <guid>https://finance.biggo.jp/podcast/50e43c5b970885e3</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[それで、GPT-6アストラを使ってみたんだが...]]></title>
             <link>https://finance.biggo.jp/podcast/8091413d579e4abf</link>
             <guid>https://finance.biggo.jp/podcast/8091413d579e4abf</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -34,7 +46,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[This Is How You Run A Telescope Ranch]]></title>
+            <title><![CDATA[これが天体望遠鏡牧場の運営方法だ]]></title>
             <link>https://finance.biggo.jp/podcast/f297c3575ff4ec0e</link>
             <guid>https://finance.biggo.jp/podcast/f297c3575ff4ec0e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -82,7 +94,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[アファームの真実の創業物語——マックス・レフチンとアレックス・ランペルが語る]]></title>
+            <title><![CDATA[マックス・レフチンが語るフィンテックの過去・現在・未来]]></title>
             <link>https://finance.biggo.jp/podcast/37d928ce3356691e</link>
             <guid>https://finance.biggo.jp/podcast/37d928ce3356691e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[NFLコルツQBダニエル・ジョーンズ、静かなリーダーシップについて語る]]></title>
             <link>https://finance.biggo.jp/podcast/045dd5673b90d461</link>
             <guid>https://finance.biggo.jp/podcast/045dd5673b90d461</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FocalTherics、治療用超音波を適応疾患の拡大に活用]]></title>
-            <link>https://finance.biggo.jp/podcast/648949963ea092b4</link>
-            <guid>https://finance.biggo.jp/podcast/648949963ea092b4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FWAがNFT市場を再構築中]]></title>
-            <link>https://finance.biggo.jp/podcast/94df1a6320207f76</link>
-            <guid>https://finance.biggo.jp/podcast/94df1a6320207f76</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
