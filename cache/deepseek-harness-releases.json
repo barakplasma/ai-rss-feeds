@@ -1,7 +1,8 @@
 {
-  "lastSuccess": "2026-09-04T06:45:44.056Z",
-  "articleCount": 10,
+  "lastSuccess": "2026-09-04T11:53:00.692Z",
+  "articleCount": 11,
   "knownLinks": [
+    "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.3-alpha.1",
     "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-rc.1",
     "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.5",
     "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4",
