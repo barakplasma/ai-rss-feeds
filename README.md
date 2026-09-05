@@ -167,10 +167,12 @@ pushing directly to `main`.
 Maintainer setup:
 
 1. Install the official compiler with `gh extension install github/gh-aw`.
-2. Create a fine-grained personal access token whose resource owner is your
-   user account and whose **Copilot Requests** account permission is **Read**.
-   Store it as the repository secret `COPILOT_GITHUB_TOKEN`. The token owner
-   must have an active GitHub Copilot plan.
+2. No `COPILOT_GITHUB_TOKEN` needed: the workflow runs the Copilot CLI in
+   [BYOK mode](https://github.github.com/gh-aw/reference/engines/#github-copilot-default),
+   pointed at the same GitHub Environment (`AI_ENVIRONMENT`, default
+   `openrouter`) used by `Heal Feed` — `AI_API_KEY` / `AI_BASE_URL` /
+   `AI_MODEL` power both. Nothing extra to configure if that Environment
+   already exists.
 3. In **Settings → Actions → General → Workflow permissions**, enable GitHub
    Actions to create pull requests so the safe output can open a draft PR.
 4. Recompile after editing the Markdown source with
@@ -183,12 +185,14 @@ Maintainer setup:
 The `new-feed` workflow is the primary path. It does not request GitHub Models
 or Copilot. Use this Agentic workflow only when deterministic discovery reports
 that the page has no native RSS/Atom feed. Agentic runs consume GitHub Actions
-minutes and the token owner's Copilot request allowance.
+minutes and the configured AI provider's usage allowance.
 
 The `Copilot Token Rotation Reminder` workflow checks the
 `COPILOT_TOKEN_EXPIRES_AT` repository variable every Monday. It creates a
 rotation issue 14 days before expiration and keeps the old token active until a
-manual Agentic Workflow verification succeeds with the replacement token.
+manual Agentic Workflow verification succeeds with the replacement token. This
+only matters if you opt out of BYOK mode and fall back to a `COPILOT_GITHUB_TOKEN`;
+BYOK setups have no token to rotate.
 
 ### Adding a GitHub Releases Feed
 

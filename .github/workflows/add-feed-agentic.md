@@ -15,8 +15,17 @@ on:
 permissions:
   contents: read
 
-engine: copilot
-model: gpt-4.1
+# Switch providers by changing the repository variable AI_ENVIRONMENT — the
+# same GitHub Environment (AI_API_KEY secret plus AI_BASE_URL / AI_MODEL
+# variables) used by the Heal Feed workflow. BYOK mode activates automatically
+# once COPILOT_PROVIDER_BASE_URL is set, so no COPILOT_GITHUB_TOKEN is needed.
+environment: ${{ vars.AI_ENVIRONMENT || 'openrouter' }}
+engine:
+  id: copilot
+  env:
+    COPILOT_PROVIDER_BASE_URL: ${{ vars.AI_BASE_URL }}
+    COPILOT_PROVIDER_API_KEY: ${{ secrets.AI_API_KEY }}
+model: ${{ vars.AI_MODEL || 'openrouter/free' }}
 timeout-minutes: 25
 max-turns: 30
 
@@ -29,6 +38,7 @@ network:
     - defaults
     - github
     - node
+    - openrouter.ai
   allowed-input: true
 
 tools:
