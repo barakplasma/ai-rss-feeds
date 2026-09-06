@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[אַחד המַאֲכָלִים שֶנָהוּג לֶאֱכוֹל בּרֹאש השָנה הוא הדְבַש. ארץ ישׂראל היא ארץ של דבַש, בִּזכוּתָם של אַנשֵי הדבַש]]></title>
+            <link>https://hadshon.education.gov.il/articles/honey/</link>
+            <guid>https://hadshon.education.gov.il/articles/honey/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[מָחר, 7 בּסֶפּטמבֶּר, יֵיעָרֵך טֶקֶס חֲגִיגי שֶבּוֹ יַעֲנִיק שַׂר החִינוּך יוֹאָב קִיש את פְּרָסֵי החינוּך האַרצִיִים לשְנַת תשפ״ו.]]></title>
+            <link>https://hadshon.education.gov.il/articles/tekes-7-9/</link>
+            <guid>https://hadshon.education.gov.il/articles/tekes-7-9/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[בַּשָבוּעַ הַבָּא יָחוּל רֹאש השָנה – יוֹם של דִין וּתפִילָה, של חֶשבּוֹן נֶפֶש ותִקוָוה 2026]]></title>
             <link>https://hadshon.education.gov.il/articles/next-week-rosh-hashana-2026/</link>
             <guid>https://hadshon.education.gov.il/articles/next-week-rosh-hashana-2026/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[בּעִקבוֹת המַחסוֹר בּמוֹרִים: ישׂראל תְעוֹדֵד עלִייה של מוֹרים מארה"ב ומקַנָדה]]></title>
             <link>https://hadshon.education.gov.il/articles/teachers-from-the-us-and-canada/</link>
             <guid>https://hadshon.education.gov.il/articles/teachers-from-the-us-and-canada/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[בֵּית הדִין לעֲבוֹדָה דָחָה את הצַו נֶגֶד השְבִיתָה: היוֹם יוּשבְּתוּ בּירוּשלים קַוֵוי אוֹטוֹבּוּס בֵּין 15:00-14:00]]></title>
-            <link>https://hadshon.education.gov.il/articles/today-bus-lines-will-be-built-in-jerusalem/</link>
-            <guid>https://hadshon.education.gov.il/articles/today-bus-lines-will-be-built-in-jerusalem/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[וַעֲדַת הבְּחִירוֹת המֶרכָּזִית: אָסוּר לנְצִיגֵי מִפלָגוֹת בּקַלפִּי להַעֲבִיר מֵידָע על מַצבִּיעִים]]></title>
-            <link>https://hadshon.education.gov.il/articles/central-election-commission/</link>
-            <guid>https://hadshon.education.gov.il/articles/central-election-commission/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
