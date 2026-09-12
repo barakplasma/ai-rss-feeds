@@ -10,11 +10,25 @@
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[天文台：今日間有陽光幾陣驟雨　最高氣溫31度]]></title>
-            <link>https://www.wenweipo.com/a/202609/12/AP6aa4892ee4b01d54a282cd5d.html</link>
-            <guid>https://www.wenweipo.com/a/202609/12/AP6aa4892ee4b01d54a282cd5d.html</guid>
+            <title><![CDATA[丘應樺：本屆「一帶一路」高峰論壇非常成功　努力爭取加入RCEP]]></title>
+            <link>https://www.wenweipo.com/a/202609/12/AP6aa4b43be4b01d54a282d2b2.html</link>
+            <guid>https://www.wenweipo.com/a/202609/12/AP6aa4b43be4b01d54a282d2b2.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[天文台預測本港今日天氣，短暫時間有陽光，有幾陣驟雨。日間最高氣溫約31度。稍後驟雨逐漸增多及有雷暴。]]></description>
+            <description><![CDATA[由特區政府與貿發局合辦的第十一屆「一帶一路」高峰論壇前日圓滿落幕。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[「支聯會」與三頭目勾外劣跡罄竹難書：長年收受美國NED資助　組「黑金政治鏈」禍港]]></title>
+            <link>https://www.wenweipo.com/a/202609/12/AP6aa49a0ce4b01d54a282cf55.html</link>
+            <guid>https://www.wenweipo.com/a/202609/12/AP6aa49a0ce4b01d54a282cf55.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[已解散的反中亂港組織「支聯會」及其頭目李卓人、何俊仁、鄒幸彤，被法庭裁定煽動顛覆國家政權罪成，案件於昨日正式判刑。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[煽顛覆國家政權情節嚴重　「支聯會」頭目最高囚7年3月]]></title>
+            <link>https://www.wenweipo.com/a/202609/12/AP6aa4969ce4b01d54a282ce93.html</link>
+            <guid>https://www.wenweipo.com/a/202609/12/AP6aa4969ce4b01d54a282ce93.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[香港特區高等法院原訟法庭昨日就已解散的反中亂港組織「支聯會」及其3名頭目李卓人、何俊仁和鄒幸彤被控觸犯香港國安法下「煽動顛覆國家政權罪」判刑。]]></description>
         </item>
         <item>
             <title><![CDATA[（有片）新一批警察學院學員今畢業　學員分享痛心父受騙棄金融投身警隊]]></title>
@@ -117,20 +131,6 @@
             <guid>https://www.wenweipo.com/a/202609/11/AP6aa3ed88e4b01d54a282c330.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[收到香港代表團選手包那天，金智武沒有立即拆開。這位25歲的香港中長跑之王，只是坐着，望着眼前那個大袋子，近十分鐘沒有動手。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[何文田P牌私家車剷行人路撞低3人 26歲司機涉危駕被捕]]></title>
-            <link>https://www.wenweipo.com/a/202609/11/AP6aa3e0efe4b01d54a282c1af.html</link>
-            <guid>https://www.wenweipo.com/a/202609/11/AP6aa3e0efe4b01d54a282c1af.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[今日（11日）下午5時42分，一輛P牌私家車沿何文田忠孝街行駛，當駛至迦密中學對開，懷疑失控剷上行人路撞倒多名途人。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[嶺大教授鄺得互榮膺2026年加拿大皇家科學院院士 彰顯「AI+」頂尖科研實力]]></title>
-            <link>https://www.wenweipo.com/a/202609/11/AP6aa3e071e4b01d54a282c174.html</link>
-            <guid>https://www.wenweipo.com/a/202609/11/AP6aa3e071e4b01d54a282c174.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[嶺大協理副校長（策略型研究）、研究生院院長及利榮康計算智能學講座教授鄺得互，近日獲選為加拿大皇家學會2026年度科學院院士，以表彰其在科學領域的傑出學術成就與卓越貢獻。加拿大皇家科學院院士資格是該國授予學者與科學家的最高榮譽之一。本年度全球僅有105名頂尖學者獲選為新晉院士，而鄺得互教授更是香港特區僅有三位獲此殊榮的學者之一。他將於今年11月遠赴加拿大渥太華出席院士就職典禮。]]></description>
         </item>
     </channel>
 </rss>
