@@ -1,7 +1,8 @@
 {
-  "lastSuccess": "2026-09-14T09:26:22.797Z",
+  "lastSuccess": "2026-09-14T16:05:16.153Z",
   "articleCount": 15,
   "knownLinks": [
+    "https://claude.com/blog/claude-for-financial-advisors",
     "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
     "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
     "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
@@ -15,8 +16,7 @@
     "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
     "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
     "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
-    "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-    "https://claude.com/blog/the-ai-native-sdlc-playbook"
+    "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
   ],
   "consecutiveErrors": 0
 }
