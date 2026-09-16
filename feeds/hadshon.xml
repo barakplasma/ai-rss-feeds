@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בּשָבוּעַ הבּא יָחוּל יוֹם הכִּיפּוּרִים, וּבוֹ קוֹראִים את סֵפֶר יוֹנָה]]></title>
+            <link>https://hadshon.education.gov.il/articles/yona-book/</link>
+            <guid>https://hadshon.education.gov.il/articles/yona-book/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[שׂוֹרֵד השוֹאָה המְבוּגָר בּיוֹתר בּישׂראל, יהוּדה אַהרֹן וִידַבסקי, נִפטַר השָבוּעַ בּגִיל 107]]></title>
+            <link>https://hadshon.education.gov.il/articles/yehuda-aron-vidavski/</link>
+            <guid>https://hadshon.education.gov.il/articles/yehuda-aron-vidavski/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[בּשָבוּעַ הבָּא יָחוּל יוֹם הכִּיפּוּרִים – יום של תפִילָה, תִיקוּן וסְלִיחָה]]></title>
             <link>https://hadshon.education.gov.il/articles/yom-hakipurim-next-week/</link>
             <guid>https://hadshon.education.gov.il/articles/yom-hakipurim-next-week/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[הלמ"ס: אוּכלוּסִייַת ישׂראל נֶאֱמֶדֶת בּכ-10,305,000 בּנֵי אָדם]]></title>
             <link>https://hadshon.education.gov.il/articles/10-305-000-israel/</link>
             <guid>https://hadshon.education.gov.il/articles/10-305-000-israel/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[אַחַד השִירים הפּוֹפּוּלָרִיִים לִקרַאת השָנה החדָשה הוא "בַּשָנה הַבָּאה" – שיר גַעֲגוּעִים אִישִי ועָצוּב שֶהָפַך לשיר שָׂמֵחַ ואוֹפּטִימִי]]></title>
-            <link>https://hadshon.education.gov.il/articles/bashana-habaa-song/</link>
-            <guid>https://hadshon.education.gov.il/articles/bashana-habaa-song/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[השַׂר אוֹפיר סוֹפֵר על העֲלִייָה מהמַעֲרָב: "כּוּלם מְבִינים מה קוֹרֶה בּאֵירוֹפּה ובאוֹסטרַליָה"]]></title>
-            <link>https://hadshon.education.gov.il/articles/ofir-sofer-west/</link>
-            <guid>https://hadshon.education.gov.il/articles/ofir-sofer-west/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
