@@ -10,6 +10,24 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Please stop using stupid models]]></title>
+            <link>https://finance.biggo.jp/podcast/d2c063a4b7dbe4d0</link>
+            <guid>https://finance.biggo.jp/podcast/d2c063a4b7dbe4d0</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ニック・シャーリー：政府の不正を暴き、カリフォルニアを訴え、メディアに挑む]]></title>
+            <link>https://finance.biggo.jp/podcast/ccde2269e519293c</link>
+            <guid>https://finance.biggo.jp/podcast/ccde2269e519293c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[外灘大会オフライン円卓会議｜財布をAIに預けられるか？エージェント取引爆発前夜の信頼インフラを語る]]></title>
+            <link>https://finance.biggo.jp/podcast/f1aa181b9217f679</link>
+            <guid>https://finance.biggo.jp/podcast/f1aa181b9217f679</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ワシントンDCから生中継：バイオセキュリティリスクと中国について語るとき、私たちは本当は何を意味しているのか？]]></title>
             <link>https://finance.biggo.jp/podcast/02332d0540be771b</link>
             <guid>https://finance.biggo.jp/podcast/02332d0540be771b</guid>
@@ -22,7 +40,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[「AIは私たち全員を殺すかもしれない」。そのパニックは過大だ、とサイバーセキュリティの専門家は言う。｜対談]]></title>
+            <title><![CDATA[AI創業者たちが減速を呼びかける本当の理由 | 対談]]></title>
             <link>https://finance.biggo.jp/podcast/615423c174b559af</link>
             <guid>https://finance.biggo.jp/podcast/615423c174b559af</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -58,7 +76,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why Studios Are Finally Embracing Generative Video]]></title>
+            <title><![CDATA[スタジオがついに生成ビデオを受け入れ始めた理由]]></title>
             <link>https://finance.biggo.jp/podcast/47086a533e837db1</link>
             <guid>https://finance.biggo.jp/podcast/47086a533e837db1</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[Instinctが100億ドル評価で10億ドル調達 | 「フロンティアのペースを保つ」がなぜナンセンスか | Mistralが30億ユーロ調達]]></title>
             <link>https://finance.biggo.jp/podcast/e973a7eb8e2a5b58</link>
             <guid>https://finance.biggo.jp/podcast/e973a7eb8e2a5b58</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[コードなきコード：Zapier CEOウェイド・フォスターが語るヘッドレステools、Zapier MCP、Automation Bench]]></title>
-            <link>https://finance.biggo.jp/podcast/3b3fdd9d7482e364</link>
-            <guid>https://finance.biggo.jp/podcast/3b3fdd9d7482e364</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Homa：AIクラスタのためのTCPの終焉 — ジョン・オースターハウト、スタンフォード大学]]></title>
-            <link>https://finance.biggo.jp/podcast/59f4f0d15c1662b5</link>
-            <guid>https://finance.biggo.jp/podcast/59f4f0d15c1662b5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ラグジュアリー、鉱業、そして点と点をつなぐ力]]></title>
-            <link>https://finance.biggo.jp/podcast/efe31bdf39c70482</link>
-            <guid>https://finance.biggo.jp/podcast/efe31bdf39c70482</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
