@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בּסוֹף השָבוּעַ יַתחִיל חַג הסוּכּוֹת, והוּא יִימָשֵך שִבעָה יָמים]]></title>
+            <link>https://hadshon.education.gov.il/articles/hag-sukot-end-of-the-week/</link>
+            <guid>https://hadshon.education.gov.il/articles/hag-sukot-end-of-the-week/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[לִפנֵי 80 שנה בּדיוּק, בּמוֹצָאֵי יום הכִּיפּוּרים תש"ז (1946), הוּקמוּ בַּנֶגֶב "11 הנְקוּדוֹת"]]></title>
+            <link>https://hadshon.education.gov.il/articles/11-points/</link>
+            <guid>https://hadshon.education.gov.il/articles/11-points/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[בּיוֹם רִאשוֹן בָּעֶרב יַתחִיל יוֹם הכִּיפּוּרִים, ויִשׂראל תִיכָּנֵס לאֲוִוירָה שְקֵטָה ומיוּחֶדֶת]]></title>
             <link>https://hadshon.education.gov.il/articles/yom-hakipurim-sunday/</link>
             <guid>https://hadshon.education.gov.il/articles/yom-hakipurim-sunday/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[שְמוּרַת הטֶבַע תֵל דָן שֶבּגָלִיל נִסגְרָה אֶתמוֹל בּעִקבוֹת שְׂרֵפָה]]></title>
             <link>https://hadshon.education.gov.il/articles/tel-dan-nature-reserve/</link>
             <guid>https://hadshon.education.gov.il/articles/tel-dan-nature-reserve/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[רבּים נוֹהגים לקַיים בּראש השנה את טֶקֶס ה"תַשלִיךְ"]]></title>
-            <link>https://hadshon.education.gov.il/articles/tashlich-2026/</link>
-            <guid>https://hadshon.education.gov.il/articles/tashlich-2026/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[המִצוָוה החֲשוּבָה בּרֹאש השָנה היא התְקִיעָה בּשוֹפָר]]></title>
-            <link>https://hadshon.education.gov.il/articles/rosh-hashana-shofar/</link>
-            <guid>https://hadshon.education.gov.il/articles/rosh-hashana-shofar/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
