@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-09-24T15:38:58.622Z",
+  "lastSuccess": "2026-09-24T22:55:01.380Z",
   "articleCount": 10,
   "knownLinks": [
     "https://hadshon.education.gov.il/articles/simchat-tora-2026/",
@@ -13,6 +13,5 @@
     "https://hadshon.education.gov.il/articles/yona-book/",
     "https://hadshon.education.gov.il/articles/yehuda-aron-vidavski/"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }
