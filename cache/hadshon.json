@@ -13,5 +13,6 @@
     "https://hadshon.education.gov.il/articles/yona-book/",
     "https://hadshon.education.gov.il/articles/yehuda-aron-vidavski/"
   ],
-  "consecutiveErrors": 0
+  "consecutiveErrors": 1,
+  "lastError": "No articles parsed"
 }
