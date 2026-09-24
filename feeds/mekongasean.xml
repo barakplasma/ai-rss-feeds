@@ -4,22 +4,22 @@
         <title>Mekong ASEAN</title>
         <link>https://mekongasean.vn/</link>
         <description>Tạp chí điện tử MEKONG - ASEAN</description>
-        <lastBuildDate>Wed, 23 Sep 2026 14:09:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 03:22:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>vi</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Tổng Bí thư, Chủ tịch nước Tô Lâm gặp Tổng Thư ký Liên Hợp Quốc]]></title>
+            <link>https://mekongasean.vn/tong-bi-thu-chu-tich-nuoc-to-lam-gap-tong-thu-ky-lien-hop-quoc-59946.html</link>
+            <guid>https://mekongasean.vn/tong-bi-thu-chu-tich-nuoc-to-lam-gap-tong-thu-ky-lien-hop-quoc-59946.html</guid>
+            <pubDate>Thu, 24 Sep 2026 03:22:30 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[‘Việt Nam và Thái Lan không nhất thiết phải cạnh tranh’]]></title>
             <link>https://mekongasean.vn/viet-nam-va-thai-lan-khong-nhat-thiet-phai-canh-tranh-59937.html</link>
             <guid>https://mekongasean.vn/viet-nam-va-thai-lan-khong-nhat-thiet-phai-canh-tranh-59937.html</guid>
             <pubDate>Wed, 23 Sep 2026 14:09:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA['Kinh tế Halal là cây cầu kết nối văn hóa, doanh nghiệp, thị trường và con người']]></title>
-            <link>https://mekongasean.vn/kinh-te-halal-la-cay-cau-ket-noi-van-hoa-doanh-nghiep-thi-truong-va-con-nguoi-59931.html</link>
-            <guid>https://mekongasean.vn/kinh-te-halal-la-cay-cau-ket-noi-van-hoa-doanh-nghiep-thi-truong-va-con-nguoi-59931.html</guid>
-            <pubDate>Wed, 23 Sep 2026 10:00:52 GMT</pubDate>
         </item>
     </channel>
 </rss>
