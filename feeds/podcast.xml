@@ -10,13 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[This Bull Market Won’t Look Like the Last One]]></title>
+            <link>https://finance.biggo.jp/podcast/a3ac85b614fe4d95</link>
+            <guid>https://finance.biggo.jp/podcast/a3ac85b614fe4d95</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【9月マクロ経済推演】大型施策の可能性は低下？10月会議で予想超えの刺激策の可能性は？]]></title>
+            <link>https://finance.biggo.jp/podcast/c6b833843b8958b7</link>
+            <guid>https://finance.biggo.jp/podcast/c6b833843b8958b7</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[食事療法だけではないPKU：食、メンタルヘルス、日常生活]]></title>
+            <link>https://finance.biggo.jp/podcast/59eb11b066e1b81c</link>
+            <guid>https://finance.biggo.jp/podcast/59eb11b066e1b81c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[小児近視治療の市場投入を目指すTheialifeの挑戦]]></title>
             <link>https://finance.biggo.jp/podcast/658b4d3dc9a2a2ce</link>
             <guid>https://finance.biggo.jp/podcast/658b4d3dc9a2a2ce</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Runwayがなぜ動画モデルは物理を学習できると考えるのか — 共同創業者アナスタシス・ゲルマニディス]]></title>
+            <title><![CDATA[The Endgame of AI Video Is a World Model — Anastasis Germanidis, Runway Co-founder]]></title>
             <link>https://finance.biggo.jp/podcast/31fd3dbb89b31c1c</link>
             <guid>https://finance.biggo.jp/podcast/31fd3dbb89b31c1c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[ChatGPTについにライバル登場 | MenloがAIバブルの警鐘を鳴らす | Keith Rabois vs Airwallex]]></title>
             <link>https://finance.biggo.jp/podcast/39cce803db057edd</link>
             <guid>https://finance.biggo.jp/podcast/39cce803db057edd</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[睡眠健康領域で拡大を続けるResMed]]></title>
-            <link>https://finance.biggo.jp/podcast/da2f0147adb56482</link>
-            <guid>https://finance.biggo.jp/podcast/da2f0147adb56482</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[世界モデルに必要なのは因果性であり、美しいピクセルではない — Christopher Manning氏、Moonlake AI]]></title>
-            <link>https://finance.biggo.jp/podcast/28dd53747e178225</link>
-            <guid>https://finance.biggo.jp/podcast/28dd53747e178225</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ロボティクスは70年間停滞している — Skild AIのDeepak Pathak氏]]></title>
-            <link>https://finance.biggo.jp/podcast/38a60f9a63dbb72d</link>
-            <guid>https://finance.biggo.jp/podcast/38a60f9a63dbb72d</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
