@@ -40,12 +40,6 @@
             <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[What a task costs on Opus 5.5]]></title>
-            <link>https://claude.com/blog/what-a-task-costs-on-opus-5-5</link>
-            <guid>https://claude.com/blog/what-a-task-costs-on-opus-5-5</guid>
-            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5]]></title>
             <link>https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5</link>
             <guid>https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5</guid>
@@ -97,6 +91,12 @@
             <title><![CDATA[How healthcare organizations use Claude Tag]]></title>
             <link>https://claude.com/blog/how-healthcare-organizations-use-claude-tag</link>
             <guid>https://claude.com/blog/how-healthcare-organizations-use-claude-tag</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deploying AI from pilot to production]]></title>
+            <link>https://claude.com/blog/deploying-ai-from-pilot-to-production</link>
+            <guid>https://claude.com/blog/deploying-ai-from-pilot-to-production</guid>
             <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>

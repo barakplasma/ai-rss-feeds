@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-09-25T12:28:55.735Z",
+  "lastSuccess": "2026-09-25T17:40:41.218Z",
   "articleCount": 15,
   "knownLinks": [
     "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
@@ -7,7 +7,6 @@
     "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
     "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
     "https://claude.com/blog/claude-marketplace",
-    "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
     "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
     "https://claude.com/blog/projects-redesigned",
     "https://claude.com/blog/cowork-is-now-claude",
@@ -16,7 +15,8 @@
     "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
     "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
     "https://claude.com/blog/claude-for-financial-advisors",
-    "https://claude.com/blog/how-healthcare-organizations-use-claude-tag"
+    "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+    "https://claude.com/blog/deploying-ai-from-pilot-to-production"
   ],
   "consecutiveErrors": 0
 }
