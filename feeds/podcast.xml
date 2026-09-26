@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Claude CodeとCodexを人間の研究者と競わせた — Prime IntellectのElie Bakouch氏]]></title>
+            <link>https://finance.biggo.jp/podcast/9e5804fc109d7887</link>
+            <guid>https://finance.biggo.jp/podcast/9e5804fc109d7887</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[リフレクションでRLを打ち負かす：GEPAと「何でも最適化」 — Lakshya A. Agrawal, GEPA]]></title>
+            <link>https://finance.biggo.jp/podcast/ed1333589ceb4842</link>
+            <guid>https://finance.biggo.jp/podcast/ed1333589ceb4842</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[長期的なエージェントにはプロンプトだけでなく実験が必要 — Erina Karati]]></title>
             <link>https://finance.biggo.jp/podcast/95e8c43f35789a5d</link>
             <guid>https://finance.biggo.jp/podcast/95e8c43f35789a5d</guid>
@@ -28,13 +40,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[AIの次の章は私たちのソフトウェアの中にある]]></title>
+            <title><![CDATA[AIを前進させるべき理由]]></title>
             <link>https://finance.biggo.jp/podcast/b0905b9191cf176c</link>
             <guid>https://finance.biggo.jp/podcast/b0905b9191cf176c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[エージェントの世界に関する5つの予測とTwitterでイーロンと働いた教訓 | パラグ・アグラワル]]></title>
+            <title><![CDATA[広告ビジネスモデルは死ぬ、そしてエージェントの世界に関する5つの予測 | パラグ・アグラワル、Parallel]]></title>
             <link>https://finance.biggo.jp/podcast/46b80838d5a73cb2</link>
             <guid>https://finance.biggo.jp/podcast/46b80838d5a73cb2</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -55,6 +67,12 @@
             <title><![CDATA[ループこそがプロダクト — Roland Gavrilescu、Introspection]]></title>
             <link>https://finance.biggo.jp/podcast/be882ed1aa98ca90</link>
             <guid>https://finance.biggo.jp/podcast/be882ed1aa98ca90</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ユートピアとは何か？ Joel Borgenによる『The Receipt Horizon』第1〜4章の提示]]></title>
+            <link>https://finance.biggo.jp/podcast/18ca93c28d8e4538</link>
+            <guid>https://finance.biggo.jp/podcast/18ca93c28d8e4538</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -82,6 +100,12 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[ルートニックから16億ドルを引き出した小さな磁石メーカー]]></title>
+            <link>https://finance.biggo.jp/podcast/a687033bd5ba07ed</link>
+            <guid>https://finance.biggo.jp/podcast/a687033bd5ba07ed</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[エピソード197 - 2026年9月25日]]></title>
             <link>https://finance.biggo.jp/podcast/75b4a2731f15e785</link>
             <guid>https://finance.biggo.jp/podcast/75b4a2731f15e785</guid>
@@ -103,30 +127,6 @@
             <title><![CDATA[AI安全性におけるゼロ・トゥ・ワン：HalcyonのMike McCormickが語る30の新組織の立ち上げと創業者ボトルネック]]></title>
             <link>https://finance.biggo.jp/podcast/ff7b3abb6af3cd60</link>
             <guid>https://finance.biggo.jp/podcast/ff7b3abb6af3cd60</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[患者がなぜ安楽死を選ぶのか、そしてワクチン監視の盲点]]></title>
-            <link>https://finance.biggo.jp/podcast/244a1c4b35c5acaf</link>
-            <guid>https://finance.biggo.jp/podcast/244a1c4b35c5acaf</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[スマホにライトはない | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/fa9c47217e305d6d</link>
-            <guid>https://finance.biggo.jp/podcast/fa9c47217e305d6d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[薬事規制の修正：米国FDA長官候補ハイディ・オーバートンの公聴会から得られる教訓]]></title>
-            <link>https://finance.biggo.jp/podcast/a7f2d2fda2141ec7</link>
-            <guid>https://finance.biggo.jp/podcast/a7f2d2fda2141ec7</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIで意図、品質、芸術性をどうスケールさせるか | ケイティ・ディル（Stripe）]]></title>
-            <link>https://finance.biggo.jp/podcast/d879ed36c7a067d8</link>
-            <guid>https://finance.biggo.jp/podcast/d879ed36c7a067d8</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
