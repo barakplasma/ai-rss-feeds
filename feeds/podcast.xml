@@ -10,13 +10,25 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[TWiV 1360: ダニエル・グリフィン医師による臨床アップデート]]></title>
+            <link>https://finance.biggo.jp/podcast/bb4559d28b8f856d</link>
+            <guid>https://finance.biggo.jp/podcast/bb4559d28b8f856d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AnthropicのIPOに逆風、MetaのMuseが人気、トークン価格下落、オープンソースがシェア拡大、アラインメントは失敗]]></title>
+            <link>https://finance.biggo.jp/podcast/8e8f39f62b9ced42</link>
+            <guid>https://finance.biggo.jp/podcast/8e8f39f62b9ced42</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[PRボトルネックの解消 — Matt Pocock、AIHero]]></title>
             <link>https://finance.biggo.jp/podcast/4884c941b185405c</link>
             <guid>https://finance.biggo.jp/podcast/4884c941b185405c</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[StripeがOpenRouterを買収した理由 — アレックス・アタラ、OpenRouter & アンジニー・ミダ、AMP]]></title>
+            <title><![CDATA[なぜ「一つのモデルが勝つ」は間違った賭けだったのか — OpenRouterのAlex AtallahとAMPのAnjney Midha]]></title>
             <link>https://finance.biggo.jp/podcast/e246d0af2fdff8ee</link>
             <guid>https://finance.biggo.jp/podcast/e246d0af2fdff8ee</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[LLMレコメンダーがAI最大のコンシューマーアプリになる理由 — MetaのDevansh Tandon氏]]></title>
             <link>https://finance.biggo.jp/podcast/5d7a5a6e9961ab83</link>
             <guid>https://finance.biggo.jp/podcast/5d7a5a6e9961ab83</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[なぜ私たちはCosignを開発したのか]]></title>
-            <link>https://finance.biggo.jp/podcast/3794f6e80f6c6d31</link>
-            <guid>https://finance.biggo.jp/podcast/3794f6e80f6c6d31</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LLMは配信せず蒸留せよ：DoorDashにおける検索とパーソナライゼーション — Raghav Saboo氏（DoorDash）]]></title>
-            <link>https://finance.biggo.jp/podcast/8b5f041c2075d43f</link>
-            <guid>https://finance.biggo.jp/podcast/8b5f041c2075d43f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
