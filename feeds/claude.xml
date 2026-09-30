@@ -10,6 +10,12 @@
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Claude for Government is now generally available]]></title>
+            <link>https://claude.com/blog/claude-for-government-is-now-generally-available</link>
+            <guid>https://claude.com/blog/claude-for-government-is-now-generally-available</guid>
+            <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[How Anthropic's sales team rebuilt inbound with Claude Managed Agents]]></title>
             <link>https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</link>
             <guid>https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</guid>
@@ -91,12 +97,6 @@
             <title><![CDATA[Building an AI-native revenue organization]]></title>
             <link>https://claude.com/blog/building-an-ai-native-revenue-organization</link>
             <guid>https://claude.com/blog/building-an-ai-native-revenue-organization</guid>
-            <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude for Small Business launches new workflows, integrations, and training programs]]></title>
-            <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
-            <guid>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
             <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
