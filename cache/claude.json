@@ -1,7 +1,8 @@
 {
-  "lastSuccess": "2026-09-30T10:08:45.718Z",
+  "lastSuccess": "2026-09-30T16:34:52.926Z",
   "articleCount": 15,
   "knownLinks": [
+    "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
     "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
     "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
     "https://claude.com/blog/build-plugins-for-claude",
@@ -15,8 +16,7 @@
     "https://claude.com/blog/cowork-is-now-claude",
     "https://claude.com/blog/salesforce-in-claude",
     "https://claude.com/blog/building-an-ai-native-revenue-organization",
-    "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-    "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+    "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
   ],
   "consecutiveErrors": 0
 }
