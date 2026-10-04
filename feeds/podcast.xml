@@ -10,6 +10,24 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[金利と市場の広がりは銀行崩壊クラッシュを警告しているのか]]></title>
+            <link>https://finance.biggo.jp/podcast/cda7ba04ae20665c</link>
+            <guid>https://finance.biggo.jp/podcast/cda7ba04ae20665c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Head of ChatGPT on Dots, ambient AI, and why most actions on the internet will soon be taken by AI]]></title>
+            <link>https://finance.biggo.jp/podcast/deca7a71ad136e7c</link>
+            <guid>https://finance.biggo.jp/podcast/deca7a71ad136e7c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TIVP100（動画）：ウォルマート（WMT）：ディスカウント小売からeコマースの巨人へ——カイル・グリーブ＆ショーン・オマリー]]></title>
+            <link>https://finance.biggo.jp/podcast/2288849734257b54</link>
+            <guid>https://finance.biggo.jp/podcast/2288849734257b54</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[パトリック・ウェルトンと語る40年のトレーディングの教訓｜Top Traders Unplugged｜第153回]]></title>
             <link>https://finance.biggo.jp/podcast/da6fc05509a15981</link>
             <guid>https://finance.biggo.jp/podcast/da6fc05509a15981</guid>
@@ -109,24 +127,6 @@
             <title><![CDATA[一つの脳、あらゆる身体：Google DeepMindのKeerthanaが語るGemini Robotics 2、クロスエンボディメント、ヒューマノイド]]></title>
             <link>https://finance.biggo.jp/podcast/971370a660dd78ff</link>
             <guid>https://finance.biggo.jp/podcast/971370a660dd78ff</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TWiV 1362: ダニエル・グリフィン医師による臨床アップデート]]></title>
-            <link>https://finance.biggo.jp/podcast/e0473699518f87c8</link>
-            <guid>https://finance.biggo.jp/podcast/e0473699518f87c8</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LLMアプリが200 OKを返しても、それはまだ間違っていた — Datadog マリーナ・ペッツェル]]></title>
-            <link>https://finance.biggo.jp/podcast/6bd270a3e135f150</link>
-            <guid>https://finance.biggo.jp/podcast/6bd270a3e135f150</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[YOLOモードを安全に：あらゆるエージェントのためのMicroVMサンドボックス — Rowan Christmas、Docker]]></title>
-            <link>https://finance.biggo.jp/podcast/c2179c7e0566ca70</link>
-            <guid>https://finance.biggo.jp/podcast/c2179c7e0566ca70</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
