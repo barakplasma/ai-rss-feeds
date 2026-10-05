@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[היְצִירָה המוּזִיקָלִית "רַפסוֹדיָה למִשפַּחת בִּיבַּס" תְבוּצַע בּ-7 בּאוֹקטוֹבּר בּוִילְנָה, בִּירַת לִיטָא]]></title>
+            <link>https://hadshon.education.gov.il/articles/rhapsody-for-the-bibas-family/</link>
+            <guid>https://hadshon.education.gov.il/articles/rhapsody-for-the-bibas-family/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[דִיווּחַ: הנשׂיא טראמפּ הֵקִים צֶוֶות לִבחִינַת הבִּינָה המְלָאכוּתִית (AI), שֶיַגִיש הַמלָצוֹת בּתוֹך 120 יום]]></title>
+            <link>https://hadshon.education.gov.il/articles/trump_ai/</link>
+            <guid>https://hadshon.education.gov.il/articles/trump_ai/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[שׂוֹרֶדֶת השֶבִי אֶמילי דַמָארי שִיתפָה בּאִינסטֶגרַם תמוּנוֹת חדָשוֹת מִשבִי חַמאס]]></title>
             <link>https://hadshon.education.gov.il/articles/emili-damari-instegram/</link>
             <guid>https://hadshon.education.gov.il/articles/emili-damari-instegram/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[לִפנֵי 80 שנה בּדיוּק, בּמוֹצָאֵי יום הכִּיפּוּרים תש"ז (1946), הוּקמוּ בַּנֶגֶב "11 הנְקוּדוֹת"]]></title>
             <link>https://hadshon.education.gov.il/articles/11-points/</link>
             <guid>https://hadshon.education.gov.il/articles/11-points/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[בּיוֹם רִאשוֹן בָּעֶרב יַתחִיל יוֹם הכִּיפּוּרִים, ויִשׂראל תִיכָּנֵס לאֲוִוירָה שְקֵטָה ומיוּחֶדֶת]]></title>
-            <link>https://hadshon.education.gov.il/articles/yom-hakipurim-sunday/</link>
-            <guid>https://hadshon.education.gov.il/articles/yom-hakipurim-sunday/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[הרַמַטכַּ"ל: "יש נִיסיוֹנוֹת הַשחָרָה של חַיָילֵי צַהַ"ל תוֹך שִימוּש בּשְקָרִים חַסרֵי בָּסִיס"]]></title>
-            <link>https://hadshon.education.gov.il/articles/soldier-black/</link>
-            <guid>https://hadshon.education.gov.il/articles/soldier-black/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
