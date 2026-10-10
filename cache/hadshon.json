@@ -1,5 +1,5 @@
 {
-  "lastSuccess": "2026-10-10T03:39:55.328Z",
+  "lastSuccess": "2026-10-10T16:04:12.458Z",
   "articleCount": 10,
   "knownLinks": [
     "https://hadshon.education.gov.il/articles/an-embracing-living-room/",
@@ -13,6 +13,5 @@
     "https://hadshon.education.gov.il/articles/emili-damari-instegram/",
     "https://hadshon.education.gov.il/articles/yaniv-hayun-hakebi/"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }
