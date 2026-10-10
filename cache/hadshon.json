@@ -13,5 +13,6 @@
     "https://hadshon.education.gov.il/articles/emili-damari-instegram/",
     "https://hadshon.education.gov.il/articles/yaniv-hayun-hakebi/"
   ],
-  "consecutiveErrors": 0
+  "consecutiveErrors": 1,
+  "lastError": "No articles parsed"
 }
