@@ -3,21 +3,20 @@
   "url": "https://claude.com/blog",
   "feed": {
     "title": "Claude Blog",
-    "description": "Product news and best practices for teams building with Claude.",
+    "description": "News, announcements, and stories from Anthropic about Claude and the people building with it.",
     "language": "en",
     "author": "Anthropic"
   },
   "selectors": {
-    "articleList": ".blog_cms_item",
-    "title": ".card_blog_title",
-    "date": ".card_blog_content .u-text-style-caption",
-    "description": "",
+    "articleList": "a[href^='/resources/articles/']",
+    "title": "h2, h3",
+    "date": "time",
+    "description": "p",
     "link": {
       "source": "attr:href",
-      "selector": "a[href^='/blog/']",
       "prefix": "https://claude.com"
     }
   },
-  "dateFormat": "MMMM d, yyyy",
-  "createdAt": "2026-04-25T00:00:00Z"
+  "createdAt": "2026-04-25T00:00:00Z",
+  "lastHealed": "2026-10-11T22:37:59.011Z"
 }
