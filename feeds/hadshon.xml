@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[יוֹם הקוֹלנוֹעַ הישׂראֵלי יִתקַיֵים בּיום רביעי הקָרוֹב בּבָתֵי הקוֹלנוֹעַ בּרַחֲבֵי האָרץ. סְרָטים רבּים יוּקרְנוּ בּמְחִיר של 10 שקָלים לכַרטִיס]]></title>
+            <link>https://hadshon.education.gov.il/articles/israeli-cinema-day-10-shekels-per-ticket/</link>
+            <guid>https://hadshon.education.gov.il/articles/israeli-cinema-day-10-shekels-per-ticket/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[חֶברַת התְעוּפָה 'אֵייר חֵיפָה' הִשִיקָה קַו טִיסוֹת מנַתבַּ"ג לאֵילַת, והוא יִפעַל מ-25 בּאוֹקטוֹבּר]]></title>
+            <link>https://hadshon.education.gov.il/articles/air-haifa-25-october/</link>
+            <guid>https://hadshon.education.gov.il/articles/air-haifa-25-october/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[צַה"ל: בּקָרוֹב נַתחיל בּתַהֲלִיך הַעֲנָקַת צַלַ"שִים ועִיטוּרִים על קְרָבוֹת שִבעָה בּאוֹקטוֹבֶּר]]></title>
             <link>https://hadshon.education.gov.il/articles/tsalashis-and-decorations/</link>
             <guid>https://hadshon.education.gov.il/articles/tsalashis-and-decorations/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[שׂר הבִּיטָחוֹן כַּ"ץ: חִיסַלנוּ חֵלֶק מַשמָעוּתי מהמחַבּלים שֶנִכנְסוּ לישׂראל בּשִבעָה בּאוֹקטוֹבּר, נִרדוֹף ונחַסֵל את כּוּלם]]></title>
             <link>https://hadshon.education.gov.il/articles/defense-minister-katz-we-have-eliminated/</link>
             <guid>https://hadshon.education.gov.il/articles/defense-minister-katz-we-have-eliminated/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[היְצִירָה המוּזִיקָלִית "רַפסוֹדיָה למִשפַּחת בִּיבַּס" תְבוּצַע בּ-7 בּאוֹקטוֹבּר בּוִילְנָה, בִּירַת לִיטָא]]></title>
-            <link>https://hadshon.education.gov.il/articles/rhapsody-for-the-bibas-family/</link>
-            <guid>https://hadshon.education.gov.il/articles/rhapsody-for-the-bibas-family/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[דִיווּחַ: הנשׂיא טראמפּ הֵקִים צֶוֶות לִבחִינַת הבִּינָה המְלָאכוּתִית (AI), שֶיַגִיש הַמלָצוֹת בּתוֹך 120 יום]]></title>
-            <link>https://hadshon.education.gov.il/articles/trump_ai/</link>
-            <guid>https://hadshon.education.gov.il/articles/trump_ai/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
