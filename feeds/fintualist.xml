@@ -4,11 +4,23 @@
         <title>El Fintualist</title>
         <link>https://fintualist.com/chile/</link>
         <description>En Fintualist te contamos cada semana noticias interesantes e historias sobre economía, política, inversiones, ciencia, tecnología y finanzas.</description>
-        <lastBuildDate>Thu, 08 Oct 2026 18:29:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 13:12:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>es</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Concurso: Subasta de Fantasía en el evento Main Character]]></title>
+            <link>https://fintualist.com/chile/cultura/concurso-subasta-de-fantasia-en-el-evento-main-character/</link>
+            <guid>https://fintualist.com/chile/cultura/concurso-subasta-de-fantasia-en-el-evento-main-character/</guid>
+            <pubDate>Tue, 13 Oct 2026 13:12:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[📍 Mercados en vivo - A la espera de la inflación en EE.UU.]]></title>
+            <link>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</link>
+            <guid>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</guid>
+            <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA["Justo" subió el precio | Fintualist 296]]></title>
             <link>https://fintualist.com/chile/newsletters/por-que-invertir-en-una-tipografia/</link>
@@ -20,18 +32,6 @@
             <link>https://fintualist.com/chile/educacion-financiera/ahorro-voluntario-para-la-vivienda-como-sacarle-provecho-al-nuevo-avv/</link>
             <guid>https://fintualist.com/chile/educacion-financiera/ahorro-voluntario-para-la-vivienda-como-sacarle-provecho-al-nuevo-avv/</guid>
             <pubDate>Tue, 06 Oct 2026 15:59:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[¿Cómo hubiera invertido Chuck Norris? Un ejercicio histórico]]></title>
-            <link>https://fintualist.com/chile/educacion-financiera/como-hubiera-invertido-chuck-norris-un-ejercicio-historico/</link>
-            <guid>https://fintualist.com/chile/educacion-financiera/como-hubiera-invertido-chuck-norris-un-ejercicio-historico/</guid>
-            <pubDate>Tue, 06 Oct 2026 13:25:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[¿Vale la pena Life of M, la novela que se supone trata de Natalie Portman?]]></title>
-            <link>https://fintualist.com/chile/opinion/vale-la-pena-life-of-m-la-novela-que-se-supone-trata-de-natalie-portman/</link>
-            <guid>https://fintualist.com/chile/opinion/vale-la-pena-life-of-m-la-novela-que-se-supone-trata-de-natalie-portman/</guid>
-            <pubDate>Tue, 06 Oct 2026 13:24:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[¿Cómo invertirías 500 millones de pesos?]]></title>
