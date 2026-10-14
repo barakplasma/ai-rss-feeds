@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[היום, ג' בּמַרחֶשוָון, מָלאוּ 13 שנה לפְטִירָתוֹ של הרַב עוֹבַדיָה יוֹסֵף]]></title>
+            <link>https://hadshon.education.gov.il/articles/rabbi-ovadia-yosef/</link>
+            <guid>https://hadshon.education.gov.il/articles/rabbi-ovadia-yosef/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[המִמשָל האָמֵריקָני מצַיֵין שנה להַפסָקת האֵש: "שִיקוּם עַזה יִהיֶה ארוֹך ומְפָרֵך"]]></title>
+            <link>https://hadshon.education.gov.il/articles/rehabilitating-gaza-will-be-long-and-arduous/</link>
+            <guid>https://hadshon.education.gov.il/articles/rehabilitating-gaza-will-be-long-and-arduous/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ארה"ב ומדִינוֹת בּאֵירוֹפָּה בּהַצהָרה נֶגד אִיראן: "כָּל נִיסָיוֹן לאַיֵים עָלֵינוּ – לא מְקוּבָּל"]]></title>
             <link>https://hadshon.education.gov.il/articles/statement-against-iran/</link>
             <guid>https://hadshon.education.gov.il/articles/statement-against-iran/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[פּעִיל ההַסבָּרָה יוֹסף חַדַאד הִתיַיצֵב מוּל מַפגִינִים פְּרוֹ-פַלסטִינִים בּלוֹנדוֹן וקָרא: "בּ-7 בּאוֹקטוֹבּר 1200 ישׂראֵלים, עַרבים ויהוּדים, נִרצְחוּ יחד"]]></title>
             <link>https://hadshon.education.gov.il/articles/yoseph-haddad-confronted/</link>
             <guid>https://hadshon.education.gov.il/articles/yoseph-haddad-confronted/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מֵאָז 7/10: כ-30 אֶלף נִפגָעים נִקלְטוּ בּאֲגַף השִיקוּם של מִשׂרַד הבִּיטָחון]]></title>
-            <link>https://hadshon.education.gov.il/articles/rehabilitation-division/</link>
-            <guid>https://hadshon.education.gov.il/articles/rehabilitation-division/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[האַזהָרָה של המַלַ"ל לישׂראֵלים בּחוּ"ל: "סִיכּוּן מוּגבָּר לפִיגוּעים בּ-7/10"]]></title>
-            <link>https://hadshon.education.gov.il/articles/increased-risk-of-attacks/</link>
-            <guid>https://hadshon.education.gov.il/articles/increased-risk-of-attacks/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
