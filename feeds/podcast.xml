@@ -10,13 +10,31 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[大富豪たち：カーネギー、ロックフェラー、グールド、モルガン]]></title>
+            <link>https://finance.biggo.jp/podcast/7c6ced20ff87fd0c</link>
+            <guid>https://finance.biggo.jp/podcast/7c6ced20ff87fd0c</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My First Time in Taiwan w/ Jensen Huang | Lex Fridman⁠]]></title>
+            <link>https://finance.biggo.jp/podcast/5af4e1e353c166b5</link>
+            <guid>https://finance.biggo.jp/podcast/5af4e1e353c166b5</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ウォール街の逆転——債券トレーダーが株式に主役を奪われる]]></title>
+            <link>https://finance.biggo.jp/podcast/298dae6773e26210</link>
+            <guid>https://finance.biggo.jp/podcast/298dae6773e26210</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Anthropic IPO：目論見書リーク報道を読み解く]]></title>
             <link>https://finance.biggo.jp/podcast/bc9dd93dca27d56d</link>
             <guid>https://finance.biggo.jp/podcast/bc9dd93dca27d56d</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Million-Hour Robot Brain: Dyna-2 & World Models — Jason Ma, Dyna Robotics]]></title>
+            <title><![CDATA[100万時間のロボット脳：Dyna-2と世界モデル — Jason Ma、Dyna Robotics]]></title>
             <link>https://finance.biggo.jp/podcast/e83232c98cab3630</link>
             <guid>https://finance.biggo.jp/podcast/e83232c98cab3630</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[MetaがついにAnthropicに追いついた]]></title>
             <link>https://finance.biggo.jp/podcast/3524803466d9ee07</link>
             <guid>https://finance.biggo.jp/podcast/3524803466d9ee07</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[3 Simple Steps to Close a Sale | Ryan Serhant]]></title>
-            <link>https://finance.biggo.jp/podcast/bc8e008245012726</link>
-            <guid>https://finance.biggo.jp/podcast/bc8e008245012726</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ineffable IntelligenceのDavid SilverとLasse Espeholt：経験の時代に向けたスーパーラーナー]]></title>
-            <link>https://finance.biggo.jp/podcast/c317cac032231ccc</link>
-            <guid>https://finance.biggo.jp/podcast/c317cac032231ccc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[149 ✪ 抖省省が美団の店舗ビジネスに奇襲：ローカル生活はどう内巻化するか]]></title>
-            <link>https://finance.biggo.jp/podcast/7712c91e8298f68e</link>
-            <guid>https://finance.biggo.jp/podcast/7712c91e8298f68e</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
