@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[ブルームバーグ・ビジネスウィーク・デイリー 2026年10月14日]]></title>
+            <link>https://finance.biggo.jp/podcast/4d0dbfea0f99881e</link>
+            <guid>https://finance.biggo.jp/podcast/4d0dbfea0f99881e</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[184: 陳哲氏の「具身季報26Q3」——Astraの衝撃後、汎用モデルはRoboticsを飲み込むのか？]]></title>
+            <link>https://finance.biggo.jp/podcast/b0b42ce8fa0133cf</link>
+            <guid>https://finance.biggo.jp/podcast/b0b42ce8fa0133cf</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[なぜ40億点のKaggleデータセットでも偶然を超えられなかったのか — Ian Quigley、Leash Bio]]></title>
             <link>https://finance.biggo.jp/podcast/23e6cb0b79788289</link>
             <guid>https://finance.biggo.jp/podcast/23e6cb0b79788289</guid>
@@ -46,15 +58,15 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[本番環境への道を切り開く：統制されたエンタープライズAIエージェント — Harish Gaggar氏（Credit Karma）]]></title>
-            <link>https://finance.biggo.jp/podcast/633a8c05d3fbe047</link>
-            <guid>https://finance.biggo.jp/podcast/633a8c05d3fbe047</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Joe Rogan Experience #2565 - Michael Douglas]]></title>
             <link>https://finance.biggo.jp/podcast/38b9f9443fe41e25</link>
             <guid>https://finance.biggo.jp/podcast/38b9f9443fe41e25</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[本番環境への道を切り開く：統制されたエンタープライズAIエージェント — Harish Gaggar氏（Credit Karma）]]></title>
+            <link>https://finance.biggo.jp/podcast/633a8c05d3fbe047</link>
+            <guid>https://finance.biggo.jp/podcast/633a8c05d3fbe047</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -115,18 +127,6 @@
             <title><![CDATA[AIにおけるアクセシビリティのコスト — Jemima Abu、CAIS]]></title>
             <link>https://finance.biggo.jp/podcast/5464b38aefbb13a5</link>
             <guid>https://finance.biggo.jp/podcast/5464b38aefbb13a5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ダイヤモンド業界はいかにして全員を騙したか]]></title>
-            <link>https://finance.biggo.jp/podcast/6a149270cef45662</link>
-            <guid>https://finance.biggo.jp/podcast/6a149270cef45662</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Thrive Capital、Neuralink、OpenAI、Isomorphic Labs、OpenEvidenceについて]]></title>
-            <link>https://finance.biggo.jp/podcast/f07843fe97f9f31a</link>
-            <guid>https://finance.biggo.jp/podcast/f07843fe97f9f31a</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
