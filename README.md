@@ -13,13 +13,13 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 | Blog | Feed | Status |
 |------|------|--------|
 | [Windsurf Blog](https://windsurf.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/windsurf.xml) | ✅ 50 articles |
-| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 7 articles |
+| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 8 articles |
 | [文匯香港](https://www.wenweipo.com/hongkong) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml) | ✅ 15 articles |
 | [El Fintualist](https://fintualist.com/chile/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml) | ✅ 20 articles |
 | [www.aihero.dev](https://www.aihero.dev/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/aihero-dev.xml) | ✅ 50 articles |
 | [Google DeepMind Blog](https://deepmind.google/discover/blog/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deepmind-blog.xml) | ✅ 25 articles |
 | [Composio Blog](https://composio.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/composio.xml) | ✅ 3 articles |
-| [Groq Blog](https://groq.com/news/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/groq-news.xml) | ✅ 39 articles |
+| [Groq Blog](https://groq.com/news/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/groq-news.xml) | ✅ 40 articles |
 | [Mekong ASEAN](https://mekongasean.vn/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml) | ✅ 2 articles |
 | [Cursor Blog](https://cursor.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cursor-blog.xml) | ✅ 19 articles |
 | [文匯報](https://www.wenweipo.com/) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo.xml) | ✅ 13 articles |
