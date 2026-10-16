@@ -13,7 +13,13 @@ permissions:
 
 jobs:
   add-feed:
-    if: github.event.label.name == 'new-feed' || github.event.label.name == 'retry-feed'
+    # Public repo: issue forms auto-apply `new-feed`, so any GitHub user could
+    # spend AI_API_KEY and push to main. Run only for trusted authors, or when a
+    # trusted user applies the label (e.g. `retry-feed` as approval).
+    if: >-
+      (github.event.label.name == 'new-feed' || github.event.label.name == 'retry-feed') &&
+      (contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) ||
+       github.event.sender.login == github.repository_owner)
     runs-on: ubuntu-latest
     # Switch providers by changing the repository variable AI_ENVIRONMENT.
     # Each GitHub Environment owns its own AI_API_KEY secret plus
