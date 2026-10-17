@@ -3,6 +3,7 @@
 ## Requesting a New Feed
 
 Open a [new feed issue](https://github.com/leontloveless/ai-rss-feeds/issues/new?template=new_feed.yml) with the URL and we'll handle the rest.
+Requests from non-collaborators run once a maintainer approves them by adding the `retry-feed` label.
 
 ### What We Accept
 
