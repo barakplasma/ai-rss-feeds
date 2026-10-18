@@ -1,7 +1,9 @@
 {
-  "lastSuccess": "2026-10-17T21:55:47.459Z",
+  "lastSuccess": "2026-10-18T02:24:50.992Z",
   "articleCount": 20,
   "knownLinks": [
+    "https://finance.biggo.jp/podcast/975e5a43efb5eafb",
+    "https://finance.biggo.jp/podcast/ffc9a3762591e409",
     "https://finance.biggo.jp/podcast/a0ac0d33b085ab63",
     "https://finance.biggo.jp/podcast/04e821c39b7768db",
     "https://finance.biggo.jp/podcast/6a295ca391a0d32c",
@@ -19,10 +21,7 @@
     "https://finance.biggo.jp/podcast/6d84f9c6b690be03",
     "https://finance.biggo.jp/podcast/928be87246fed58d",
     "https://finance.biggo.jp/podcast/eadaa30c89a8e3cd",
-    "https://finance.biggo.jp/podcast/1ebfa11e5a74a366",
-    "https://finance.biggo.jp/podcast/465b6114a5e4ca35",
-    "https://finance.biggo.jp/podcast/9ecaa6d8d3a2adb8"
+    "https://finance.biggo.jp/podcast/1ebfa11e5a74a366"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "Failed to fetch https://finance.biggo.jp/podcast: HTTP 429 Too Many Requests"
+  "consecutiveErrors": 0
 }
