@@ -10,7 +10,25 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Silicon Valley’s “Permanent Underclass” Panic Is Wrong — with Oliver Burkeman]]></title>
+            <title><![CDATA[ある銀行が自社製コーディングエージェントを開発、大成功を収める — MonzoのFelipe Felisola Caso氏とFrancesco Galletta氏]]></title>
+            <link>https://finance.biggo.jp/podcast/fd0f06dd01fe6618</link>
+            <guid>https://finance.biggo.jp/podcast/fd0f06dd01fe6618</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AIが数学界を二分している｜The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/98a2a886920f63b3</link>
+            <guid>https://finance.biggo.jp/podcast/98a2a886920f63b3</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joe Rogan Experience #2568 - Ross Edgley]]></title>
+            <link>https://finance.biggo.jp/podcast/7d82b13210c54833</link>
+            <guid>https://finance.biggo.jp/podcast/7d82b13210c54833</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[シリコンバレーの「永久的下層階級」パニックは間違っている — オリバー・バークマンと共に]]></title>
             <link>https://finance.biggo.jp/podcast/d750a92f8f628935</link>
             <guid>https://finance.biggo.jp/podcast/d750a92f8f628935</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -22,13 +40,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[We watched the 3hr Elizabeth Holmes doc so you don’t have to]]></title>
+            <title><![CDATA[3時間のエリザベス・ホームズドキュメンタリーを私たちが観たので、あなたは観なくていい]]></title>
             <link>https://finance.biggo.jp/podcast/e811bc0d8b6078eb</link>
             <guid>https://finance.biggo.jp/podcast/e811bc0d8b6078eb</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ep. 039 - 【緊急】ブラッド・ガーストナーが我々の2027年予測を半減させた。我々は引き上げた。（データセンター）]]></title>
+            <title><![CDATA[第039回 - [回答] 私たちの数字は「異常」だ。これがその証拠。（データセンター）]]></title>
             <link>https://finance.biggo.jp/podcast/0db40fc05db8e3a3</link>
             <guid>https://finance.biggo.jp/podcast/0db40fc05db8e3a3</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -109,24 +127,6 @@
             <title><![CDATA[TenexはいかにしてAIネイティブなエンジニアリングチームを築くのか — Alex Lieberman & CJ Hess]]></title>
             <link>https://finance.biggo.jp/podcast/e2eb530d1dcaad69</link>
             <guid>https://finance.biggo.jp/podcast/e2eb530d1dcaad69</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[第393回 - 中国のトレンド、RocheとMerck KGaAの取引、Arrowheadとtau]]></title>
-            <link>https://finance.biggo.jp/podcast/a0afd8d256a2fb13</link>
-            <guid>https://finance.biggo.jp/podcast/a0afd8d256a2fb13</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[E256｜エージェント、ロボット、創薬——GPT-6 Astraが最初に書き換えるのはどれか？]]></title>
-            <link>https://finance.biggo.jp/podcast/33c9d5a8c66c6cbb</link>
-            <guid>https://finance.biggo.jp/podcast/33c9d5a8c66c6cbb</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIエージェントが自律稼働できる条件の見極め方 — CoinbaseのEvan Kormos氏]]></title>
-            <link>https://finance.biggo.jp/podcast/bdc9a7a0217d7eef</link>
-            <guid>https://finance.biggo.jp/podcast/bdc9a7a0217d7eef</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
