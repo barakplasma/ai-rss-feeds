@@ -10,6 +10,42 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[生命の世界モデル：BiohubのAlex Rivesが語る仮想細胞、計測、そして18億ドルのデータ推進]]></title>
+            <link>https://finance.biggo.jp/podcast/43541781fd21ef00</link>
+            <guid>https://finance.biggo.jp/podcast/43541781fd21ef00</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[12か月のコンプライアンス待ちなしでAIを5大銀行に導入 — CiscoのAl Chen氏]]></title>
+            <link>https://finance.biggo.jp/podcast/4a8c13adb83a4577</link>
+            <guid>https://finance.biggo.jp/podcast/4a8c13adb83a4577</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ロボットデータ工場の内側：MeckaのJosh Gaoが語る、人間をセンサー化してロボットを訓練する方法]]></title>
+            <link>https://finance.biggo.jp/podcast/5d7773072c1f69bf</link>
+            <guid>https://finance.biggo.jp/podcast/5d7773072c1f69bf</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[投資家の優位性は頭の中にある — Anekha Sokhal、Moshi]]></title>
+            <link>https://finance.biggo.jp/podcast/aaaa152e7518255d</link>
+            <guid>https://finance.biggo.jp/podcast/aaaa152e7518255d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AIエージェントはなぜ独自の銀行口座を必要とするのか — CoinbaseのLincoln Murr氏]]></title>
+            <link>https://finance.biggo.jp/podcast/4bdded5927cc223a</link>
+            <guid>https://finance.biggo.jp/podcast/4bdded5927cc223a</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TenexはいかにしてAIネイティブなエンジニアリングチームを築くのか — Alex Lieberman & CJ Hess]]></title>
+            <link>https://finance.biggo.jp/podcast/e2eb530d1dcaad69</link>
+            <guid>https://finance.biggo.jp/podcast/e2eb530d1dcaad69</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[第393回 - 中国のトレンド、RocheとMerck KGaAの取引、Arrowheadとtau]]></title>
             <link>https://finance.biggo.jp/podcast/a0afd8d256a2fb13</link>
             <guid>https://finance.biggo.jp/podcast/a0afd8d256a2fb13</guid>
@@ -91,42 +127,6 @@
             <title><![CDATA[第50回：Third Rock VenturesのBob Tepper]]></title>
             <link>https://finance.biggo.jp/podcast/5001792f0169d747</link>
             <guid>https://finance.biggo.jp/podcast/5001792f0169d747</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[米国はついに海外の暗号資産取引所に追いつけるか]]></title>
-            <link>https://finance.biggo.jp/podcast/fb466cd7622e501b</link>
-            <guid>https://finance.biggo.jp/podcast/fb466cd7622e501b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[特許切れ、記録に残る：IGBAのAna Gaunt氏と語る、節約の枠を超えたバイオシミラーの価値]]></title>
-            <link>https://finance.biggo.jp/podcast/aaacf522e97b4c40</link>
-            <guid>https://finance.biggo.jp/podcast/aaacf522e97b4c40</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[買収・構築・展開：M&Aを活用したAIトランスフォーメーションの推進 — プラティク・ナイドゥ、ロング・レイク]]></title>
-            <link>https://finance.biggo.jp/podcast/fce911b28979c71e</link>
-            <guid>https://finance.biggo.jp/podcast/fce911b28979c71e</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[バージョン管理された検索：あの頃のウェブを再現する — ExaのRyan Ahern氏]]></title>
-            <link>https://finance.biggo.jp/podcast/f0c3637c4835491d</link>
-            <guid>https://finance.biggo.jp/podcast/f0c3637c4835491d</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[昨日のウェブでエージェントをバックテストする — ExaのRyan Ahern氏]]></title>
-            <link>https://finance.biggo.jp/podcast/9d4ca1c218269865</link>
-            <guid>https://finance.biggo.jp/podcast/9d4ca1c218269865</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[臨終の科学者：死の数週間前に患者は幻視を見始める！| クリストファー・カー博士]]></title>
-            <link>https://finance.biggo.jp/podcast/5588fe7f3b4dbdcb</link>
-            <guid>https://finance.biggo.jp/podcast/5588fe7f3b4dbdcb</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
