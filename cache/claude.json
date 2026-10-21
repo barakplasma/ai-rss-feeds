@@ -1,8 +1,10 @@
 {
-  "lastSuccess": "2026-10-21T15:47:24.987Z",
-  "articleCount": 6,
+  "lastSuccess": "2026-10-21T19:49:57.850Z",
+  "articleCount": 8,
   "knownLinks": [
-    "https://claude.com/resources/articles/dashboards-and-motion",
+    "https://claude.com/resources/articles/claude-duet",
+    "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
+    "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
     "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
     "https://claude.com/resources/articles/code-review-is-now-generally-available",
     "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
