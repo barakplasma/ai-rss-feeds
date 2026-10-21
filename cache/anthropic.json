@@ -1,18 +1,27 @@
 {
-  "lastSuccess": "2026-10-20T12:30:52.118Z",
-  "articleCount": 10,
+  "lastSuccess": "2026-10-21T10:56:02.109Z",
+  "articleCount": 20,
   "knownLinks": [
+    "https://www.anthropic.com/news/announcements",
     "https://www.anthropic.com/news/public-benefit-fund",
+    "https://www.anthropic.com/news/cyber-verification-program",
     "https://www.anthropic.com/news/an-update-on-independent-evaluators",
     "https://www.anthropic.com/news/2026-us-midterms",
     "https://www.anthropic.com/news/singapore-office-opening",
+    "https://www.anthropic.com/news/distillation-defenses",
+    "https://www.anthropic.com/news/anthropic-cyber-mission",
     "https://www.anthropic.com/news/2026-usage-policy-update",
     "https://www.anthropic.com/news/genesis-mission-commitment",
-    "https://www.anthropic.com/news/anthropic-cyber-mission",
-    "https://www.anthropic.com/news/cyber-verification-program",
     "https://www.anthropic.com/news/claude-frontier-academy",
-    "https://www.anthropic.com/news/barclays-scales-claude"
+    "https://www.anthropic.com/news/barclays-scales-claude",
+    "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "https://www.anthropic.com/news/life-sciences-verification-program",
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "https://www.anthropic.com/news/improving-alignment-security-efforts",
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "https://www.anthropic.com/news/wellbeing-research-grants",
+    "https://www.anthropic.com/news/claude-text-watermark"
   ],
-  "consecutiveErrors": 4,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Anthropic News</title>
+        <title>Anthropic Newsroom</title>
         <link>https://www.anthropic.com/news</link>
-        <description>News and announcements from Anthropic.</description>
+        <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
         <lastBuildDate>Sun, 18 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
@@ -14,6 +14,7 @@
             <link>https://www.anthropic.com/news/public-benefit-fund</link>
             <guid>https://www.anthropic.com/news/public-benefit-fund</guid>
             <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.]]></description>
         </item>
         <item>
             <title><![CDATA[An update on independent evaluators]]></title>
@@ -34,6 +35,18 @@
             <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Strengthening our defenses against distillation attacks]]></title>
+            <link>https://www.anthropic.com/news/distillation-defenses</link>
+            <guid>https://www.anthropic.com/news/distillation-defenses</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Anthropic Cyber Mission]]></title>
+            <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
+            <guid>https://www.anthropic.com/news/anthropic-cyber-mission</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[2026 Usage Policy update]]></title>
             <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
             <guid>https://www.anthropic.com/news/2026-usage-policy-update</guid>
@@ -46,16 +59,11 @@
             <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing the Anthropic Cyber Mission]]></title>
-            <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
-            <guid>https://www.anthropic.com/news/anthropic-cyber-mission</guid>
-            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Expanding the Cyber Verification Program]]></title>
             <link>https://www.anthropic.com/news/cyber-verification-program</link>
             <guid>https://www.anthropic.com/news/cyber-verification-program</guid>
             <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.]]></description>
         </item>
         <item>
             <title><![CDATA[Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap]]></title>
@@ -68,6 +76,61 @@
             <link>https://www.anthropic.com/news/barclays-scales-claude</link>
             <guid>https://www.anthropic.com/news/barclays-scales-claude</guid>
             <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Claude Opus 5.5]]></title>
+            <link>https://www.anthropic.com/news/announcements</link>
+            <guid>https://www.anthropic.com/news/announcements</guid>
+            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announcements]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Partnering with Accenture on embedded evaluation]]></title>
+            <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
+            <guid>https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
+            <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
+            <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+            <guid>https://www.anthropic.com/news/life-sciences-verification-program</guid>
+            <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
+            <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
+            <guid>https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving our alignment and security efforts]]></title>
+            <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
+            <guid>https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
+            <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Previewing the Model Hardware Standard]]></title>
+            <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
+            <guid>https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding our support for scientists]]></title>
+            <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+            <guid>https://www.anthropic.com/news/expanding-support-for-scientists</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Funding better evaluations of AI’s impact on wellbeing]]></title>
+            <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
+            <guid>https://www.anthropic.com/news/wellbeing-research-grants</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Claude’s text watermark works]]></title>
+            <link>https://www.anthropic.com/news/claude-text-watermark</link>
+            <guid>https://www.anthropic.com/news/claude-text-watermark</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
