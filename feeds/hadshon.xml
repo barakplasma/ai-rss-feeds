@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[מָחָר, י"א בּחֶשוָון, תְצַיֵין מדִינת ישׁראל 31 שנה לרֶצַח יִצחק רַבּין]]></title>
+            <link>https://hadshon.education.gov.il/articles/31-years-since-the-assassination-of-yitzhak-rabin/</link>
+            <guid>https://hadshon.education.gov.il/articles/31-years-since-the-assassination-of-yitzhak-rabin/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[42 מחֲסִידֵי חַבַּ"ד נֶעֶצרוּ אתמול בּנַתבַּ"ג בּגלל הִשתַמטוּת מצַהַ"ל. חלקם נִשלְחוּ לכֶּלֶא הצְבָאִי, אך בּסוֹפוֹ של דָבר כִּמעַט כּוּלָם שוּחרְרוּ]]></title>
+            <link>https://hadshon.education.gov.il/articles/42-chabad-hasidim-arrested/</link>
+            <guid>https://hadshon.education.gov.il/articles/42-chabad-hasidim-arrested/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[27חוֹדשֵי מַאֲסָר לרוֹפֵא מבֵּית החוֹלים סוֹרוֹקָה שֶהִצטָרף לאִרגוּן דַאעֶש לאַחַר 7 בּאוֹקטוֹבּר]]></title>
             <link>https://hadshon.education.gov.il/articles/doctor-from-soroka-hospital/</link>
             <guid>https://hadshon.education.gov.il/articles/doctor-from-soroka-hospital/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[יו"ר וַעֲדַת הבְּחירוֹת השוֹפֵט סוֹלבֶּרג: "לִגנוֹב בּחירוֹת – אִי אֶפשָר"]]></title>
             <link>https://hadshon.education.gov.il/articles/justice-solberg/</link>
             <guid>https://hadshon.education.gov.il/articles/justice-solberg/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[היום, ג' בּמַרחֶשוָון, מָלאוּ 13 שנה לפְטִירָתוֹ של הרַב עוֹבַדיָה יוֹסֵף]]></title>
-            <link>https://hadshon.education.gov.il/articles/rabbi-ovadia-yosef/</link>
-            <guid>https://hadshon.education.gov.il/articles/rabbi-ovadia-yosef/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[המִמשָל האָמֵריקָני מצַיֵין שנה להַפסָקת האֵש: "שִיקוּם עַזה יִהיֶה ארוֹך ומְפָרֵך"]]></title>
-            <link>https://hadshon.education.gov.il/articles/rehabilitating-gaza-will-be-long-and-arduous/</link>
-            <guid>https://hadshon.education.gov.il/articles/rehabilitating-gaza-will-be-long-and-arduous/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
