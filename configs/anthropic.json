@@ -2,21 +2,23 @@
   "name": "anthropic",
   "url": "https://www.anthropic.com/news",
   "feed": {
-    "title": "Anthropic News",
-    "description": "News and announcements from Anthropic.",
+    "title": "Anthropic Newsroom",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
     "language": "en",
     "author": "Anthropic"
   },
   "selectors": {
-    "articleList": "ul.PublicationList-module-scss-module__KxYrHG__list",
-    "title": "span.PublicationList-module-scss-module__KxYrHG__title",
-    "date": "time.PublicationList-module-scss-module__KxYrHG__date",
+    "articleList": "article, [data-testid=\"news-card\"], .news-item, main a[href^=\"/news/\"]",
+    "title": "h2, h3, h4, [data-testid=\"news-title\"]",
+    "date": "time, [data-testid=\"news-date\"]",
+    "description": "p, [data-testid=\"news-excerpt\"]",
     "link": {
-      "source": "attr:href",
       "selector": "a",
+      "source": "attr:href",
       "prefix": "https://www.anthropic.com"
     }
   },
-  "dateFormat": "MMMM d, yyyy",
-  "createdAt": "2026-05-10T00:00:00Z"
+  "parserMode": "css",
+  "createdAt": "2026-05-10T00:00:00Z",
+  "lastHealed": "2026-10-21T05:38:03.333Z"
 }
