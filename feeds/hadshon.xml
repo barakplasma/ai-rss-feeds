@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בַּנְק ישׂראל הִשאִיר את הרִיבִּית בּמֶשֶק ללֹא שִינוּי]]></title>
+            <link>https://hadshon.education.gov.il/articles/the-interest-rate-unchanged/</link>
+            <guid>https://hadshon.education.gov.il/articles/the-interest-rate-unchanged/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[הלמ"ס: כּ-810 אֶלף מִבַּעֲלֵי זְכוּת הבְּחִירָה בּישׂראל מִתגוֹרְרִים בּחוּ"ל]]></title>
+            <link>https://hadshon.education.gov.il/articles/810-000-eligible-voters/</link>
+            <guid>https://hadshon.education.gov.il/articles/810-000-eligible-voters/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[מָחָר, י"א בּחֶשוָון, תְצַיֵין מדִינת ישׁראל 31 שנה לרֶצַח יִצחק רַבּין]]></title>
             <link>https://hadshon.education.gov.il/articles/31-years-since-the-assassination-of-yitzhak-rabin/</link>
             <guid>https://hadshon.education.gov.il/articles/31-years-since-the-assassination-of-yitzhak-rabin/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[היום, ז' בּמַרחֶשוָון, מְצַיינִים בּישׂראל את יוֹם העֲלִייָה לָאָרץ]]></title>
             <link>https://hadshon.education.gov.il/articles/aliya-day-2026/</link>
             <guid>https://hadshon.education.gov.il/articles/aliya-day-2026/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[הלמ"ס: מִספַּר הסטוּדֶנטִים בּמִקצוֹעוֹת המַדָעים והטֶכנוֹלוֹגיה יָרד בּ-2026]]></title>
-            <link>https://hadshon.education.gov.il/articles/science-and-technology/</link>
-            <guid>https://hadshon.education.gov.il/articles/science-and-technology/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[יו"ר וַעֲדַת הבְּחירוֹת השוֹפֵט סוֹלבֶּרג: "לִגנוֹב בּחירוֹת – אִי אֶפשָר"]]></title>
-            <link>https://hadshon.education.gov.il/articles/justice-solberg/</link>
-            <guid>https://hadshon.education.gov.il/articles/justice-solberg/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
