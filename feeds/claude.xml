@@ -4,11 +4,18 @@
         <title>Claude Blog</title>
         <link>https://claude.com/blog</link>
         <description>News, announcements, and stories from Anthropic about Claude and the people building with it.</description>
-        <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Building agents: When to fold subagents into your main agent loop]]></title>
+            <link>https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop</link>
+            <guid>https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing Claude Duet]]></title>
             <link>https://claude.com/resources/articles/claude-duet</link>
@@ -57,13 +64,6 @@
             <guid>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</guid>
             <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
-            <link>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</link>
-            <guid>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</guid>
-            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.]]></description>
         </item>
     </channel>
 </rss>
