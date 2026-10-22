@@ -10,6 +10,18 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[アービンド・クリシュナ＆ニケシュ・アローラ：量子の脅威、オープンAI対フロンティアAI、AIサイバー戦争、そしてSaaSの崩壊]]></title>
+            <link>https://finance.biggo.jp/podcast/d403941ebb1bd37d</link>
+            <guid>https://finance.biggo.jp/podcast/d403941ebb1bd37d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2億回再生を支えたAIコンテンツ制作システム — Sarah Chieng（Cerebras）＆ Cova Lee（OpenAI）]]></title>
+            <link>https://finance.biggo.jp/podcast/8fb17ef2e4331ad3</link>
+            <guid>https://finance.biggo.jp/podcast/8fb17ef2e4331ad3</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[戴偉民（ウェイン・ダイ）：シリコンバレーと中国の間で20年かけて築いたもの]]></title>
             <link>https://finance.biggo.jp/podcast/d5518098906ee7f4</link>
             <guid>https://finance.biggo.jp/podcast/d5518098906ee7f4</guid>
@@ -34,15 +46,15 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Joe Rogan Experience #2569 - Bill Thompson]]></title>
-            <link>https://finance.biggo.jp/podcast/60c414582d8dfc61</link>
-            <guid>https://finance.biggo.jp/podcast/60c414582d8dfc61</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[仕事を辞めてこのマイクロSaaSを作った。今では月3万ドルを稼ぐ]]></title>
             <link>https://finance.biggo.jp/podcast/4b179d35e0a91da6</link>
             <guid>https://finance.biggo.jp/podcast/4b179d35e0a91da6</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joe Rogan Experience #2569 - Bill Thompson]]></title>
+            <link>https://finance.biggo.jp/podcast/60c414582d8dfc61</link>
+            <guid>https://finance.biggo.jp/podcast/60c414582d8dfc61</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
@@ -64,7 +76,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[世界最速の戦闘機の舞台裏]]></title>
+            <title><![CDATA[They're Building The Jet That Will Take On China]]></title>
             <link>https://finance.biggo.jp/podcast/b46ebdbdb27c455f</link>
             <guid>https://finance.biggo.jp/podcast/b46ebdbdb27c455f</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -115,18 +127,6 @@
             <title><![CDATA[速いモデルは本当に速いのか？仕事全体で測れ — MiniMaxのMorgan Suo氏]]></title>
             <link>https://finance.biggo.jp/podcast/d2a71bf32275ec9e</link>
             <guid>https://finance.biggo.jp/podcast/d2a71bf32275ec9e</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[エリック・シュミット：我々は超知能の準備ができているのか？｜ポッドキャスト｜イン・グッド・カンパニー]]></title>
-            <link>https://finance.biggo.jp/podcast/b7484288bbf96443</link>
-            <guid>https://finance.biggo.jp/podcast/b7484288bbf96443</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[155. 科沃斯の銭程と語る——父と子、企業二代目の事業承継のサンプルとその肌理、ロボット、そして私の内なる探求]]></title>
-            <link>https://finance.biggo.jp/podcast/82b067b032a3cfd3</link>
-            <guid>https://finance.biggo.jp/podcast/82b067b032a3cfd3</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
