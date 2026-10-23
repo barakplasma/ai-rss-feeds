@@ -1,9 +1,10 @@
 {
-  "lastSuccess": "2026-10-22T21:02:31.873Z",
-  "articleCount": 8,
+  "lastSuccess": "2026-10-23T00:17:50.897Z",
+  "articleCount": 9,
   "knownLinks": [
     "https://claude.com/resources/articles/claude-duet",
     "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
     "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
     "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
     "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",

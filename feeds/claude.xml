@@ -17,6 +17,13 @@
             <description><![CDATA[When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.]]></description>
         </item>
         <item>
+            <title><![CDATA[The full Claude Platform, available on Google Cloud]]></title>
+            <link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
+            <guid>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.]]></description>
+        </item>
+        <item>
             <title><![CDATA[Introducing Claude Duet]]></title>
             <link>https://claude.com/resources/articles/claude-duet</link>
             <guid>https://claude.com/resources/articles/claude-duet</guid>
