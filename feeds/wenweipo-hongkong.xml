@@ -4,11 +4,26 @@
         <title>文匯香港</title>
         <link>https://www.wenweipo.com/hongkong</link>
         <description>文匯報 - 香港新聞</description>
-        <lastBuildDate>Sat, 24 Oct 2026 14:07:52 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 16:31:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[香港德陽聯誼總會成立慶典隆重舉行
+德港連心鄉誼長青 川港交流再添新銳]]></title>
+            <link>https://www.wenweipo.com/a/202610/25/AP6adcdd5ee4b0fa89498a350b.html</link>
+            <guid>https://www.wenweipo.com/a/202610/25/AP6adcdd5ee4b0fa89498a350b.html</guid>
+            <pubDate>Sat, 24 Oct 2026 16:31:25 GMT</pubDate>
+            <description><![CDATA[香港德陽聯誼總會成立慶典24日在港舉行。張清雲榮膺香港德陽聯誼總會會長、廖進出任監事長，一眾骨幹擔任常務副會長、副會長、義工團團長等職務，架構順利組成。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[（有片）專訪Champs Legacy創始人黎嘉豪｜賽馬不應退役成終點 應是開展新生第一天]]></title>
+            <link>https://www.wenweipo.com/a/202610/25/AP6adc9318e4b0fa89498a2e7e.html</link>
+            <guid>https://www.wenweipo.com/a/202610/25/AP6adc9318e4b0fa89498a2e7e.html</guid>
+            <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
+            <description><![CDATA[當賽馬卸下號碼布、離開跑道，生命是否就進入倒數？香港賽駒6歲至9歲退役，餘生卻可長達30年，牠們又將何去何從？全港最大退役馬主、賽馬保育機構Champs Legacy創辦人黎嘉豪近日接受香港文匯報專訪時表示，傳統觀念大多停留在「放草」，即把馬匹送往廣袤的牧場，讓其平淡度過餘生。他認為這種看似體貼的安排，實際上猶如讓馬匹「自生自滅」。退役不應是賽馬終點，而應是新生第一天。為此，他在法國創立Champs Legacy，將香港退役馬匹送往法國擁抱新生，並開展「第二事業」，讓餘生活得更精彩。]]></description>
+        </item>
         <item>
             <title><![CDATA[長征勝利90周年｜「萬水千山·版映長征」展揭幕  用聲音重走長征路]]></title>
             <link>https://www.wenweipo.com/a/202610/24/AP6adcbbbae4b0fa89498a3289.html</link>
@@ -101,20 +116,6 @@
             <guid>https://www.wenweipo.com/a/202610/24/AP6adc62ebe4b0fa89498a2afd.html</guid>
             <pubDate>Sat, 24 Oct 2026 07:48:57 GMT</pubDate>
             <description><![CDATA[保安局今日（24日）為「保安局青少年制服團隊領袖論壇」新一屆成員舉辦為期兩日一夜的先導課程，為香港青年成員、領袖論壇合作夥伴深圳大學和澳門保安部隊青年團的青年來年的培訓活動揭開序幕。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[(有片) 27歲女議助離奇曠工 業主揭發伏屍鰂魚涌單位]]></title>
-            <link>https://www.wenweipo.com/a/202610/24/AP6adc5e24e4b0fa89498a2aae.html</link>
-            <guid>https://www.wenweipo.com/a/202610/24/AP6adc5e24e4b0fa89498a2aae.html</guid>
-            <pubDate>Sat, 24 Oct 2026 07:28:35 GMT</pubDate>
-            <description><![CDATA[今日（24日）上午11時29分，警方接獲鰂魚涌英皇道989至991A號一大廈單位業主報案，指一名女租客在上址一房間懷疑暈倒。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[李家超祝賀港隊亞殘運會奪41面獎牌　讚揚運動員堅毅體育精神]]></title>
-            <link>https://www.wenweipo.com/a/202610/24/AP6adc5b35e4b0fa89498a2a63.html</link>
-            <guid>https://www.wenweipo.com/a/202610/24/AP6adc5b35e4b0fa89498a2a63.html</guid>
-            <pubDate>Sat, 24 Oct 2026 07:16:04 GMT</pubDate>
-            <description><![CDATA[行政長官李家超今日（10月24日）祝賀中國香港運動員在第五屆亞洲殘疾人運動會（亞殘運會）取得佳績，並讚揚運動員優秀的表現和崇高的體育精神。]]></description>
         </item>
     </channel>
 </rss>
