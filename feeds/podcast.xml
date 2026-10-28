@@ -10,7 +10,37 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Inside the early days of the AI revolution | The Vergecast]]></title>
+            <title><![CDATA[AIエージェントを作り直し続けて生き残ったもの — Fuad Ali（Arize AI）]]></title>
+            <link>https://finance.biggo.jp/podcast/ba92a25583dac843</link>
+            <guid>https://finance.biggo.jp/podcast/ba92a25583dac843</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ジョン、Semiconへ行く]]></title>
+            <link>https://finance.biggo.jp/podcast/bb437bfb86944f5f</link>
+            <guid>https://finance.biggo.jp/podcast/bb437bfb86944f5f</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ゴールドマン・サックス会長兼CEOデービッド・ソロモン、AIについて語る：実装、説明責任、雇用]]></title>
+            <link>https://finance.biggo.jp/podcast/c91ddee0d5e1f6be</link>
+            <guid>https://finance.biggo.jp/podcast/c91ddee0d5e1f6be</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[エージェントにツールを与えるのはやめよう。サンドボックスを与えよう — Mikyo King、Arize AI]]></title>
+            <link>https://finance.biggo.jp/podcast/989005794eb39277</link>
+            <guid>https://finance.biggo.jp/podcast/989005794eb39277</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropicはいかにして世界最高のLLMを世に送り出すのか——Katelyn Lesse氏とAngela Jiang氏に聞く]]></title>
+            <link>https://finance.biggo.jp/podcast/339af3dadd7ac1a9</link>
+            <guid>https://finance.biggo.jp/podcast/339af3dadd7ac1a9</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI革命の黎明期を内部から見る | The Vergecast]]></title>
             <link>https://finance.biggo.jp/podcast/fac1a1a747dc2850</link>
             <guid>https://finance.biggo.jp/podcast/fac1a1a747dc2850</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -28,7 +58,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Infectious Disease Puscast #118]]></title>
+            <title><![CDATA[感染症Puscast #118]]></title>
             <link>https://finance.biggo.jp/podcast/b71ae4ebee00907a</link>
             <guid>https://finance.biggo.jp/podcast/b71ae4ebee00907a</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -58,7 +88,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How to Accelerate Learning with 'AI Schools']]></title>
+            <title><![CDATA[「AIスクール」で学習を加速する方法]]></title>
             <link>https://finance.biggo.jp/podcast/43ec59f799a6810b</link>
             <guid>https://finance.biggo.jp/podcast/43ec59f799a6810b</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -70,7 +100,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[What's Still Valuable When Intelligence Is Free]]></title>
+            <title><![CDATA[知能が無料になったとき、何がまだ価値を持つのか]]></title>
             <link>https://finance.biggo.jp/podcast/dbd3ab3f058588b8</link>
             <guid>https://finance.biggo.jp/podcast/dbd3ab3f058588b8</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -94,39 +124,9 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How to Focus So Deeply That Distraction Ceases to Exist | Steven Kotler]]></title>
+            <title><![CDATA[フロー研究の第一人者：極限の集中力のために脳を配線する方法]]></title>
             <link>https://finance.biggo.jp/podcast/2ad8505f65dad72a</link>
             <guid>https://finance.biggo.jp/podcast/2ad8505f65dad72a</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[なぜ今なおAIエージェントをソフトウェアのように統制するのか — Tim Tyler氏（Gravitee）]]></title>
-            <link>https://finance.biggo.jp/podcast/15d71051693aad94</link>
-            <guid>https://finance.biggo.jp/podcast/15d71051693aad94</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[エージェント300体、従業員60人——自社AIエージェントをどう守ったか：Aiden Sochowski（Runlayer）]]></title>
-            <link>https://finance.biggo.jp/podcast/b883d5c5e3080baf</link>
-            <guid>https://finance.biggo.jp/podcast/b883d5c5e3080baf</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[トレーディング企業が最新AIモデルを当日導入する仕組み — Noyan Tokgozoglu氏（Optiver）]]></title>
-            <link>https://finance.biggo.jp/podcast/ccc5a9da61fdd6a5</link>
-            <guid>https://finance.biggo.jp/podcast/ccc5a9da61fdd6a5</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[半導体の未来：新材料から新チップへ、AIは自らの進化を推進できるか？｜シリコンバレー101 年次オフライン大会]]></title>
-            <link>https://finance.biggo.jp/podcast/5f3ab09a26cf2a00</link>
-            <guid>https://finance.biggo.jp/podcast/5f3ab09a26cf2a00</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pstackの開発者がAIに年間1億3200万ドルを費やしている？？？？]]></title>
-            <link>https://finance.biggo.jp/podcast/7b7f322b9715a4dd</link>
-            <guid>https://finance.biggo.jp/podcast/7b7f322b9715a4dd</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
