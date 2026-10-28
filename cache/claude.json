@@ -1,17 +1,17 @@
 {
-  "lastSuccess": "2026-10-28T16:55:31.979Z",
+  "lastSuccess": "2026-10-28T21:28:39.826Z",
   "articleCount": 10,
   "knownLinks": [
     "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+    "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
     "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/claude-for-financial-advisors",
     "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
     "https://claude.com/resources/articles/unified-claude-enterprise",
     "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
-    "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
-    "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
-    "https://claude.com/resources/articles/claude-duet"
+    "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
   ],
   "consecutiveErrors": 0
 }

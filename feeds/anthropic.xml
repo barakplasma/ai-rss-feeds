@@ -4,11 +4,17 @@
         <title>Anthropic Newsroom</title>
         <link>https://www.anthropic.com/news</link>
         <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-        <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[AI for Science expands to foundations and research institutions]]></title>
+            <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
+            <guid>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
+            <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Early progress on accelerating drug development with Claude]]></title>
             <link>https://www.anthropic.com/science</link>
@@ -126,12 +132,6 @@
             <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
             <guid>https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
             <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
-            <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
-            <guid>https://www.anthropic.com/news/life-sciences-verification-program</guid>
-            <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
