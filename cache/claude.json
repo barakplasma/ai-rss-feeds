@@ -1,8 +1,9 @@
 {
-  "lastSuccess": "2026-10-28T10:13:40.968Z",
+  "lastSuccess": "2026-10-28T16:55:31.979Z",
   "articleCount": 10,
   "knownLinks": [
     "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/claude-for-financial-advisors",
     "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
@@ -10,8 +11,7 @@
     "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
     "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
     "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
-    "https://claude.com/resources/articles/claude-duet",
-    "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"
+    "https://claude.com/resources/articles/claude-duet"
   ],
   "consecutiveErrors": 0
 }
