@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[מִפלֶגֶת 'הלִיכּוּד' טוֹעֶנֶת: "הבּחירוֹת נִגנְבוּ על ידֵי מִפלָגוֹת עַרביוֹת שֶתוֹמכוֹת בּטֵרוֹר"]]></title>
+            <link>https://hadshon.education.gov.il/articles/the-election-was-stolen/</link>
+            <guid>https://hadshon.education.gov.il/articles/the-election-was-stolen/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[סְפִירַת הקוֹלוֹת בּמַעֲטָפוֹת הכְּפוּלוֹת הִתחִילָה הלַילָה, והיא עֲשׂוּיָה לשַנוֹת מעַט את תוֹצאוֹת הבְּחִירוֹת]]></title>
+            <link>https://hadshon.education.gov.il/articles/counting-the-votes/</link>
+            <guid>https://hadshon.education.gov.il/articles/counting-the-votes/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[מִספַּר בַּעֲלֵי זְכוּת ההַצבָּעה בּכְּפָרים הדְרוּזִיִים בּרָמַת הגוֹלָן גָדַל כִּמעַט פִּי שְלוֹשָה מֵאָז הבְּחִירוֹת הקוֹדמוֹת]]></title>
             <link>https://hadshon.education.gov.il/articles/the-druze-in-the-golan-heights/</link>
             <guid>https://hadshon.education.gov.il/articles/the-druze-in-the-golan-heights/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[נתניהו: "צָריך להִתאַרגֵן בּכַלכָּלָה עוֹקֶפֶת סַנקְצִיוֹת. שִימוּש בּמַטבְּעוֹת דִיגִיטָלִיִים זו אַלטֶרנָטִיבָה"]]></title>
             <link>https://hadshon.education.gov.il/articles/economy-that-bypasses-sanctions/</link>
             <guid>https://hadshon.education.gov.il/articles/economy-that-bypasses-sanctions/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[בַּנְק ישׂראל הִשאִיר את הרִיבִּית בּמֶשֶק ללֹא שִינוּי]]></title>
-            <link>https://hadshon.education.gov.il/articles/the-interest-rate-unchanged/</link>
-            <guid>https://hadshon.education.gov.il/articles/the-interest-rate-unchanged/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[הלמ"ס: כּ-810 אֶלף מִבַּעֲלֵי זְכוּת הבְּחִירָה בּישׂראל מִתגוֹרְרִים בּחוּ"ל]]></title>
-            <link>https://hadshon.education.gov.il/articles/810-000-eligible-voters/</link>
-            <guid>https://hadshon.education.gov.il/articles/810-000-eligible-voters/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
