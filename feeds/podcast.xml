@@ -10,6 +10,78 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[コードレビューが見逃すバグを捕まえる — SonarのKillian Carlsen-Phelan氏とTaylor Luttrell-Williams氏]]></title>
+            <link>https://finance.biggo.jp/podcast/8ebb670ffb8ca5af</link>
+            <guid>https://finance.biggo.jp/podcast/8ebb670ffb8ca5af</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[WHOOP CEO ウィル・アーメド：500億時間の健康データ、400万人の会員データの堀、そしてFDAとの闘い]]></title>
+            <link>https://finance.biggo.jp/podcast/50a6b859c8a2ff8d</link>
+            <guid>https://finance.biggo.jp/podcast/50a6b859c8a2ff8d</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Appleが作らないと言っていたタッチスクリーンMacBook | The Vergecast]]></title>
+            <link>https://finance.biggo.jp/podcast/f229b61bf20cc666</link>
+            <guid>https://finance.biggo.jp/podcast/f229b61bf20cc666</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[米経済、力強い消費と投資で1年ぶりの高成長]]></title>
+            <link>https://finance.biggo.jp/podcast/b866479309f1bd84</link>
+            <guid>https://finance.biggo.jp/podcast/b866479309f1bd84</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“Elon Musk Is a Traitor to the West” — With Heather Cox Richardson]]></title>
+            <link>https://finance.biggo.jp/podcast/026c37fd87be3c96</link>
+            <guid>https://finance.biggo.jp/podcast/026c37fd87be3c96</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[なぜ人間はAIが書くコードに追いつけないのか——ターリク・シャウカット（Sonar）]]></title>
+            <link>https://finance.biggo.jp/podcast/b6f476ca83e9fb61</link>
+            <guid>https://finance.biggo.jp/podcast/b6f476ca83e9fb61</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ジートゥ・パテル：AI時代の製品づくり]]></title>
+            <link>https://finance.biggo.jp/podcast/1456391017486ffa</link>
+            <guid>https://finance.biggo.jp/podcast/1456391017486ffa</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[先週末のESMOでのデータ発表を受け、Tango TherapeuticsはPRMT5をRAS阻害薬に加えることが、現在の膵臓がん治療革命（そしてその先）における「次の章」になると考えている]]></title>
+            <link>https://finance.biggo.jp/podcast/9273813bbc089b88</link>
+            <guid>https://finance.biggo.jp/podcast/9273813bbc089b88</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[T3 Codeにやられた]]></title>
+            <link>https://finance.biggo.jp/podcast/fc37ed5cc8193fef</link>
+            <guid>https://finance.biggo.jp/podcast/fc37ed5cc8193fef</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joe Rogan Experience #2572 - Colum Tyrrell]]></title>
+            <link>https://finance.biggo.jp/podcast/c66a2d75cb6d5798</link>
+            <guid>https://finance.biggo.jp/podcast/c66a2d75cb6d5798</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.8兆ドル規模のFranklin Templeton CEOが循環取引、SpaceX、Anthropic、市場環境について語る]]></title>
+            <link>https://finance.biggo.jp/podcast/9e5e5fb0d6ae498b</link>
+            <guid>https://finance.biggo.jp/podcast/9e5e5fb0d6ae498b</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AnthropicがS1を提出 | Microsoftが27,000人削減、Metaは950億ドルの設備投資のため株式市場を活用]]></title>
+            <link>https://finance.biggo.jp/podcast/56aa7ef5be9deed2</link>
+            <guid>https://finance.biggo.jp/podcast/56aa7ef5be9deed2</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ロボットにも「手触り」が必要：PaXiniが語る触覚、データ、フィジカルAI｜シリコンバレー101 年次オフライン大会]]></title>
             <link>https://finance.biggo.jp/podcast/5e6b6989f368248f</link>
             <guid>https://finance.biggo.jp/podcast/5e6b6989f368248f</guid>
@@ -22,7 +94,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[創業者たちが工場・鉱山・エネルギーに巨額を賭ける理由]]></title>
+            <title><![CDATA[次のSpaceXやTeslaをどう築くか]]></title>
             <link>https://finance.biggo.jp/podcast/8d45d7d40f6c6120</link>
             <guid>https://finance.biggo.jp/podcast/8d45d7d40f6c6120</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -55,78 +127,6 @@
             <title><![CDATA[ServiceNowに挑む——Serval共同創業者兼CEOのJake Stauchが語る、誰もが使えるコーディングエージェント]]></title>
             <link>https://finance.biggo.jp/podcast/38dd04ed08703f7e</link>
             <guid>https://finance.biggo.jp/podcast/38dd04ed08703f7e</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Revolutがセルフホスト型オープンモデルでAIコーディングコストを90%削減した方法 - David Abitbol, Revolut]]></title>
-            <link>https://finance.biggo.jp/podcast/71888475bad974d6</link>
-            <guid>https://finance.biggo.jp/podcast/71888475bad974d6</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[毎日壊れるAIエージェントこそ信頼される — TemporalのShy Ruparel氏]]></title>
-            <link>https://finance.biggo.jp/podcast/ecb03fd3ac5cff91</link>
-            <guid>https://finance.biggo.jp/podcast/ecb03fd3ac5cff91</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[第三次世界大戦の脅威の専門家：ロシアはヨーロッパを狙っており、この国への攻撃が我々を巻き込む！｜サラ・ペイン博士]]></title>
-            <link>https://finance.biggo.jp/podcast/cfee4a13d1d8cd4a</link>
-            <guid>https://finance.biggo.jp/podcast/cfee4a13d1d8cd4a</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[たった1行の変更がスタック全体を壊す理由 — Cole Gannaway、Qodo]]></title>
-            <link>https://finance.biggo.jp/podcast/b472b540b7e395a6</link>
-            <guid>https://finance.biggo.jp/podcast/b472b540b7e395a6</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIで優れたアートは作れるのか？——フレッド・グレイバー氏と語る]]></title>
-            <link>https://finance.biggo.jp/podcast/31dc64388b2bb3be</link>
-            <guid>https://finance.biggo.jp/podcast/31dc64388b2bb3be</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[E257｜Vitalikとの対話：AI安全の背後にある哲学的思考、効果的利他主義はシリコンバレーをどう変えたか]]></title>
-            <link>https://finance.biggo.jp/podcast/363cdf133b10a89b</link>
-            <guid>https://finance.biggo.jp/podcast/363cdf133b10a89b</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropicはいかにして1日3万件のコード変更をマージするのか——Manish Kapur（Sonar）＆Addy Osmani（Anthropic）]]></title>
-            <link>https://finance.biggo.jp/podcast/9b75a4899389745c</link>
-            <guid>https://finance.biggo.jp/podcast/9b75a4899389745c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIが現場の会話を実行可能なインサイトに変える方法（スポンサード）]]></title>
-            <link>https://finance.biggo.jp/podcast/313d124119f443c4</link>
-            <guid>https://finance.biggo.jp/podcast/313d124119f443c4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[腎臓遺伝学を活用して臨床試験デザインを強化する（スポンサード）]]></title>
-            <link>https://finance.biggo.jp/podcast/cb4b1751cf7fb572</link>
-            <guid>https://finance.biggo.jp/podcast/cb4b1751cf7fb572</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AIで良いアートは作れるのか？ — Fred Graver氏と語る]]></title>
-            <link>https://finance.biggo.jp/podcast/a58b987086d94388</link>
-            <guid>https://finance.biggo.jp/podcast/a58b987086d94388</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[アマゾンはスマートホームにトロイの木馬を仕込んだ | The Vergecast]]></title>
-            <link>https://finance.biggo.jp/podcast/17f6f9069e10eadd</link>
-            <guid>https://finance.biggo.jp/podcast/17f6f9069e10eadd</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropicの2兆ドル資金マシーン、CoreWeaveが30%急落、そして中国のKimiが追い上げる | #306]]></title>
-            <link>https://finance.biggo.jp/podcast/3ec1fc510705084a</link>
-            <guid>https://finance.biggo.jp/podcast/3ec1fc510705084a</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
