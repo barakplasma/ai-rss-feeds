@@ -1,7 +1,9 @@
 {
-  "lastSuccess": "2026-11-02T00:04:59.479Z",
+  "lastSuccess": "2026-11-02T16:57:07.509Z",
   "articleCount": 10,
   "knownLinks": [
+    "https://hadshon.education.gov.il/articles/shalva-select/",
+    "https://hadshon.education.gov.il/articles/climbing-the-trees/",
     "https://hadshon.education.gov.il/articles/rabbi-jonathan-sacks/",
     "https://hadshon.education.gov.il/articles/involvement-of-foreign-states/",
     "https://hadshon.education.gov.il/articles/the-election-was-stolen/",
@@ -9,10 +11,7 @@
     "https://hadshon.education.gov.il/articles/the-druze-in-the-golan-heights/",
     "https://hadshon.education.gov.il/articles/military-polling-station/",
     "https://hadshon.education.gov.il/articles/citizens-voting/",
-    "https://hadshon.education.gov.il/articles/elections-2026/",
-    "https://hadshon.education.gov.il/articles/health-services-basket-2027/",
-    "https://hadshon.education.gov.il/articles/removed-from-x/"
+    "https://hadshon.education.gov.il/articles/elections-2026/"
   ],
-  "consecutiveErrors": 1,
-  "lastError": "No articles parsed"
+  "consecutiveErrors": 0
 }
