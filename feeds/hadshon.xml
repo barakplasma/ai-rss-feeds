@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[מַעֲרַך הסַייבֵּר הלְאוּמִי הִזהִיר חֶברוֹת מָזוֹן בּישׂראל, בּעִקבוֹת המִתקָפוֹת על מְקָרְרִים בּרִשתוֹת שִיווּק בּאֵירוֹפָּה]]></title>
+            <link>https://hadshon.education.gov.il/articles/syber-food/</link>
+            <guid>https://hadshon.education.gov.il/articles/syber-food/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[אֲביגדוֹר לִיבֶּרמַן: "האֶפשָרוּת הכי טוֹבה – קוֹאָלִיציָה עִם הלִיכּוּד ללֹא נתניהו. אִם אַייזנקוֹט יַרכִּיב מֶמשֶלת מִיעוּט, אֶתנַגֵד בְּתוֹקֶף"]]></title>
+            <link>https://hadshon.education.gov.il/articles/the-best-option/</link>
+            <guid>https://hadshon.education.gov.il/articles/the-best-option/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[נִבחֶרֶת 'שַלוָוה' הִשתַתפָה בּמָרָתוֹן נְיוּ יוֹרְק והִקדִישָה את הרִיצָה לזִכרוֹ של רס"ן הַראֵל בּירֶנשטוֹק ז"ל, שֶרָץ עִם הנִבחֶרֶת לִפנֵי שְנָתַיִים ונָפל בּלבָנוֹן]]></title>
             <link>https://hadshon.education.gov.il/articles/shalva-select/</link>
             <guid>https://hadshon.education.gov.il/articles/shalva-select/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[בּפַּעַם הרִאשוֹנָה: קַלפִּי צְבָאִית נִפתְחָה אתמול בּישיבַת הֶסדֵר חֲרֵדית]]></title>
             <link>https://hadshon.education.gov.il/articles/military-polling-station/</link>
             <guid>https://hadshon.education.gov.il/articles/military-polling-station/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[הרָשוּת להֲגָנַת הפְּרָטיוּת מַזהִירָה: אסוּר לדַוֵוחַ מהקַלפִּיוֹת על הַצבָּעַת אֶזרָחים]]></title>
-            <link>https://hadshon.education.gov.il/articles/citizens-voting/</link>
-            <guid>https://hadshon.education.gov.il/articles/citizens-voting/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[עֶשׂרוֹת אַלפֵי ישׂראֵלים שֶחַיִים בּחוּ"ל מַגִיעִים לאָרץ בּיָמים אֵלה כּדֵי להִשתַתֵף בּבּחִירוֹת]]></title>
-            <link>https://hadshon.education.gov.il/articles/elections-2026/</link>
-            <guid>https://hadshon.education.gov.il/articles/elections-2026/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>

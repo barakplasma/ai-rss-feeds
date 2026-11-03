@@ -32,7 +32,7 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 | [Windsurf Blog](https://windsurf.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/windsurf.xml) | ✅ 50 articles |
 | [Cursor Blog](https://cursor.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cursor-blog.xml) | ✅ 19 articles |
 | [The Batch | DeepLearning.AI](https://www.deeplearning.ai/the-batch) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/deeplearning-ai.xml) | ✅ 15 articles |
-| [文匯香港](https://www.wenweipo.com/hongkong) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml) | ✅ 14 articles |
+| [文匯香港](https://www.wenweipo.com/hongkong) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml) | ✅ 15 articles |
 
 ### External RSS (5)
 
