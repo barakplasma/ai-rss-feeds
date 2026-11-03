@@ -4,11 +4,23 @@
         <title>文匯報</title>
         <link>https://www.wenweipo.com/</link>
         <description>文匯報 - 香港文匯網</description>
-        <lastBuildDate>Tue, 03 Nov 2026 12:19:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 13:30:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[伊朗總參謀長闡述實現地區可持續和平的五項原則]]></title>
+            <link>https://www.wenweipo.com/a/202611/03/AP6ae9e1e4e4b0fa89498bb527.html</link>
+            <guid>https://www.wenweipo.com/a/202611/03/AP6ae9e1e4e4b0fa89498bb527.html</guid>
+            <pubDate>Tue, 03 Nov 2026 13:30:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[伊朗稱3艘「違規」油輪在霍爾木茲海峽觸雷]]></title>
+            <link>https://www.wenweipo.com/a/202611/03/AP6ae9da46e4b0fa89498bb430.html</link>
+            <guid>https://www.wenweipo.com/a/202611/03/AP6ae9da46e4b0fa89498bb430.html</guid>
+            <pubDate>Tue, 03 Nov 2026 12:57:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[莫斯科遭大規模無人機襲擊]]></title>
             <link>https://www.wenweipo.com/a/202611/03/AP6ae9d135e4b0fa89498bb2dd.html</link>
@@ -32,18 +44,6 @@
             <link>https://www.wenweipo.com/a/202611/03/AP6ae9be3ee4b0fa89498bb0ee.html</link>
             <guid>https://www.wenweipo.com/a/202611/03/AP6ae9be3ee4b0fa89498bb0ee.html</guid>
             <pubDate>Tue, 03 Nov 2026 10:58:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[伊朗格什姆島傳出爆炸聲　美方稱摧毀伊朗導彈發射器]]></title>
-            <link>https://www.wenweipo.com/a/202611/03/AP6ae98b63e4b0fa89498ba9c9.html</link>
-            <guid>https://www.wenweipo.com/a/202611/03/AP6ae98b63e4b0fa89498ba9c9.html</guid>
-            <pubDate>Tue, 03 Nov 2026 07:21:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[伊朗：美國任何進一步侵略都將立即遭到回應]]></title>
-            <link>https://www.wenweipo.com/a/202611/03/AP6ae983ede4b0fa89498ba873.html</link>
-            <guid>https://www.wenweipo.com/a/202611/03/AP6ae983ede4b0fa89498ba873.html</guid>
-            <pubDate>Tue, 03 Nov 2026 06:49:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[廣州版璀璨之城？白鵝潭萬象城必去羊城新地標  打卡絕美江景 + 近500品牌雲集]]></title>
