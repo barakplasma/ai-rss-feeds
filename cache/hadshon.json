@@ -1,7 +1,9 @@
 {
-  "lastSuccess": "2026-11-04T00:19:00.268Z",
+  "lastSuccess": "2026-11-04T07:08:10.399Z",
   "articleCount": 10,
   "knownLinks": [
+    "https://hadshon.education.gov.il/articles/ichilov-artificial-intelligence/",
+    "https://hadshon.education.gov.il/articles/security-assistance/",
     "https://hadshon.education.gov.il/articles/syber-food/",
     "https://hadshon.education.gov.il/articles/the-best-option/",
     "https://hadshon.education.gov.il/articles/shalva-select/",
@@ -9,9 +11,7 @@
     "https://hadshon.education.gov.il/articles/rabbi-jonathan-sacks/",
     "https://hadshon.education.gov.il/articles/involvement-of-foreign-states/",
     "https://hadshon.education.gov.il/articles/the-election-was-stolen/",
-    "https://hadshon.education.gov.il/articles/counting-the-votes/",
-    "https://hadshon.education.gov.il/articles/the-druze-in-the-golan-heights/",
-    "https://hadshon.education.gov.il/articles/military-polling-station/"
+    "https://hadshon.education.gov.il/articles/counting-the-votes/"
   ],
   "consecutiveErrors": 0
 }
