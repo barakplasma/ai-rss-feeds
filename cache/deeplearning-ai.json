@@ -1,23 +1,22 @@
 {
-  "lastSuccess": "2026-07-28T15:59:27.134Z",
+  "lastSuccess": "2026-11-04T15:54:09.676Z",
   "articleCount": 15,
   "knownLinks": [
-    "https://www.deeplearning.ai/the-batch/issue-363/",
-    "https://www.deeplearning.ai/the-batch/issue-362/",
-    "https://www.deeplearning.ai/the-batch/issue-361/",
-    "https://www.deeplearning.ai/the-batch/issue-360/",
-    "https://www.deeplearning.ai/the-batch/issue-359/",
-    "https://www.deeplearning.ai/the-batch/issue-358/",
-    "https://www.deeplearning.ai/the-batch/issue-357/",
-    "https://www.deeplearning.ai/the-batch/issue-356/",
-    "https://www.deeplearning.ai/the-batch/issue-355/",
-    "https://www.deeplearning.ai/the-batch/issue-354/",
-    "https://www.deeplearning.ai/the-batch/issue-353/",
-    "https://www.deeplearning.ai/the-batch/issue-352/",
-    "https://www.deeplearning.ai/the-batch/issue-351/",
-    "https://www.deeplearning.ai/the-batch/issue-350/",
-    "https://www.deeplearning.ai/the-batch/issue-349/"
+    "https://www.deeplearning.ai/the-batch/issue-377/",
+    "https://www.deeplearning.ai/the-batch/issue-376/",
+    "https://www.deeplearning.ai/the-batch/issue-375/",
+    "https://www.deeplearning.ai/the-batch/issue-374/",
+    "https://www.deeplearning.ai/the-batch/issue-373/",
+    "https://www.deeplearning.ai/the-batch/issue-372/",
+    "https://www.deeplearning.ai/the-batch/issue-371/",
+    "https://www.deeplearning.ai/the-batch/issue-370/",
+    "https://www.deeplearning.ai/the-batch/issue-369/",
+    "https://www.deeplearning.ai/the-batch/issue-368/",
+    "https://www.deeplearning.ai/the-batch/issue-367/",
+    "https://www.deeplearning.ai/the-batch/issue-366/",
+    "https://www.deeplearning.ai/the-batch/issue-365/",
+    "https://www.deeplearning.ai/the-batch/issue-364/",
+    "https://www.deeplearning.ai/the-batch/issue-363/"
   ],
-  "consecutiveErrors": 908,
-  "lastError": "Failed to fetch https://charonhub.deeplearning.ai/tag/the-batch/rss/: HTTP 403 — site is protected by Cloudflare bot detection (cf-mitigated: challenge). This site cannot be scraped with static HTTP requests."
+  "consecutiveErrors": 0
 }
