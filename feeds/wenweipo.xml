@@ -4,11 +4,17 @@
         <title>文匯報</title>
         <link>https://www.wenweipo.com/</link>
         <description>文匯報 - 香港文匯網</description>
-        <lastBuildDate>Wed, 04 Nov 2026 12:56:59 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 15:59:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[（多圖）火光四射！直擊野外實彈射擊高燃現場]]></title>
+            <link>https://www.wenweipo.com/a/202611/04/AP6aeb5670e4b028ec01928de0.html</link>
+            <guid>https://www.wenweipo.com/a/202611/04/AP6aeb5670e4b028ec01928de0.html</guid>
+            <pubDate>Wed, 04 Nov 2026 15:59:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[APEC待客來　深圳北站「迎春花」服務隊暖心護航外籍旅客]]></title>
             <link>https://www.wenweipo.com/a/202611/04/AP6aeb2b9de4b028ec0192891d.html</link>
@@ -62,12 +68,6 @@
             <link>https://www.wenweipo.com/a/202611/03/AP6ae9d95fe4b0fa89498bb407.html</link>
             <guid>https://www.wenweipo.com/a/202611/03/AP6ae9d95fe4b0fa89498bb407.html</guid>
             <pubDate>Tue, 03 Nov 2026 13:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[伊朗稱3艘「違規」油輪在霍爾木茲海峽觸雷]]></title>
-            <link>https://www.wenweipo.com/a/202611/03/AP6ae9da46e4b0fa89498bb430.html</link>
-            <guid>https://www.wenweipo.com/a/202611/03/AP6ae9da46e4b0fa89498bb430.html</guid>
-            <pubDate>Tue, 03 Nov 2026 12:57:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[廣州版璀璨之城？白鵝潭萬象城必去羊城新地標  打卡絕美江景 + 近500品牌雲集]]></title>
