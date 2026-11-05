@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[בּיוֹם שני הקָרוב, כ"ט בּמַרחֶשוון, יָחוּל חג הסִיגְד – אחד החגים החשוּבים של יהוּדֵי אֶתיופּיה]]></title>
+            <link>https://hadshon.education.gov.il/articles/the-sigd-holiday-2026/</link>
+            <guid>https://hadshon.education.gov.il/articles/the-sigd-holiday-2026/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[סְגַן נשׂיא ארה"ב גֵ'יי. דֵי. וַאנס: הִפסַדנוּ בּבְחירוֹת האֶמצַע בִּגלַל המִלחָמה עִם אִירַאן]]></title>
+            <link>https://hadshon.education.gov.il/articles/us-vice-president-vance/</link>
+            <guid>https://hadshon.education.gov.il/articles/us-vice-president-vance/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[המֶרכָּז הרְפוּאִי אִיכִילוֹב חָתם על הֶסכֵּם שִיתוּף פְּעוּלָה עִם חֶברַת בִּינָה מְלָאכוּתִית]]></title>
             <link>https://hadshon.education.gov.il/articles/ichilov-artificial-intelligence/</link>
             <guid>https://hadshon.education.gov.il/articles/ichilov-artificial-intelligence/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[הַמוֹסָד יִצטָרֵף לשַבּ"כּ בּחֲקירַת החֲשָד למְעוֹרָבוּת של מְדינוֹת זָרוֹת בּבּחִירוֹת]]></title>
             <link>https://hadshon.education.gov.il/articles/involvement-of-foreign-states/</link>
             <guid>https://hadshon.education.gov.il/articles/involvement-of-foreign-states/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מִפלֶגֶת 'הלִיכּוּד' טוֹעֶנֶת: "הבּחירוֹת נִגנְבוּ על ידֵי מִפלָגוֹת עַרביוֹת שֶתוֹמכוֹת בּטֵרוֹר"]]></title>
-            <link>https://hadshon.education.gov.il/articles/the-election-was-stolen/</link>
-            <guid>https://hadshon.education.gov.il/articles/the-election-was-stolen/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[סְפִירַת הקוֹלוֹת בּמַעֲטָפוֹת הכְּפוּלוֹת הִתחִילָה הלַילָה, והיא עֲשׂוּיָה לשַנוֹת מעַט את תוֹצאוֹת הבְּחִירוֹת]]></title>
-            <link>https://hadshon.education.gov.il/articles/counting-the-votes/</link>
-            <guid>https://hadshon.education.gov.il/articles/counting-the-votes/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
