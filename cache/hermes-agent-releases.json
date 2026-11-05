@@ -1,7 +1,8 @@
 {
-  "lastSuccess": "2026-11-05T16:59:35.978Z",
-  "articleCount": 46,
+  "lastSuccess": "2026-11-05T22:37:01.389Z",
+  "articleCount": 47,
   "knownLinks": [
+    "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
     "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7",
     "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6",
     "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
