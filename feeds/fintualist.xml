@@ -4,11 +4,17 @@
         <title>El Fintualist</title>
         <link>https://fintualist.com/chile/</link>
         <description>En Fintualist te contamos cada semana noticias interesantes e historias sobre economía, política, inversiones, ciencia, tecnología y finanzas.</description>
-        <lastBuildDate>Tue, 03 Nov 2026 18:36:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 12:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>es</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[📍 Mercados en vivo - Ganancias post elecciones]]></title>
+            <link>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</link>
+            <guid>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</guid>
+            <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Las midterm elections y cuánto poder tendrá Trump los próximos dos años]]></title>
             <link>https://fintualist.com/chile/educacion-financiera/las-midterm-elections-y-cuanto-poder-tendra-trump-los-proximos-dos-anos/</link>
@@ -122,12 +128,6 @@
             <link>https://fintualist.com/mexico/educacion-financiera/el-mejor-ppr-del-mercado-te-contamos-los-cuatro-anos-de-nuestro-ppr-en-11-graficos/</link>
             <guid>https://fintualist.com/mexico/educacion-financiera/el-mejor-ppr-del-mercado-te-contamos-los-cuatro-anos-de-nuestro-ppr-en-11-graficos/</guid>
             <pubDate>Thu, 08 Oct 2026 12:11:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ahorro Voluntario para la Vivienda: ¿cómo sacarle provecho al nuevo AVV?]]></title>
-            <link>https://fintualist.com/chile/educacion-financiera/ahorro-voluntario-para-la-vivienda-como-sacarle-provecho-al-nuevo-avv/</link>
-            <guid>https://fintualist.com/chile/educacion-financiera/ahorro-voluntario-para-la-vivienda-como-sacarle-provecho-al-nuevo-avv/</guid>
-            <pubDate>Tue, 06 Oct 2026 15:59:07 GMT</pubDate>
         </item>
     </channel>
 </rss>

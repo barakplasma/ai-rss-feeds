@@ -4,11 +4,18 @@
         <title>文匯香港</title>
         <link>https://www.wenweipo.com/hongkong</link>
         <description>文匯報 - 香港新聞</description>
-        <lastBuildDate>Wed, 04 Nov 2026 15:57:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 01:48:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[黃之鋒今判刑！承認串謀勾結外國勢力　反中亂港劣行事件簿一覽]]></title>
+            <link>https://www.wenweipo.com/a/202611/05/AP6aebe05de4b028ec01929910.html</link>
+            <guid>https://www.wenweipo.com/a/202611/05/AP6aebe05de4b028ec01929910.html</guid>
+            <pubDate>Thu, 05 Nov 2026 01:48:11 GMT</pubDate>
+            <description><![CDATA[因「35+串謀顛覆政權案」正在服刑的前「香港眾志」頭目黃之鋒，早前承認一項「串謀勾結外國或者境外勢力危害國家安全」罪，法官譚耀豪今天上午9時半判刑。]]></description>
+        </item>
         <item>
             <title><![CDATA[北角英皇道女途人捱貨車撞 重傷昏迷送院]]></title>
             <link>https://www.wenweipo.com/a/202611/04/AP6aeb55f8e4b028ec01928dde.html</link>
@@ -106,13 +113,6 @@
             <guid>https://www.wenweipo.com/a/202611/04/AP6aeb1f3ee4b028ec0192877c.html</guid>
             <pubDate>Wed, 04 Nov 2026 12:04:11 GMT</pubDate>
             <description><![CDATA[SAFE BITE HK 聯同香港壽臣山獅子會、香港過敏科醫學會及香港過敏協會，早前進行調查共收集222份回應，發現23.9%受訪者有確診食物過敏、食物不耐受或乳糜瀉；僅 32.1% 表示在整個旅程中沒有遇到任何特別困難；30%有嚴重或過敏性休克反應病史，58.5% 從不攜帶腎上腺素自動注射器旅行；非亞太地區食物過敏旅客更多因為不方便，所以並不推薦到香港旅遊，甚至更改行程；香港平均安全感評分僅3.38分（滿分5分）。結果反映，食物過敏安全已是香港接待旅客時不可忽視的議題。整體而言，香港對食物過敏旅客而言是一個「可行但不輕鬆」的旅遊目的地。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[上商夥保良局推「智創未來」計劃 助青少年理財素養與智齡防騙]]></title>
-            <link>https://www.wenweipo.com/a/202611/04/AP6aeb1c1ae4b028ec01928704.html</link>
-            <guid>https://www.wenweipo.com/a/202611/04/AP6aeb1c1ae4b028ec01928704.html</guid>
-            <pubDate>Wed, 04 Nov 2026 11:50:48 GMT</pubDate>
-            <description><![CDATA[數碼時代為大眾帶來便利，同時亦令不同年齡層在理財管理與防騙上面對新挑戰。上商銀行夥保良局推「智創未來」計劃 助青少年理財素養與智齡防騙 兩代共築數碼防護網。]]></description>
         </item>
     </channel>
 </rss>
