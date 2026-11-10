@@ -1,14 +1,13 @@
 {
-  "lastSuccess": "2026-11-10T11:58:39.089Z",
-  "articleCount": 7,
+  "lastSuccess": "2026-11-10T19:26:00.478Z",
+  "articleCount": 6,
   "knownLinks": [
-    "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "https://claude.com/resources/articles/interactive-connectors-full-tool",
+    "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+    "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
     "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
-    "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
-    "https://claude.com/resources/articles/claude-enterprise-security-updates",
-    "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
-    "https://claude.com/resources/articles/message-threads",
-    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
+    "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
   ],
   "consecutiveErrors": 0
 }

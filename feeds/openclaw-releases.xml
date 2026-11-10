@@ -4,11 +4,189 @@
         <title>OpenClaw Releases</title>
         <link>https://github.com/openclaw/openclaw/releases</link>
         <description>GitHub releases for OpenClaw - AI assistant framework</description>
-        <lastBuildDate>Sun, 08 Nov 2026 19:31:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 18:53:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/openclaw-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[openclaw 2026.11.3]]></title>
+            <link>https://github.com/openclaw/openclaw/releases/tag/v2026.11.3</link>
+            <guid>https://github.com/openclaw/openclaw/releases/tag/v2026.11.3</guid>
+            <pubDate>Tue, 10 Nov 2026 18:53:07 GMT</pubDate>
+            <description><![CDATA[<h2>2026.11.3</h2>
+<h3>Highlights</h3>
+<ul>
+<li><strong>Private task results:</strong> Keep private subagent completions out of streamed chat replies. (#188490) Thanks @fuller-stack-dev.</li>
+<li><strong>Reliable child-task handoffs:</strong> Allow a parent to hand off to replacement work after cancelling a child, without leaving the cancelled child&#39;s completion receipt blocking the handoff. (#178893; related #178565) Thanks @brianmcguire and @letsc4.</li>
+<li><strong>Visible tool failures:</strong> Report unanswered tool failures instead of silently ending a user-addressed turn as a success. (#182458; related #99645) Authored by @steipete. Thanks @rdleclerc.</li>
+<li><strong>Bounded authentication:</strong> Stop stalled provider authentication at the run deadline and propagate cancellation through authentication work. (#189144) Thanks @amittell.</li>
+<li><strong>Sandboxed image access:</strong> Keep required-sandbox image previews inside allowed folders, even in Full Access mode, while preserving explicit administrator image allowances. (#176203) Thanks @shakkernerd.</li>
+<li><strong>Verified workspace connections:</strong> Preserve saved node certificate pins when an empty fingerprint is supplied, and verify workspace-transfer certificates before sending credentials or data. (#125646, #190002) Thanks @wanyongstar and @avelev99.</li>
+<li><strong>Faster, responsive Gateway:</strong> Reduce startup module-file loading overhead and avoid stalls when abort-command detection encounters long punctuation runs. (#192217, #184433) Thanks @karkarl, @RomneyDa, @LeizhenZhang, and @obviyus.</li>
+</ul>
+<h3>Changes</h3>
+<p>No new configuration options or features.</p>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Credential isolation:</strong> Keep reused and cached plugin results scoped to their connection credentials, and keep other plugins&#39; transport hooks on the provider&#39;s origin. (#178444, #177974, #189423) Authored by @steipete. Thanks @obviyus.</li>
+<li><strong>Search and memory credentials:</strong> Keep Firecrawl search and scrape keys with their scoped endpoints and embedding credentials with their destination. (#190706, #184966) Thanks @zhangguiping-xydt and @eleqtrizit.</li>
+<li><strong>Credential redaction:</strong> Redact inline environment credentials from configuration reads and reflected search credentials from Exa errors. (#190618, #178745) Authored by @steipete. Thanks @yetval.</li>
+<li><strong>Child-process environments:</strong> Prevent managed Signal daemons and bundled language servers from inheriting unrelated Gateway secrets. (#179198, #179415) Thanks @VACInc.</li>
+<li><strong>Authentication errors:</strong> Surface credential-read failures rather than treating them as missing credentials, and reject explicitly selected auth profiles belonging to incompatible providers. (#173970, #181597) Authored by @steipete. Thanks @vincentkoc.</li>
+<li><strong>Channel safety:</strong> Keep incoming Twitch IRC content out of parser error logs and require explicit request IDs when multiple Tlon approvals are pending. (#174552, #186243) Authored by @steipete. Thanks @mmaps.</li>
+<li><strong>Scheduled jobs:</strong> Handle queued cron storage failures without exiting the Gateway, and clear one-shot cleanup when a job becomes recurring. (#175678, #168985) Authored by @steipete. Thanks @yxshee, @wangmiao0668000666, and @obviyus.</li>
+<li><strong>Updates:</strong> Let profile-backed updates recognize their own maintenance lock and preserve cancellation when ledger writes are deferred. (#177792, #187998) Thanks @GrahamMcBain and @vincentkoc.</li>
+<li><strong>Update recovery:</strong> Recover safely when the initial package-presence check times out, requiring a fresh valid directory identity before replacement and retaining rollback to the original package. (#181906) Authored by @steipete.</li>
+<li><strong>Anthropic usage caps:</strong> Recognize exhausted plural usage-limit errors without spending the transient rate-limit retry budget. (#176186; related #176179) Thanks @sunlit-deng and @blue-dot-1.</li>
+<li><strong>Terminal sessions:</strong> Forward /reset soft to the Gateway instead of hard-resetting the session. (#172431) Thanks @yetval and @obviyus.</li>
+<li><strong>Git recovery:</strong> Preserve uncertain command failures during Git repair rather than treating an unconfirmed operation as successful. (#176006) Authored by @steipete.</li>
+<li><strong>Memory provider selection:</strong> Accept mixed-case none and auto provider values. (#186310) Authored by @steipete. Thanks @sagealice2002-dotcom.</li>
+</ul>
+<h3>Complete contribution record</h3>
+<p>This audited record covers the complete v2026.11.2..abf11ef015b9d4cdf5b2e6e2a6a84b87c7b8c920 history: 34 in-range PRs + 0 retained seed-only PRs = 34 unique PRs. The generation manifest also supplies direct commits as editorial input; the grouped notes above prioritize user impact.</p>
+<h4>Pull requests</h4>
+<ul>
+<li><strong>PR #192217</strong> Thanks @karkarl and @RomneyDa.</li>
+<li><strong>PR #172887</strong> Authored by @steipete.</li>
+<li><strong>PR #184433</strong> Thanks @LeizhenZhang and @obviyus.</li>
+<li><strong>PR #125646</strong> Thanks @wanyongstar.</li>
+<li><strong>PR #190002</strong> Thanks @avelev99.</li>
+<li><strong>PR #176203</strong> Thanks @shakkernerd.</li>
+<li><strong>PR #174552</strong> Authored by @steipete.</li>
+<li><strong>PR #179198</strong> Thanks @VACInc.</li>
+<li><strong>PR #186243</strong> Thanks @mmaps.</li>
+<li><strong>PR #190618</strong> Thanks @yetval.</li>
+<li><strong>PR #175678</strong> Thanks @yxshee, @wangmiao0668000666, and @obviyus.</li>
+<li><strong>PR #168985</strong> Authored by @steipete.</li>
+<li><strong>PR #188490</strong> Thanks @fuller-stack-dev.</li>
+<li><strong>PR #177792</strong> Thanks @GrahamMcBain.</li>
+<li><strong>PR #176006</strong> Authored by @steipete.</li>
+<li><strong>PR #189423</strong> Thanks @obviyus.</li>
+<li><strong>PR #179415</strong> Thanks @VACInc.</li>
+<li><strong>PR #190706</strong> Thanks @zhangguiping-xydt.</li>
+<li><strong>PR #184966</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #186310</strong> Authored by @steipete. Thanks @sagealice2002-dotcom.</li>
+<li><strong>PR #187998</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #172431</strong> Thanks @yetval and @obviyus.</li>
+<li><strong>PR #178444</strong> Authored by @steipete.</li>
+<li><strong>PR #173970</strong> Authored by @steipete.</li>
+<li><strong>PR #181597</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #195140</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #177974</strong> Authored by @steipete.</li>
+<li><strong>PR #178745</strong> Authored by @steipete.</li>
+<li><strong>PR #182458</strong> Related #99645. Authored by @steipete. Thanks @rdleclerc.</li>
+<li><strong>PR #184791</strong> Thanks @hannesrudolph.</li>
+<li><strong>PR #189144</strong> Thanks @amittell.</li>
+<li><strong>PR #178893</strong> Related #178565. Thanks @brianmcguire and @letsc4.</li>
+<li><strong>PR #181906</strong> Authored by @steipete.</li>
+<li><strong>PR #176186</strong> Related #176179. Thanks @sunlit-deng and @blue-dot-1.</li>
+</ul>
+<h3>Release verification</h3>
+<ul>
+<li>npm package: <a href="https://www.npmjs.com/package/openclaw/v/2026.11.3">https://www.npmjs.com/package/openclaw/v/2026.11.3</a></li>
+<li>registry tarball: <a href="https://registry.npmjs.org/openclaw/-/openclaw-2026.11.3.tgz">https://registry.npmjs.org/openclaw/-/openclaw-2026.11.3.tgz</a></li>
+<li>integrity: <code>sha512-FBq/q0TCaoA2b7qfdV0q81fHhI6RBB1zAQfJQREc1u2TlK5khVgCUsAlXskLWthyVqRz5PWEj+oOmfYgK58dHg==</code></li>
+<li>release SHA: <code>847611dcaa3bf0e2783335f961dd1fd0580e4d9f</code></li>
+<li>full release CI report: <a href="https://github.com/openclaw/releases/blob/main/evidence/2026.11.3/release-evidence.md">https://github.com/openclaw/releases/blob/main/evidence/2026.11.3/release-evidence.md</a></li>
+<li>release publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42873705304">https://github.com/openclaw/openclaw/actions/runs/42873705304</a></li>
+<li>npm preflight: <a href="https://github.com/openclaw/openclaw/actions/runs/42805216493">https://github.com/openclaw/openclaw/actions/runs/42805216493</a></li>
+<li>full release validation: <a href="https://github.com/openclaw/openclaw/actions/runs/42804576583">https://github.com/openclaw/openclaw/actions/runs/42804576583</a></li>
+<li>plugin npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42876183245">https://github.com/openclaw/openclaw/actions/runs/42876183245</a></li>
+<li>plugin ClawHub publish: no normal OIDC candidates</li>
+<li>plugin ClawHub bootstrap: not needed</li>
+<li>OpenClaw npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42858513909/attempts/2">https://github.com/openclaw/openclaw/actions/runs/42858513909/attempts/2</a></li>
+<li>npm Telegram beta E2E: not supplied</li>
+<li>Android APK: monitor the native qualification and publication jobs at <a href="https://github.com/openclaw/openclaw/actions/runs/42873705304">https://github.com/openclaw/openclaw/actions/runs/42873705304</a></li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<h2>2026.11.3</h2>
+<h3>Highlights</h3>
+<ul>
+<li><strong>Private task results:</strong> Keep private subagent completions out of streamed chat replies. (#188490) Thanks @fuller-stack-dev.</li>
+<li><strong>Reliable child-task handoffs:</strong> Allow a parent to hand off to replacement work after cancelling a child, without leaving the cancelled child&#39;s completion receipt blocking the handoff. (#178893; related #178565) Thanks @brianmcguire and @letsc4.</li>
+<li><strong>Visible tool failures:</strong> Report unanswered tool failures instead of silently ending a user-addressed turn as a success. (#182458; related #99645) Authored by @steipete. Thanks @rdleclerc.</li>
+<li><strong>Bounded authentication:</strong> Stop stalled provider authentication at the run deadline and propagate cancellation through authentication work. (#189144) Thanks @amittell.</li>
+<li><strong>Sandboxed image access:</strong> Keep required-sandbox image previews inside allowed folders, even in Full Access mode, while preserving explicit administrator image allowances. (#176203) Thanks @shakkernerd.</li>
+<li><strong>Verified workspace connections:</strong> Preserve saved node certificate pins when an empty fingerprint is supplied, and verify workspace-transfer certificates before sending credentials or data. (#125646, #190002) Thanks @wanyongstar and @avelev99.</li>
+<li><strong>Faster, responsive Gateway:</strong> Reduce startup module-file loading overhead and avoid stalls when abort-command detection encounters long punctuation runs. (#192217, #184433) Thanks @karkarl, @RomneyDa, @LeizhenZhang, and @obviyus.</li>
+</ul>
+<h3>Changes</h3>
+<p>No new configuration options or features.</p>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Credential isolation:</strong> Keep reused and cached plugin results scoped to their connection credentials, and keep other plugins&#39; transport hooks on the provider&#39;s origin. (#178444, #177974, #189423) Authored by @steipete. Thanks @obviyus.</li>
+<li><strong>Search and memory credentials:</strong> Keep Firecrawl search and scrape keys with their scoped endpoints and embedding credentials with their destination. (#190706, #184966) Thanks @zhangguiping-xydt and @eleqtrizit.</li>
+<li><strong>Credential redaction:</strong> Redact inline environment credentials from configuration reads and reflected search credentials from Exa errors. (#190618, #178745) Authored by @steipete. Thanks @yetval.</li>
+<li><strong>Child-process environments:</strong> Prevent managed Signal daemons and bundled language servers from inheriting unrelated Gateway secrets. (#179198, #179415) Thanks @VACInc.</li>
+<li><strong>Authentication errors:</strong> Surface credential-read failures rather than treating them as missing credentials, and reject explicitly selected auth profiles belonging to incompatible providers. (#173970, #181597) Authored by @steipete. Thanks @vincentkoc.</li>
+<li><strong>Channel safety:</strong> Keep incoming Twitch IRC content out of parser error logs and require explicit request IDs when multiple Tlon approvals are pending. (#174552, #186243) Authored by @steipete. Thanks @mmaps.</li>
+<li><strong>Scheduled jobs:</strong> Handle queued cron storage failures without exiting the Gateway, and clear one-shot cleanup when a job becomes recurring. (#175678, #168985) Authored by @steipete. Thanks @yxshee, @wangmiao0668000666, and @obviyus.</li>
+<li><strong>Updates:</strong> Let profile-backed updates recognize their own maintenance lock and preserve cancellation when ledger writes are deferred. (#177792, #187998) Thanks @GrahamMcBain and @vincentkoc.</li>
+<li><strong>Update recovery:</strong> Recover safely when the initial package-presence check times out, requiring a fresh valid directory identity before replacement and retaining rollback to the original package. (#181906) Authored by @steipete.</li>
+<li><strong>Anthropic usage caps:</strong> Recognize exhausted plural usage-limit errors without spending the transient rate-limit retry budget. (#176186; related #176179) Thanks @sunlit-deng and @blue-dot-1.</li>
+<li><strong>Terminal sessions:</strong> Forward /reset soft to the Gateway instead of hard-resetting the session. (#172431) Thanks @yetval and @obviyus.</li>
+<li><strong>Git recovery:</strong> Preserve uncertain command failures during Git repair rather than treating an unconfirmed operation as successful. (#176006) Authored by @steipete.</li>
+<li><strong>Memory provider selection:</strong> Accept mixed-case none and auto provider values. (#186310) Authored by @steipete. Thanks @sagealice2002-dotcom.</li>
+</ul>
+<h3>Complete contribution record</h3>
+<p>This audited record covers the complete v2026.11.2..abf11ef015b9d4cdf5b2e6e2a6a84b87c7b8c920 history: 34 in-range PRs + 0 retained seed-only PRs = 34 unique PRs. The generation manifest also supplies direct commits as editorial input; the grouped notes above prioritize user impact.</p>
+<h4>Pull requests</h4>
+<ul>
+<li><strong>PR #192217</strong> Thanks @karkarl and @RomneyDa.</li>
+<li><strong>PR #172887</strong> Authored by @steipete.</li>
+<li><strong>PR #184433</strong> Thanks @LeizhenZhang and @obviyus.</li>
+<li><strong>PR #125646</strong> Thanks @wanyongstar.</li>
+<li><strong>PR #190002</strong> Thanks @avelev99.</li>
+<li><strong>PR #176203</strong> Thanks @shakkernerd.</li>
+<li><strong>PR #174552</strong> Authored by @steipete.</li>
+<li><strong>PR #179198</strong> Thanks @VACInc.</li>
+<li><strong>PR #186243</strong> Thanks @mmaps.</li>
+<li><strong>PR #190618</strong> Thanks @yetval.</li>
+<li><strong>PR #175678</strong> Thanks @yxshee, @wangmiao0668000666, and @obviyus.</li>
+<li><strong>PR #168985</strong> Authored by @steipete.</li>
+<li><strong>PR #188490</strong> Thanks @fuller-stack-dev.</li>
+<li><strong>PR #177792</strong> Thanks @GrahamMcBain.</li>
+<li><strong>PR #176006</strong> Authored by @steipete.</li>
+<li><strong>PR #189423</strong> Thanks @obviyus.</li>
+<li><strong>PR #179415</strong> Thanks @VACInc.</li>
+<li><strong>PR #190706</strong> Thanks @zhangguiping-xydt.</li>
+<li><strong>PR #184966</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #186310</strong> Authored by @steipete. Thanks @sagealice2002-dotcom.</li>
+<li><strong>PR #187998</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #172431</strong> Thanks @yetval and @obviyus.</li>
+<li><strong>PR #178444</strong> Authored by @steipete.</li>
+<li><strong>PR #173970</strong> Authored by @steipete.</li>
+<li><strong>PR #181597</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #195140</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #177974</strong> Authored by @steipete.</li>
+<li><strong>PR #178745</strong> Authored by @steipete.</li>
+<li><strong>PR #182458</strong> Related #99645. Authored by @steipete. Thanks @rdleclerc.</li>
+<li><strong>PR #184791</strong> Thanks @hannesrudolph.</li>
+<li><strong>PR #189144</strong> Thanks @amittell.</li>
+<li><strong>PR #178893</strong> Related #178565. Thanks @brianmcguire and @letsc4.</li>
+<li><strong>PR #181906</strong> Authored by @steipete.</li>
+<li><strong>PR #176186</strong> Related #176179. Thanks @sunlit-deng and @blue-dot-1.</li>
+</ul>
+<h3>Release verification</h3>
+<ul>
+<li>npm package: <a href="https://www.npmjs.com/package/openclaw/v/2026.11.3">https://www.npmjs.com/package/openclaw/v/2026.11.3</a></li>
+<li>registry tarball: <a href="https://registry.npmjs.org/openclaw/-/openclaw-2026.11.3.tgz">https://registry.npmjs.org/openclaw/-/openclaw-2026.11.3.tgz</a></li>
+<li>integrity: <code>sha512-FBq/q0TCaoA2b7qfdV0q81fHhI6RBB1zAQfJQREc1u2TlK5khVgCUsAlXskLWthyVqRz5PWEj+oOmfYgK58dHg==</code></li>
+<li>release SHA: <code>847611dcaa3bf0e2783335f961dd1fd0580e4d9f</code></li>
+<li>full release CI report: <a href="https://github.com/openclaw/releases/blob/main/evidence/2026.11.3/release-evidence.md">https://github.com/openclaw/releases/blob/main/evidence/2026.11.3/release-evidence.md</a></li>
+<li>release publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42873705304">https://github.com/openclaw/openclaw/actions/runs/42873705304</a></li>
+<li>npm preflight: <a href="https://github.com/openclaw/openclaw/actions/runs/42805216493">https://github.com/openclaw/openclaw/actions/runs/42805216493</a></li>
+<li>full release validation: <a href="https://github.com/openclaw/openclaw/actions/runs/42804576583">https://github.com/openclaw/openclaw/actions/runs/42804576583</a></li>
+<li>plugin npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42876183245">https://github.com/openclaw/openclaw/actions/runs/42876183245</a></li>
+<li>plugin ClawHub publish: no normal OIDC candidates</li>
+<li>plugin ClawHub bootstrap: not needed</li>
+<li>OpenClaw npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42858513909/attempts/2">https://github.com/openclaw/openclaw/actions/runs/42858513909/attempts/2</a></li>
+<li>npm Telegram beta E2E: not supplied</li>
+<li>Android APK: monitor the native qualification and publication jobs at <a href="https://github.com/openclaw/openclaw/actions/runs/42873705304">https://github.com/openclaw/openclaw/actions/runs/42873705304</a></li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[openclaw 2026.11.2]]></title>
             <link>https://github.com/openclaw/openclaw/releases/tag/v2026.11.2</link>
@@ -33574,30 +33752,6 @@ This package was mistakenly published under the version <code>2026.9.1-beta.1</c
             <content:encoded><![CDATA[<h3>Fixes</h3>
 <ul>
 <li><strong>npm plugin updates:</strong> accept singleton-array metadata from newer npm clients so tracked official plugins can install and update to correction releases. (#108336)</li>
-</ul>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[openclaw 2026.7.1-1]]></title>
-            <link>https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-1</link>
-            <guid>https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-1</guid>
-            <pubDate>Tue, 04 Aug 2026 00:41:25 GMT</pubDate>
-            <description><![CDATA[<h3>Fixes</h3>
-<ul>
-<li><strong>Codex progress replies:</strong> keep app-server turns running after delivered progress messages so GPT/Codex reaches its authoritative terminal response instead of stopping mid-turn. (#106961, #108487) Thanks @joshavant.</li>
-<li><strong>Memory Core startup repair:</strong> recover derived legacy-index and cache-sidecar conflicts without trapping the Gateway in a fatal restart loop, while keeping structural vector-store corruption retryable. (#107220, #108652) Thanks @goutam-adwant.</li>
-<li><strong>WSL state permissions:</strong> tolerate <code>EROFS</code> from guarded chmod operations only when the existing state path is already private, preserving fail-closed handling for broad permissions. (#108250, #108258)</li>
-<li><strong>Legacy migration recovery:</strong> keep reviewed migration residue nonfatal during startup instead of blocking otherwise healthy upgrades. (#106101)</li>
-<li><strong>Managed plugin updates:</strong> recover stale npm lock metadata so official managed plugins can update cleanly. (#107294, #107866)</li>
-</ul>
-]]></description>
-            <content:encoded><![CDATA[<h3>Fixes</h3>
-<ul>
-<li><strong>Codex progress replies:</strong> keep app-server turns running after delivered progress messages so GPT/Codex reaches its authoritative terminal response instead of stopping mid-turn. (#106961, #108487) Thanks @joshavant.</li>
-<li><strong>Memory Core startup repair:</strong> recover derived legacy-index and cache-sidecar conflicts without trapping the Gateway in a fatal restart loop, while keeping structural vector-store corruption retryable. (#107220, #108652) Thanks @goutam-adwant.</li>
-<li><strong>WSL state permissions:</strong> tolerate <code>EROFS</code> from guarded chmod operations only when the existing state path is already private, preserving fail-closed handling for broad permissions. (#108250, #108258)</li>
-<li><strong>Legacy migration recovery:</strong> keep reviewed migration residue nonfatal during startup instead of blocking otherwise healthy upgrades. (#106101)</li>
-<li><strong>Managed plugin updates:</strong> recover stale npm lock metadata so official managed plugins can update cleanly. (#107294, #107866)</li>
 </ul>
 ]]></content:encoded>
         </item>

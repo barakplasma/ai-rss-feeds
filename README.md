@@ -12,7 +12,7 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 
 | Blog | Feed | Status |
 |------|------|--------|
-| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 7 articles |
+| [Claude Blog](https://claude.com/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml) | ✅ 6 articles |
 | [Podcast AI要約｜投資・金融番組のポイント整理 — BigGo ファイナンス](https://finance.biggo.jp/podcast) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml) | ✅ 20 articles |
 | [Composio Blog](https://composio.dev/blog) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/composio.xml) | ✅ 3 articles |
 | [Anthropic Newsroom](https://www.anthropic.com/news) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml) | ✅ 20 articles |
