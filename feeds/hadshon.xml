@@ -10,6 +10,18 @@
         <language>he</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/hadshon.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[מִשׂרַד הבִּיטָחוֹן: נוֹסעֵי טִיסַת 'פְלַיי דוּבַּאי' יוּכּרוּ כּנִפגְעֵי פּעוּלוֹת אֵיבָה]]></title>
+            <link>https://hadshon.education.gov.il/articles/fly-dubai/</link>
+            <guid>https://hadshon.education.gov.il/articles/fly-dubai/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[הנשׂיא הֶרצוֹג בּעֲצֶרֶת חג הסִיגד בּירוּשלים: הַיימָנוֹט עֲדַיִין לא חָזרה הבַּיתָה]]></title>
+            <link>https://hadshon.education.gov.il/articles/haymanot-has-not-yet-returned-home/</link>
+            <guid>https://hadshon.education.gov.il/articles/haymanot-has-not-yet-returned-home/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[זַאוּדוּ בֵּרהַן, מוֹרֶה ליַהֲדוּת ולעִברית שֶעָלה לִפנֵי כ-30 שנה מאֶתיוֹפּיה, פִּרסֵם ספר מיוּחד על התַרבּוּת והמוֹרֶשֶת של יהוּדֵי אתיופּיה (1)]]></title>
             <link>https://hadshon.education.gov.il/articles/zawdu-berhan-ethiopia-2026/</link>
             <guid>https://hadshon.education.gov.il/articles/zawdu-berhan-ethiopia-2026/</guid>
@@ -55,18 +67,6 @@
             <title><![CDATA[המֶרכָּז הרְפוּאִי אִיכִילוֹב חָתם על הֶסכֵּם שִיתוּף פְּעוּלָה עִם חֶברַת בִּינָה מְלָאכוּתִית]]></title>
             <link>https://hadshon.education.gov.il/articles/ichilov-artificial-intelligence/</link>
             <guid>https://hadshon.education.gov.il/articles/ichilov-artificial-intelligence/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[הנשׂיא טראמפּ הוֹדִיעַ: נַפסִיק את הסִיוּעַ הבִּיטחוֹנִי לישׂראל בּסוֹף השָנה]]></title>
-            <link>https://hadshon.education.gov.il/articles/security-assistance/</link>
-            <guid>https://hadshon.education.gov.il/articles/security-assistance/</guid>
-            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מַעֲרַך הסַייבֵּר הלְאוּמִי הִזהִיר חֶברוֹת מָזוֹן בּישׂראל, בּעִקבוֹת המִתקָפוֹת על מְקָרְרִים בּרִשתוֹת שִיווּק בּאֵירוֹפָּה]]></title>
-            <link>https://hadshon.education.gov.il/articles/syber-food/</link>
-            <guid>https://hadshon.education.gov.il/articles/syber-food/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>

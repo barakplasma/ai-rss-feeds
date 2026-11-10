@@ -1,11 +1,12 @@
 {
-  "lastSuccess": "2026-11-10T03:54:33.133Z",
+  "lastSuccess": "2026-11-10T11:58:46.415Z",
   "articleCount": 20,
   "knownLinks": [
     "https://www.anthropic.com/news/announcements",
     "https://www.anthropic.com/news/public-benefit-fund",
     "https://www.anthropic.com/news/s1-sec",
     "https://www.anthropic.com/science",
+    "https://www.anthropic.com/news/roadshow-launch",
     "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/expanding-partnership-gsa",
     "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
@@ -20,8 +21,7 @@
     "https://www.anthropic.com/news/genesis-mission-commitment",
     "https://www.anthropic.com/news/cyber-verification-program",
     "https://www.anthropic.com/news/claude-frontier-academy",
-    "https://www.anthropic.com/news/barclays-scales-claude",
-    "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    "https://www.anthropic.com/news/barclays-scales-claude"
   ],
   "consecutiveErrors": 0
 }
