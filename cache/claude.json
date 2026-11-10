@@ -1,18 +1,14 @@
 {
-  "lastSuccess": "2026-11-09T21:13:40.183Z",
-  "articleCount": 11,
+  "lastSuccess": "2026-11-10T03:54:26.034Z",
+  "articleCount": 7,
   "knownLinks": [
     "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
     "https://claude.com/resources/articles/claude-enterprise-security-updates",
     "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
     "https://claude.com/resources/articles/message-threads",
-    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
-    "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
-    "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
-    "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
-    "https://claude.com/resources/articles/claude-for-financial-advisors",
-    "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
   ],
   "consecutiveErrors": 0
 }
