@@ -4,11 +4,17 @@
         <title>El Fintualist</title>
         <link>https://fintualist.com/chile/</link>
         <description>En Fintualist te contamos cada semana noticias interesantes e historias sobre economía, política, inversiones, ciencia, tecnología y finanzas.</description>
-        <lastBuildDate>Tue, 10 Nov 2026 16:49:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 16:49:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>es</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/fintualist.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Empezó el "Roadshow" de la salida de Anthropic a la bolsa: ¿qué puedes esperar?]]></title>
+            <link>https://fintualist.com/chile/educacion-financiera/empezo-el-roadshow-de-la-salida-de-anthropic-a-la-bolsa-que-puedes-esperar/</link>
+            <guid>https://fintualist.com/chile/educacion-financiera/empezo-el-roadshow-de-la-salida-de-anthropic-a-la-bolsa-que-puedes-esperar/</guid>
+            <pubDate>Tue, 10 Nov 2026 16:49:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Riesgo que no se mide, tragedia que no se anticipa]]></title>
             <link>https://fintualist.com/chile/opinion/riesgo-que-no-se-mide-tragedia-que-no-se-anticipa/</link>
@@ -28,10 +34,10 @@
             <pubDate>Tue, 10 Nov 2026 15:21:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[📍 Mercados en vivo - La sorpresa de inflación en EE. UU.]]></title>
-            <link>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</link>
-            <guid>https://fintualist.com/chile/economia/mercados/actualizacion-mercado-cl/</guid>
-            <pubDate>Tue, 10 Nov 2026 15:00:00 GMT</pubDate>
+            <title><![CDATA[📍 Mercados en vivo - La sorpresa de inflación en EE.UU.]]></title>
+            <link>https://fintualist.com/mexico/economia/mercados/actualizacion-mercado-mx/</link>
+            <guid>https://fintualist.com/mexico/economia/mercados/actualizacion-mercado-mx/</guid>
+            <pubDate>Mon, 09 Nov 2026 11:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[¿La estrategia de inversión óptima? Lo que nos dice la evidencia]]></title>
@@ -122,12 +128,6 @@
             <link>https://fintualist.com/chile/educacion-financiera/el-efecto-manada-de-las-afp-y-que-paso-con-el-fondo-e/</link>
             <guid>https://fintualist.com/chile/educacion-financiera/el-efecto-manada-de-las-afp-y-que-paso-con-el-fondo-e/</guid>
             <pubDate>Tue, 20 Oct 2026 11:23:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gana $30,000 en tu PPR en nuestro Fintual Update]]></title>
-            <link>https://fintualist.com/mexico/educacion-financiera/gana-30-000-en-tu-ppr-en-nuestro-fintual-update/</link>
-            <guid>https://fintualist.com/mexico/educacion-financiera/gana-30-000-en-tu-ppr-en-nuestro-fintual-update/</guid>
-            <pubDate>Tue, 20 Oct 2026 09:48:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

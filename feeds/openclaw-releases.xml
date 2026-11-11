@@ -4,11 +4,183 @@
         <title>OpenClaw Releases</title>
         <link>https://github.com/openclaw/openclaw/releases</link>
         <description>GitHub releases for OpenClaw - AI assistant framework</description>
-        <lastBuildDate>Tue, 10 Nov 2026 18:53:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 20:42:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/openclaw-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[openclaw 2026.9.37]]></title>
+            <link>https://github.com/openclaw/openclaw/releases/tag/v2026.9.37</link>
+            <guid>https://github.com/openclaw/openclaw/releases/tag/v2026.9.37</guid>
+            <pubDate>Tue, 10 Nov 2026 20:42:54 GMT</pubDate>
+            <description><![CDATA[<p>This is a gateway-only <code>extended-stable</code> release, published from a retired maintenance line by explicit maintainer decision. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is <a href="https://github.com/openclaw/openclaw/releases#release-v2026.11.2">2026.11.2</a></p>
+<h2>2026.9.37</h2>
+<h3>Highlights</h3>
+<ul>
+<li><strong>Private inspection stays private:</strong> paired-node photos and screenshots are no longer automatically attached to replies, and explicit media-read denials are honored when preparing reply attachments. (#174814, #184964) Thanks @eleqtrizit.</li>
+<li><strong>Responsive replies and pages:</strong> long zero-width Telegram table cells and malformed plugin SVG transforms no longer stall the Gateway or browser page. (#183217, #182674) Thanks @LeizhenZhang, @obviyus, and @SebTardif Authored by @steipete. Thanks @LeizhenZhang, @obviyus, and @SebTardif.</li>
+<li><strong>Linked accounts survive resets:</strong> sessions keep their person-linked model account through <code>/new</code>, <code>/reset</code>, and idle or daily rollover. Fixes #179432. (#179433) Thanks @masatohoshino Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>Safer update recovery:</strong> interrupted snapshot writes preserve the previous rollback point, and profile-backed updates and Doctor maintenance no longer trip over their own maintenance ownership. (#189946, #177792, #187104) Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa Authored by @steipete. Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa.</li>
+<li><strong>Connections recover cleanly:</strong> channel accounts can recover after a manual stop times out, and ClickClack reconnects after silent network drops. Fixes #184852. (#177444, #184853) Thanks @masatohoshino, @YangManBOBO, and @obviyus.</li>
+<li><strong>Windows state access works across path aliases:</strong> equivalent Windows paths preserve the same state ownership instead of falsely reporting offline maintenance. Fixes #176163. (#176174) Thanks @tjarrau-dev Authored by @steipete. Thanks @tjarrau-dev.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+<li><strong>Faster plugin admission:</strong> reuse native-reference validation within the same admission capture instead of repeatedly walking companion directories, while revalidating replacement captures and recovery copies. Fixes #162047. (#162254) Thanks @WG-Mojo Authored by @steipete. Thanks @WG-Mojo.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Private diagnostics:</strong> omit suppressed reply text and background command contents from verbose diagnostics while retaining status metadata. Thanks @steipete.</li>
+<li><strong>Media boundaries:</strong> keep paired-node inspection photos and screenshots private by default, and honor explicit read denials for reply attachments without blocking authorized managed outputs. (#174814, #184964) Thanks @eleqtrizit.</li>
+<li><strong>Restrictive group policies:</strong> Doctor preserves explicitly empty group allowlists, inherited settings, and disabled group policies instead of populating fallback senders. Fixes #173826. (#174787) Thanks @lockhartheavyindustries Authored by @steipete. Thanks @lockhartheavyindustries.</li>
+<li><strong>Discovery output:</strong> escape terminal control characters in untrusted Gateway discovery fields. (#183355) Thanks @Alix-007.</li>
+<li><strong>State and write outcomes:</strong> recognize committed SQLite writes whose worker result cannot be serialized, avoiding unsafe replay, and preserve Windows ownership across equivalent path spellings. Fixes #176163. (#177321, #176174) Thanks @tjarrau-dev Authored by @steipete. Thanks @tjarrau-dev.</li>
+<li><strong>Session accounts:</strong> retain linked model-account selections and their provenance through explicit resets and automatic rollover. Fixes #179432. (#179433) Thanks @masatohoshino Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>Channel recovery:</strong> recover channel accounts after timed-out manual stops and restore ClickClack message reception after silent network drops. Fixes #184852. (#177444, #184853) Thanks @masatohoshino, @YangManBOBO, and @obviyus.</li>
+<li><strong>Local tool connections:</strong> replace unexpectedly closed MCP loopback listeners and retain their cleanup work for shutdown rather than leaving later tool calls permanently disconnected. Fixes #139340. (#183352) Thanks @SC-10749 and @eli-pavlov Authored by @steipete. Thanks @eli-pavlov and @SC-10749.</li>
+<li><strong>Telegram and Control UI:</strong> bound the processing of long zero-width table cells and malformed SVG transform strings without changing valid table or icon rendering. (#183217, #182674) Thanks @LeizhenZhang, @obviyus, and @SebTardif Authored by @steipete. Thanks @LeizhenZhang, @obviyus, and @SebTardif.</li>
+<li><strong>Command results and temporary files:</strong> preserve a completed command&#39;s exit result when detached-descendant cleanup is uncertain, retain a visible cleanup warning, and remove temporary MCP configuration directories when writing fails. Fixes #179555. (#185636, #179603) Thanks @xiaopan-xydt and @Yolo521-bot Authored by @steipete. Thanks @Yolo521-bot and @xiaopan-xydt.</li>
+<li><strong>Gateway credentials:</strong> keep local password SecretRefs active when a separate remote token is configured, and retain a saved node TLS pin when the fingerprint option is empty or whitespace-only. (#128175, #125646) Thanks @TheAngryPit, @CassieMei, @obviyus, @RomneyDa, and @wanyongstar.</li>
+<li><strong>Update and restart reliability:</strong> preserve rollback snapshots after interrupted writes, release completed maintenance before reopening requester policy, confirm predecessor stop receipts during Doctor maintenance, and prepare configuration restarts outside the restart-signal fence. (#189946, #177792, #187104, #172777) Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa Authored by @steipete. Thanks @RomneyDa, @kaguranananana, and @GrahamMcBain.</li>
+<li><strong>Memory jobs and imports:</strong> leave stopped or failure-disabled dreaming jobs disabled, and refresh imported ChatGPT transcript examples without overwriting real Notes sections. Fixes #180655, #193161. (#180694, #193173) Thanks @Yun-0000, @lisandromachado, @KhanCold, and @obviyus Authored by @steipete. Thanks @lisandromachado, @KhanCold, @Yun-0000, and @obviyus.</li>
+<li><strong>Release artifact verification:</strong> qualify the candidate&#39;s exact plugin artifacts, route validation through the admitted verifier, and accept successful admission jobs that omit step details while preserving run, attempt, artifact, and authority checks. (#164464, #173437, #188597) Thanks @RomneyDa.</li>
+</ul>
+<h3>Complete contribution record</h3>
+<p>This audited record covers the complete v2026.9.36..2f7023b27b95ab6e3734e588d7eef40fd66b84fd history: 28 in-range PRs + 0 retained seed-only PRs = 28 unique PRs. The generation manifest also supplies direct commits as editorial input; the grouped notes above prioritize user impact.</p>
+<p>Shipped baseline exclusions: v2026.9.36 (1 PRs: #158414).</p>
+<h4>Pull requests</h4>
+<ul>
+<li><strong>PR #162254</strong> Related #162047. Authored by @steipete. Thanks @WG-Mojo.</li>
+<li><strong>PR #183355</strong> Thanks @Alix-007.</li>
+<li><strong>PR #183217</strong> Thanks @LeizhenZhang and @obviyus.</li>
+<li><strong>PR #182674</strong> Authored by @steipete. Thanks @SebTardif.</li>
+<li><strong>PR #128175</strong> Related #128171. Thanks @TheAngryPit, @CassieMei, @obviyus, and @RomneyDa.</li>
+<li><strong>PR #188597</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #187104</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #193173</strong> Related #193161. Thanks @KhanCold and @obviyus.</li>
+<li><strong>PR #185636</strong> Authored by @steipete.</li>
+<li><strong>PR #179603</strong> Related #179555. Authored by @steipete. Thanks @xiaopan-xydt and @Yolo521-bot.</li>
+<li><strong>PR #179433</strong> Related #179432. Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>PR #167356</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #173437</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #180694</strong> Related #180655. Authored by @steipete. Thanks @Yun-0000 and @lisandromachado.</li>
+<li><strong>PR #177792</strong> Thanks @GrahamMcBain.</li>
+<li><strong>PR #184853</strong> Related #184852. Thanks @masatohoshino.</li>
+<li><strong>PR #164464</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #183352</strong> Related #139340. Authored by @steipete. Thanks @SC-10749 and @eli-pavlov.</li>
+<li><strong>PR #189946</strong> Authored by @steipete. Thanks @kaguranananana.</li>
+<li><strong>PR #174787</strong> Related #173826. Authored by @steipete. Thanks @lockhartheavyindustries.</li>
+<li><strong>PR #125646</strong> Thanks @wanyongstar.</li>
+<li><strong>PR #174814</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #177321</strong> Authored by @steipete.</li>
+<li><strong>PR #172777</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #184964</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #172669</strong> Authored by @steipete.</li>
+<li><strong>PR #177444</strong> Thanks @YangManBOBO and @obviyus.</li>
+<li><strong>PR #176174</strong> Related #176163. Authored by @steipete. Thanks @tjarrau-dev.</li>
+</ul>
+<h3>Release verification</h3>
+<ul>
+<li>npm package: <a href="https://www.npmjs.com/package/openclaw/v/2026.9.37">https://www.npmjs.com/package/openclaw/v/2026.9.37</a></li>
+<li>registry tarball: <a href="https://registry.npmjs.org/openclaw/-/openclaw-2026.9.37.tgz">https://registry.npmjs.org/openclaw/-/openclaw-2026.9.37.tgz</a></li>
+<li>integrity: <code>sha512-ETRzzF0mllvQrzKJp8meZ2iTVytTaPDfEc5Oh7qh8FK8c5bcJWcKH+sYxyruAqkEzb8CaB6oTlc38eZf1ufRVw==</code></li>
+<li>release SHA: <code>81da850122080b7187816ab70f145f3bc9e5efff</code></li>
+<li>full release CI report: <a href="https://github.com/openclaw/releases/blob/main/evidence/2026.9.37/release-evidence.md">https://github.com/openclaw/releases/blob/main/evidence/2026.9.37/release-evidence.md</a></li>
+<li>release publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42866233501">https://github.com/openclaw/openclaw/actions/runs/42866233501</a></li>
+<li>npm preflight: <a href="https://github.com/openclaw/openclaw/actions/runs/42782571264">https://github.com/openclaw/openclaw/actions/runs/42782571264</a></li>
+<li>full release validation: <a href="https://github.com/openclaw/openclaw/actions/runs/42782249510">https://github.com/openclaw/openclaw/actions/runs/42782249510</a></li>
+<li>plugin npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42883284005">https://github.com/openclaw/openclaw/actions/runs/42883284005</a></li>
+<li>plugin ClawHub publish: no normal OIDC candidates</li>
+<li>plugin ClawHub bootstrap: not needed</li>
+<li>OpenClaw npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42885900163">https://github.com/openclaw/openclaw/actions/runs/42885900163</a></li>
+<li>npm Telegram beta E2E: not supplied</li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<p>This is a gateway-only <code>extended-stable</code> release, published from a retired maintenance line by explicit maintainer decision. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is <a href="https://github.com/openclaw/openclaw/releases#release-v2026.11.2">2026.11.2</a></p>
+<h2>2026.9.37</h2>
+<h3>Highlights</h3>
+<ul>
+<li><strong>Private inspection stays private:</strong> paired-node photos and screenshots are no longer automatically attached to replies, and explicit media-read denials are honored when preparing reply attachments. (#174814, #184964) Thanks @eleqtrizit.</li>
+<li><strong>Responsive replies and pages:</strong> long zero-width Telegram table cells and malformed plugin SVG transforms no longer stall the Gateway or browser page. (#183217, #182674) Thanks @LeizhenZhang, @obviyus, and @SebTardif Authored by @steipete. Thanks @LeizhenZhang, @obviyus, and @SebTardif.</li>
+<li><strong>Linked accounts survive resets:</strong> sessions keep their person-linked model account through <code>/new</code>, <code>/reset</code>, and idle or daily rollover. Fixes #179432. (#179433) Thanks @masatohoshino Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>Safer update recovery:</strong> interrupted snapshot writes preserve the previous rollback point, and profile-backed updates and Doctor maintenance no longer trip over their own maintenance ownership. (#189946, #177792, #187104) Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa Authored by @steipete. Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa.</li>
+<li><strong>Connections recover cleanly:</strong> channel accounts can recover after a manual stop times out, and ClickClack reconnects after silent network drops. Fixes #184852. (#177444, #184853) Thanks @masatohoshino, @YangManBOBO, and @obviyus.</li>
+<li><strong>Windows state access works across path aliases:</strong> equivalent Windows paths preserve the same state ownership instead of falsely reporting offline maintenance. Fixes #176163. (#176174) Thanks @tjarrau-dev Authored by @steipete. Thanks @tjarrau-dev.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+<li><strong>Faster plugin admission:</strong> reuse native-reference validation within the same admission capture instead of repeatedly walking companion directories, while revalidating replacement captures and recovery copies. Fixes #162047. (#162254) Thanks @WG-Mojo Authored by @steipete. Thanks @WG-Mojo.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Private diagnostics:</strong> omit suppressed reply text and background command contents from verbose diagnostics while retaining status metadata. Thanks @steipete.</li>
+<li><strong>Media boundaries:</strong> keep paired-node inspection photos and screenshots private by default, and honor explicit read denials for reply attachments without blocking authorized managed outputs. (#174814, #184964) Thanks @eleqtrizit.</li>
+<li><strong>Restrictive group policies:</strong> Doctor preserves explicitly empty group allowlists, inherited settings, and disabled group policies instead of populating fallback senders. Fixes #173826. (#174787) Thanks @lockhartheavyindustries Authored by @steipete. Thanks @lockhartheavyindustries.</li>
+<li><strong>Discovery output:</strong> escape terminal control characters in untrusted Gateway discovery fields. (#183355) Thanks @Alix-007.</li>
+<li><strong>State and write outcomes:</strong> recognize committed SQLite writes whose worker result cannot be serialized, avoiding unsafe replay, and preserve Windows ownership across equivalent path spellings. Fixes #176163. (#177321, #176174) Thanks @tjarrau-dev Authored by @steipete. Thanks @tjarrau-dev.</li>
+<li><strong>Session accounts:</strong> retain linked model-account selections and their provenance through explicit resets and automatic rollover. Fixes #179432. (#179433) Thanks @masatohoshino Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>Channel recovery:</strong> recover channel accounts after timed-out manual stops and restore ClickClack message reception after silent network drops. Fixes #184852. (#177444, #184853) Thanks @masatohoshino, @YangManBOBO, and @obviyus.</li>
+<li><strong>Local tool connections:</strong> replace unexpectedly closed MCP loopback listeners and retain their cleanup work for shutdown rather than leaving later tool calls permanently disconnected. Fixes #139340. (#183352) Thanks @SC-10749 and @eli-pavlov Authored by @steipete. Thanks @eli-pavlov and @SC-10749.</li>
+<li><strong>Telegram and Control UI:</strong> bound the processing of long zero-width table cells and malformed SVG transform strings without changing valid table or icon rendering. (#183217, #182674) Thanks @LeizhenZhang, @obviyus, and @SebTardif Authored by @steipete. Thanks @LeizhenZhang, @obviyus, and @SebTardif.</li>
+<li><strong>Command results and temporary files:</strong> preserve a completed command&#39;s exit result when detached-descendant cleanup is uncertain, retain a visible cleanup warning, and remove temporary MCP configuration directories when writing fails. Fixes #179555. (#185636, #179603) Thanks @xiaopan-xydt and @Yolo521-bot Authored by @steipete. Thanks @Yolo521-bot and @xiaopan-xydt.</li>
+<li><strong>Gateway credentials:</strong> keep local password SecretRefs active when a separate remote token is configured, and retain a saved node TLS pin when the fingerprint option is empty or whitespace-only. (#128175, #125646) Thanks @TheAngryPit, @CassieMei, @obviyus, @RomneyDa, and @wanyongstar.</li>
+<li><strong>Update and restart reliability:</strong> preserve rollback snapshots after interrupted writes, release completed maintenance before reopening requester policy, confirm predecessor stop receipts during Doctor maintenance, and prepare configuration restarts outside the restart-signal fence. (#189946, #177792, #187104, #172777) Thanks @kaguranananana, @GrahamMcBain, and @RomneyDa Authored by @steipete. Thanks @RomneyDa, @kaguranananana, and @GrahamMcBain.</li>
+<li><strong>Memory jobs and imports:</strong> leave stopped or failure-disabled dreaming jobs disabled, and refresh imported ChatGPT transcript examples without overwriting real Notes sections. Fixes #180655, #193161. (#180694, #193173) Thanks @Yun-0000, @lisandromachado, @KhanCold, and @obviyus Authored by @steipete. Thanks @lisandromachado, @KhanCold, @Yun-0000, and @obviyus.</li>
+<li><strong>Release artifact verification:</strong> qualify the candidate&#39;s exact plugin artifacts, route validation through the admitted verifier, and accept successful admission jobs that omit step details while preserving run, attempt, artifact, and authority checks. (#164464, #173437, #188597) Thanks @RomneyDa.</li>
+</ul>
+<h3>Complete contribution record</h3>
+<p>This audited record covers the complete v2026.9.36..2f7023b27b95ab6e3734e588d7eef40fd66b84fd history: 28 in-range PRs + 0 retained seed-only PRs = 28 unique PRs. The generation manifest also supplies direct commits as editorial input; the grouped notes above prioritize user impact.</p>
+<p>Shipped baseline exclusions: v2026.9.36 (1 PRs: #158414).</p>
+<h4>Pull requests</h4>
+<ul>
+<li><strong>PR #162254</strong> Related #162047. Authored by @steipete. Thanks @WG-Mojo.</li>
+<li><strong>PR #183355</strong> Thanks @Alix-007.</li>
+<li><strong>PR #183217</strong> Thanks @LeizhenZhang and @obviyus.</li>
+<li><strong>PR #182674</strong> Authored by @steipete. Thanks @SebTardif.</li>
+<li><strong>PR #128175</strong> Related #128171. Thanks @TheAngryPit, @CassieMei, @obviyus, and @RomneyDa.</li>
+<li><strong>PR #188597</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #187104</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #193173</strong> Related #193161. Thanks @KhanCold and @obviyus.</li>
+<li><strong>PR #185636</strong> Authored by @steipete.</li>
+<li><strong>PR #179603</strong> Related #179555. Authored by @steipete. Thanks @xiaopan-xydt and @Yolo521-bot.</li>
+<li><strong>PR #179433</strong> Related #179432. Authored by @steipete. Thanks @masatohoshino.</li>
+<li><strong>PR #167356</strong> Thanks @vincentkoc.</li>
+<li><strong>PR #173437</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #180694</strong> Related #180655. Authored by @steipete. Thanks @Yun-0000 and @lisandromachado.</li>
+<li><strong>PR #177792</strong> Thanks @GrahamMcBain.</li>
+<li><strong>PR #184853</strong> Related #184852. Thanks @masatohoshino.</li>
+<li><strong>PR #164464</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #183352</strong> Related #139340. Authored by @steipete. Thanks @SC-10749 and @eli-pavlov.</li>
+<li><strong>PR #189946</strong> Authored by @steipete. Thanks @kaguranananana.</li>
+<li><strong>PR #174787</strong> Related #173826. Authored by @steipete. Thanks @lockhartheavyindustries.</li>
+<li><strong>PR #125646</strong> Thanks @wanyongstar.</li>
+<li><strong>PR #174814</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #177321</strong> Authored by @steipete.</li>
+<li><strong>PR #172777</strong> Thanks @RomneyDa.</li>
+<li><strong>PR #184964</strong> Thanks @eleqtrizit.</li>
+<li><strong>PR #172669</strong> Authored by @steipete.</li>
+<li><strong>PR #177444</strong> Thanks @YangManBOBO and @obviyus.</li>
+<li><strong>PR #176174</strong> Related #176163. Authored by @steipete. Thanks @tjarrau-dev.</li>
+</ul>
+<h3>Release verification</h3>
+<ul>
+<li>npm package: <a href="https://www.npmjs.com/package/openclaw/v/2026.9.37">https://www.npmjs.com/package/openclaw/v/2026.9.37</a></li>
+<li>registry tarball: <a href="https://registry.npmjs.org/openclaw/-/openclaw-2026.9.37.tgz">https://registry.npmjs.org/openclaw/-/openclaw-2026.9.37.tgz</a></li>
+<li>integrity: <code>sha512-ETRzzF0mllvQrzKJp8meZ2iTVytTaPDfEc5Oh7qh8FK8c5bcJWcKH+sYxyruAqkEzb8CaB6oTlc38eZf1ufRVw==</code></li>
+<li>release SHA: <code>81da850122080b7187816ab70f145f3bc9e5efff</code></li>
+<li>full release CI report: <a href="https://github.com/openclaw/releases/blob/main/evidence/2026.9.37/release-evidence.md">https://github.com/openclaw/releases/blob/main/evidence/2026.9.37/release-evidence.md</a></li>
+<li>release publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42866233501">https://github.com/openclaw/openclaw/actions/runs/42866233501</a></li>
+<li>npm preflight: <a href="https://github.com/openclaw/openclaw/actions/runs/42782571264">https://github.com/openclaw/openclaw/actions/runs/42782571264</a></li>
+<li>full release validation: <a href="https://github.com/openclaw/openclaw/actions/runs/42782249510">https://github.com/openclaw/openclaw/actions/runs/42782249510</a></li>
+<li>plugin npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42883284005">https://github.com/openclaw/openclaw/actions/runs/42883284005</a></li>
+<li>plugin ClawHub publish: no normal OIDC candidates</li>
+<li>plugin ClawHub bootstrap: not needed</li>
+<li>OpenClaw npm publish: <a href="https://github.com/openclaw/openclaw/actions/runs/42885900163">https://github.com/openclaw/openclaw/actions/runs/42885900163</a></li>
+<li>npm Telegram beta E2E: not supplied</li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[openclaw 2026.11.3]]></title>
             <link>https://github.com/openclaw/openclaw/releases/tag/v2026.11.3</link>
@@ -33736,22 +33908,6 @@ This package was mistakenly published under the version <code>2026.9.1-beta.1</c
 <li>Publication provenance: the core publisher timed out while fetching the prior beta tag, and Fish Audio&#39;s package-level trusted publisher rejected OIDC. Their exact preflight tarballs were published through credential-isolated fallbacks. Registry signatures and tarball identities verify, but npm OIDC provenance is unavailable for <code>openclaw</code>, the three core subpackages, and <code>@openclaw/fish-audio-speech</code>.</li>
 <li>ClawHub was not published by this limited npm-only beta path; existing ClawHub selectors remain on the previous release.</li>
 <li>Post-publication Full Release Validation: <a href="https://github.com/openclaw/openclaw/actions/runs/31871527419">https://github.com/openclaw/openclaw/actions/runs/31871527419</a> — <strong>failed</strong>. Normal CI, packaged Telegram, Docker runtime assets, clean install/update, all published plugin runtime checks, targeted plugin Docker lanes, and an isolated Gateway-backed live model turn passed. The run confirmed an unbound context-engine session can fall back to the default agent, and also exposed release tooling/test-fixture failures. Do not promote this beta to stable without a fixed successor and green full validation.</li>
-</ul>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[openclaw 2026.7.1-2]]></title>
-            <link>https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2</link>
-            <guid>https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2</guid>
-            <pubDate>Tue, 04 Aug 2026 00:41:26 GMT</pubDate>
-            <description><![CDATA[<h3>Fixes</h3>
-<ul>
-<li><strong>npm plugin updates:</strong> accept singleton-array metadata from newer npm clients so tracked official plugins can install and update to correction releases. (#108336)</li>
-</ul>
-]]></description>
-            <content:encoded><![CDATA[<h3>Fixes</h3>
-<ul>
-<li><strong>npm plugin updates:</strong> accept singleton-array metadata from newer npm clients so tracked official plugins can install and update to correction releases. (#108336)</li>
 </ul>
 ]]></content:encoded>
         </item>
